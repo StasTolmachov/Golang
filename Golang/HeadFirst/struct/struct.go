@@ -17,5 +17,5 @@ func main() {
 	subscriber2.name = "Beth"
 
 	fmt.Printf("%v%v\n", subscriber1, subscriber2)
-	fmt.Println(subscriber1)
+
 }
