@@ -21,11 +21,18 @@ func main() {
 	// fmt.Printf("%v\n%v\n", betNumberArr, len(betNumberArr))
 
 	var test int
-	
+
 	fmt.Println(test)
 
 	for i := 0; i < 5; i++ {
 		fmt.Println(i)
 	}
+	var i int
+	_, err := fmt.Scanf("%d", &i)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(i, err)
 
 }
