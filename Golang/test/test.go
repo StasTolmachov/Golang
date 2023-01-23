@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// var betNum int
@@ -26,12 +28,13 @@ func main() {
 
 	for {
 		fmt.Println("введите число ставки")
-		_, err := fmt.Scanf("%d", &betNum)
-		if err != nil {
-			fmt.Println("неправельный ввод err", err)
-			err = nil
-			continue
-		}
+		fmt.Scanln(&betNum)
+		// fmt.Scanf("%d", &betNum)
+		// if err != nil {
+		// 	fmt.Println("неправельный ввод err", err)
+
+		// 	continue
+		// }
 		for _, betNumArr = range betNumbersArr {
 			if betNum == betNumArr {
 				break

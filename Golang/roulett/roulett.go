@@ -39,13 +39,20 @@ func main() {
 			fmt.Println("неверный ввод")
 
 		}
-		if betColor == "exit" {
+		if betColor == "exit" { //условие выхода по жеданию
 			break
 		}
 
 		fmt.Printf("Input betNum: ")
-		for { //цикл ввода числа ставки допустимых значений
+		for { // цикл ввода числа ставки
 			fmt.Println("введите число ставки")
+			fmt.Scanln(&betNum)
+			// fmt.Scanf("%d", &betNum)
+			// if err != nil {
+			// 	fmt.Println("неправельный ввод err", err)
+
+			// 	continue
+			// }
 			for _, betNumArr = range betNumbersArr {
 				if betNum == betNumArr {
 					break
@@ -54,7 +61,7 @@ func main() {
 			if betNum == betNumArr {
 				break
 			}
-			fmt.Println("неверный ввод")
+			fmt.Println("неправельный ввод")
 		}
 
 		fmt.Printf("Input betRate: ") //ввод размера ставки
