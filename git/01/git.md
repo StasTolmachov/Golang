@@ -7,7 +7,7 @@ git config --global user.email "<адрес_почты@email.com>"
 rm -rf .git
 удалить репозиторий
 
-git remote add origin git@github.com:igorsimdyanov/hello.git
+* git remote add origin git@github.com:igorsimdyanov/hello.git
 подключиться к репозиторию
 
 git status
