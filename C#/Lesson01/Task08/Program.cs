@@ -4,8 +4,8 @@ Console.Clear();
 Console.Write("Введите число: ");
 int number1 = int.Parse(Console.ReadLine());
 
-for (int i = 0; i < number1;)
+for (int i = 2; i <= number1; i += 2)
 {
     Console.WriteLine(i);
-    i += 2;
+    
 }
