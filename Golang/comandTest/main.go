@@ -16,10 +16,10 @@ func main() {
 	cmd = exec.Command("git", "commit", "-m", "'test'")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
-	cmd = exec.Command("git", "status")
+	cmd = exec.Command("git", "push")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
-	cmd = exec.Command("git", "push")
+	cmd = exec.Command("git", "status")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
 }
