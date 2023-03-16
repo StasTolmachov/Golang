@@ -6,7 +6,10 @@ import (
 )
 
 func main() {
-	// cmd := exec.Command("clear")
+	GitUsuali()
+}
+
+func GitUsuali() {
 	cmd := exec.Command("git", "status")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
