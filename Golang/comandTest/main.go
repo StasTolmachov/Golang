@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	GitUsuali()
+	GitRegularly()
 }
 
-func GitUsuali() {
+func GitRegularly() {
 	cmd := exec.Command("git", "status")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
