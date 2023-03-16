@@ -16,4 +16,7 @@ func main() {
 	cmd = exec.Command("git", "commit", "-m", "'test'")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
+	cmd = exec.Command("git", "status")
+	cmd.Stdout = os.Stdout
+	cmd.Run()
 }
