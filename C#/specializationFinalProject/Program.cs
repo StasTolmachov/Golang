@@ -23,5 +23,12 @@ class Program
         }
         // Обрезаем массив до фактического размера
         Array.Resize(ref result, count);
+
+        // Выводим результирующий массив на экран
+        Console.WriteLine("Результирующий массив:");
+        foreach (string s in result)
+        {
+            Console.WriteLine(s);
+        }
     }
 }
