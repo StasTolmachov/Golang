@@ -21,5 +21,7 @@ class Program
                 count++;
             }
         }
+        // Обрезаем массив до фактического размера
+        Array.Resize(ref result, count);
     }
 }
