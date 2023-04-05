@@ -16,4 +16,5 @@ func main() {
 	var str string
 	str = fmt.Sprint(d[0], " ", d[1])
 	fmt.Println(str)
+	
 }
