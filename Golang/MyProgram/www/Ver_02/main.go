@@ -31,14 +31,14 @@ func safe_article(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("safe_article")
 	// title := r.FormValue("title") возвращает пустую строку. как испраить?
 	title := r.FormValue("title")
-	// if title == "" {
-	// 	http.Error(w, "Missing title parameter", http.StatusBadRequest)
-	// 	return
-	// }
 	if title == "" {
 		title = "Default Title"
 	}
-	anons := "anons"
+	anons := r.FormValue("anons")
+	if anons == "" {
+		anons = "Default anons"
+	}
+
 	full_text := r.FormValue("full_text")
 	if full_text == "" {
 		full_text = "Default full_text"
@@ -81,6 +81,7 @@ func safe_article(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleFunc() {
+
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static/"))))
 	http.HandleFunc("/", index)
 	http.HandleFunc("/create/", create)
