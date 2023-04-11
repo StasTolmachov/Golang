@@ -7,30 +7,46 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-type Articles struct {
-	Id        int
-	Title     string
-	Full_text string
-}
-
 func main() {
-	fmt.Println("open start")
-	db, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:8889)/golang")
+	// Строка подключения к базе данных MySQL в контейнере Docker
+	db, err := sql.Open("mysql", "root:417149@tcp(localhost:3306)/www")
 	if err != nil {
-		panic(err)
+		panic(err.Error())
 	}
-	fmt.Println("open finish")
-	// defer db.Close()
+	defer db.Close()
 
-	res, err := db.Query("SELECT * FROM `articles`")
+	// Проверяем соединение с базой данных
+	err = db.Ping()
 	if err != nil {
-		panic(err)
+		panic(err.Error())
 	}
 
-	for res.Next() {
-		var articles Articles
-		err = res.Scan(&articles.Id, &articles.Title, &articles.Full_text)
-		fmt.Println(articles)
-	}
+	fmt.Println("Успешное подключение к базе данных MySQL в контейнере Docker!")
 
+	// Insert, err := db.Query("INSERT INTO `articles` (`title`, `anons`, `full_text`) VALUES ('title2', 'anons2', 'full_text2')")
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// fmt.Println("InsertIntoBD")
+	// defer Insert.Close()
+
+	// Выполнение SQL-запроса
+	rows, err := db.Query("SELECT * FROM articles")
+	if err != nil {
+		panic(err.Error())
+	}
+	defer rows.Close()
+
+	// Обработка результатов запроса
+	for rows.Next() {
+		var id int
+		var title string
+		var anons string
+		var full_text string
+		err = rows.Scan(&id, &title, &anons, &full_text)
+		if err != nil {
+			panic(err.Error())
+		}
+		fmt.Printf("id: %v, title: %s, anons: %s, full_text: %s\n", id, title, anons, full_text)
+	}
 }
