@@ -6,6 +6,8 @@ import (
 	"net/http"
 	"text/template"
 
+	"github.com/gorilla/mux"
+
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -24,6 +26,7 @@ type articles struct {
 }
 
 var posts = []articles{}
+var showPost = articles{}
 
 func index(w http.ResponseWriter, r *http.Request) {
 	t, err := template.ParseFiles("templates/index.html", "templates/header.html", "templates/footer.html")
@@ -53,7 +56,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			panic(err.Error())
 		}
-		
+
 		posts = append(posts, news)
 	}
 
@@ -104,34 +107,62 @@ func safe_article(w http.ResponseWriter, r *http.Request) {
 	defer Insert.Close()
 
 	http.Redirect(w, r, "/", http.StatusSeeOther)
+}
 
-	// rows, err := Db.Query("SELECT * FROM articles")
-	// if err != nil {
-	// 	panic(err.Error())
-	// }
-	// defer rows.Close()
+func show_post(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
 
-	// // Обработка результатов запроса
-	// for rows.Next() {
-	// 	var id int
-	// 	var title string
-	// 	var anons string
-	// 	var full_text string
-	// 	err = rows.Scan(&id, &title, &anons, &full_text)
-	// 	if err != nil {
-	// 		panic(err.Error())
-	// 	}
-	// 	fmt.Printf("id: %v, title: %s, anons: %s, full_text: %s\n", id, title, anons, full_text)
-	// }
+	t, err := template.ParseFiles("templates/show.html", "templates/header.html", "templates/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	Db, err := sql.Open("mysql", "root:417149@tcp(localhost:3306)/www")
+	if err != nil {
+		panic(err)
+	}
+	defer Db.Close()
+
+	rows, err := Db.Query(fmt.Sprintf("SELECT * FROM articles WHERE id = %s", vars["id"]))
+	if err != nil {
+		panic(err.Error())
+	}
+	defer rows.Close()
+
+	showPost = articles{}
+
+	// Обработка результатов запроса
+	for rows.Next() {
+		var post articles
+		err = rows.Scan(&post.Id, &post.Title, &post.Anons, &post.Full_text)
+		if err != nil {
+			panic(err.Error())
+		}
+
+		showPost = post
+	}
+
+	err = t.ExecuteTemplate(w, "show", showPost)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 
 }
 
 func handleFunc() {
 	fmt.Println("run")
+
+	rtr := mux.NewRouter()
+
+	rtr.HandleFunc("/", index).Methods("GET")
+	rtr.HandleFunc("/create/", create).Methods("GET")
+	rtr.HandleFunc("/safe_article/", safe_article).Methods("POST")
+	rtr.HandleFunc("/post/{id:[0-9]+}", show_post).Methods("GET")
+
+	http.Handle("/", rtr)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static/"))))
-	http.HandleFunc("/", index)
-	http.HandleFunc("/create/", create)
-	http.HandleFunc("/safe_article/", safe_article)
 	http.ListenAndServe(":8080", nil)
 
 }
