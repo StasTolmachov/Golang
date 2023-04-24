@@ -11,15 +11,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-// func index(w http.ResponseWriter, r *http.Request) {
-// 	t, err := template.ParseFiles("templates/index.html", "templates/header.html", "templates/footer.html")
-// 	if err != nil {
-// 		fmt.Fprintf(w, err.Error())
-// 	}
-
-// 	t.ExecuteTemplate(w, "index", nil)
-// }
-
 type articles struct {
 	Id                      int
 	Title, Anons, Full_text string
@@ -27,6 +18,7 @@ type articles struct {
 
 var posts = []articles{}
 var showPost = articles{}
+var NokUah = "3.445"
 
 func index(w http.ResponseWriter, r *http.Request) {
 	t, err := template.ParseFiles("templates/index.html", "templates/header.html", "templates/footer.html")
@@ -74,6 +66,17 @@ func create(w http.ResponseWriter, r *http.Request) {
 	}
 
 	t.ExecuteTemplate(w, "create", nil)
+
+}
+func createTest(w http.ResponseWriter, r *http.Request) {
+	t, err := template.ParseFiles("templates/createTest.html", "templates/header.html", "templates/footer.html")
+	if err != nil {
+		fmt.Fprintf(w, err.Error())
+	}
+
+	t.ExecuteTemplate(w, "createTest", nil)
+	// t.Execute(w, NokUah)
+
 }
 
 func safe_article(w http.ResponseWriter, r *http.Request) {
@@ -158,6 +161,7 @@ func handleFunc() {
 
 	rtr.HandleFunc("/", index).Methods("GET")
 	rtr.HandleFunc("/create/", create).Methods("GET")
+	rtr.HandleFunc("/createTest/", createTest).Methods("GET")
 	rtr.HandleFunc("/safe_article/", safe_article).Methods("POST")
 	rtr.HandleFunc("/post/{id:[0-9]+}", show_post).Methods("GET")
 
@@ -167,8 +171,11 @@ func handleFunc() {
 
 }
 
+
+
 func main() {
 
 	handleFunc()
 
+	fmt.Println(NokUah)
 }

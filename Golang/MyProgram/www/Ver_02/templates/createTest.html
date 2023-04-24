@@ -1,0 +1,29 @@
+{{ define "createTest" }}
+{{ template "header" }}
+<main class="px-3">
+    <h1>createTest</h1>
+    <form action="/safe_article/" method="POST">
+        <input type="float64" name="title" id="title" value="40.1" class="form-control"><br>
+        <input type="date"><br>
+        <select>
+            <option value="text">NOK</option>
+            <option value="text">UAH</option>
+        </select>
+       
+        
+       
+        <button class="btn btn-warning">Добавить</button>
+    </form>
+
+</main>
+
+
+
+
+
+
+
+
+
+{{ template "footer" }}
+{{ end }}
