@@ -3,30 +3,30 @@
     "Rus": "нет",
     "Norg": "ikke",
     "Transcription": "",
-    "True": 7
+    "True": 11
   },
   {
     "Rus": "машина",
     "Norg": "bil",
     "Transcription": "",
-    "True": 8
+    "True": 11
   },
   {
     "Rus": "живу",
     "Norg": "bor",
     "Transcription": "",
-    "True": 6
+    "True": 10
   },
   {
     "Rus": "или",
     "Norg": "eller",
     "Transcription": "",
-    "True": 6
+    "True": 10
   },
   {
     "Rus": "быть",
     "Norg": "var",
     "Transcription": "",
-    "True": -1
+    "True": 10
   }
 ]

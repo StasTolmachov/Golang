@@ -82,6 +82,7 @@ func main() {
 	http.HandleFunc("/word", word)
 	http.HandleFunc("/wordOtvet", wordOtvet)
 	http.HandleFunc("/wordAdd", wordAdd)
+	http.HandleFunc("/wordAll", wordAll)
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
 
@@ -94,6 +95,17 @@ func index(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	err = tmpl.Execute(w, nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+}
+func wordAll(w http.ResponseWriter, r *http.Request) {
+	tmpl, err := template.ParseFiles("template/wordAll.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	err = tmpl.Execute(w, Words)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}

@@ -1,0 +1,11 @@
+{{template "header"}}
+<main>
+    <h1>Список слов</h1>
+    <ul>
+        {{range .}}
+        <li>{{.Norg}} [{{.Transcription}}] - {{.Rus}} - {{.True}}</li>
+        {{end}}
+    </ul>
+
+</main>
+{{template "footer"}}
