@@ -1,0 +1,15 @@
+{{template "header"}}
+<main>
+    <h2>Тренировать слова</h2>
+    <h3>wrong</h3>
+    <h3>{{.Rus}}</h3>
+
+
+    <form action="/wordOtvet" method="POST">
+        <input type="text" name="word" id="word" placeholder="Введите перевод" class="form-control" autofocus><br>
+
+        <button class="btn btn-warning">Отправить</button>
+    </form>
+
+</main>
+{{template "footer"}}

@@ -1,0 +1,32 @@
+[
+  {
+    "Rus": "нет",
+    "Norg": "ikke",
+    "Transcription": "",
+    "True": 7
+  },
+  {
+    "Rus": "машина",
+    "Norg": "bil",
+    "Transcription": "",
+    "True": 8
+  },
+  {
+    "Rus": "живу",
+    "Norg": "bor",
+    "Transcription": "",
+    "True": 6
+  },
+  {
+    "Rus": "или",
+    "Norg": "eller",
+    "Transcription": "",
+    "True": 6
+  },
+  {
+    "Rus": "быть",
+    "Norg": "var",
+    "Transcription": "",
+    "True": -1
+  }
+]
