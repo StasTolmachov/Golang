@@ -1,0 +1,15 @@
+/Users/st/go/src/github.com/C#/Lesson01/Task06/bin/Debug/net6.0/Task06
+/Users/st/go/src/github.com/C#/Lesson01/Task06/bin/Debug/net6.0/Task06.deps.json
+/Users/st/go/src/github.com/C#/Lesson01/Task06/bin/Debug/net6.0/Task06.runtimeconfig.json
+/Users/st/go/src/github.com/C#/Lesson01/Task06/bin/Debug/net6.0/Task06.dll
+/Users/st/go/src/github.com/C#/Lesson01/Task06/bin/Debug/net6.0/Task06.pdb
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.csproj.AssemblyReference.cache
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.GeneratedMSBuildEditorConfig.editorconfig
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.AssemblyInfoInputs.cache
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.AssemblyInfo.cs
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.csproj.CoreCompileInputs.cache
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.dll
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/refint/Task06.dll
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.pdb
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/Task06.genruntimeconfig.cache
+/Users/st/go/src/github.com/C#/Lesson01/Task06/obj/Debug/net6.0/ref/Task06.dll
