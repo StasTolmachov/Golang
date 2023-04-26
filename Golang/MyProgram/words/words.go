@@ -6,10 +6,9 @@ import (
 	"html/template"
 	"io/ioutil"
 	"log"
-	"math/rand"
 	"net/http"
 	"os"
-	"time"
+	"sort"
 )
 
 type WordsStruct struct {
@@ -19,9 +18,14 @@ type WordsStruct struct {
 	True          int    `json: "True`
 }
 
+var Words = []WordsStruct{}
+
+type IndexData struct {
+	Index int `json:"index"`
+}
+
 var Word1 WordsStruct
 var WordValue WordsStruct
-var Words = []WordsStruct{}
 
 // var WordTemp WordsStruct
 var IndexWord int
@@ -76,13 +80,14 @@ func main() {
 	// 	return
 	// }
 
-	log.Println("started http.ListenAndServe localhost:8080")
+	log.Println("started http.ListenAndServe localhost:8080/word")
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/index", index)
 	http.HandleFunc("/word", word)
 	http.HandleFunc("/wordOtvet", wordOtvet)
 	http.HandleFunc("/wordAdd", wordAdd)
 	http.HandleFunc("/wordAll", wordAll)
+	http.HandleFunc("/handleIndex", handleIndex)
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
 
@@ -100,6 +105,12 @@ func index(w http.ResponseWriter, r *http.Request) {
 	}
 }
 func wordAll(w http.ResponseWriter, r *http.Request) {
+
+	// Сортируем список слов по значению True в порядке возрастания
+	sort.Slice(Words, func(i, j int) bool {
+		return Words[i].True < Words[j].True
+	})
+
 	tmpl, err := template.ParseFiles("template/wordAll.html", "template/header.html", "template/footer.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -251,7 +262,70 @@ func findMinTrueIndex(words []WordsStruct) int {
 
 	return minIndex
 }
-func randomInt(max int) int {
-	rand.Seed(time.Now().UnixNano())
-	return rand.Intn(max)
+
+func handleIndex(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
+		return
+	}
+
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error reading request body", http.StatusInternalServerError)
+		return
+	}
+
+	var indexData IndexData
+	err = json.Unmarshal(body, &indexData)
+	if err != nil {
+		http.Error(w, "Error unmarshalling JSON", http.StatusBadRequest)
+		return
+	}
+
+	wordsDelete(indexData.Index)
+
+	// responseData := map[string]string{
+	// 	"message": "Индекс успешно обработан",
+	// }
+	// jsonResponse, err := json.Marshal(responseData)
+	// if err != nil {
+	// 	http.Error(w, "Error marshalling JSON", http.StatusInternalServerError)
+	// 	return
+	// }
+
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte("OK"))
+
+}
+
+func wordsDelete(index int) {
+	fmt.Println("Вызвана функция с индексом:", index)
+	// Реализуйте вашу логику здесь
+	Words = removeElementByIndex(Words, index)
+	// Открываем файл для записи
+	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("Ошибка открытия файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+	// Сериализуем структуру в JSON
+	jsonData, err := json.MarshalIndent(Words, "", "  ")
+	if err != nil {
+		fmt.Println("Ошибка сериализации:", err)
+		return
+	}
+	// Записываем JSON в файл
+	_, err = jsonFile.Write(jsonData)
+	if err != nil {
+		fmt.Println("Ошибка записи в файл:", err)
+		return
+	}
+
+}
+func removeElementByIndex(words []WordsStruct, index int) []WordsStruct {
+	if index < 0 || index >= len(words) {
+		return words
+	}
+	return append(words[:index], words[index+1:]...)
 }

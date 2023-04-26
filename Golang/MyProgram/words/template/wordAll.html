@@ -1,11 +1,65 @@
 {{template "header"}}
+<style>
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: separate;
+        border-spacing: 20px 0;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+</style>
 <main>
     <h1>Список слов</h1>
-    <ul>
-        {{range .}}
-        <li>{{.Norg}} [{{.Transcription}}] - {{.Rus}} - {{.True}}</li>
-        {{end}}
-    </ul>
-
+    <table>
+        <thead>
+            <tr>
+                <th>Норвежское слово</th>
+                <th>Транскрипция</th>
+                <th>Русское слово</th>
+                <th>Рейтинг</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{range $index, $element := .}}
+            <tr>
+                <td>{{$element.Norg}}</td>
+                <td>[{{$element.Transcription}}]</td>
+                <td>{{$element.Rus}}</td>
+                <td>{{$element.True}}</td>
+                <td>
+                    <button type="button" onclick="handleClick({{$index}})">Удалить</button>
+                </td>
+            </tr>
+            {{end}}
+        </tbody>
+    </table>
 </main>
 {{template "footer"}}
+
+<script>
+    async function handleClick(index) {
+        try {
+            const response = await fetch('/handleIndex', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ index })
+            });
+
+            if (response.ok) {
+                location.reload();
+            } else {
+                console.error('Ошибка при отправке запроса:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Ошибка при отправке запроса:', error);
+        }
+    }
+</script>
