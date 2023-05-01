@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Finance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            function loadTransactions() {
+                $.get("/transactions", function (data) {
+                    let rows = "";
+                    data.forEach(function (transaction) {
+                        rows += `<tr>
+                                    <td>${transaction.id}</td>
+                                    <td>${transaction.amount}</td>
+                                    <td>${transaction.currency}</td>
+                                 </tr>`;
+                    });
+                    $("#transactionsTable tbody").html(rows);
+                });
+            }
+
+            $("#addTransaction").click(function () {
+                let amount = $("#amount").val();
+                let currency = $("#currency").val();
+
+                $.post("/transactions", { amount: amount, currency: currency }, function () {
+                    loadTransactions();
+                    $("#amount").val("");
+                    $("#currency").val("NOK");
+                });
+            });
+
+            loadTransactions();
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Учет личных финансов</h1>
+    <input type="number" id="amount" placeholder="Сумма">
+    <select id="currency">
+        <option value="NOK">NOK</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="UAH">UAH</option>
+    </select>
+    <button id="addTransaction">Добавить транзакцию</button>
+    <table id="transactionsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Сумма</th>
+                <th>Валюта</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Здесь будут добавляться строки с транзакциями -->
+        </tbody>
+    </table>
+</body>
+
+</html>
