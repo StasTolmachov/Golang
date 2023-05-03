@@ -88,6 +88,7 @@ func main() {
 	http.HandleFunc("/wordAdd", wordAdd)
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
+	http.HandleFunc("/handleEdit", handleEdit)
 
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
@@ -332,4 +333,60 @@ func removeElementByIndex(words []WordsStruct, index int) []WordsStruct {
 		return words
 	}
 	return append(words[:index], words[index+1:]...)
+}
+func handleEdit(w http.ResponseWriter, r *http.Request) {
+	if r.Method != "POST" {
+		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	var requestData struct {
+		Index         int    `json:"index"`
+		Norg          string `json:"Norg"`
+		Transcription string `json:"Transcription"`
+		Rus           string `json:"Rus"`
+		True          int    `json:"True"`
+	}
+
+	err := json.NewDecoder(r.Body).Decode(&requestData)
+	if err != nil {
+		http.Error(w, "Invalid request body", http.StatusBadRequest)
+		return
+	}
+
+	index := requestData.Index
+	if index < 0 || index >= len(Words) {
+		http.Error(w, "Invalid index value", http.StatusBadRequest)
+		return
+	}
+
+	// Обновление элемента с новыми данными
+	Words[index].Norg = requestData.Norg
+	Words[index].Transcription = requestData.Transcription
+	Words[index].Rus = requestData.Rus
+	Words[index].True = requestData.True
+
+	// Обновление файла данных (если есть) и другие операции, если необходимо
+	// Открываем файл для записи
+	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("Ошибка открытия файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Сериализуем структуру в JSON
+	jsonData, err := json.MarshalIndent(Words, "", "  ")
+	if err != nil {
+		fmt.Println("Ошибка сериализации:", err)
+		return
+	}
+	// Записываем JSON в файл
+	_, err = jsonFile.Write(jsonData)
+	if err != nil {
+		fmt.Println("Ошибка записи в файл:", err)
+		return
+	}
+
+	w.WriteHeader(http.StatusOK)
 }

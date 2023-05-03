@@ -18,7 +18,7 @@
     <table>
         <thead>
             <tr>
-              
+
                 <th>Норвежское слово</th>
                 <th>Транскрипция</th>
                 <th>Русское слово</th>
@@ -29,13 +29,14 @@
         <tbody>
             {{range $index, $element := .}}
             <tr>
-                
+
                 <td>{{$element.Norg}}</td>
                 <td>[{{$element.Transcription}}]</td>
                 <td>{{$element.Rus}}</td>
                 <td>{{$element.True}}</td>
                 <td>
-                    
+                    <button type="button" onclick="handleEditClick({{$index}})">Редактировать</button>
+
                     <button type="button" onclick="handleDeleteClick({{$index}})">Удалить</button>
                 </td>
             </tr>
@@ -46,7 +47,7 @@
 {{template "footer"}}
 
 <script>
-    
+
     async function handleDeleteClick(index) {
         try {
             const response = await fetch('/handleIndex', {
@@ -66,4 +67,44 @@
             console.error('Ошибка при отправке запроса:', error);
         }
     }
+
+    function handleEditClick(index) {
+        const Norg = prompt("Введите норвежское слово:");
+        const Transcription = prompt("Введите транскрипцию:");
+        const Rus = prompt("Введите русское слово:");
+        const True = parseInt(prompt("Введите рейтинг:"), 10);
+
+        if (isNaN(True)) {
+            alert("Рейтинг должен быть числом");
+            return;
+        }
+
+        const requestData = {
+            index,
+            Norg,
+            Transcription,
+            Rus,
+            True,
+        };
+
+        fetch("/handleEdit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(requestData),
+        })
+            .then((response) => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    console.error("Ошибка при отправке запроса:", response.statusText);
+                }
+            })
+            .catch((error) => {
+                console.error("Ошибка при отправке запроса:", error);
+            });
+    }
+
+
 </script>
