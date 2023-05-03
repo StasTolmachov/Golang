@@ -8,14 +8,14 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"sort"
 )
 
 type WordsStruct struct {
-	Rus           string `json: "Rus`
-	Norg          string `json: "Norg`
-	Transcription string `json: "Transcription`
-	True          int    `json: "True`
+	Index         int
+	Norg          string
+	Transcription string
+	Rus           string
+	True          int
 }
 
 var Words = []WordsStruct{}
@@ -88,6 +88,7 @@ func main() {
 	http.HandleFunc("/wordAdd", wordAdd)
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
+
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
 
@@ -107,15 +108,16 @@ func index(w http.ResponseWriter, r *http.Request) {
 func wordAll(w http.ResponseWriter, r *http.Request) {
 
 	// Сортируем список слов по значению True в порядке возрастания
-	sort.Slice(Words, func(i, j int) bool {
-		return Words[i].True < Words[j].True
-	})
+	// sort.Slice(Words, func(i, j int) bool {
+	// 	return Words[i].True < Words[j].True
+	// })
 
 	tmpl, err := template.ParseFiles("template/wordAll.html", "template/header.html", "template/footer.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+
 	err = tmpl.Execute(w, Words)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -153,6 +155,8 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 	if r.FormValue("Norg") != "" {
+		// lastIndex := len(Words)
+		// WordValue.Index = lastIndex + 1
 		WordValue.Norg = r.FormValue("Norg")
 		WordValue.Transcription = r.FormValue("Transcription")
 		WordValue.Rus = r.FormValue("Rus")
@@ -165,6 +169,7 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		defer jsonFile.Close()
+
 		// Сериализуем структуру в JSON
 		jsonData, err := json.MarshalIndent(Words, "", "  ")
 		if err != nil {
@@ -177,10 +182,9 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 			fmt.Println("Ошибка записи в файл:", err)
 			return
 		}
-
 	}
-
 }
+
 func wordOtvet(w http.ResponseWriter, r *http.Request) {
 	WordValue.Norg = r.FormValue("word")
 

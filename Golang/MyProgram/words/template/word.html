@@ -1,13 +1,21 @@
 {{template "header"}}
-<main>
-    <h2>Тренировать слова</h2>
-    <h3 class="rus-text">{{.Rus}}</h3>
+<style>
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    <form action="/wordOtvet" method="POST">
+    .center-text {
+        text-align: center;
+    }
+</style>
+<main>
+    <h2 class="center-text"></h2>
+    <h3 class="center-text rus-text">{{.Rus}}</h3>
+    <form action="/wordOtvet" method="POST" class="form-container">
         <input type="text" name="word" id="word" placeholder="Введите перевод" class="form-control" autofocus><br>
-       
         <button class="btn btn-warning">Отправить</button>
     </form>
-
 </main>
 {{template "footer"}}

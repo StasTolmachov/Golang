@@ -14,10 +14,11 @@
     }
 </style>
 <main>
-    <h1>Список слов</h1>
+    <h1></h1>
     <table>
         <thead>
             <tr>
+              
                 <th>Норвежское слово</th>
                 <th>Транскрипция</th>
                 <th>Русское слово</th>
@@ -28,12 +29,14 @@
         <tbody>
             {{range $index, $element := .}}
             <tr>
+                
                 <td>{{$element.Norg}}</td>
                 <td>[{{$element.Transcription}}]</td>
                 <td>{{$element.Rus}}</td>
                 <td>{{$element.True}}</td>
                 <td>
-                    <button type="button" onclick="handleClick({{$index}})">Удалить</button>
+                    
+                    <button type="button" onclick="handleDeleteClick({{$index}})">Удалить</button>
                 </td>
             </tr>
             {{end}}
@@ -43,7 +46,8 @@
 {{template "footer"}}
 
 <script>
-    async function handleClick(index) {
+    
+    async function handleDeleteClick(index) {
         try {
             const response = await fetch('/handleIndex', {
                 method: 'POST',

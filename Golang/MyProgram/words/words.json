@@ -1,20 +1,30 @@
 [
   {
-    "Rus": "машина",
-    "Norg": "bil",
+    "Index": 0,
+    "Norg": "3",
     "Transcription": "",
-    "True": 1
+    "Rus": "",
+    "True": -2
   },
   {
-    "Rus": "нет",
-    "Norg": "ikke",
+    "Index": 0,
+    "Norg": "4",
     "Transcription": "",
-    "True": 1
+    "Rus": "",
+    "True": 0
   },
   {
-    "Rus": "или",
-    "Norg": "eller",
-    "Transcription": "fjwoierfjorijfoijo",
+    "Index": 0,
+    "Norg": "6",
+    "Transcription": "",
+    "Rus": "",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "7",
+    "Transcription": "",
+    "Rus": "",
     "True": 0
   }
 ]
