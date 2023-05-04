@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 )
 
 type WordsStruct struct {
@@ -88,7 +89,13 @@ func main() {
 	http.HandleFunc("/wordAdd", wordAdd)
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
+	http.HandleFunc("/wordEdit", wordEdit)
+	http.HandleFunc("/wordUpdate", wordUpdate)
 	http.HandleFunc("/handleEdit", handleEdit)
+	http.HandleFunc("/handleAdd", handleAdd)
+	
+
+
 
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
@@ -334,39 +341,103 @@ func removeElementByIndex(words []WordsStruct, index int) []WordsStruct {
 	}
 	return append(words[:index], words[index+1:]...)
 }
-func handleEdit(w http.ResponseWriter, r *http.Request) {
-	if r.Method != "POST" {
-		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+func wordEdit(w http.ResponseWriter, r *http.Request) {
+	index := r.URL.Query().Get("index")
+	if index == "" {
+		http.Error(w, "Index not provided", http.StatusBadRequest)
 		return
 	}
 
-	var requestData struct {
-		Index         int    `json:"index"`
-		Norg          string `json:"Norg"`
-		Transcription string `json:"Transcription"`
-		Rus           string `json:"Rus"`
-		True          int    `json:"True"`
+	indexInt, err := strconv.Atoi(index)
+	if err != nil {
+		http.Error(w, "Invalid index", http.StatusBadRequest)
+		return
 	}
 
-	err := json.NewDecoder(r.Body).Decode(&requestData)
+	tmpl, err := template.ParseFiles("template/wordEdit.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	err = tmpl.Execute(w, Words[indexInt])
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+}
+func wordUpdate(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
+		return
+	}
+
+	var updatedWord WordsStruct
+	err := json.NewDecoder(r.Body).Decode(&updatedWord)
 	if err != nil {
 		http.Error(w, "Invalid request body", http.StatusBadRequest)
 		return
 	}
 
-	index := requestData.Index
-	if index < 0 || index >= len(Words) {
-		http.Error(w, "Invalid index value", http.StatusBadRequest)
+	indexInt := updatedWord.Index
+
+	Words[indexInt] = updatedWord
+
+	// Открываем файл для записи
+	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("Ошибка открытия файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+	// Сериализуем структуру в JSON
+	jsonData, err := json.MarshalIndent(Words, "", "  ")
+	if err != nil {
+		fmt.Println("Ошибка сериализации:", err)
+		return
+	}
+	// Записываем JSON в файл
+	_, err = jsonFile.Write(jsonData)
+	if err != nil {
+		fmt.Println("Ошибка записи в файл:", err)
 		return
 	}
 
-	// Обновление элемента с новыми данными
-	Words[index].Norg = requestData.Norg
-	Words[index].Transcription = requestData.Transcription
-	Words[index].Rus = requestData.Rus
-	Words[index].True = requestData.True
+	w.WriteHeader(http.StatusOK)
+}
 
-	// Обновление файла данных (если есть) и другие операции, если необходимо
+func handleEdit(w http.ResponseWriter, r *http.Request) {
+    if r.Method != "POST" {
+        http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+        return
+    }
+
+    var requestData struct {
+        Index         int    `json:"index"`
+        Norg          string `json:"Norg"`
+        Transcription string `json:"Transcription"`
+        Rus           string `json:"Rus"`
+        True          int    `json:"True"`
+    }
+
+    err := json.NewDecoder(r.Body).Decode(&requestData)
+    if err != nil {
+        http.Error(w, "Invalid request body", http.StatusBadRequest)
+        return
+    }
+
+    index := requestData.Index
+    if index < 0 || index >= len(Words) {
+        http.Error(w, "Invalid index value", http.StatusBadRequest)
+        return
+    }
+
+    // Обновление элемента с новыми данными
+    Words[index].Norg = requestData.Norg
+    Words[index].Transcription = requestData.Transcription
+    Words[index].Rus = requestData.Rus
+    Words[index].True = requestData.True
+
+    // Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
 	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
@@ -388,5 +459,63 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.WriteHeader(http.StatusOK)
+    w.WriteHeader(http.StatusOK)
+}
+func handleAdd(w http.ResponseWriter, r *http.Request) {
+    if r.Method != "POST" {
+        http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+        return
+    }
+
+    var requestData struct {
+        Index         int    `json:"index"`
+        Norg          string `json:"Norg"`
+        Transcription string `json:"Transcription"`
+        Rus           string `json:"Rus"`
+        True          int    `json:"True"`
+    }
+
+    err := json.NewDecoder(r.Body).Decode(&requestData)
+    if err != nil {
+        http.Error(w, "Invalid request body", http.StatusBadRequest)
+        return
+    }
+
+    index := requestData.Index
+    if index < 0 || index >= len(Words) {
+        http.Error(w, "Invalid index value", http.StatusBadRequest)
+        return
+    }
+
+    // Обновление элемента с новыми данными
+    // Words[index].Norg = requestData.Norg
+    // Words[index].Transcription = requestData.Transcription
+    // Words[index].Rus = requestData.Rus
+    // Words[index].True = requestData.True
+
+	Words = append(Words, WordsStruct(requestData))
+
+    // Обновление файла данных (если есть) и другие операции, если необходимо
+	// Открываем файл для записи
+	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("Ошибка открытия файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Сериализуем структуру в JSON
+	jsonData, err := json.MarshalIndent(Words, "", "  ")
+	if err != nil {
+		fmt.Println("Ошибка сериализации:", err)
+		return
+	}
+	// Записываем JSON в файл
+	_, err = jsonFile.Write(jsonData)
+	if err != nil {
+		fmt.Println("Ошибка записи в файл:", err)
+		return
+	}
+
+    w.WriteHeader(http.StatusOK)
 }

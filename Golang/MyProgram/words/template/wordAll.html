@@ -12,6 +12,10 @@
         padding: 5px;
         text-align: center;
     }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
 </style>
 <main>
     <h1></h1>
@@ -27,20 +31,31 @@
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td contenteditable="true" id="newNorg"></td>
+                <td contenteditable="true" id="newTranscription"></td>
+                <td contenteditable="true" id="newRus"></td>
+                <td contenteditable="true" id="newTrue">0</td>
+
+                <td>
+                    <button type="button" onclick="handleAddClick()">Добавить</button>
+                </td>
+            </tr>
             {{range $index, $element := .}}
             <tr>
 
-                <td>{{$element.Norg}}</td>
-                <td>[{{$element.Transcription}}]</td>
-                <td>{{$element.Rus}}</td>
-                <td>{{$element.True}}</td>
+                <td contenteditable="true" id="Norg{{$index}}">{{$element.Norg}}</td>
+                <td contenteditable="true" id="Transcription{{$index}}">{{$element.Transcription}}</td>
+                <td contenteditable="true" id="Rus{{$index}}">{{$element.Rus}}</td>
+                <td contenteditable="true" id="True{{$index}}">{{$element.True}}</td>
                 <td>
-                    <button type="button" onclick="handleEditClick({{$index}})">Редактировать</button>
-
+                    <button type="button" onclick="handleSaveClick({{$index}})"
+                        id="saveButton{{$index}}">Сохранить</button>
                     <button type="button" onclick="handleDeleteClick({{$index}})">Удалить</button>
                 </td>
             </tr>
             {{end}}
+
         </tbody>
     </table>
 </main>
@@ -68,11 +83,11 @@
         }
     }
 
-    function handleEditClick(index) {
-        const Norg = prompt("Введите норвежское слово:");
-        const Transcription = prompt("Введите транскрипцию:");
-        const Rus = prompt("Введите русское слово:");
-        const True = parseInt(prompt("Введите рейтинг:"), 10);
+    function handleSaveClick(index) {
+        const Norg = document.getElementById("Norg" + index).innerText;
+        const Transcription = document.getElementById("Transcription" + index).innerText;
+        const Rus = document.getElementById("Rus" + index).innerText;
+        const True = parseInt(document.getElementById("True" + index).innerText, 10);
 
         if (isNaN(True)) {
             alert("Рейтинг должен быть числом");
@@ -92,6 +107,43 @@
             headers: {
                 "Content-Type": "application/json",
             },
+            body: JSON.stringify
+                (requestData),
+        })
+            .then((response) => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    console.error("Ошибка при отправке запроса:", response.statusText);
+                }
+            })
+            .catch((error) => {
+                console.error("Ошибка при отправке запроса:", error);
+            });
+    }
+    function handleAddClick() {
+        const Norg = document.getElementById("newNorg").innerText;
+        const Transcription = document.getElementById("newTranscription").innerText;
+        const Rus = document.getElementById("newRus").innerText;
+        const True = parseInt(document.getElementById("newTrue").innerText, 10);
+
+        if (isNaN(True)) {
+            alert("Рейтинг должен быть числом");
+            return;
+        }
+
+        const requestData = {
+            Norg,
+            Transcription,
+            Rus,
+            True,
+        };
+
+        fetch("/handleAdd", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
             body: JSON.stringify(requestData),
         })
             .then((response) => {
@@ -105,6 +157,4 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
-
-
 </script>
