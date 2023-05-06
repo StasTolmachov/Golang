@@ -1,0 +1,60 @@
+{{template "header"}}
+<style>
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .error-notification {
+        display: inline-block;
+        padding: 10px;
+        background-color: #61f566;
+        color: #000000;
+        border: 1px solid #61f566;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+</style>
+<main>
+    <h3 class="Russian-text" id="English-text">{{.English}}</h3>
+   
+    
+    <h3 class="Russian-text">{{.Transcription}}</h3>
+    <h3 class="Russian-text">{{.Russian}}</h3>
+    <h3 class="Russian-text">{{.Rating}}</h3>
+    <button id="speak-button" class="btn btn-info">Воспроизвести</button>
+    <form action="/word" method="POST">
+
+
+        <button class="btn btn-warning" autofocus>next</button>
+    </form>
+</main>
+{{template "footer"}}
+
+<script>
+    function speak(text) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(utterance);
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+        const EnglishTextElement = document.getElementById("English-text");
+        const speakButton = document.getElementById("speak-button");
+        if (EnglishTextElement && speakButton) {
+            const EnglishText = EnglishTextElement.textContent;
+
+            // Воспроизвести текст автоматически при загрузке страницы
+            speak(EnglishText);
+
+            // Воспроизвести текст при нажатии на кнопку
+            speakButton.addEventListener("click", () => {
+                speak(EnglishText);
+            });
+        }
+    });
+</script>

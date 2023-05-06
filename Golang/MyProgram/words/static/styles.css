@@ -1,13 +1,12 @@
 /* styles.css */
+
 body {
     margin: 0;
     font-size: 18px;
-    /* Увеличьте размер шрифта для всего текста */
 }
 
 header {
     text-align: center;
-    /* Выравниваем текст в header по центру */
 }
 
 main {
@@ -49,10 +48,9 @@ footer {
     margin-top: 20px;
 }
 
-.form-control {
+.form-control,
+.btn {
     width: 100%;
-    font-size: 36px;
-    /* Увеличиваем размер шрифта в два раза */
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -61,19 +59,19 @@ footer {
     text-align: center;
 }
 
+.form-control {
+    font-size: 36px;
+}
+
 .btn {
     font-size: 24px;
-    /* Увеличиваем размер шрифта в два раза */
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
 }
 
-.rus-text {
+.rus-text.rus-text {
     font-size: 36px;
-    /* Увеличиваем размер шрифта */
 }

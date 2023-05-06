@@ -1,86 +1,40 @@
 [
   {
-    "Index": 0,
-    "Norg": "farm",
+    "English": "license",
     "Transcription": "",
-    "Rus": "ферма",
-    "True": 1
+    "Russian": "лицензия",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": [
+      "license",
+      "firman",
+      "excise",
+      "licence"
+    ],
+    "Rating": 0
   },
   {
-    "Index": 0,
-    "Norg": "dawn",
+    "English": "office",
     "Transcription": "",
-    "Rus": "рассвет",
-    "True": 1
+    "Russian": "офис",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": [
+      "office"
+    ],
+    "Rating": 0
   },
   {
-    "Index": 0,
-    "Norg": "relate",
+    "English": "vagina",
     "Transcription": "",
-    "Rus": "относиться; иметь отношение",
-    "True": 1
-  },
-  {
-    "Index": 0,
-    "Norg": "pronouns",
-    "Transcription": "",
-    "Rus": "местоимения",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "do the dishes",
-    "Transcription": "",
-    "Rus": "помыть посуду",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "food",
-    "Transcription": "",
-    "Rus": "еда",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "consonant",
-    "Transcription": "",
-    "Rus": "согласный звук",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "fill",
-    "Transcription": "",
-    "Rus": "заполнять",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "rabbit",
-    "Transcription": "",
-    "Rus": "кролик",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "builder",
-    "Transcription": "",
-    "Rus": "строитель",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "dusk",
-    "Transcription": "",
-    "Rus": "сумерки",
-    "True": 1
-  },
-  {
-    "Index": 0,
-    "Norg": "wednesday",
-    "Transcription": "",
-    "Rus": "среда",
-    "True": 1
+    "Russian": "влагалище",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": [
+      "vagina",
+      "cunt",
+      "vulva",
+      "axilla",
+      "axil",
+      "front passage"
+    ],
+    "Rating": 0
   }
 ]

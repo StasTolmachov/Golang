@@ -23,9 +23,9 @@
 <main>
     <h2 class="center-text"></h2>
     <h1 class="center-text error-notification">Right</h1>
-    <h3 class="rus-text">{{.Rus}}</h3>
-    <h3 class="rus-text" id="norge-text">{{.Norg}}</h3>
-    <h3 class="rus-text">{{.Transcription}}</h3>
+    <h3 class="Russian-text">{{.Russian}}</h3>
+    <h3 class="Russian-text" id="English-text">{{.English}}</h3>
+    <h3 class="Russian-text">{{.Transcription}}</h3>
     <button id="speak-button" class="btn btn-info">Воспроизвести</button>
     <form action="/word" method="POST">
 
@@ -42,17 +42,17 @@
     }
 
     window.addEventListener("DOMContentLoaded", () => {
-        const norgeTextElement = document.getElementById("norge-text");
+        const EnglishTextElement = document.getElementById("English-text");
         const speakButton = document.getElementById("speak-button");
-        if (norgeTextElement && speakButton) {
-            const norgeText = norgeTextElement.textContent;
+        if (EnglishTextElement && speakButton) {
+            const EnglishText = EnglishTextElement.textContent;
 
             // Воспроизвести текст автоматически при загрузке страницы
-            speak(norgeText);
+            speak(EnglishText);
 
             // Воспроизвести текст при нажатии на кнопку
             speakButton.addEventListener("click", () => {
-                speak(norgeText);
+                speak(EnglishText);
             });
         }
     });

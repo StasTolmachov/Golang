@@ -10,17 +10,21 @@ import (
 	"os"
 	"sort"
 	"strconv"
+	"strings"
 )
 
 type WordsStruct struct {
 	Index         int
-	Norg          string
+	English       string
 	Transcription string
-	Rus           string
-	True          int
+	Russian       string
+	PartOfSpeech  string
+	Synonyms      []string
+	Rating        int
 }
 
 var Words = []WordsStruct{}
+var GoogleDict = []WordsStruct{}
 
 type IndexData struct {
 	Index int `json:"index"`
@@ -33,7 +37,7 @@ var WordValue WordsStruct
 var IndexWord int
 
 func main() {
-	// Word1.Rus = "машина2"
+	// Word1.Russian = "машина2"
 	// Word1.Norg = "bil"
 	// Word1.Transcription = "transcription"
 
@@ -90,10 +94,13 @@ func main() {
 	http.HandleFunc("/wordAdd", wordAdd)
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
-	http.HandleFunc("/wordEdit", wordEdit)
-	http.HandleFunc("/wordUpdate", wordUpdate)
+	// http.HandleFunc("/wordEdit", wordEdit)
+	// http.HandleFunc("/wordUpdate", wordUpdate)
 	http.HandleFunc("/handleEdit", handleEdit)
 	http.HandleFunc("/handleAdd", handleAdd)
+	http.HandleFunc("/element-info/", handleElementInfo)
+	// http.HandleFunc("/search", searchHandler)
+	http.HandleFunc("/wordsSearch", wordsSearch)
 
 	// http.HandleFunc("/nextWord", nextWord)
 	http.ListenAndServe(":8080", nil)
@@ -113,9 +120,9 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 func wordAll(w http.ResponseWriter, r *http.Request) {
 
-	// Сортируем список слов по значению True в порядке возрастания
+	// Сортируем список слов по значению Rating в порядке возрастания
 	sort.Slice(Words, func(i, j int) bool {
-		return Words[i].True < Words[j].True
+		return Words[i].Rating < Words[j].Rating
 	})
 
 	tmpl, err := template.ParseFiles("template/wordAll.html", "template/header.html", "template/footer.html")
@@ -132,10 +139,10 @@ func wordAll(w http.ResponseWriter, r *http.Request) {
 
 func word(w http.ResponseWriter, r *http.Request) {
 
-	// max := findMinTrueIndex(Words)
+	// max := findMinRatingIndex(Words)
 	// IndexWord = randomInt(max)
 
-	IndexWord = findMinTrueIndex(Words)
+	IndexWord = findMinRatingIndex(Words)
 
 	tmpl, err := template.ParseFiles("template/word.html", "template/header.html", "template/footer.html")
 	if err != nil {
@@ -156,16 +163,38 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	err = tmpl.Execute(w, nil)
+	jsonFile, err := os.Open("eng-rus_Google.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Читаем содержимое файла
+	jsonData, err := ioutil.ReadAll(jsonFile)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonData, &GoogleDict)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+
+	err = tmpl.Execute(w, GoogleDict)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
-	if r.FormValue("Norg") != "" {
+	if r.FormValue("English") != "" {
 		// lastIndex := len(Words)
 		// WordValue.Index = lastIndex + 1
-		WordValue.Norg = r.FormValue("Norg")
+		WordValue.English = r.FormValue("English")
 		WordValue.Transcription = r.FormValue("Transcription")
-		WordValue.Rus = r.FormValue("Rus")
+		WordValue.Russian = r.FormValue("Russian")
 		Words = append(Words, WordValue)
 
 		// Открываем файл для записи
@@ -192,11 +221,11 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 }
 
 func wordOtvet(w http.ResponseWriter, r *http.Request) {
-	WordValue.Norg = r.FormValue("word")
+	WordValue.English = r.FormValue("word")
 
-	if WordValue.Norg == Words[IndexWord].Norg {
-		Words[IndexWord].True += 1
-		fmt.Println(Words[IndexWord].True)
+	if WordValue.English == Words[IndexWord].English {
+		Words[IndexWord].Rating += 1
+		fmt.Println(Words[IndexWord].Rating)
 
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
@@ -229,8 +258,8 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 		}
 
 	} else {
-		Words[IndexWord].True -= 1
-		fmt.Println(Word1.True)
+		Words[IndexWord].Rating -= 1
+		fmt.Println(Word1.Rating)
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
@@ -259,13 +288,13 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func findMinTrueIndex(words []WordsStruct) int {
+func findMinRatingIndex(words []WordsStruct) int {
 	minIndex := 0
-	minValue := words[0].True
+	minValue := words[0].Rating
 
 	for i, word := range words {
-		if word.True < minValue {
-			minValue = word.True
+		if word.Rating < minValue {
+			minValue = word.Rating
 			minIndex = i
 		}
 	}
@@ -339,69 +368,70 @@ func removeElementByIndex(words []WordsStruct, index int) []WordsStruct {
 	}
 	return append(words[:index], words[index+1:]...)
 }
-func wordEdit(w http.ResponseWriter, r *http.Request) {
-	index := r.URL.Query().Get("index")
-	if index == "" {
-		http.Error(w, "Index not provided", http.StatusBadRequest)
-		return
-	}
 
-	indexInt, err := strconv.Atoi(index)
-	if err != nil {
-		http.Error(w, "Invalid index", http.StatusBadRequest)
-		return
-	}
+// func wordEdit(w http.ResponseWriter, r *http.Request) {
+// 	index := r.URL.Query().Get("index")
+// 	if index == "" {
+// 		http.Error(w, "Index not provided", http.StatusBadRequest)
+// 		return
+// 	}
 
-	tmpl, err := template.ParseFiles("template/wordEdit.html", "template/header.html", "template/footer.html")
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
+// 	indexInt, err := strconv.Atoi(index)
+// 	if err != nil {
+// 		http.Error(w, "Invalid index", http.StatusBadRequest)
+// 		return
+// 	}
 
-	err = tmpl.Execute(w, Words[indexInt])
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-	}
-}
-func wordUpdate(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
-		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
-		return
-	}
+// 	tmpl, err := template.ParseFiles("template/wordEdit.html", "template/header.html", "template/footer.html")
+// 	if err != nil {
+// 		http.Error(w, err.Error(), http.StatusInternalServerError)
+// 		return
+// 	}
 
-	var updatedWord WordsStruct
-	err := json.NewDecoder(r.Body).Decode(&updatedWord)
-	if err != nil {
-		http.Error(w, "Invalid request body", http.StatusBadRequest)
-		return
-	}
+// 	err = tmpl.Execute(w, Words[indexInt])
+// 	if err != nil {
+// 		http.Error(w, err.Error(), http.StatusInternalServerError)
+// 	}
+// }
+// func wordUpdate(w http.ResponseWriter, r *http.Request) {
+// 	if r.Method != http.MethodPost {
+// 		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
+// 		return
+// 	}
 
-	indexInt := updatedWord.Index
+// 	var updatedWord WordsStruct
+// 	err := json.NewDecoder(r.Body).Decode(&updatedWord)
+// 	if err != nil {
+// 		http.Error(w, "Invalid request body", http.StatusBadRequest)
+// 		return
+// 	}
 
-	Words[indexInt] = updatedWord
+// 	indexInt := updatedWord.Index
 
-	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
-	if err != nil {
-		fmt.Println("Ошибка открытия файла:", err)
-		return
-	}
-	defer jsonFile.Close()
-	// Сериализуем структуру в JSON
-	jsonData, err := json.MarshalIndent(Words, "", "  ")
-	if err != nil {
-		fmt.Println("Ошибка сериализации:", err)
-		return
-	}
-	// Записываем JSON в файл
-	_, err = jsonFile.Write(jsonData)
-	if err != nil {
-		fmt.Println("Ошибка записи в файл:", err)
-		return
-	}
+// 	Words[indexInt] = updatedWord
 
-	w.WriteHeader(http.StatusOK)
-}
+// 	// Открываем файл для записи
+// 	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+// 	if err != nil {
+// 		fmt.Println("Ошибка открытия файла:", err)
+// 		return
+// 	}
+// 	defer jsonFile.Close()
+// 	// Сериализуем структуру в JSON
+// 	jsonData, err := json.MarshalIndent(Words, "", "  ")
+// 	if err != nil {
+// 		fmt.Println("Ошибка сериализации:", err)
+// 		return
+// 	}
+// 	// Записываем JSON в файл
+// 	_, err = jsonFile.Write(jsonData)
+// 	if err != nil {
+// 		fmt.Println("Ошибка записи в файл:", err)
+// 		return
+// 	}
+
+// 	w.WriteHeader(http.StatusOK)
+// }
 
 func handleEdit(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "POST" {
@@ -411,10 +441,13 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 
 	var requestData struct {
 		Index         int    `json:"index"`
-		Norg          string `json:"Norg"`
+		English       string `json:"English"`
 		Transcription string `json:"Transcription"`
-		Rus           string `json:"Rus"`
-		True          int    `json:"True"`
+		Russian       string `json:"Russian"`
+
+		PartOfSpeech string   `json:"PartOfSpeech"`
+		Synonyms     []string `json:"Synonyms"`
+		Rating       int      `json:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -430,10 +463,10 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Обновление элемента с новыми данными
-	Words[index].Norg = requestData.Norg
+	Words[index].English = requestData.English
 	Words[index].Transcription = requestData.Transcription
-	Words[index].Rus = requestData.Rus
-	Words[index].True = requestData.True
+	Words[index].Russian = requestData.Russian
+	Words[index].Rating = requestData.Rating
 
 	// Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
@@ -466,11 +499,13 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestData struct {
-		Index         int    `json:"index"`
-		Norg          string `json:"Norg"`
-		Transcription string `json:"Transcription"`
-		Rus           string `json:"Rus"`
-		True          int    `json:"True"`
+		Index         int      `json:"index"`
+		English       string   `json:"English"`
+		Transcription string   `json:"Transcription"`
+		Russian       string   `json:"Russian"`
+		PartOfSpeech  string   `json:"PartOfSpeech"`
+		Synonyms      []string `json:"Synonyms"`
+		Rating        int      `json:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -488,8 +523,8 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 	// Обновление элемента с новыми данными
 	// Words[index].Norg = requestData.Norg
 	// Words[index].Transcription = requestData.Transcription
-	// Words[index].Rus = requestData.Rus
-	// Words[index].True = requestData.True
+	// Words[index].Russian = requestData.Russian
+	// Words[index].Rating = requestData.Rating
 
 	Words = append(Words, WordsStruct(requestData))
 
@@ -516,4 +551,62 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.WriteHeader(http.StatusOK)
+}
+func handleElementInfo(w http.ResponseWriter, r *http.Request) {
+	tmpl, err := template.ParseFiles("template/ElementInfo.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	urlPath := r.URL.Path
+	indexStr := strings.TrimPrefix(urlPath, "/element-info/")
+	index, err := strconv.Atoi(indexStr)
+	if err != nil {
+		http.Error(w, "Invalid index format", http.StatusBadRequest)
+		return
+	}
+
+	if index < 0 || index >= len(Words) {
+		http.Error(w, "Index out of range", http.StatusBadRequest)
+		return
+	}
+	err = tmpl.Execute(w, Words[index])
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+	// element := Words[index]
+
+	// w.Header().Set("Content-Type", "application/json")
+	// err = json.NewEncoder(w).Encode(element)
+	// if err != nil {
+	// 	http.Error(w, err.Error(), http.StatusInternalServerError)
+	// }
+}
+
+func searchHandler(w http.ResponseWriter, r *http.Request) {
+	query := r.URL.Query().Get("query")
+	results := searchWords(query)
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(results)
+}
+
+func searchWords(query string) []WordsStruct {
+	results := []WordsStruct{}
+	query = strings.ToLower(query)
+
+	for _, word := range Words {
+		if strings.Contains(strings.ToLower(word.English), query) {
+			results = append(results, word)
+		}
+	}
+
+		return results
+	}
+func wordsSearch(w http.ResponseWriter, r *http.Request) {
+	
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(GoogleDict)
 }

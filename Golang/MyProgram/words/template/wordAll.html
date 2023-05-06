@@ -33,10 +33,10 @@
         </thead>
         <tbody>
             <tr>
-                <td contenteditable="true" id="newNorg"></td>
-                <td contenteditable="true" id="newTranscription"></td>
-                <td contenteditable="true" id="newRus"></td>
-                <td contenteditable="true" id="newTrue">0</td>
+                <td contenteditable="Rating" id="newEnglish"></td>
+                <td contenteditable="Rating" id="newTranscription"></td>
+                <td contenteditable="Rating" id="newRussian"></td>
+                <td contenteditable="Rating" id="newRating">0</td>
 
                 <td>
                     <button type="button" onclick="handleAddClick()">Add</button>
@@ -45,13 +45,14 @@
             {{range $index, $element := .}}
             <tr>
 
-                <td contenteditable="true" id="Norg{{$index}}">{{$element.Norg}}</td>
-                <td contenteditable="true" id="Transcription{{$index}}">{{$element.Transcription}}</td>
-                <td contenteditable="true" id="Rus{{$index}}">{{$element.Rus}}</td>
-                <td contenteditable="true" id="True{{$index}}">{{$element.True}}</td>
+                <td contenteditable="Rating" id="English{{$index}}"><a href="#"
+                        onclick="handleEnglishClick({{$index}})">{{$element.English}}</a></td>
+
+                <td contenteditable="Rating" id="Transcription{{$index}}">{{$element.Transcription}}</td>
+                <td contenteditable="Rating" id="Russian{{$index}}">{{$element.Russian}}</td>
+                <td contenteditable="Rating" id="Rating{{$index}}">{{$element.Rating}}</td>
                 <td>
-                    <button type="button" onclick="handleSaveClick({{$index}})"
-                        id="saveButton{{$index}}">Save</button>
+                    <button type="button" onclick="handleSaveClick({{$index}})" id="saveButton{{$index}}">Save</button>
                     <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
                 </td>
             </tr>
@@ -85,22 +86,22 @@
     }
 
     function handleSaveClick(index) {
-        const Norg = document.getElementById("Norg" + index).innerText;
+        const English = document.getElementById("English" + index).innerText;
         const Transcription = document.getElementById("Transcription" + index).innerText;
-        const Rus = document.getElementById("Rus" + index).innerText;
-        const True = parseInt(document.getElementById("True" + index).innerText, 10);
+        const Russian = document.getElementById("Russian" + index).innerText;
+        const Rating = parseInt(document.getElementById("Rating" + index).innerText, 10);
 
-        if (isNaN(True)) {
+        if (isNaN(Rating)) {
             alert("Рейтинг должен быть числом");
             return;
         }
 
         const requestData = {
-            index,
-            Norg,
+            Index,
+            English,
             Transcription,
-            Rus,
-            True,
+            Russian,
+            Rating,
         };
 
         fetch("/handleEdit", {
@@ -123,21 +124,21 @@
             });
     }
     function handleAddClick() {
-        const Norg = document.getElementById("newNorg").innerText;
+        const English = document.getElementById("newEnglish").innerText;
         const Transcription = document.getElementById("newTranscription").innerText;
-        const Rus = document.getElementById("newRus").innerText;
-        const True = parseInt(document.getElementById("newTrue").innerText, 10);
+        const Russian = document.getElementById("newRussian").innerText;
+        const Rating = parseInt(document.getElementById("newRating").innerText, 10);
 
-        if (isNaN(True)) {
+        if (isNaN(Rating)) {
             alert("Рейтинг должен быть числом");
             return;
         }
 
         const requestData = {
-            Norg,
+            English,
             Transcription,
-            Rus,
-            True,
+            Russian,
+            Rating,
         };
 
         fetch("/handleAdd", {
@@ -158,4 +159,8 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
+    function handleEnglishClick(index) {
+        window.location.href = `/element-info/${index}`;
+    }
+
 </script>

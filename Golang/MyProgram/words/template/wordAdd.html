@@ -5,15 +5,103 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .selected {
+        background-color: #57db1a;
+    }
 </style>
 <main>
     <h2></h2>
     <form action="/wordAdd" method="POST" class="form-container">
-        <input type="text" name="Norg" id="Norg" placeholder="Eng" class="form-control" autofocus><br>
-       
-        <input type="text" name="Rus" id="Rus" placeholder="Rus" class="form-control"><br>
+        <input type="text" name="English" id="English" placeholder="English" class="form-control" autofocus><br>
+        <div id="resultsContainer"></div>
+        <input type="text" name="Russian" id="Russian" placeholder="Russian" class="form-control"><br>
         <input type="text" name="Transcription" id="Transcription" placeholder="Transcription" class="form-control"><br>
         <button class="btn btn-warning">Добавить</button>
     </form>
 </main>
 {{template "footer"}}
+
+<script>
+    const searchInput = document.getElementById('English');
+    const words = {{.}}; // предполагается, что вы передаете данные слов с сервера как объект JavaScript
+    let selectedIndex = -1;
+
+    searchInput.addEventListener('input', event => {
+        const query = event.target.value;
+        const results = searchWords(query);
+        updateResultsDropdown(results);
+        selectedIndex = -1; // Сбросить выбранный индекс при изменении поискового запроса
+    });
+
+    searchInput.addEventListener('keydown', event => {
+        const resultsContainer = document.getElementById('resultsContainer');
+        const items = resultsContainer.getElementsByTagName('li');
+
+        if (event.key === 'ArrowDown') {
+            selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
+        } else if (event.key === 'ArrowUp') {
+            selectedIndex = Math.max(selectedIndex - 1, -1);
+        } else if (event.key === 'Enter') {
+            if (selectedIndex > -1) {
+                selectResult(JSON.parse(items[selectedIndex].dataset.word));
+            }
+            event.preventDefault();
+            return;
+        } else {
+            return;
+        }
+
+        Array.from(items).forEach((item, index) => {
+            if (index === selectedIndex) {
+                item.classList.add('selected');
+            } else {
+                item.classList.remove('selected');
+            }
+        });
+    });
+
+    function searchWords(query) {
+        return words.filter(word => word.English.toLowerCase().includes(query.toLowerCase()));
+    }
+
+    function updateResultsDropdown(results) {
+        const resultsContainer = document.getElementById('resultsContainer');
+        resultsContainer.innerHTML = '';
+
+        // Если строка поиска пуста, не выводим выпадающий список
+        if (results.length === 0) {
+            return;
+        }
+
+        const list = document.createElement('ul');
+
+        // Ограничиваем количество результатов до 30
+        const limitedResults = results.slice(0, 30);
+
+        limitedResults.forEach(result => {
+            const listItem = document.createElement('li');
+            listItem.textContent = result.English;
+            listItem.dataset.word = JSON.stringify(result); // Добавить эту строку
+            listItem.addEventListener('click', () => {
+                selectResult(result);
+            });
+            list.appendChild(listItem);
+        });
+
+        resultsContainer.appendChild(list);
+    }
+
+
+
+
+
+    function selectResult(result) {
+        document.getElementById('English').value = result.English;
+        document.getElementById('Russian').value = result.Russian;
+        document.getElementById('Transcription').value = result.Transcription;
+
+        // Закройте выпадающий список после выбора результата
+        document.getElementById('resultsContainer').innerHTML = '';
+    }
+</script>
