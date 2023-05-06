@@ -156,8 +156,6 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if r.FormValue("English") != "" {
-		// lastIndex := len(Words)
-		// WordValue.Index = lastIndex + 1
 		WordValue.English = r.FormValue("English")
 		WordValue.Transcription = r.FormValue("Transcription")
 		WordValue.Russian = r.FormValue("Russian")
@@ -197,7 +195,7 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 func wordOtvet(w http.ResponseWriter, r *http.Request) {
 	WordValue.English = r.FormValue("word")
 
-	if WordValue.English == Words[IndexWord].English {
+	if strings.EqualFold(WordValue.English, Words[IndexWord].English) {
 		Words[IndexWord].Rating += 1
 		fmt.Println(Words[IndexWord].Rating)
 
