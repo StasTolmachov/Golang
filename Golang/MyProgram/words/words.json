@@ -1,23 +1,86 @@
 [
   {
     "Index": 0,
+    "Norg": "farm",
+    "Transcription": "",
+    "Rus": "ферма",
+    "True": 1
+  },
+  {
+    "Index": 0,
+    "Norg": "dawn",
+    "Transcription": "",
+    "Rus": "рассвет",
+    "True": 1
+  },
+  {
+    "Index": 0,
+    "Norg": "relate",
+    "Transcription": "",
+    "Rus": "относиться; иметь отношение",
+    "True": 1
+  },
+  {
+    "Index": 0,
+    "Norg": "pronouns",
+    "Transcription": "",
+    "Rus": "местоимения",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "do the dishes",
+    "Transcription": "",
+    "Rus": "помыть посуду",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "food",
+    "Transcription": "",
+    "Rus": "еда",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "consonant",
+    "Transcription": "",
+    "Rus": "согласный звук",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "fill",
+    "Transcription": "",
+    "Rus": "заполнять",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "rabbit",
+    "Transcription": "",
+    "Rus": "кролик",
+    "True": 0
+  },
+  {
+    "Index": 0,
+    "Norg": "builder",
+    "Transcription": "",
+    "Rus": "строитель",
+    "True": 0
+  },
+  {
+    "Index": 0,
     "Norg": "dusk",
     "Transcription": "",
     "Rus": "сумерки",
-    "True": 0
+    "True": 1
   },
   {
     "Index": 0,
     "Norg": "wednesday",
     "Transcription": "",
     "Rus": "среда",
-    "True": 0
-  },
-  {
-    "Index": 0,
-    "Norg": "farm",
-    "Transcription": "",
-    "Rus": "ферма",
-    "True": 0
+    "True": 1
   }
 ]
