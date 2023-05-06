@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"os"
 	"regexp"
-	"strings"
 )
 
 type Word struct {
@@ -14,7 +13,7 @@ type Word struct {
 	Transcription string
 	Russian       string
 	PartOfSpeech  string
-	Synonyms      []string
+	Synonyms      string // Изменено на string
 	Rating        int
 }
 
@@ -26,7 +25,6 @@ func main() {
 	}
 
 	words := parseData(data)
-	// fmt.Println(words)
 	// Открываем файл для записи
 	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
@@ -85,7 +83,7 @@ func parseData(data map[string]string) []Word {
 	return words
 }
 
-func extractInfo(html string) (string, string, []string) {
+func extractInfo(html string) (string, string, string) { // Изменено на string
 	russian := extractRussian(html)
 	partOfSpeech := extractPartOfSpeech(html)
 	translations := extractTranslations(html)
@@ -111,12 +109,11 @@ func extractPartOfSpeech(html string) string {
 	return ""
 }
 
-func extractTranslations(html string) []string {
+func extractTranslations(html string) string { // Изменено на string
 	re := regexp.MustCompile(`<i>\((.*?)\)</i>`)
 	matches := re.FindStringSubmatch(html)
 	if len(matches) > 1 {
-		translations := strings.Split(matches[1], ", ")
-		return translations
+		return matches[1]
 	}
-	return []string{}
+	return ""
 }

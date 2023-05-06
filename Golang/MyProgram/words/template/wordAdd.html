@@ -17,7 +17,10 @@
         <div id="resultsContainer"></div>
         <input type="text" name="Russian" id="Russian" placeholder="Russian" class="form-control"><br>
         <input type="text" name="Transcription" id="Transcription" placeholder="Transcription" class="form-control"><br>
-        <button class="btn btn-warning">Добавить</button>
+        <input type="text" name="PartOfSpeech" id="PartOfSpeech" placeholder="PartOfSpeech" class="form-control"><br>
+        <input type="text" name="Synonyms" id="Synonyms" placeholder="Synonyms" class="form-control"><br>
+        <button class="btn btn-warning" autofocus>Save</button>
+
     </form>
 </main>
 {{template "footer"}}
@@ -62,8 +65,11 @@
     });
 
     function searchWords(query) {
-        return words.filter(word => word.English.toLowerCase().includes(query.toLowerCase()));
+        const filteredWords = words.filter(word => word.English.toLowerCase().startsWith(query.toLowerCase()));
+        return filteredWords.sort((a, b) => a.English.localeCompare(b.English)); // сортировка по алфавиту
     }
+
+
 
     function updateResultsDropdown(results) {
         const resultsContainer = document.getElementById('resultsContainer');
@@ -100,8 +106,11 @@
         document.getElementById('English').value = result.English;
         document.getElementById('Russian').value = result.Russian;
         document.getElementById('Transcription').value = result.Transcription;
+        document.getElementById('PartOfSpeech').value = result.PartOfSpeech;
+        document.getElementById('Synonyms').value = result.Synonyms;
 
         // Закройте выпадающий список после выбора результата
         document.getElementById('resultsContainer').innerHTML = '';
+        // add_button.enabled = true; // сделать кнопку "Добавить" активной
     }
 </script>

@@ -1,59 +1,1523 @@
 [
   {
     "Index": 0,
-    "English": "license",
+    "English": "pisciculture",
     "Transcription": "",
-    "Russian": "лицензия",
+    "Russian": "рыбоводство",
     "PartOfSpeech": "имя существительное",
-    "Synonyms": [
-      "license",
-      "firman",
-      "excise",
-      "licence"
-    ],
-    "Rating": 0
+    "Synonyms": "pisciculture, fish-farming",
+    "Rating": -3
   },
   {
     "Index": 0,
-    "English": "vagina",
+    "English": "apron",
     "Transcription": "",
-    "Russian": "влагалище",
+    "Russian": "фартук",
     "PartOfSpeech": "имя существительное",
-    "Synonyms": [
-      "vagina",
-      "cunt",
-      "vulva",
-      "axilla",
-      "axil",
-      "front passage"
-    ],
+    "Synonyms": "apron, skirting, pinafore, boot, dickey, dicky",
     "Rating": 0
   },
   {
     "Index": 0,
-    "English": "friday",
+    "English": "Nellie3434",
     "Transcription": "",
-    "Russian": "",
-    "PartOfSpeech": "",
-    "Synonyms": null,
+    "Russian": "Нелли",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "Nelly, Nellie",
     "Rating": 0
   },
   {
     "Index": 0,
-    "English": "Friday",
+    "English": "constringency",
     "Transcription": "",
-    "Russian": "Пятница",
-    "PartOfSpeech": "",
-    "Synonyms": null,
+    "Russian": "constringency",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "compression, squeeze, contraction, compressing, grip, constringency",
     "Rating": 0
   },
   {
     "Index": 0,
-    "English": "twice",
+    "English": "Tao2",
     "Transcription": "",
-    "Russian": "дважды",
+    "Russian": "Тао",
     "PartOfSpeech": "",
-    "Synonyms": null,
+    "Synonyms": "1, 2, 3, ",
     "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "pseudomorph",
+    "Transcription": "",
+    "Russian": "псевдоморфоза",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "processional",
+    "Transcription": "",
+    "Russian": "относящийся к процессии",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "processional, processionary",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "otitides",
+    "Transcription": "",
+    "Russian": "otitides",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "otitis",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "jump up",
+    "Transcription": "",
+    "Russian": "вскакивать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "jump, jump up, up, hop, start up, upstart",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "set off",
+    "Transcription": "",
+    "Russian": "отправились",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "send, set off, send out, forward, transmit, send off",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "object",
+    "Transcription": "",
+    "Russian": "объект",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "object, facility, subject, objective, entity, operand",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "tersely",
+    "Transcription": "",
+    "Russian": "кратко",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "briefly, short, succinctly, tersely",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "epiphenomenon",
+    "Transcription": "",
+    "Russian": "сопутствующий симптом",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "as long as",
+    "Transcription": "",
+    "Russian": "пока",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "so far, as long as, for the time being, for the present, insomuch, pro tempore",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "unification",
+    "Transcription": "",
+    "Russian": "унификация",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "unification, union, association, combination, merger, integration",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "quickie",
+    "Transcription": "",
+    "Russian": "халтура",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "fluent, runaway, cursory, fugitive, escaped, quickie",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "repast",
+    "Transcription": "",
+    "Russian": "трапеза",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "table, repast",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "suite",
+    "Transcription": "",
+    "Russian": "набор",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "set, suite, kit, selection, suit, typesetting",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "valiant",
+    "Transcription": "",
+    "Russian": "доблестный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "valiant, valorous, gallant, doughty, redoubtable, redoubted",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "cheater",
+    "Transcription": "",
+    "Russian": "мошенник",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "cheater",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "fuscous",
+    "Transcription": "",
+    "Russian": "темноватый",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "fuscous",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "précis",
+    "Transcription": "",
+    "Russian": "кратких",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "abstract, synopsis, summary, outline, compendium, precis",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "conduct",
+    "Transcription": "",
+    "Russian": "поведение",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "behavior, demeanor, conduct, actions, action, bearing",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "elegy",
+    "Transcription": "",
+    "Russian": "элегия",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "elegy, lament",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "shred-pie",
+    "Transcription": "",
+    "Russian": "пирог с начинкой",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "turnover, shred-pie",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "counteradvertising",
+    "Transcription": "",
+    "Russian": "Контрреклама",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Golconda",
+    "Transcription": "",
+    "Russian": "Голконда",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "decretory",
+    "Transcription": "",
+    "Russian": "декретный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "decretive, decretal, decretory",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Whit",
+    "Transcription": "",
+    "Russian": "Йота",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "old man",
+    "Transcription": "",
+    "Russian": "старик",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "old man, gaffer, greybeard, graybeard, creaker",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "lapidary",
+    "Transcription": "",
+    "Russian": "лапидарный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "lapidary",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "picker",
+    "Transcription": "",
+    "Russian": "сборщик",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "collector, picker, fitter, adjuster, erector",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "uncareful",
+    "Transcription": "",
+    "Russian": "неосторожный",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "hydrazine",
+    "Transcription": "",
+    "Russian": "гидразин",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "oleaginous",
+    "Transcription": "",
+    "Russian": "маслянистый",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "oily, buttery, oleaginous, unctuous, fat, emulsive",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Freddie",
+    "Transcription": "",
+    "Russian": "Фредди",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "Freddie, Freddy",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "poppy",
+    "Transcription": "",
+    "Russian": "мак",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "poppy",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "riboflavin",
+    "Transcription": "",
+    "Russian": "рибофлавин",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "riboflavin",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "seductive",
+    "Transcription": "",
+    "Russian": "соблазнительный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "seductive, enticing, tempting, alluring, dishy, inviting",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "give a command",
+    "Transcription": "",
+    "Russian": "скомандовать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "command, give a command",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "biased",
+    "Transcription": "",
+    "Russian": "тенденциозный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "biased, partial, biassed, discriminatory, unfair, inequitable",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "blindness",
+    "Transcription": "",
+    "Russian": "слепота",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "blindness, cecity, ablepsia",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "sackcloth",
+    "Transcription": "",
+    "Russian": "мешковина",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "sackcloth, sacking, bagging",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "nonchalantly",
+    "Transcription": "",
+    "Russian": "беспечно",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "pyramidical",
+    "Transcription": "",
+    "Russian": "Мертвых",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "radiogenetics",
+    "Transcription": "",
+    "Russian": "радиогенетика",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "radiogenetics",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "gunshot wound",
+    "Transcription": "",
+    "Russian": "огнестрельная рана",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "gunshot wound, pink",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "cliff",
+    "Transcription": "",
+    "Russian": "утес",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "cliff, rock, bluff, crag, scar, needle",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "deliberative",
+    "Transcription": "",
+    "Russian": "совещательный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "deliberative, advisory, consultative, consultive",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "receptor",
+    "Transcription": "",
+    "Russian": "рецептор",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "receptor",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "seafront",
+    "Transcription": "",
+    "Russian": "набережная",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "embankment, quay, seafront, front, levee, bund",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "witchcraft",
+    "Transcription": "",
+    "Russian": "колдовство",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "witchcraft, sorcery, wizardry, incantation, enchantment, witchery",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "admissibleness",
+    "Transcription": "",
+    "Russian": "допустимость",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "admissibility, permissibility, allowability, admissibleness",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "wapentake",
+    "Transcription": "",
+    "Russian": "окружной суд",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "forefinger",
+    "Transcription": "",
+    "Russian": "указательный палец",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "index finger, forefinger, index",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "invoice",
+    "Transcription": "",
+    "Russian": "счет-фактура",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "account, score, bill, tab, invoice, count",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "bendy",
+    "Transcription": "",
+    "Russian": "Бенди",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "ingrafting",
+    "Transcription": "",
+    "Russian": "имплантация",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "vaccinate, engraft, ingraft",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Crocodile",
+    "Transcription": "",
+    "Russian": "Крокодил",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "crocodile, alligator, croc",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Marcellus",
+    "Transcription": "",
+    "Russian": "Марцелл",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dugout",
+    "Transcription": "",
+    "Russian": "землянка",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "dugout",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "screen",
+    "Transcription": "",
+    "Russian": "экран",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "screen, shield, baffle, shade, baffle plate, riddle",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "meant",
+    "Transcription": "",
+    "Russian": "означало",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "mean, indicate, denote, imply, represent, signify",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rube",
+    "Transcription": "",
+    "Russian": "деревенщина",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "lout, redneck, bushman, hick, bumpkin, rube",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "cordate",
+    "Transcription": "",
+    "Russian": "сердцевидный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "cordate",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Ovonic",
+    "Transcription": "",
+    "Russian": "Овоник",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "airy",
+    "Transcription": "",
+    "Russian": "воздушный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "spacious, roomy, ample, airy, spacey, wide",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "tactless",
+    "Transcription": "",
+    "Russian": "бестактный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "tactless, undiplomatic, maladroit, clumsy, tasteless, impolitic",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "polymetallic",
+    "Transcription": "",
+    "Russian": "полиметаллических",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "bund",
+    "Transcription": "",
+    "Russian": "набережная",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "embankment, quay, seafront, front, levee, bund",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "running board",
+    "Transcription": "",
+    "Russian": "подножка",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "step, footstep, running board, footboard, trip, sideboard",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "cold steel arms",
+    "Transcription": "",
+    "Russian": "холодное оружие",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "cold steel arms, arme blanche",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "speciality",
+    "Transcription": "",
+    "Russian": "специальность",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "specialty, branch, line, speciality",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "grandfatherly",
+    "Transcription": "",
+    "Russian": "дедушки",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "interrupter",
+    "Transcription": "",
+    "Russian": "прерыватель",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "breaker, chopper, interrupter, circuit breaker, trembler, vibrator",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "fulfiled",
+    "Transcription": "",
+    "Russian": "выполненный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "executed, performed, fulfilled, accomplished, effected, fulfiled",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "mothproof",
+    "Transcription": "",
+    "Russian": "защищенный от моли",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "mothproof",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "become stronger",
+    "Transcription": "",
+    "Russian": "укрепиться",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "become stronger, fortify one\u0026#x27;s position",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "carbonized",
+    "Transcription": "",
+    "Russian": "обугленные",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "carbonize, char",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "infiltrate",
+    "Transcription": "",
+    "Russian": "проникать",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "infiltrate, infiltration",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "tzarism",
+    "Transcription": "",
+    "Russian": "царизм",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "tsarism, tzarism",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "godchild",
+    "Transcription": "",
+    "Russian": "крестница",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "godson, godchild",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "pomade",
+    "Transcription": "",
+    "Russian": "помада",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "pomade, pomatum, ointment",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rosin",
+    "Transcription": "",
+    "Russian": "канифоль",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "rosin, resin, colophony",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "ne'er-do-well",
+    "Transcription": "",
+    "Russian": "бездельник",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "lounger, idler, slacker, bum, loafer, ne\u0026#x27;er-do-well",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "tonus",
+    "Transcription": "",
+    "Russian": "тонус",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "urbanization",
+    "Transcription": "",
+    "Russian": "урбанизация",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "urbanization",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "preventive",
+    "Transcription": "",
+    "Russian": "профилактический",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "prophylactic, preventive, preventative, preventable",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Sophia",
+    "Transcription": "",
+    "Russian": "София",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "Sofia, Sophia",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "student",
+    "Transcription": "",
+    "Russian": "студент",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "student, undergraduate, undergrad, classman",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "old-maidish",
+    "Transcription": "",
+    "Russian": "стародевический",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "maidenish, vestal, old-maidish",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Kama",
+    "Transcription": "",
+    "Russian": "Кама",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "Kama",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "owner",
+    "Transcription": "",
+    "Russian": "владелец",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "owner, holder, proprietor, master, possessor, wearer",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "scroll",
+    "Transcription": "",
+    "Russian": "свиток",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "scroll, roll, volume",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Dulux™",
+    "Transcription": "",
+    "Russian": "Dulux ™",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "blow off steam",
+    "Transcription": "",
+    "Russian": "выпускать пар",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "steam, blow off steam",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "capping",
+    "Transcription": "",
+    "Russian": "укупорки",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "damming, catchment, capping, captation",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "duenna",
+    "Transcription": "",
+    "Russian": "дуэнья",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "duenna, chaperon, dragon, griffin, griffon, gryphon",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "treachery",
+    "Transcription": "",
+    "Russian": "предательство",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "betrayal, treachery, treason, disloyalty, perfidy, foul play",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Guide",
+    "Transcription": "",
+    "Russian": "Руководство",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "guide, manual, leadership, guidance, direction, governance",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "eidos",
+    "Transcription": "",
+    "Russian": "эйдос",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "steal up",
+    "Transcription": "",
+    "Russian": "подкрасться",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "steal up, approach stealthily",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "ranged",
+    "Transcription": "",
+    "Russian": "варьировались",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "extend, stretch, spread, range, reach, outspread",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "supercharging",
+    "Transcription": "",
+    "Russian": "наддув",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "overload, overburden, reload, transship, supercharge, overcharge",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "You bet!",
+    "Transcription": "",
+    "Russian": "Еще бы!",
+    "PartOfSpeech": "междометие",
+    "Synonyms": "You bet!, I should say so!, And how!, Rather!",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "tangible",
+    "Transcription": "",
+    "Russian": "ощутимый",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "material, tangible, physical, corporeal, hylic",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "viz.",
+    "Transcription": "",
+    "Russian": "а именно",
+    "PartOfSpeech": "сокращение",
+    "Synonyms": "ss., viz.",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "catalyzer",
+    "Transcription": "",
+    "Russian": "катализатор",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "catalyst, catalyzer, accelerator, accelerant, contact",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "ceilometer",
+    "Transcription": "",
+    "Russian": "электронный облакомер",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "hippocampi",
+    "Transcription": "",
+    "Russian": "Гиппокамп",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "hippocampus",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "lewd",
+    "Transcription": "",
+    "Russian": "непристойный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "obscene, indecent, lewd, unseemly, salacious, filthy",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "thimbleful",
+    "Transcription": "",
+    "Russian": "глоточек",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "thimbleful, taste",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rations",
+    "Transcription": "",
+    "Russian": "продовольствие",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "food, foodstuffs, rations, supply, ration",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "alodium",
+    "Transcription": "",
+    "Russian": "аллод",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "allodium, alodium",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "structuralist",
+    "Transcription": "",
+    "Russian": "структуралист",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "structuralist",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "superfluous",
+    "Transcription": "",
+    "Russian": "избыточный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "surplus, excessive, unnecessary, superfluous, redundant, needless",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "desert",
+    "Transcription": "",
+    "Russian": "пустыня",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "deserted, desert, lonely, waste, untrodden, lonesome",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "get into",
+    "Transcription": "",
+    "Russian": "входить",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "enter, login, go in, come in, walk in, get into",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "winded",
+    "Transcription": "",
+    "Russian": "запыхавшийся",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "winded, weather-beaten",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "piperine",
+    "Transcription": "",
+    "Russian": "пиперин",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "beat-up",
+    "Transcription": "",
+    "Russian": "потрепанный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "shabby, battered, seedy, old, shot, beat-up",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "inflatable",
+    "Transcription": "",
+    "Russian": "надувной",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "inflatable",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "somewhere",
+    "Transcription": "",
+    "Russian": "где-то",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "somewhere, someplace",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "functioning",
+    "Transcription": "",
+    "Russian": "функционирование",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "functioning",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "retortion",
+    "Transcription": "",
+    "Russian": "реторсия",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "retortion",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "concurrence",
+    "Transcription": "",
+    "Russian": "совпадение",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "consent, agreement, harmony, accordance, accord, concurrence",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "diminishing",
+    "Transcription": "",
+    "Russian": "уменьшающийся",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "decreasing, diminishing, decrescent",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "thumbprint",
+    "Transcription": "",
+    "Russian": "отпечаток большого пальца",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "thumbprint, thumb-mark",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "osseous",
+    "Transcription": "",
+    "Russian": "костный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "bone, osseous",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dictating",
+    "Transcription": "",
+    "Russian": "диктовал",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "dictate",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "proverb",
+    "Transcription": "",
+    "Russian": "пословица",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "proverb, adage, saw, paraphrase",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rumple",
+    "Transcription": "",
+    "Russian": "мять",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "crumple, crush, rumple, crease, wrinkle, tumble",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "feudalist",
+    "Transcription": "",
+    "Russian": "феодал",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "feudal lord, feudalist",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "in hand",
+    "Transcription": "",
+    "Russian": "в руках",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "in hand",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "insight",
+    "Transcription": "",
+    "Russian": "понимание",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "understanding, insight, comprehension, grasp, conception, realization",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rejuvenation",
+    "Transcription": "",
+    "Russian": "омоложение",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "rejuvenation",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "nickeliferous",
+    "Transcription": "",
+    "Russian": "никелистый",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "sclerometer",
+    "Transcription": "",
+    "Russian": "склерометр",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "to a great extent",
+    "Transcription": "",
+    "Russian": "в значительной степени",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "largely, substantially, to a great extent, to a large degree, pretty, vastly",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "agrochemical",
+    "Transcription": "",
+    "Russian": "агрохимические",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "towards",
+    "Transcription": "",
+    "Russian": "к",
+    "PartOfSpeech": "предлог",
+    "Synonyms": "to, for, by, towards, toward, into",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "multistage",
+    "Transcription": "",
+    "Russian": "многоступенчатый",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "multistage, many-stage",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "workday",
+    "Transcription": "",
+    "Russian": "рабочий день",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "working day, day, workday",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "call to order",
+    "Transcription": "",
+    "Russian": "призывать к порядку",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "call to order, name",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "athletic",
+    "Transcription": "",
+    "Russian": "спортивный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "sports, athletic, sporting, sportive",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dock",
+    "Transcription": "",
+    "Russian": "док",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "dock",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "sleek",
+    "Transcription": "",
+    "Russian": "гладкий",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "smooth, sleek, plain, slick, even, polished",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "emancipated",
+    "Transcription": "",
+    "Russian": "эмансипированный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "emancipated, liberated",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "coolness",
+    "Transcription": "",
+    "Russian": "прохлада",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "cool, coolness, chill, fresh, shade",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dynamometer",
+    "Transcription": "",
+    "Russian": "динамометр",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "dynamometer",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "prostration",
+    "Transcription": "",
+    "Russian": "прострация",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "prostration",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Bermondsey",
+    "Transcription": "",
+    "Russian": "Бермондси",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "anion",
+    "Transcription": "",
+    "Russian": "анион",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "anion",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "oscillographic",
+    "Transcription": "",
+    "Russian": "осциллографический",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "oscillographic",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "sublunary",
+    "Transcription": "",
+    "Russian": "подлунный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "sublunary, sublunar",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "underhanded",
+    "Transcription": "",
+    "Russian": "коварный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "backstage, backroom, backdoor, underhand, underhanded, offstage",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "electromedical",
+    "Transcription": "",
+    "Russian": "электромедицинские",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "jobholder",
+    "Transcription": "",
+    "Russian": "государственный служащий",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "public servant, public official, public officer, jobholder, place-holder",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "nineties",
+    "Transcription": "",
+    "Russian": "девяностые годы",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "nineties",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "get angry",
+    "Transcription": "",
+    "Russian": "рассердиться",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "get angry, bristle, get into a temper, flare, fly out, lose one\u0026#x27;s temper",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "porosity",
+    "Transcription": "",
+    "Russian": "пористость",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "porosity, porousness, sponginess",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rhapsodic",
+    "Transcription": "",
+    "Russian": "восторженный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "enthusiastic, rapturous, ecstatic, rapt, rhapsodic, rhapsodical",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "squeak",
+    "Transcription": "",
+    "Russian": "писк",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "squeak, cheep, peep, piping",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "iterant",
+    "Transcription": "",
+    "Russian": "повторяющийся",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "repeating, iterative, recurrent, rolling, reiterative, iterant",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "CAB",
+    "Transcription": "",
+    "Russian": "CAB",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "taxi, cab, taxicab, hack, hackney carriage, cabriolet",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "car",
+    "Transcription": "",
+    "Russian": "автомобиль",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "car, vehicle, automobile, auto, motor vehicle, motor car",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "vocabulary",
+    "Transcription": "",
+    "Russian": "словарь",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "dictionary, vocabulary, glossary, lexicon, thesaurus, wordbook",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "aggradational",
+    "Transcription": "",
+    "Russian": "наносных",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 1
+  },
+  {
+    "Index": 0,
+    "English": "dodgery",
+    "Transcription": "",
+    "Russian": "мошенничество",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "knavery, fake, jugglery, dodgery, juggle",
+    "Rating": 3
   }
 ]

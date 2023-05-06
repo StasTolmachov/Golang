@@ -23,38 +23,43 @@
     <table>
         <thead>
             <tr>
-
+                <th>Action</th>
                 <th>English</th>
                 <th>Transcription</th>
-                <th>Русское слово</th>
+                <th>Translation</th>
+                <th>Synonyms</th>
+                <th>PartOfSpeech</th>
                 <th>Rating</th>
-                <th>Action</th>
+
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td contenteditable="Rating" id="newEnglish"></td>
-                <td contenteditable="Rating" id="newTranscription"></td>
-                <td contenteditable="Rating" id="newRussian"></td>
-                <td contenteditable="Rating" id="newRating">0</td>
-
                 <td>
                     <button type="button" onclick="handleAddClick()">Add</button>
                 </td>
+                <td contenteditable="true" id="newEnglish"></td>
+                <td contenteditable="true" id="newTranscription"></td>
+                <td contenteditable="true" id="newRussian"></td>
+                <td contenteditable="true" id="newSynonyms"></td>
+                <td contenteditable="true" id="newPartOfSpeech"></td>
+                <td contenteditable="true" id="newRating">0</td>
+
+
             </tr>
             {{range $index, $element := .}}
             <tr>
-
-                <td contenteditable="Rating" id="English{{$index}}"><a href="#"
-                        onclick="handleEnglishClick({{$index}})">{{$element.English}}</a></td>
-
-                <td contenteditable="Rating" id="Transcription{{$index}}">{{$element.Transcription}}</td>
-                <td contenteditable="Rating" id="Russian{{$index}}">{{$element.Russian}}</td>
-                <td contenteditable="Rating" id="Rating{{$index}}">{{$element.Rating}}</td>
                 <td>
                     <button type="button" onclick="handleSaveClick({{$index}})" id="saveButton{{$index}}">Save</button>
                     <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
                 </td>
+                <td contenteditable="true" id="English{{$index}}">{{$element.English}}</td>
+                <td contenteditable="true" id="Transcription{{$index}}">{{$element.Transcription}}</td>
+                <td contenteditable="true" id="Russian{{$index}}">{{$element.Russian}}</td>
+                <td contenteditable="true" id="Synonyms{{$index}}">{{$element.Synonyms}}</td>
+                <td contenteditable="true" id="PartOfSpeech{{$index}}">{{$element.PartOfSpeech}}</td>
+                <td contenteditable="true" id="Rating{{$index}}">{{$element.Rating}}</td>
+
             </tr>
             {{end}}
 
@@ -89,6 +94,8 @@
         const English = document.getElementById("English" + index).innerText;
         const Transcription = document.getElementById("Transcription" + index).innerText;
         const Russian = document.getElementById("Russian" + index).innerText;
+        const Synonyms = document.getElementById("Synonyms" + index).innerText;
+        const PartOfSpeech = document.getElementById("PartOfSpeech" + index).innerText;
         const Rating = parseInt(document.getElementById("Rating" + index).innerText, 10);
 
         if (isNaN(Rating)) {
@@ -97,10 +104,12 @@
         }
 
         const requestData = {
-            Index,
+            index,
             English,
             Transcription,
             Russian,
+            Synonyms,
+            PartOfSpeech,
             Rating,
         };
 
@@ -159,8 +168,4 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
-    function handleEnglishClick(index) {
-        window.location.href = `/element-info/${index}`;
-    }
-
 </script>
