@@ -1,100 +1,23 @@
 [
   {
     "Index": 0,
-    "Norg": "hva",
+    "Norg": "dusk",
     "Transcription": "",
-    "Rus": "что",
-    "True": 3
+    "Rus": "сумерки",
+    "True": 0
   },
   {
     "Index": 0,
-    "Norg": "lese",
+    "Norg": "wednesday",
     "Transcription": "",
-    "Rus": "читать",
-    "True": 3
+    "Rus": "среда",
+    "True": 0
   },
   {
     "Index": 0,
-    "Norg": "hvor",
+    "Norg": "farm",
     "Transcription": "",
-    "Rus": "где",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "hvilke",
-    "Transcription": "",
-    "Rus": "какие",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "skrive",
-    "Transcription": "/skri:ve/",
-    "Rus": "писать",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "hvilke",
-    "Transcription": "",
-    "Rus": "какие",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "vaske",
-    "Transcription": "",
-    "Rus": "мыть",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "hvordan",
-    "Transcription": "",
-    "Rus": "как",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "forstå",
-    "Transcription": "",
-    "Rus": "понимать",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "lærer",
-    "Transcription": "",
-    "Rus": "учитель",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "se",
-    "Transcription": "",
-    "Rus": "видеть",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "mat",
-    "Transcription": "",
-    "Rus": "еда",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "går",
-    "Transcription": "",
-    "Rus": "идти",
-    "True": 4
-  },
-  {
-    "Index": 0,
-    "Norg": "hvilke",
-    "Transcription": "",
-    "Rus": "какие",
-    "True": 4
+    "Rus": "ферма",
+    "True": 0
   }
 ]

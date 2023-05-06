@@ -1,14 +1,40 @@
 {{template "header"}}
+<style>
+    #norge-text {
+        font-size: 48px;
+    }
+</style>
 <main>
     <h2></h2>
     <h3 class="rus-text">{{.Rus}}</h3>
-    <h3 class="rus-text">{{.Norg}}</h3>
+    <h3 class="rus-text" id="norge-text">{{.Norg}}</h3>
     <h3 class="rus-text">{{.Transcription}}</h3>
+    <button id="speak-button" class="btn btn-info">Воспроизвести</button>
     <form action="/word" method="POST">
-
-
         <button class="btn btn-warning" autofocus>next</button>
     </form>
-
 </main>
 {{template "footer"}}
+
+<script>
+    function speak(text) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        window.speechSynthesis.speak(utterance);
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+        const norgeTextElement = document.getElementById("norge-text");
+        const speakButton = document.getElementById("speak-button");
+        if (norgeTextElement && speakButton) {
+            const norgeText = norgeTextElement.textContent;
+
+            // Воспроизвести текст автоматически при загрузке страницы
+            speak(norgeText);
+
+            // Воспроизвести текст при нажатии на кнопку
+            speakButton.addEventListener("click", () => {
+                speak(norgeText);
+            });
+        }
+    });
+</script>

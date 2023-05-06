@@ -19,15 +19,16 @@
 </style>
 <main>
     <h1></h1>
+    <h3>Elements: {{len .}}</h3>
     <table>
         <thead>
             <tr>
 
-                <th>Норвежское слово</th>
-                <th>Транскрипция</th>
+                <th>English</th>
+                <th>Transcription</th>
                 <th>Русское слово</th>
-                <th>Рейтинг</th>
-                <th>Действие</th>
+                <th>Rating</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -38,7 +39,7 @@
                 <td contenteditable="true" id="newTrue">0</td>
 
                 <td>
-                    <button type="button" onclick="handleAddClick()">Добавить</button>
+                    <button type="button" onclick="handleAddClick()">Add</button>
                 </td>
             </tr>
             {{range $index, $element := .}}
