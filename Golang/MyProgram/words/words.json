@@ -1,5 +1,6 @@
 [
   {
+    "Index": 0,
     "English": "license",
     "Transcription": "",
     "Russian": "лицензия",
@@ -13,16 +14,7 @@
     "Rating": 0
   },
   {
-    "English": "office",
-    "Transcription": "",
-    "Russian": "офис",
-    "PartOfSpeech": "имя существительное",
-    "Synonyms": [
-      "office"
-    ],
-    "Rating": 0
-  },
-  {
+    "Index": 0,
     "English": "vagina",
     "Transcription": "",
     "Russian": "влагалище",
@@ -35,6 +27,33 @@
       "axil",
       "front passage"
     ],
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "friday",
+    "Transcription": "",
+    "Russian": "",
+    "PartOfSpeech": "",
+    "Synonyms": null,
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "Friday",
+    "Transcription": "",
+    "Russian": "Пятница",
+    "PartOfSpeech": "",
+    "Synonyms": null,
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "twice",
+    "Transcription": "",
+    "Russian": "дважды",
+    "PartOfSpeech": "",
+    "Synonyms": null,
     "Rating": 0
   }
 ]

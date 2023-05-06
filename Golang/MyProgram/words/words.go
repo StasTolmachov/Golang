@@ -86,6 +86,28 @@ func main() {
 	// 	return
 	// }
 
+	jsonFileGoogle, err := os.Open("eng-rus_Google.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Читаем содержимое файла
+	jsonDataGoogle, err := ioutil.ReadAll(jsonFileGoogle)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonDataGoogle, &GoogleDict)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+
 	log.Println("started http.ListenAndServe localhost:8080/word")
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/index", index)
@@ -163,32 +185,6 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	jsonFile, err := os.Open("eng-rus_Google.json")
-	if err != nil {
-		fmt.Println("Ошибка создания файла:", err)
-		return
-	}
-	defer jsonFile.Close()
-
-	// Читаем содержимое файла
-	jsonData, err := ioutil.ReadAll(jsonFile)
-	if err != nil {
-		fmt.Println("Ошибка чтения файла:", err)
-		return
-	}
-
-	// Десериализуем JSON в структуру
-
-	err = json.Unmarshal(jsonData, &GoogleDict)
-	if err != nil {
-		fmt.Println("Ошибка десериализации:", err)
-		return
-	}
-
-	err = tmpl.Execute(w, GoogleDict)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-	}
 	if r.FormValue("English") != "" {
 		// lastIndex := len(Words)
 		// WordValue.Index = lastIndex + 1
@@ -217,6 +213,11 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 			fmt.Println("Ошибка записи в файл:", err)
 			return
 		}
+	}
+
+	err = tmpl.Execute(w, GoogleDict)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 }
 
@@ -603,10 +604,10 @@ func searchWords(query string) []WordsStruct {
 		}
 	}
 
-		return results
-	}
+	return results
+}
 func wordsSearch(w http.ResponseWriter, r *http.Request) {
-	
+
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(GoogleDict)
 }
