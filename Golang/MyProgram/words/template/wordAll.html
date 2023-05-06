@@ -23,11 +23,11 @@
         <thead>
             <tr>
 
-                <th>Норвежское слово</th>
-                <th>Транскрипция</th>
-                <th>Русское слово</th>
-                <th>Рейтинг</th>
-                <th>Действие</th>
+                <th>Norwegian</th>
+                <th>Transcription</th>
+                <th>Translation</th>
+                <th>Rating</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -38,7 +38,7 @@
                 <td contenteditable="true" id="newTrue">0</td>
 
                 <td>
-                    <button type="button" onclick="handleAddClick()">Добавить</button>
+                    <button type="button" onclick="handleAddClick()">Add word</button>
                 </td>
             </tr>
             {{range $index, $element := .}}
@@ -50,8 +50,8 @@
                 <td contenteditable="true" id="True{{$index}}">{{$element.True}}</td>
                 <td>
                     <button type="button" onclick="handleSaveClick({{$index}})"
-                        id="saveButton{{$index}}">Сохранить</button>
-                    <button type="button" onclick="handleDeleteClick({{$index}})">Удалить</button>
+                        id="saveButton{{$index}}">Save</button>
+                    <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
                 </td>
             </tr>
             {{end}}

@@ -4,20 +4,13 @@
     "Norg": "hva",
     "Transcription": "",
     "Rus": "что",
-    "True": 3
+    "True": 4
   },
   {
     "Index": 0,
     "Norg": "lese",
     "Transcription": "",
     "Rus": "читать",
-    "True": 3
-  },
-  {
-    "Index": 0,
-    "Norg": "hvor",
-    "Transcription": "",
-    "Rus": "где",
     "True": 4
   },
   {
@@ -25,6 +18,13 @@
     "Norg": "hvilke",
     "Transcription": "",
     "Rus": "какие",
+    "True": 4
+  },
+  {
+    "Index": 0,
+    "Norg": "vaske",
+    "Transcription": "vaske",
+    "Rus": "мыть",
     "True": 4
   },
   {
@@ -43,9 +43,9 @@
   },
   {
     "Index": 0,
-    "Norg": "vaske",
+    "Norg": "går",
     "Transcription": "",
-    "Rus": "мыть",
+    "Rus": "идти",
     "True": 4
   },
   {
@@ -65,14 +65,14 @@
   {
     "Index": 0,
     "Norg": "lærer",
-    "Transcription": "",
+    "Transcription": "læ:rer",
     "Rus": "учитель",
     "True": 4
   },
   {
     "Index": 0,
     "Norg": "se",
-    "Transcription": "",
+    "Transcription": "se",
     "Rus": "видеть",
     "True": 4
   },
@@ -85,9 +85,9 @@
   },
   {
     "Index": 0,
-    "Norg": "går",
+    "Norg": "hvor",
     "Transcription": "",
-    "Rus": "идти",
+    "Rus": "где",
     "True": 4
   },
   {
