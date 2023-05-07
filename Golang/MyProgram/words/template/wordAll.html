@@ -57,11 +57,25 @@
         <thead>
             <tr>
                 <th>Action</th>
-                <th>English</th>
+                <th>Original</th>
                 <th>Transcription</th>
+
+                <th>Past Simple Singular</th>
+                <th>Transcription</th>
+
+                <th>Past Simple Plural</th>
+                <th>Transcription</th>
+
+                <th>Past Participle Singular</th>
+                <th>Transcription</th>
+
+                <th>Past Participle Plural</th>
+                <th>Transcription</th>
+
+
                 <th>Translation</th>
                 <th>Synonyms</th>
-                <th>PartOfSpeech</th>
+                <th>Part Of Speech</th>
                 <th>Rating</th>
 
             </tr>
@@ -71,11 +85,26 @@
                 <td>
                     <button type="button" onclick="handleAddClick()">Add</button>
                 </td>
-                <td contenteditable="true" id="newEnglish"></td>
-                <td contenteditable="true" id="newTranscription"></td>
-                <td contenteditable="true" id="newRussian"></td>
-                <td contenteditable="true" id="newSynonyms"></td>
-                <td contenteditable="true" id="newPartOfSpeech"></td>
+                <td contenteditable="true" id="newWordOriginal"></td>
+                <td contenteditable="true" id="newWordOriginalTranscription"></td>
+
+
+                <td contenteditable="true" id="WordOriginalPastSimpleSingular"></td>
+                <td contenteditable="true" id="WordOriginalPastSimpleSingularTranscription"></td>
+
+                <td contenteditable="true" id="WordOriginalPastSimplePlural"></td>
+                <td contenteditable="true" id="WordOriginalPastSimplePluralTranscription"></td>
+
+                <td contenteditable="true" id="WordOriginalPastParticipleSingular"></td>
+                <td contenteditable="true" id="WordOriginalPastParticipleSingularTranscription"></td>
+
+                <td contenteditable="true" id="WordOriginalPastParticiplePlural"></td>
+                <td contenteditable="true" id="WordOriginalPastParticiplePluralTranscription"></td>
+
+
+                <td contenteditable="true" id="newWordTranslated"></td>
+                <td contenteditable="true" id="newWordOriginalSynonyms"></td>
+                <td contenteditable="true" id="newWordOriginalPartOfSpeech"></td>
                 <td contenteditable="true" id="newRating">0</td>
             </tr>
             {{range $index, $element := .}}
@@ -84,11 +113,35 @@
                     <button type="button" onclick="handleSaveClick({{$index}})" id="saveButton{{$index}}">Save</button>
                     <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
                 </td>
-                <td contenteditable="true" id="English{{$index}}">{{$element.English}}</td>
-                <td contenteditable="true" id="Transcription{{$index}}">{{$element.Transcription}}</td>
-                <td contenteditable="true" id="Russian{{$index}}">{{$element.Russian}}</td>
-                <td contenteditable="true" id="Synonyms{{$index}}">{{$element.Synonyms}}</td>
-                <td contenteditable="true" id="PartOfSpeech{{$index}}">{{$element.PartOfSpeech}}</td>
+                <td contenteditable="true" id="WordOriginal{{$index}}">{{$element.WordOriginal}}</td>
+                <td contenteditable="true" id="WordOriginalTranscription{{$index}}">
+                    {{$element.WordOriginalTranscription}}</td>
+
+                <td contenteditable="true" id="WordOriginalPastSimpleSingular{{$index}}">
+                    {{$element.WordOriginalPastSimpleSingular}}</td>
+                <td contenteditable="true" id="WordOriginalPastSimpleSingularTranscription{{$index}}">
+                    {{$element.WordOriginalPastSimpleSingularTranscription}}</td>
+
+                <td contenteditable="true" id="WordOriginalPastSimplePlural{{$index}}">
+                    {{$element.WordOriginalPastSimplePlural}}</td>
+                <td contenteditable="true" id="WordOriginalPastSimplePluralTranscription{{$index}}">
+                    {{$element.WordOriginalPastSimplePluralTranscription}}</td>
+
+                <td contenteditable="true" id="WordOriginalPastParticipleSingular{{$index}}">
+                    {{$element.WordOriginalPastParticipleSingular}}</td>
+                <td contenteditable="true" id="WordOriginalPastParticipleSingularTranscription{{$index}}">
+                    {{$element.WordOriginalPastParticipleSingularTranscription}}</td>
+
+                <td contenteditable="true" id="WordOriginalPastParticiplePlural{{$index}}">
+                    {{$element.WordOriginalPastParticiplePlural}}</td>
+                <td contenteditable="true" id="WordOriginalPastParticiplePluralTranscription{{$index}}">
+                    {{$element.WordOriginalPastParticiplePluralTranscription}}</td>
+
+
+                <td contenteditable="true" id="WordTranslated{{$index}}">{{$element.WordTranslated}}</td>
+                <td contenteditable="true" id="WordOriginalSynonyms{{$index}}">{{$element.WordOriginalSynonyms}}</td>
+                <td contenteditable="true" id="WordOriginalPartOfSpeech{{$index}}">{{$element.WordOriginalPartOfSpeech}}
+                </td>
                 <td contenteditable="true" id="Rating{{$index}}">{{$element.Rating}}</td>
             </tr>
             {{end}}
@@ -120,11 +173,24 @@
     }
 
     function handleSaveClick(index) {
-        const English = document.getElementById("English" + index).innerText;
-        const Transcription = document.getElementById("Transcription" + index).innerText;
-        const Russian = document.getElementById("Russian" + index).innerText;
-        const Synonyms = document.getElementById("Synonyms" + index).innerText;
-        const PartOfSpeech = document.getElementById("PartOfSpeech" + index).innerText;
+        const WordOriginal = document.getElementById("WordOriginal" + index).innerText;
+
+        const WordOriginalPastSimpleSingular = document.getElementById("WordOriginalPastSimpleSingular" + index).innerText;
+        const WordOriginalPastSimpleSingularTranscription = document.getElementById("WordOriginalPastSimpleSingularTranscription" + index).innerText;
+
+        const WordOriginalPastSimplePlural = document.getElementById("WordOriginalPastSimplePlural" + index).innerText;
+        const WordOriginalPastSimplePluralTranscription = document.getElementById("WordOriginalPastSimplePluralTranscription" + index).innerText;
+
+        const WordOriginalPastParticipleSingular = document.getElementById("WordOriginalPastParticipleSingular" + index).innerText;
+        const WordOriginalPastParticipleSingularTranscription = document.getElementById("WordOriginalPastParticipleSingularTranscription" + index).innerText;
+
+        const WordOriginalPastParticiplePlural = document.getElementById("WordOriginalPastParticiplePlural" + index).innerText;
+        const WordOriginalPastParticiplePluralTranscription = document.getElementById("WordOriginalPastParticiplePluralTranscription" + index).innerText;
+
+        const WordOriginalTranscription = document.getElementById("WordOriginalTranscription" + index).innerText;
+        const WordTranslated = document.getElementById("WordTranslated" + index).innerText;
+        const WordOriginalSynonyms = document.getElementById("WordOriginalSynonyms" + index).innerText;
+        const WordOriginalPartOfSpeech = document.getElementById("WordOriginalPartOfSpeech" + index).innerText;
         const Rating = parseInt(document.getElementById("Rating" + index).innerText, 10);
 
         if (isNaN(Rating)) {
@@ -134,11 +200,22 @@
 
         const requestData = {
             index,
-            English,
-            Transcription,
-            Russian,
-            Synonyms,
-            PartOfSpeech,
+            WordOriginal,
+
+            WordOriginalPastSimpleSingular,
+            WordOriginalPastSimplePlural,
+            WordOriginalPastParticipleSingular,
+            WordOriginalPastParticiplePlural,
+
+            WordOriginalPastSimpleSingularTranscription,
+            WordOriginalPastSimplePluralTranscription,
+            WordOriginalPastParticipleSingularTranscription,
+            WordOriginalPastParticiplePluralTranscription,
+
+            WordOriginalTranscription,
+            WordTranslated,
+            WordOriginalSynonyms,
+            WordOriginalPartOfSpeech,
             Rating,
         };
 
@@ -162,9 +239,22 @@
             });
     }
     function handleAddClick() {
-        const English = document.getElementById("newEnglish").innerText;
-        const Transcription = document.getElementById("newTranscription").innerText;
-        const Russian = document.getElementById("newRussian").innerText;
+        const WordOriginal = document.getElementById("newWordOriginal").innerText;
+
+        const WordOriginalPastSimpleSingular = document.getElementById("WordOriginalPastSimpleSingular").innerText;
+        const WordOriginalPastSimpleSingularTranscription = document.getElementById("WordOriginalPastSimpleSingularTranscription").innerText;
+
+        const WordOriginalPastSimplePlural = document.getElementById("WordOriginalPastSimplePlural").innerText;
+        const WordOriginalPastSimplePluralTranscription = document.getElementById("WordOriginalPastSimplePluralTranscription").innerText;
+
+        const WordOriginalPastParticipleSingular = document.getElementById("WordOriginalPastParticipleSingular").innerText;
+        const WordOriginalPastParticipleSingularTranscription = document.getElementById("WordOriginalPastParticipleSingularTranscription").innerText;
+
+        const WordOriginalPastParticiplePlural = document.getElementById("WordOriginalPastParticiplePlural").innerText;
+        const WordOriginalPastParticiplePluralTranscription = document.getElementById("WordOriginalPastParticiplePluralTranscription").innerText;
+
+        const WordOriginalTranscription = document.getElementById("newWordOriginalTranscription").innerText;
+        const WordTranslated = document.getElementById("newWordTranslated").innerText;
         const Rating = parseInt(document.getElementById("newRating").innerText, 10);
 
         if (isNaN(Rating)) {
@@ -173,9 +263,20 @@
         }
 
         const requestData = {
-            English,
-            Transcription,
-            Russian,
+            WordOriginal,
+
+            WordOriginalPastSimpleSingular,
+            WordOriginalPastSimplePlural,
+            WordOriginalPastParticipleSingular,
+            WordOriginalPastParticiplePlural,
+
+            WordOriginalPastSimpleSingularTranscription,
+            WordOriginalPastSimplePluralTranscription,
+            WordOriginalPastParticipleSingularTranscription,
+            WordOriginalPastParticiplePluralTranscription,
+
+            WordOriginalWordOriginalTranscription,
+            WordTranslated,
             Rating,
         };
 

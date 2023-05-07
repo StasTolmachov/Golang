@@ -1,0 +1,4834 @@
+# Norwegian_bokmal-Russian dictionary created from OmegaWiki database
+# Created on: 2023-05-07T13:23:02+00:00
+# Licence: GNU Free Documentation Licence http://www.gnu.org/copyleft/fdl.html
+# Download updated version of this file at: https://www.dicts.info/uddl.php
+# Contact us at: https://www.dicts.info/contact.php
+(kjemisk stoff etter funksjon)	функциональность
+(vann etter naturområde)	воды
+AIDS	СПИД
+AOX-verdi	показатель абсорбции органических галогенов
+ASEAN	АСЕАН
+Abraham Lincoln	Авраам Линкольн
+Afrika	Африка
+Albania	Албания
+Algerie	Алжир ; Алжжирская Народная Демократическая Республика ; Алжирская Народная Демократическая Республика
+Amerika	Америка
+Amerikansk Samoa	Американское Самоа
+Ames-prøving	тест Эймса
+Amsterdam	Амстердам
+Andorra	Андорра
+Angola	Ангола
+Anguilla	Ангилья
+Antarktis	Антарктика
+Antigua og Barbuda	Антигуа и Барбуда
+Argentina	Аргентина
+Armenia	Армения
+Aruba	Аруба
+Aserbajdsjan	Азербайджан
+Asia	Азия
+Australia	Австралия
+Bahrain	Бахрейн
+Balearene	Балеарские острова
+Bangladesh	Бангладеш
+Beijing	Пекин
+Belgia	Бельгия
+Belize	Белиз
+Belmopan	Бельмопан
+Berlin	Берлин
+Bhutan	Бутан
+Bibelen	Библия
+Birmingham	Бирмингем
+Bolivia	Боливия
+Bonn	Бонн
+Borneo	Борне́о ; Калимантан
+Bosnia-Hercegovina	Босния и Герцеговина
+Botswana	Ботсвана
+Bouvetøya	Буве
+Brunei	Бруней
+Bulgaria	Болгария
+Burundi	Бурунди
+CD-ROM	лазерный диск
+Canada	Канада
+Caymanøyene	Каймановы острова
+Chelicerata	клешневидный
+Chihuahua	Чиуауа
+Chile	Чили
+Chordata	хордовые
+Cookøyene	Кука острова
+Cuba	Куба
+DDT	ДДТ
+DNA	ДНК ; дезоксирибонуклеиновая кислота
+Dagestan	Дагестан
+Dakar	Дакар
+De forente stater ; Amerikas forente stater	Соединённые Штаты Америки ; США
+De forente stater Mexico	Мексика
+Delaware	Делавэр
+Den arabiske republikk Egypt	Египет
+Den demokratiske folkerepublikk Laos	Лаос
+Den demokratiske republikken Kongo ; Kongo-Kinshasa	Демократическая Республика Конго
+Den dominikanske republikk	Доминиканская Республика
+Den europeiske union ; EU	Европейский Союз
+Den islamske republikk Iran	Иран
+Den sosialistiske arabiske folkerepublikk Libya	Ливия
+Den tyske demokratiske republikk	ГДР ; Германская Демократическая Республика
+Det britiske territoriet i Indiahavet	Британская территория в Индийском океане
+Det europeiske felleskaps domstol	Суд Европейского Союза
+Det europeiske miljøbyrået	Европейское агентство по охране окружающей среды
+Det europeiske miljørådet	Европейский Совет по охране окружающей среды
+Det europeiske valutafond	Европейский валютный фонд
+Det europeiske valutasystem	Европейская валютная система
+Det forente kongerike Storbritannia og Nord-Irland	Великобритания ; Соединённое Королевство Великобритании и Северной Ирландии
+Det hasjimittiske kongerike Jordan	Иордания
+Det internasjonale pengefond	Международный валютный фонд
+EF	Европейские Сообщества
+EIA (lokalt)	экологическая экспертиза (местн.)
+EIA ; miljøkonsekvensanalyse	оценка воздействия на окружающую среду, экологическая экспертиза
+EIA-direktiv	директива ЕС по экологической экспертизе
+EIA-lov	законы, регулирующие экологическую экспертизу
+EU-budsjett	бюджет Сообщества
+EU-direktiv	директива ЕС
+EU-finans	финансы ЕС
+EU-forordning	постановление, нормативный документ ЕС
+EU-forordning for eksisterende kjemikalier	постановление ЕС по известным химикатам
+EU-kjennelse	решение Сообщества
+EU-kommisjonen	Европейская Комиссия
+EU-lov	законы Сообщества
+EU-politikk	политика ЕС
+EU-regelverk for miljøstyring	постановление ЕС об экоменеджменте и аудите
+EU-rettsorden	правовая система ЕС
+EU-traktat	"Римский Договор" ; Римский Договор
+EUs direktiv for biocider	директива ЕС по биоцидам
+EUs drikkevannsdirektiv	директива ЕС по защите вод
+EUs fyllplassdirektiv	директива ЕС по утилизации отходов
+EUs miljømerking	экологическая маркировка в ЕС
+EUs ministerråd	Совет Министров ЕС (Совет Европейского Союза)
+Egeerhavet	Эгейское море
+El Salvador	Сальвадор
+Elfenbenskysten ; Republikken Elfenbenskysten	Кот-д'Ивуар
+England	Англия
+Eritrea	Эритрия
+Etiopia	Эфиопия
+Euratom	Евратом
+Europa	Европа
+Europaparlamentet	Европейский Парламент
+FN	Организация Объединенных Наций
+Falklandsøyane	Фолклендские острова
+Finland	Финляндия
+Flandern	Фландрия
+Flevoland	Флеволанд
+Forbundsrepublikken Tyskland	Германия
+Frankrike	Франция
+Fransk Guyana	Французская Гвиана
+Fransk Polynesia	Французская Полинезия
+Fuji-san	Фудзи
+Fyrstedømet Liechtenstein	Лихтенштейн ; Княжество Лихтенштейн
+Færøyene	Фарерские острова
+GEF	"Глобальный экологический фонд" - ГЭФ ; Глобальный экологический фонд ; ГЭФ
+GIS-laboratorium	лаборатория ГИС
+GIS-teknikk	цифровые средства ГИС
+Gabon	Габон
+Gaborone	Габороне
+Gazastripa	Сектор Газа
+Georgia	Грузия
+Ghana	Гана
+Godthåb	Нук
+Grenada	Гренада
+Grønland	Гренландия
+Guadeloupe	Гваделупа
+Guam	Гуам
+HKFK	частично галогенизированные хлорфторуглероды
+Haiti	Гаити
+Hannover	Ганновер
+Herkules	Геркулес
+Herkules ; Herakles	Геркулес
+Honduras	Гондурас
+Hviterussland	Беларусь ; Белоруссия
+IMKO-koden	код ИМКО (Межправительственная морская консультативная организация)
+ISO-standard	стандарт ИСО (Международной организации по стандартизации) ; стандарт ИСО
+IT-industri	индустрия информационных технологий
+Iliaden	Илиада
+India	Индия
+Indiahavet	Индийский океан
+Indonesia	Индонезия
+Indre	Эндр
+Influenza A/H5N1 ; H5N1	Подтип H5N1 вируса гриппа A ; A(H5N1) ; H5N1
+Internettet	Интернет
+Irak	Ирак
+Irland	Ирландия
+Island	Исландия
+Israel	Израиль
+Italia	Италия
+Jakarta	Джакарта
+Jamaica	Ямайка
+Japan	Япония
+Jemen	Йемен
+Jerevan	Ереван ; Эривань
+Jorda ; Tellus	Земля
+Jul ; jul	Рождество
+KFK- og halonforbud	запрет на хлорфторуглероды и галон
+Kairo	Каир
+Kambodsja	Камбоджа
+Karibhavet	Карибское море
+Karibien ; Karibia	Карибский регион
+Kasakhstan	Казахстан
+Kaspihavet	Каспийское море
+Khartoum	Хартум
+Kirgisistan	Киргизстан
+Kiribati	Кирибати
+Kongeriket_Nederlandene ; Nederland ; Kongeriket Nederlandene	Голландия
+Korfu	Корфу
+Kosovo	Косово и Метохия
+Kroatia	Хорватия
+Kyoto	Киото
+Kypros	Кипр
+København	Копенгаген
+Lagos	Лагос
+Latvia	Латвия
+Lausanne	Лозанна
+Lesotho	Лесото
+Liberia	Либерия
+Lisboa	Лиссабон
+Litauen	Литва
+Madagaskar	Мадагаскар
+Malawi	Малави
+Malaysia	Малайзия
+Malta	Мальта
+Markovkjede	цепь Маркова
+Marokko	Марокко
+Martinique	Мартиника
+Mauritania	Мавритания
+Mayotte	Майотта
+Mekka	Мекка
+Melkeveien	Млечный Путь
+Mellom-Amerika	Центральная Америка
+Merkur	Меркурий
+Middelhavet	Средиземное море
+Middelhavsområdet	средиземноморский регион
+Milano	Милан
+Milwaukee	Милуоки
+Monaco	Монако
+Montenegro	Черногория
+Montserrat	Монтсеррат
+Moskva	Москва
+München	Мюнхен
+NOEL	"не имеет выраженного действия"
+NOX	оксиды азота
+Nairobi	Найроби
+Namibia	Намибия
+Neptun	Нептун
+New Zealand ; Ny-Zealand	Новая Зеландия
+Nicaragua	Никарагуа
+Niedersachsen	Нижняя Саксония
+Niue	Ниуэ
+Nord-Afrika	Северная Африка
+Nord-Amerika	Северная Америка
+Nordatlanteren	северная часть Атлантического океана
+Nordishavet	Северный Ледовитый океан
+Norge ; Kongeriket Norge	Норвегия
+Ny-Caledonia	Новая Каледония
+Oceania	Океания
+Orléans	Орлеан
+Orthoptera	прямокрылые
+Oslo	Осло
+PAH	полициклический ароматический углеводород
+PCB	полихлорированный бифенил
+PR	общественные связи
+Pakistan ; Den islamske republikk Pakistan	Пакистан
+Panama	Панама
+Philadelphia	Филадельфия
+Polen	Польша
+Porifera	губки
+Portugal	Португалия
+Procaryota	прокариотный
+Protozoa	простейшие
+Puerto Rico	Пуэрто-Рико
+Påske	Пасха
+Qatar	Катар
+Republikken Maldivene ; Maldivene	Мальдивы
+Republikken Marshalløyene ; Marshalløyene	Маршалловы острова
+Rhône	Рона
+Rådet for Den europeiske union	Совет ЕС
+Sachsen	Саксония
+Saint-Pierre og Miquelon	Сен-Пьер и Микелон
+Sakhalin	Сахалин
+Seinen	Сена
+Senegal	Сенегал
+Sentral-Afrika	Центральная Африка
+Sentral-Asia	Центральная Азия
+Serbia	Сербия
+Serbia og Montenegro	Сербия и Черногория
+Skottland	Шотландия
+Skytten	Стрелец
+Slovakia	Словакия
+Sri Lanka	Шри-Ланка
+Steinbukken	Козерог
+Storbritannia	Великобритания
+Sudan	Судан
+Svartehavet	Черное море
+Sveits	Швейцария
+Sverige	Швеция
+Syria ; Den arabiske republikk Syria	Сирия
+Sør-Afrika	Южная Африка ; Южно-Африканская Республика ; ЮАР
+Sør-Amerika	Южная Америка
+Sør-Asia	Южная Азия
+Sørishavet	Антарктический (Южный) океан ; Антарктический океан ; Южный океан
+Sørøst-Asia	Юго-Восточная Азия
+T-bane	метро
+Taiwan	Тайвань
+Tanzania	Танзания
+Thüringen	Тюрингия
+Togo	Того
+Tokyo	Токио
+Toronto	Торонто
+Tsjekkia ; Den tsjekkiske republikk	Чехия
+Tunezja	Тунис
+Tyrkia	Турция
+Uganda	Уганда
+Ukraina	Украина
+Vaduz	Вадуц
+Vatikanstaten	Государство-город Ватикан
+Venus	Венера
+Verdensveven	Всемирная сеть
+Vest-Asia	Западная Азия
+Vest-Europa	Западная Европа
+Volga	Волга
+Wales	Уэльс
+Wallis og Futuna	Острова Уоллис и Футуна
+Zambia	Замбия
+abiotisk faktor	абиотический фактор
+abiotisk miljø	абиотическая среда
+absorpsjon	абсорбция
+absorpsjon av forurensende stoff	абсорбция загрязняющих веществ
+actinium	актиний
+actinoid	актиниды
+adapsjonsfrist	период адаптации
+adekvat matforsyning	достаточное обеспечение продуктами питания
+adhesjonsmiddel	адгезивные вещества
+adjektiv	имя прилагательное
+administrasjon	администрация ; управление
+administrativ grense	административная граница
+administrativ instruks	административная подготовка
+administrativ kompetanse	компетентность административного персонала
+administrativ ordre	административный приказ
+administrativ organisasjon	административная организация
+administrativ sanksjon	административная санкция
+administrativt organ	административный орган
+administrativt yrke	административная должность
+adsorpsjon	адсорбция
+adverb	наречие
+advokatstanden	юрист как профессия
+aerob behandling	аэробная обработка
+aerob prosess	аэробный процесс
+aerobiologi	аэробиология
+aerodynamisk støy	аэродинамический шум
+aerosol	аэрозоль
+aforisme	афоризм
+afrikaans	африкаанс
+aggressiv	нападающий
+agronomi	агрономия
+agronomisk verdi	цена на сельхозпродукцию
+agrosystem	агросистема
+akkumulator	аккумуляторная батарея
+akseptabelt daglig inntak	допустимая суточная норма потребления
+akseptabelt risikonivå	приемлемый уровень риска
+akseptert fremgangsmåte	обычаи и практика
+aksjonsgruppe	группа активистов
+aktiv deltakelse	активное участие
+aktivkull	активированный уголь
+aktivslam	активный ил
+akustikk	акустика
+akustisk egenskap	акустические свойства
+akustisk filter	акустический фильтр
+akustisk komfort	акустический комфорт
+akustisk kvalitet	акустическое свойство
+akustisk nivå	уровень звука
+akvakultur	аквакультура
+akvamarin	аквамарин
+akvarium	аквариум
+akvatisk dyr	водное животное
+akvatisk miljø	водная среда
+akvatisk organisme	водный организм
+akvatisk økologi	экология водной среды
+akvatisk økosystem	водная экосистема
+akvedukt	акведук
+akvifer	водоносный пласт
+alarm	тревога
+albinisme	aльбинизм
+albue	локоть
+alder	возраст
+alfabet	алфавит
+alfastråling	альфа-излучение
+alge	водоросль
+algebra	алгебра
+algemiddel	алгицид
+algeoppblomstring	рост водорослей
+algoritme	алгоритм
+alibi	алиби
+alifatisk forbindelse	алифатическое соединение
+alifatisk hydrokarbon	алифатический углеводород
+alisyklisk forbindelse	алициклическое соединение
+alisyklisk hydrokarbon	алициклический углеводород
+alkalijord	щелочная почва
+alkalimetall	химический элемент группы I
+alkalisk batteri	щелочной элемент питания
+alkan	алкан
+alkoholer	алкоголь
+alkoholisme	алкоголизм
+alkylforbindelse	алкильное соединение
+alkymi	алхимия
+alkymist	алхимик
+allemannsretten	общественное землепользование
+allergi	аллергия
+allergifremkallende stoff	аллерген
+allmenndannelse	общее образование
+allokering	распределение
+allotropi	аллотропия
+allsidig jordbruk	смешанное фермерское хозяйство
+almanakk	альманах
+alternativ energi	нетрадиционный источник энергии
+alternativ teknologi	альтернативная технология
+alternativt materiale	альтернативный материал
+aluminium	алюминий
+aluminiumboks	алюминиевый контейнер
+aluminiuminnhold	содержание алюминия
+aluminiumoksid	глинозем
+aluminiumsindustri	алюминиевая промышленность
+alveole	альвеола
+amalgam	амальгама
+ambolt	наковальня
+ambulanse	скорая помощь
+americium	америций
+amerikansk fotball	американский футбол
+ametyst	аметист
+amfetamin	амфетамин
+amfibie	амфибии
+amin	амин
+aminosyre	аминокислота
+ammoniakk	аммиак
+ammoniakkdannelse	аммонификация
+ammonium	аммоний
+anaerob behandling	анаэробная обработка
+anaerob prosess	анаэробный процесс
+anagram	анаграмма
+anakondaer	анаконда
+analogi	аналогия
+analyse	анализ
+analyseutstyr	аналитическое оборудование
+analytisk kjemi	аналитическая химия
+analytisk metode	аналитический метод
+anarkisme	aнархизм
+anatomi	анатомия
+anbefaling	рекомендация
+and	утка
+andefugl	лебеди, гуси и утки
+angriper	противник
+angst	фобия
+animalsk føde	питание животных
+animalsk produkt	животноводческая продукция
+anion	анион
+anke	апелляция
+anker	якорь
+anleggsarbeid	строительная работа
+anleggsoptimering	оптимизация установок
+anleggsutstyr	строительное оборудование
+annonse	реклама
+anriket uran	обогащенный уран
+anriking	обогащение
+ansikt	лицо
+ansvarslovgivning	законы, регулирующие ответственность
+antagonisme	антагонизм
+antarktisk økosystem	экосистема Антарктики
+antatt kunnskap	врожденное знание
+antenne	антенна
+antibiotika ; antibiotikum	антибиотик
+antimon	сурьма
+antipartikkel	античастица
+antistoff	антитело
+antrekk	наряд
+antropologisk reservat	антропологический заповедник
+anvendt ernæringsvitenskap	прикладная диететика
+anvendt forskning	прикладное исследование
+anvendt vitenskap	прикладная наука
+anvendt økologi	прикладная экология
+apartheid	апартеид
+apoptose	апоптоз
+appelsin	апельсин
+arabisk	арабский
+arbeid	труд
+arbeidskraft	рабочая сила
+arbeidsledighet	безработица
+arbeidslivsrelasjon	трудовые отношения
+arbeidsmarked	рынок труда
+arbeidsplass	рабочее место
+arbeidsrett	трудовое право
+arbeidstilsynsforskrift	нормативный документ в области техники безопасности
+arbeidsulykke	авария на производстве
+arboret	ботанический сад
+areal som gjødsles med avløpsvann	поля аэрации
+arealbruk	землепользование
+arealbruksklassifisering	классификация землепользования
+arealbruksplan	планирование распределения материально-сырьевых ресурсов
+arealbruksplan	план использования земли
+arealbruksplanlegging	планирование землепользования
+arealbruksplanlegging	планирование окружающей физической среды
+arealbruksregime	режим использования земли
+arealdekke	земляной покров
+arealforvaltning og -planlegging	планирование и управление землепользованием
+arealforvaltningsområde	район с правом проведения проверки использования земли
+arealokkupasjon	расселение на суше
+arealplanlegging	планирование земель
+arealtildeling	отвод земельных участков
+arealutvikling	развитие земель
+argon	аргон
+aristokrati	аристократия
+aritmetikk	арифметика
+arkeologi	археология
+arkeologisk	археологический
+arkeologisk funnsted	археологическая площадка
+arkipel	архипелаг
+arkitektur	архитектура
+arkiv	архив
+arktisk økosystem	экосистема Арктики
+armatur	санитарно-техническое оборудование
+armensk	армянский
+armhule	подмышка
+aromatisk forbindelse	ароматические соединения
+aromatisk hydrokarbon	ароматический углеводород
+aromatisk stoff	ароматическое вещество
+arsen	мышьяк
+art	виды
+articulata	членистые
+artsgeografi	хорология
+artsvern	охрана видов
+arvestoff	ген
+asbest	асбест
+asbestose	асбестоз
+asbestsement	асбестоцемент
+asfalt	асфальт
+aske (forurensning)	зола
+askebeger	пепельница
+asket	аскет
+assay	качественный и количественный анализ
+assimilasjon	ассимиляция
+assimilere	усваивать
+assistere	ассистировать
+assortert	сортированный
+astat	астат
+astenosfære	астеносфера
+asteroide	астероид
+astrologi	астрология
+astrometri	астрометрия
+astronautikk	астронавтика
+astronom	астроном
+astronomi	астрономия
+atferd (biologi) ; atferd	поведение
+atferdsmønster	манера поведения
+atferdsvitenskap	наука о поведении живых организмов
+atlas	атлас
+atmosfære	атмосфера
+atmosfærefysikk	физика атмосферы ; Физика атмосферы
+atmosfærekjemi	химия атмосферы
+atmosfærepartikkel	атмосферная частица
+atmosfæresirkulasjon	циркуляция атмосферы
+atmosfærevitenskap	наука об атмосфере
+atmosfærisk aerosol	атмосферный аэрозоль
+atmosfærisk forurensning	загрязнение атмосферы
+atmosfærisk komponent	компонент атмосферы
+atmosfærisk korreksjon	поправки на атмосферу
+atmosfærisk lagdeling	слои атмосферы
+atmosfærisk nedfall	выпадение осадков из атмосферы
+atmosfærisk ozon	атмосферный озон
+atmosfærisk prosess	атмосферный процесс
+atmosfærisk sammensetning	состав атмосферы
+atmosfærisk struktur	структура атмосферы
+atoll	атолл
+atomreaktor	ядерный реактор
+atomulykke	ядерная авария
+atrazin	атразин
+attributt	атрибут
+audiovisuell presentasjon	аудиовизуальное представление
+audiovisuelt medium	аудиовизуальные средства
+audiovisuelt utstyr	аудиовизуальное оборудование
+autorativt organ	орган власти
+autorisasjon	санкционирование
+autoritativ	авторитетный
+autoritær	авторитарный
+autoøkologi	автоэкология
+avfall	отходы
+avfall i pastaform	пастообразные отходы
+avfalls- og slamkompost	компост из сточного ила и отходов
+avfallsdisponering på land	утилизация мусора в землю
+avfallsdisponeringslov	закон в области утилизации отходов
+avfallsdumping	сброс мусора
+avfallsdumping i havet	сброс мусора в море
+avfallsforbrenning	сжигание отходов
+avfallsutvunnet brennstoff	топливо, произведенное из отходов
+avfetting	удаление жира
+avgiftning	обезвреживание ядовитых веществ
+avhandling	тезис
+avifauna	авифауна
+avikultur	птицеводство
+avis	газета
+avkastning	урожай
+avkastning	доход
+avklorering	дехлорирование
+avl	разведение растений и животных
+avleiringsstrand	илистый участок
+avlekkingsvæske fra fyllplass	жидкость, образовавшаяся в мусорной яме
+avlingsvern	защита посевов
+avlsmetode	методы животноводства
+avløp (VA-teknikk)	сточная вода
+avløp i fellessystem	смешанные сточные воды
+avløpsregime	дебит реки
+avløpssystem for regnvann	система для стока дождевой воды
+avløpsvann	сточные воды
+avløpsvannbehandling på stedet	очистка стоков "на месте"
+avløpsvannrensing	очистка сточных вод
+avregulering	либерализация
+avsalting	опреснение
+avsalting av vann	опреснение воды
+avsaltingsanlegg	опреснительная установка
+avsetning (litosfære)	отложение осадочных материалов
+avskoging	сведение лесов
+avskrekking	устрашение
+avskrekkingsmiddel	сдерживающий фактор
+avtale	соглашение
+avtapning av underjordisk vann	эксплуатация подземных водных ресурсов
+avvannet slam	высушенный ил
+avverge	предотвращать
+bacon	бекон
+badevann	водоемы для купания
+bakepulver	разрыхлитель
+baker	пекарь
+bakgrunnsnivå	фоновый уровень
+bakgrunnsstråling	фоновый уровень радиации
+bakgrunnsstøy	фоновый шум
+bakterie	бактерии
+bakteriedrepende middel	бактерицид
+bakteriefilter	бактериальный слой
+bakteriologi	бактериология
+bakteriologisk forurensning	бактериологическое загрязнение
+balanse	баланс
+ballade	баллада
+ballsal	бальный зал
+bankeforbygning	защита берегов
+bankvirksomhet	банковские операции
+barium	барий
+barn	ребенок
+barnebarn	внук
+barnebegrensning	контроль за рождаемостью
+barnedødelighet	детская смертность
+barnelege	педиатр
+baron	барон
+barskog	хвойный лес
+bartre	хвойные
+bartre	хвойное дерево
+baseball	бейсбол
+baser	основа
+basidiomycete	базидиомицеты
+basisitet	основность (хим.)
+baskisk	баскский
+basseng ; svømmebasseng	бассейн
+batteri	аккумулятор
+batteridisponering	утилизация использованных аккумуляторов
+bearbeidet landbruksprodukt	переработанная сельскохозяйственная продукция
+bearbeidet matvare	обработанный продукт питания
+bebygd område	застроенная территория
+bebyggelse	населенный пункт
+bedriftshelsetjeneste	профессиональное здравоохранение
+bedriftsmedisin	производственная медицина
+bedriftsnedleggelse	закрытие фирмы
+bedriftspolitikk	политика компании
+bedriftsøkonomi	экономика предпринимательства
+befolkning	население
+befolkningsforflytning	движение населения
+befolkningsmigrasjon	миграция людей
+befolkningssammensetning	состав населения
+befolkningsstruktur	структура населения
+befolkningstetthet	плотность населения
+befolkningsutvikling	демографическая эволюция
+befolkningsutvikling	тенденция численности населения
+befolkningsvekst	рост населения
+begjærlig	жаждущий
+begroing	обрастание ракушками и водорослями
+begroingshindrende middel	антиводорослевый реагент
+begynneropplæring	начальное образование
+behandling	переработка
+behandling av avling	обработка сельскохозяйственных культур химикатами
+beholder	контейнер
+behov	потребность, необходимость ; потребность ; необходимость
+bein	нога
+beiseanlegg	завод по травлению металлов
+beitemark	пастбищное угодье
+beiting	пастбище
+bekjemping	контроль за вредителями
+bekjempingsmiddelinteraksjon	взаимодействие пестицидов
+bekjempingsmiddelpersistens	инерция пестицидов
+bekk	ручей
+bekk	небольшой залив
+bekledningsindustri	производство одежды
+bekvemmelighetsflagg	"удобный" флаг
+belastet område	районы напряженной экологической обстановки
+belastningskilde	источник отрицательного воздействия
+belegg	покрытие
+belysning	освещение
+bensin	бензин ; моторное топливо
+bensinmotor	бензиновый двигатель
+bensinstasjon	заправочная станция
+bentisk område	слой бентоса
+bentos	бентос
+benzen	бензин
+benzopyren	бензопирен
+beplantning	посадка деревьев
+beredskapsplan	план на случай чрезвычайной ситуации
+beregning	калькуляция
+beregningsmetode	метод калькуляции
+bergart	порода
+bergverk	шахта
+bergverkslovgivning	закон в области разработки полезных ископаемых
+bergverksområde	район горных разработок
+bergverksregulering	нормативный документ, регулирующий разработку полезных ископаемых ; нормативный документ разработку полезных ископаемых ; регулирующий разработку полезных ископаемых
+berkelium	берклий
+beryllium	бериллий
+beskjæring	обрезка веток
+beskyttelse av industrieiendom	права на промышленную собственность
+beskyttelse fra naboer	охрана от соседей
+beskyttet art	охраняемые виды
+beslutning	решение
+beslutningsprosess	процесс принятия решения
+beslutningsstøtte	поддержка процесса принятия решений
+beslutningsstøttesystem	система обеспечения принятия решений
+bestefar	дед
+bestemmelsesmetode	метод детерминации
+bestemmelsessted for transport	пункт назначения при транспортировке
+bestråling	облучение
+betastråling	бета-излучение
+betjening av lån	обслуживание долга (фин.-экон.)
+betong	бетон
+betongproduktindustri	производство изделий из бетона
+bever	бобр
+bevissikring	сохранение доказательства
+bibliografi	библиография
+bibliografisk informasjon	библиографическая информация
+bibliografisk informasjonssystem	библиографическая информационная система
+bibliotek	библиотека
+bibliotekstjeneste	библиотечное обслуживание
+bie	пчела
+bifangst	сопутствующий улов
+bikube	улей
+bil	автомобиль
+bilateral konvensjon	двусторонняя конвенция
+bildebehandlingsystem	цифровая система обработки изображений
+bildeelement	пиксел
+bildefiltrering	фильтрация изображений
+bildeforbedring	усиление изображений
+bildekk	автомобильная шина
+bildeklassifisering	классификация изображений
+bilderegistrering	регистрация изображений
+bilindustri	автомобильная промышленность
+bille	жук
+bioakkumulering	бионакопление
+biobrensel	биотопливо
+biocid	биоцид
+biocønose	биоценоз
+bioenergi	энергия биомассы
+bioetikk	биоэтика
+biofysikk	биофизика
+biogass	биогаз
+biogeografi	биогеография
+biogeografisk område	биогеографический регион
+biogeokjemisk kretsløp	биохимический цикл
+biokjemi	биохимия
+biokjemisk metode	биохимический метод
+biokjemisk oksygenforbruk	биохимическое потребление кислорода
+biokjemisk prosess	биохимический процесс
+biokjemisk stoff	биохимическое вещество
+bioklimatologi	биоклиматология
+biokonsentrasjonsfaktor	биоконцентрирующий фактор
+biologi	биология
+biologisk akkumulerende forurensende stoff	бионакопительное загрязняющее вещество
+biologisk analyse	биологический анализ
+biologisk arv	биологическое наследие
+biologisk avfallsbehandling	биологическая утилизация отходов
+biologisk avgassrensing	биологическая очистка отработанного газа
+biologisk avløpsvannbehandling	биологическая переработка жидких отходов
+biologisk bekjemping	биологические меры борьбы с вредителями
+biologisk dam	лагуна
+biologisk egenskap	биологические свойства
+biologisk filtrering	биофильтрация
+biologisk forurensning	биологическое загрязнение
+biologisk indikator	биологический индикатор
+biologisk kontaminering	биологическое заражение
+biologisk kretsløp	биологический цикл
+biologisk mangfold	биоразнообразие
+biologisk nedbrytbarhet	способность к биодеградации
+biologisk nedbrytbart forurensende stoff	биодеградирующее загрязняющее вещество
+biologisk nedbryting	биодеградация
+biologisk overvåking	биологический мониторинг
+biologisk produksjon	биологическое производство
+biologisk prosess	биологический процесс
+biologisk rensing	биологическая обработка
+biologisk reservat	биологический заповедник
+biologisk ressurs	биологический ресурс
+biologisk testing	биологический опыт
+biologisk tilgjengelighet	биополезность
+biologisk utvikling	биологическое  развитие
+biologisk virkning	биологический эффект
+biologisk virkning av forurensning	биологический результат загрязнения
+biologisk våpen	биологическое оружие
+bioluminescens	биолюминесценция
+biom	биом
+biomarkør	биоиндикатор
+biomasse	биомасса
+bioreaktor	биореактор
+biorytme	биоритм
+biosfære	биосфера
+biosfærisk reservat	биосферный заповедник
+biosikkerhet	биобезопасность
+biosyntese	биосинтез
+bioteknikk	биоинженерия
+bioteknologi	биотехнология
+bioteknologi i landbruket	сельскохозяйственная биотехнология
+bioteknologisk fare	биотехнологическая угроза
+biotisk faktor	биотический фактор
+biotisk indeks	биотический индекс
+biotop	биотоп
+biotopforordning	законодательный акт по вопросам биотопа
+biotopnettverk	система биотопов
+biotoptap	потеря биотопа
+biotopvern	защита биотопов
+biovitenskap	науки о жизни
+biprodukt	сопутствующий продукт
+birøkt	пчеловодство
+biskop	епископ
+bitumen	битум
+bivern	охрана пчел
+bivirkning	побочный эффект
+bjørner	медвежьи
+blad	лист
+bladgrønnsak	зеленый овощ
+bladmose	мох
+blandbarhet	способность к смешиванию
+blandet forurensning	смешанное загрязнение
+blanding	смешивание
+blandingsskog	смешанный лес
+bleie	подгузник
+blekekalk	отбеливающая глина
+blekemiddel	отбеливающий реагент
+blekeprosess	процесс отбеливания
+blekk	чернила
+blekkfjerning	удаление типографской краски
+blekksprut	цефалоподы
+blende	ослеплять
+blod	кровь
+blodplasma	плазма крови
+blogg	блог
+blomst	цветок
+blomsterplante	цветочное растение
+blomsterplante ; dekkfrøet plante	покрытосеменные ; цветочное растение
+bly	свинец
+blyant	карандаш
+blyforbindelse	соединение свинца
+blynivå i blod	уровень свинца в крови
+blå	синий ; голубой
+blågrønnalge	сине-зеленые водоросли
+blødning	кровоизлияние
+bløtdyr	моллюск
+boblepolitikk	политика зачета уровней выброса
+bocage	бокаж
+bohrium	борий
+bok	книга
+bokføring	бухгалтерия
+bokholderi	бухгалтерский учет
+bokmål	букмол
+bolig	жилище
+boligbyggingsprogram	программа жилищного строительства
+boligforbedring	улучшение качества жилища
+bolighus	жилой дом
+boliglovgivning	законодательство в области жилищного строительства
+boligområde	жилой район
+boligområde med fartsdempere	жилой район с дорогами, оборудованными устройствами по контролю за скоростью
+boligstøy	бытовой шум
+boligtetthet	плотность городской застройки
+bomull	хлопок
+bonsai	бонсай
+bor	бор
+boreinstallasjon	буровая установка
+borgerinitiativ	гражданская инициатива
+borgermester	мэр
+borgerrettigheter	гражданские права
+boring	бурение
+bosetningsforvaltning	управление населенными пунктами
+bosnisk	боснийский
+bot	штраф
+botanikk	ботаника
+botanisk hage	ботанический сад
+botanisk vinterhage	ботанический заповедник
+brakkområde	участки земли под паром
+brakkvann	солоноватая вода
+brann	огонь
+brannfarlig produkt	горючий продукт
+brannhemmende middel	негорючий реагент
+brannsikring	мера пожарной безопасности
+brannsikringskrav	требование пожарной безопасности
+brannstiftelse	поджог
+brannvern	пожарная безопасность
+brannvesen	пожарная служба
+bre	ледник
+breddegrad	широта
+bregne	папоротник
+brennalkohol	топливный спирт
+brennbarhet	способность к горению
+brennbart materiale	легковоспламеняющееся вещество
+brennelement	элемент ядерного топлива
+brenngass	выхлопной газ
+brennolje	топливные нефтепродукты
+brennstoffsammensetning	состав топлива
+brennstofftankanlegg	установка топливного бака
+brensel	топливо
+brenselcelle	топливный элемент
+brenselforbruk	потребление топлива
+brenselstilsetning	топливная добавка
+bretonsk	бретонский
+briller	oчки
+brom	бром
+bru	мост
+bruk av atomenergi	использование ядерной энергии
+bruksdyr	домашний скот
+brunkull	лигнит
+brunkullbryting	добыча лигнита
+brutto nasjonalinntekt	валовый национальный продукт
+brutto nasjonalprodukt	валовый внутренний продукт
+brønn	скважина
+budsjett	бюджет
+budsjettpolitikk	бюджетная политика
+bue ; boge	лук
+bueskytter	лучник
+bukspyttkjertelen	поджелудочная железа
+bukt	бухта
+bukt	залив
+bulgarsk	болгарский
+bunnforsegling av fyllplass	гидроизоляция мусорной ямы
+bunnvann (skip)	трюмная вода
+busk	кустарник
+buskvegetasjon	кустарниковые заросли
+buss	автобус
+busstasjon	автобусная остановка
+butikk	магазин (торг.) ; магазин
+butikksenter	торговый центр
+by	город
+bygg	ячмень
+bygg og anlegg ; bygning	здание ; постройка
+bygge- og anleggsteknologi	гражданское строительство
+bygge- og anleggsteknologi	строительная технология
+byggeavfall	отходы строительства
+byggeforskrift	нормативный документ в области строительства
+byggeområde	строительные площади
+byggeplanlegging	планирование строительства
+byggeplass	строительная площадка
+byggepolitikk	политика в области строительства
+byggestøy	строительный шум
+byggeteknikk	строительная технология
+byggetillatelse	разрешение на строительство
+byggevareindustri	промышленность стройматериалов
+byggevirksomhet	строительная индустрия
+byggverk	строение
+bygningselement	строительный элемент
+bygningsmateriale	строительный материал
+bygningstjeneste	строительная услуга
+bygningsødeleggelse	снос зданий
+bykjerne	городской центр
+byråkrati	бюрократия
+byråkratisering	бюрократизация
+båtliv	речные и морские круизы
+båtsport	лодочный спорт
+bæreevne	допустимая нагрузка
+bærekraftighetsprinsipp	принцип устойчивости
+californium	калифорний
+camping	кемпинг
+campingplass	площадка для кемпинга
+canyon	каньон
+celle	гальвани́ческий элеме́нт ; элемент питания
+celle ; celle	клетка ; клетка
+cellulose	целлюлоза
+celluloseindustri	целлюлозная промышленность
+cerium	церий
+cesium	цезий
+champagne	шампанское
+chihuahua	чихуахуа
+colubridae	змеи
+cruisefart	круизы и морские путешествия
+curium	кюрий
+cyanat	цианат
+cyanid	цианид
+cytologi	цитология
+cytotoksisitet	цитотоксичность
+dagbok	дневник
+dagbrudd	открытые горные разработки
+dal	долина
+dam	дамба
+damdrenering	спуск водохранилища
+damp	дым
+dampgenerator	паровой котел
+damptrykk	давление пара
+dansk	датский
+darmstadtium	дармштадтий
+data per hode	статистические данные на душу населения
+dataanalyse	анализ данных
+database	база данных
+databehandling	обработка данных
+databærer	носитель данных
+datainnsamling	получение данных
+dataregistreringsteknikk	технология записи данных
+datasenter	центр данных
+datasikring	защита данных
+datasystem	система обработка данных
+datautveksling	обмен данными
+datering	датирование
+datter	дочь
+de franske sørterritorier	Teritoriile australe şi antarctice franceze ; Французские Южные и Антарктические Территории
+decibel	децибел
+definisjon	определение
+defoliering	дефолиация
+dekantering	сцеживание
+dekk	автопокрышка
+dekontaminering	дезактивация
+dekret	декрет
+delavgjørelse	промежуточное решение
+delegert forvaltning	делегированное управление
+delfin	дельфин
+delstatslovgivning	региональный закон/закон провинции
+delstatsmyndighet	провинциальная/региональная власть ; региональная власть ; провинциальная власть
+delta	дельта реки
+deltakelse	участие
+demografi	демография
+demografisk utvikling	демографическое развитие
+demokrati	демократия
+dendrokronologi	дендрохронология
+dendrometri	дендрометрия
+denitrifikasjon	денитрификация
+densitet	плотность
+departement	министерство
+departementsbygning	здание министерства
+departementsdekret	приказ министерства
+dermatologi	дерматология
+desentralisering	децентрализация
+desentralisering av makt	передача обязанностей, функций, ответственности и пр.
+desinfeksjon	дезинфекция
+desinfeksjonsmiddel	дезинфицирующее средство
+desorpsjon	десорбция
+destillering	дистилляция
+det endokrine system	эндокринная система
+det indre europeiske markedet	внутренний европейский рынок
+detektor	детектор
+deuterium	Дейтерий
+dialyse	диализ
+didaktikk	дидактика
+diesel	дизельное топливо ; дизель
+dieselmotor	дизельный двигатель
+differensiering	биологическая дифференциация
+diffus forurensning	загрязнение из различных источников
+diffus kilde	различные источники загрязнения
+diffusjon	диффузия
+digital bildebehandlingsteknikk	методы обработки цифровых изображений
+digital terrengmodell	цифровая модель земной поверхности
+digitalisering	оцифровка
+digitalt GIS-format	цифровой формат ГИС
+digitalt GIS-system	цифровая система ГИС
+dike	дамба
+dikeforsterking	укрепление дамб
+dikelandskap	польдер
+dinitrogenoksid	оксид азота
+dinoflagellatoppblomstring	"красный" прилив
+dioksin	диоксин
+direkte induser	прямой выброс
+direktekoplet tjeneste	обслуживание "он-лайн"
+direktiv	директива
+dis	дымка
+diskontinuerlig prosess	периодический процесс
+dispersjon	дисперсия
+disponering av krigsmateriell	утилизация материалов военного назначения
+distriktsområde	сельский район
+diverse produkt	неоднородный продукт
+dobbel økonomi	многоукладная экономика
+dobbeltavfallsstyring	принцип раздельного сбора городского мусора
+doktrine	доктрина
+dokument	документ
+dokumentarfilm	документальный фильм
+dokumentasjon	документация
+dokumentasjonssystem	система документирования
+dokumentgjennomgang	проверка записей
+dokumentsenter	центр документации
+dokumenttype	тип документа
+dokumentutlån	выдача документов
+dom	приговор
+domstol	суд
+dose	доза
+dose-responsforhold	взаимоотношение дозы и эффекта
+dosering	дозировка
+dreieovn	роторная печь
+drenering	дренаж
+drenering	осушение
+dreneringsnett	гидрографическая система
+drenssystem	водосборная система
+drensvann	поверхностная вода
+driftsdata	операционные данные или информация
+drikke	пить
+drikke	напиток
+drikkevann	питьевая вода
+drikkevannsbehandling	обработка питьевой воды
+drikkevannsforsyning	обеспечение питьевой водой ; питьевое водоснабжение
+drikkevannssystem	городская система управления водоснабжением
+drikkevannsvernområde	охраняемая территория вокруг источника питьевой воды
+drikkevare ; drikke	напиток
+drikkevareindustri	производство напитков
+dristig	отважный
+drivgarnsfiske	дрифтерный лов
+drivhuseffekt	парниковый эффект
+drivhusgass	газ, способствующий парниковому эффекту
+drivstoff	пропеллент
+dromedar	дромадер
+dronning	королева ; царица
+drømme	спать
+dubnium	дубний
+due	голубь
+dyphav	открытое море
+dypvannsdisponering	сброс в открытое море
+dypvannsfiske	рыболовство в открытом море
+dyr	животное
+dyre- og planteliv	дикая природа
+dyreart	животные виды
+dyrearv	наследие животного мира
+dyreavfall	отходы животноводства
+dyrebeskyttelse	защита животных
+dyrebiologi	биология животных
+dyreekskrement	экскременты животных
+dyrefor	корм для животных
+dyreforsøk	эксперименты над животными
+dyrehabitat	природная среда обитания животных
+dyrehage	зоологический сад
+dyrehandel	торговля животными
+dyrekorridor	"коридор" для животных
+dyremigrasjon	миграция животных
+dyrepopulasjon	популяция животных
+dyrereservat	заповедник животных
+dyreressurs	животные ресурсы
+dyreskade	ущерб, наносимый животными
+dyresykdom	болезни животных
+dyrevern	защита животных
+dyreøkologi	экология животных
+dyrking	культивация
+dyrking av jordbruksareal	возделывание сельскохозяйственных земель
+dyrking i veksthus	парниковое хозяйство
+dyrking under tørre forhold	агротехнические приемы для засушливых районов
+dyrkingsmetode	метод культивации
+dyrkingssystem	система культивации
+dyrs adferd	поведение животных
+dyrs rettigheter	права животных
+dysleksi	дислексия
+dysprosium	диспрозий
+dör	дверь
+dødelighet	смертность
+dødsstraff	смертная казн
+edafologi	почвоведение
+edderkopp	паук
+eddik	уксус
+edelgass	химический элемент нулевой группы
+effekt	мощность
+effekt (parameter) ; effekt	эффект (воздействие) ; эффект
+effektivisering	повышение эффективности
+effektivitetskriterium	критерий эффективности
+egenkompostering	компостирование производителем
+eggcelle ; egg	яйцо
+eggstokk	яичники
+egnet teknologi	приемлемая технология
+eiendomsbeskyttelse	защита собственности
+eiendomsforpaktning	сдача внаем недвижимости
+eiendomsskatt	налог на землю
+eierskap	право собственности
+eik	дуб
+einsteinium	эйнштейний
+eksakt vitenskap	точная наука
+eksisterende kjemikalie	известный химикат
+eksos	выхлопной газ
+eksosanlegg	труба для сброса отходов
+eksperiment	эксперимент
+eksperimentell studie	экспериментальное изучение
+ekspertsystem	экспертная система
+eksplosjon	взрыв
+eksponering	время облучения
+eksport	экспорт
+eksport av farlig avfall	экспорт опасных отходов
+eksport av farlige kjemikalier	экспорт опасных химических веществ
+eksportlisens	экспортная лицензия
+ekspropriasjon	экспроприация
+ekstensiv kvegavl	экстенсивные методы ведения фермерского хозяйства
+ekstern kostnad	баланс интересов личности и общества
+ekstraktindustri	добывающая промышленность
+ekstraordinær skatt	исключительный налог
+ekvator	экватор
+ekvatorialklima	экваториальный климат
+ekvivalent dose	эквивалентная доза
+elastisitet	эластичность
+eldre	пожилой человек
+elefantdyr	хоботные
+elektrisitet	электричество
+elektrisitetsforbruk	потребление электричества
+elektrisitetsforsyning	обеспечение электроэнергией
+elektrisitetsforvaltning	электроэнергетика
+elektrisitetskraftverk	электростанция
+elektrisitetsproduksjon	производство электроэнергии
+elektrisitetsproduksjonskostnad	стоимость производства электроэнергии
+elektrisitetsselskap	электроэнергетическая компания
+elektrisk batteri	аккумулятор
+elektrisk kjøretøy	электромобиль
+elektrisk kraft ; elektrisk effekt	сила тока
+elektrisk ledning	линия электропередачи
+elektroindustri	производство электротехнических изделий
+elektroindustri	производство электроэнергии
+elektrokinetikk	электрокинетика
+elektrolyse	электролиз
+elektromagnetisme	электродинамика
+elektron	электрон
+elektronikk	электроника
+elektronisk informasjonsnettverk	электронная информационная сеть
+elektronisk materiale	материал, используемый в электронике
+elektronisk post	электронная почта
+elektronisk skrapavfall	отходы электронной промышленности
+elektrosmog	электросмог
+elektroteknikk	электротехника
+elektroteknisk industri	электротехническая промышленность
+elektroteknisk utstyr	электротехническое оборудование
+elfenben	слоновая кость
+eller	или
+elv	река
+elveavsetning	наводнение
+elvebredd	берег
+elveleie	русло реки
+elveressurs	речной ресурс
+elveslette	аллювиальная равнина
+elvevann	речная вода
+emballasje	упаковка
+emballasjeavfall	использованная упаковка
+emballasjeindustri	оборудование и материалы для упаковки
+emballasjepant	депозит за возвратную тару
+embedsplikt	официальная обязанность
+embryo	эмбрион
+emisjonsreduksjonsvirksomhet	финансовый аспект снижения выбросов
+emisjonsstandard	стандарт на выбросы
+emulgering	образование эмульсии
+emulsjon	эмульсия
+en stund	ненадолго
+endemisk art	эндемические виды
+endokrinologi	эндокринология
+energi	энергия
+energibalanse	энергетический баланс
+energibehov	потребности в энергии
+energibruk	потребление энергии
+energibruk	использование энергии
+energibærer (materiale)	энергоноситель
+energieffektivitet	эффективность использования энергии
+energiforsyning	снабжение энергией
+energiforsyningssystem	система распределения энергии
+energiforvaltning	управление в области производства энергии
+energiindustri	производство энергии
+energikilde	источник энергии
+energilagring	запасы энергии
+energilovgivning	законодательство в области использования энергии
+energimarked	рынок энергоресурсов
+energiomdanning	преобразование энергии
+energipolitikk	энергетическая политика
+energiproduksjon	производство энергии
+energiprosess	энергетический процесс
+energiressurs	энергетический ресурс
+energiselskap	электрическая компания
+energisløsing	потеря энергии
+energisparing	экономия энергии
+energiteknologi	энергетическая технология
+energitype	тип энергии
+energiøkonomi	энергетика
+enevelde	самодержавие
+eng	луг
+eng- og beitemark	пастбищные угодья
+engangsemballasje	безоборотная тара
+engelsk	английский
+engstelse for miljøet	экологическая озабоченность
+enterovirus	энтеровирус
+environmentalisme	экологический принцип
+enzym	энзим
+epidemi	эпидемия
+epidemiologi	эпидемиология
+epigram	эпиграмма
+epilepsi	эпилепсия
+episenter	эпицентр
+erbium	эрбий
+ergonomi	эргономика
+erkehertug	эрцгерцог
+ernæring	питание
+ernæringsfag	наука о продуктах питания
+erosjon	эрозия
+erosjonsvern	контроль за эрозией
+erstatning	компенсация
+erstatningsansvar	ответственность
+erstatningsansvar for forurensning	ответственность за загрязнение
+erstatningskrav	право подать иск на реституцию
+esperanto	эсперанто
+estetikk	эстетика
+estisk	эстонский ; Эстонский
+estuarbiologi	биология эстуариев
+estuarint verneområde	охраняемые территории эстуариев
+estuarium	эстуарий
+etanol	этанол
+eter	эфир
+etikk	этика
+etnologi	этнология
+etologi	этология
+etsende stoff	вещество для травления
+etsing	травление
+etter- og videreutdanning	непрерывное образование
+etterbehandling	доочистка
+etterbrenning	дожигание
+etterspørsel	спрос
+europeisk domstol	Европейский Суд
+europeisk naturreservat	европейский природный заповедник
+europeisk standard	европейский стандарт
+europium	eвропий ; европий
+eutrofiering	эвтрофикация
+evaluering	оценка
+evalueringskriterium	критерий оценки
+evalueringsmetode	метод оценки
+evapotranspirasjon	испарение воды в атмосферу
+evolusjon	эволюция
+fabrikkutstyr	заводское оборудование
+fagforening	профсоюз
+fakling	сжигание в факеле газов
+faktormarked	рыночный фактор
+fallskjerm	парашют
+falsk krupp	спазмодический круп
+familie	семья
+familieplanlegging	планирование семьи
+familierett	семейное право
+fangstutbytte	улов
+fare	опасность
+fare ved forurensende stoff	опасность загрязняющих веществ
+fare ved skipsfart	опасность при навигации
+farge ; farge ; farge	цвет ; цвет ; цвет
+fargehandel	магазин для продажи красок и аналогичной продукции
+fargesammensetning	комбинированное цветное изображение
+fargestoff	краситель
+farlig anlegg	опасный объект
+farlig arbeidsmateriale	опасный рабочий материал
+farlig avfall	опасные отходы
+farlig gods	опасные товары
+farlig mikroorganisme	микроб
+farmakokinetikk	фармакокинетика
+farmakologi	фармакология
+farmann	торговец
+fasan	фазан
+fast landbrukseiendom	объект недвижимости в сельском хозяйстве
+fattigdom	бедность
+fauna	фауна
+faunaforringelse (etter artsinnføring)	вырождение фауны
+fekal bakterie	фекальная бактерия
+felles handelspolitikk	единая политика в области коммерческой деятельности
+felles implementering	совместное исполнение
+felles landbrukspolitikk	"Единая сельскохозяйственная политика" ; Единая сельскохозяйственная политика
+felles regel	общее соглашение
+felles tariffpolitikk	единая тарифная политика
+fellesskapet-betaler-prinsipp	принцип "сообщество платит"
+fellesskapsrettsakt	закон ЕС
+fellesskyldner	коллективный должник
+fellessystem	комбинированная сточная система
+fellestransport	комбинированные перевозки
+feltforsøk	полевые испытания
+feltundersøkelse	полевое исследование
+fengselslov	закон, регламентирующий работу тюрем
+fenol	фенол
+ferdighus	блочное здание
+ferie	отпуск
+feriekoloni	место отдыха
+ferje	паром
+fermentering	ферментация
+fermium	Фермий ; фермий
+feromon	феромон
+ferskvann	пресная вода
+ferskvann til bading	пресная вода, пригодная для купания
+ferskvannsforringelse	ухудшение качества пресных вод
+ferskvannsorganisme	пресноводный организм
+ferskvannsressurs	пресноводные ресурсы
+ferskvannsøkosystem	пресноводная экосистема
+fiber	волокно
+fiberglass	стекловолокно
+film	кинофильм
+filologi	филология
+filosofi	философия
+filter	фильтр
+filterkake	осадок на фильтре
+filtrering	фильтрация
+finans	финансы
+finansforvaltning	управление финансами
+finansiering	финансирование
+finanslovgivning	финансовое право
+finansmarked	финансовый рынок
+finmekanikk	точное машиностроение
+finne ut	устанавливать
+finsk	финский
+fint støv	мелкая пыль
+firetaktsmotor	четырехтактный двигатель
+firfirsle	ящерица
+firkant	четырёхугольник
+firma	фирма
+fisjon	ядерный распад
+fisk	рыба
+fiske	рыбная ловля
+fiskebanke	район промышленного рыболовства
+fiskebestand	рыбные запасы
+fiskedød	смертельные болезни рыб
+fiskefartøy	рыболовецкое судно
+fiskeindustri	рыболовная промышленность
+fiskekort	лицензия на рыбную ловлю
+fiskeoppdrett	разведение рыб
+fiskereservat	водоем для спортивной рыбной ловли
+fiskeressurs	рыбные ресурсы
+fiskeri	рыболовство
+fiskeriforvaltning	управление рыболовством
+fiskerilovgivning	законы в области рыболовства
+fiskeripolitikk	политика в области рыболовства
+fiskeristruktur	структура рыбопромысловой отрасли
+fiskeriøkonomi	экономика рыболовства
+fiskesykdom	болезнь рыб
+fisketoksisitet	яд рыб
+fjell	гора
+fjellforvaltning	управление горными районами
+fjellkjede	горный хребет
+fjellklima	горный климат
+fjellområde	горный район
+fjellskog	горный лес
+fjernanalyse	дистанционное зондирование
+fjerning	удаление
+fjernmålingssenter	центр дистанционного зондирования
+fjernsyn	телевидение
+fjernsynsprogram	телевизионная программа
+fjerntrafikk	движение транспорта дальнего следования
+fjernvarme	районное централизованное теплоснабжение
+fjernvarmeanlegg	коммунальная отопительная установка
+fjærfe	птицеводство
+fjørfeproduksjon	птицеводческое фермерское хозяйство
+flaggermus	рукокрылые
+flaskekapsel	крышка для бутылки
+flatekilde	неопределенный источник загрязнения
+fleksibelt miljøvernpålegg	гибкий подход к вопросам охраны окружающей среды
+flerbruksområde	земля различного хозяйственного назначения
+flerfamiliehus	многоквартирный жилой дом
+flo	уровень прилива
+flokkulering	флоккуляция
+flokkuleringsmiddel	флоккулянт
+flom	наводнение
+flomavrenning	паводковый сток
+flomsikring	борьба с наводнениями
+flomvarsling	прогноз наводнения
+flomvern	защита от наводнений
+flora (dokument) ; flora	реестр флоры
+flora (økologi) ; flora	флора
+floraforringelse (etter artsinnføring)	вырождение флоры
+flotasjon	флотация
+fluidisering	флюидизация
+fluidisert sjikt	псевдоожиженный слой
+fluor	фтор
+fluoridering	фторирование
+flyfoto	аэрофотоснимок
+flyfotografering	аэрофотосъемка
+flygeaske	летучая зола
+flyktig stoff	летучее вещество
+flyktighet	летучесть
+flyktning	беженец
+flystøy	шум, производимый летательными аппаратами
+flytende avfall	жидкие отходы
+flytende gass	сжиженный газ
+flytende gjødsel	жидкий навоз
+folkeavstemning	референдум
+folkehelse	общественное здравоохранение
+folkemening	общественное мнение
+folkerett	международное право
+folketelling	перепись населения
+folketradisjon	народная традиция
+folklore	фольклор
+fond	финансовый фонд
+fontene	фонтан
+for ; fôr	фураж
+foravling	фуражная культура
+forbause	удивлять
+forbauselse	удивление
+forbausende	удивительный
+forberedende rettergang	предварительные слушания
+forbløffe	поражать
+forbløffende	поразительный
+forbrenning	сжигание
+forbrenningsanlegg	мусоросжигатель
+forbrenningsmotor	двигатель внутреннего сгорания
+forbrenningsrest	продукты нагара
+forbrenningsrest	остатки после сжигания отходов
+forbrukeratferd	поведение потребителя
+forbrukergruppe	группа потребителей
+forbrukerinformasjon	информация для потребителя
+forbrukervern	защита потребителя
+forbruksmønster	структура потребления
+forbruksvare	потребительские товары
+forbud	запрет
+forbundsregjering	федеральное правительство
+fordampning	испарение
+fordeling	распределение
+fordeling av forurensende stoff	распределение загрязняющих веществ
+fordøyelsessystem	желудочно-кишечный тракт
+forebyggende helsetiltak	профилактическая здравоохранительная мера
+forebyggende informasjon	предупреждающая информация
+forebygging av miljøbelastning	предотвращение отрицательного воздействия на окружающую среду
+forebygging av skogbrann	предотвращение лесных пожаров
+forebyggingstiltak	профилактическая мера
+forening	ассоциация
+forfatterskap	авторство
+forgassing	газификация
+forgiftning	интоксикация
+forgiftning	отравление ядом
+forgjeves	неудачный
+forhold mellom helse og miljø	взаимосвязь здоровья и окружающей среды
+foring av dyr	кормление животных
+foringsmateriale	гидроизоляционный материал
+forkastning	разлом
+forkjøpsrett	преимущественное право покупки
+forkjøpsrettssone	район преимущественного права покупки (земельного участка)
+forkontaminering	заражение кормов
+forkorte	сокращать
+forkortelse	сокрaщение
+forlatt kjøretøy	брошенный автомобиль
+forlatt område	заброшенная промышленная площадка
+forlovgivning	закон в области производства и использования кормов
+fornybar energikilde	возобновляемый источник энергии
+fornybar ressurs	возобновляемый ресурс
+fornybart råstoff	возобновляемый сырьевой материал
+fornøyelsespark	парк развлечений
+forordning	указ
+forplante	фуражная сельскохозяйственная культура
+forretningsaktivitet	бизнес
+forretningsaktivitet	вид хозяйственной или коммерческой деятельности
+forretningsbygg	административное здание
+forretningsorganisasjon	организация бизнеса
+forretningspolitikk	политика в области развития бизнеса
+forringelse	обнищание
+forråtningsprodukt	продукт разложения
+forsikring	страхование
+forsikring mot forurensning	страхование от загрязнения
+forsikringsdekning	действие страховки
+forsikringsvirksomhet	страховой бизнес
+forskning	исследование ; исследования
+forskningspolitikk	политика в области научных исследований
+forskningsprosjekt	исследовательский проект
+forskningssenter	исследовательский центр
+forskrift	регулирование
+forskrift for elektronisk skrapavfall	нормативный документ, регулирующий утилизацию отходов электронной промышленности
+forskrift for farlig gods	правила обращения с опасными товарами
+forskrift for høyeste tillatte grenseverdier	нормативный документ по ПДК
+forskrift relatert til antiseismikk	антисейсмические нормативы
+forstad	пригород
+forsuring	подкисление
+forsvar	защита
+forsøk	тест
+forsøksanlegg	опытный завод
+fortrenging av dyr	перемещение животных
+fortynnet syre	разбавленная кислота
+forurensende biologisk stoff	биологическое загрязняющее вещество
+forurensende kjemisk stoff	химическое загрязняющее вещество
+forurensende radioaktivt stoff	радиоактивное загрязняющее вещество
+forurensende stoff	загрязняющее вещество
+forurenser-betaler-prinsipp	принцип "загрязнитель платит"
+forurenset materiale	загрязненное вещество
+forurenset område	загрязненный участок
+forurensning	загрязнение
+forurensning av estuarium	загрязнение эстуария
+forurensning av ferskvann	загрязнение пресной воды
+forurensning av inneluft	загрязнение воздуха в помещении
+forurensning av kysten	загрязнение побережий
+forurensning fra motorkjøretøy	загрязнение выхлопными газами автомобилей
+forurensning på landjorden	загрязнение земель
+forurensningsakkumulasjon	накопление загрязняющих веществ
+forurensningsanalyse	анализ загрязняющих веществ
+forurensningsavsetning	отложение загрязняющих веществ
+forurensningsbekjemping	снижение уровня загрязнения
+forurensningsbekjemping	контроль за загрязнением
+forurensningsbekjempingstiltak	меры по контролю за уровнем загрязнения
+forurensningsbekjempingsutstyr	оборудование для снижения уровня загрязнения
+forurensningsbekjempingsutstyr	оборудование для контроля за загрязнением
+forurensningsbelastning	загрязненность
+forurensningsdannelse	формирование загрязняющего вещества
+forurensningsdispersjon	распыление загрязняющих веществ
+forurensningseffekt	воздействие загрязнения
+forurensningseksponering	воздействие загрязняющих веществ
+forurensningseliminering	удаление загрязняющих веществ
+forurensningsflyt	поток загрязняющих веществ
+forurensningsforebygging	предотвращение загрязнения
+forurensningsimmisjon	иммиссия загрязняющих веществ
+forurensningsindikator	индикатор загрязнения
+forurensningskonsentrasjon	концентрация загрязняющих веществ
+forurensningslovgivning	законодательство по вопросам загрязнения окружающей среды
+forurensningsmåling	измерение загрязнения
+forurensningsnorm	норма загрязнения
+forurensningsovervåking	мониторинг загрязнения
+forurensningsreduksjon	снижение содержания загрязняющих веществ
+forurensningsrelaterte kostnader	стоимость загрязнения
+forurensningsrisiko	риск загрязнения
+forurensningstype	тип загрязняющего вещества
+forurensningsutslipp	выброс загрязняющих веществ
+forurensningsutvikling	эволюция загрязнения
+forurensningsveg	пути распространения загрязняющих веществ
+forvaltning	управление
+forvaltning av arvegods	популизм
+forvaltningskontrakt	контракт на управление
+forvaltningsplan	план управления
+forvaltningsprosedyre	административная процедура
+forvaltningsrett (rettslære) ; forvaltningsrett	административное право
+forvaltningsvedtak	действие администрации
+fosfat	фосфат
+fosfaterstatning	заменитель фосфатов
+fosfatfjerning	замещение фосфатов
+fosfatgjødsel	фосфорное удобрение
+fosfor	фосфор
+fosfororganisk stoff	фосфорорганическое соединение
+foss	водопад
+fossil	ископаемое
+fossilt brensel	ископаемое топливо
+fosterutvikling	эмбриогенез
+fotgjengersone	пешеходная зона
+fotografering	фотография
+fotografi	фотография
+fotogrammetri	фотограмметрия
+fotokjemikalie	фотохимический продукт
+fotokjemisk forurensning	фотохимическое загрязнение
+fotokjemisk middel	фотохимический агент
+fotokjemisk oksidant	фотохимический окислитель
+fotokjemisk reaksjon	фотохимическая реакция
+fotokjemisk smog	фотохимический смог
+fotosyntese	фотосинтез
+francium	Франций ; франций
+fransk	французский
+fransk	француз
+fredsbevaring	миротворческие усилия
+fremdriftsteknikk	двигательная технология
+fremmed organisme	экзотический вид
+freon	фреон
+fri kapitalbevegelse	свободное движение капитала
+frigjøring	эмансипация
+frihandel	свободная торговля
+frihet	свобода
+frisisk	Фризский ; фризский
+fritid	время отдыха
+fritidsaktivitet	отдых
+fritidsfiske	спортивная рыбная ловля
+fritidsområde	зона отдыха
+fritidssenter	центр досуга и отдыха
+frokost	завтрак
+frosk	лягушка
+frost	иней
+frukt	фрукт
+fruktdyrking	выращивание фруктов
+frukttre	фруктовое дерево
+frø	семя
+frøplante	явнобрачное растение
+fugl	птица
+fugleart	виды птиц
+fuglebur	птичник
+fuglereservat	заповедник для птиц
+fuglevern	охрана птиц
+fuktighet	влага
+furan	фуран
+furu	сосна
+fusjon	ядерный синтез
+fylke	графство
+fyllmasse	наполнитель
+fyllplass	мусорная яма
+fyllplass for husholdningsavfall	свалка бытового мусора
+fyllplassavgassing	отвод газа из мусорной ямы
+fyllplassgass	биогаз
+fyring	обжиг
+fyringsolje	бытовое жидкое топливо
+fyrverkeri	фейерверк
+fysikalsk kjemi	физическая химия
+fysikk	физика
+fysiologi	физиология
+fysisk behandling	физические методы обработки отходов
+fysisk egenskap	физическое свойство
+fysisk fellesfasilitet	общественное сооружение
+fysisk forandring	физическое изменение
+fysisk forurensende stoff	физический загрязнитель
+fysisk forurensning	физическое загрязнение
+fysisk måling av forurensning	физическое измерение уровня загрязнения
+fysisk prosess	физический процесс
+fysisk tilstand	физические условия
+fysisk-kjemisk analyse	физико-химический анализ
+fysisk-kjemisk behandling	физико-химическая обработка
+fysisk-kjemisk prosess	физико-химический процесс
+fytomasse	фитомасса
+fytosanitær rensing	фитосанитарная обработка
+fytotoksisitet	фитотоксичность
+fæ ; færøysk	фарерский
+føderal lov	федеральный закон
+følgeseddel	уведомление об отправке
+føre-var-prinsipp	принцип предосторожности
+gadolinium	гадолиний
+galisisk	галисийский
+galleblæren	желчный пузырь
+gallium	галлий
+galvanisering	гальванизация
+gammastråling	гамма-излучение
+gammel avleiring	заброшенная мусорная яма
+gammelt anlegg	завод с устаревшим оборудованием
+gammelt miljørisikoområde	заброшенная площадка, представляющая опасность для окружающей среды
+gangsti	тропинка
+garvesyre	танин
+gasohol	бензоспирт
+gass	газ
+gassblanding	газовая смесь
+gasselskap	газовая компания
+gassform	газообразное состояние
+gassforsyning	запасы газа
+gassing	фумигация
+gasskondensering	сжижение газа
+gasskraftverk	теплостанция, работающая на газе
+gasskromatografi	газовая хроматография
+gassmotor	газовый двигатель
+gassrensing	газоочистка
+gassreservoar	газохранилище
+gassrørledning	газовый трубопровод
+gassrørledningsnettverk	газопроводная система
+gassverk	газовый завод
+gastropode	брюхоногие
+gaupe	рысь
+generell kjemi	общая химия
+generelt	общее
+generelt forvaltningstiltak	приказ общего административного характера
+genetikk	генетика
+genetisk effekt	генетический эффект
+genetisk informasjon	генная информация
+genetisk mangfold	генетическое разнообразие
+genetisk ressurs	генетический ресурс
+genetisk variasjon	генетическая вариация
+genmodifisering	изменение генов
+genmodifisert organisme	генетически модифицированный организм
+genotoksisitet	генотоксичность
+genpool	генофонд
+genteknologi	генная инженерия
+genteknologilovgivning	законодательство в области генной инженерии
+geodesi	геодезия
+geofysikk	геофизика
+geofysisk miljø	геофизическая среда
+geogen faktor	почвенный фактор
+geografi	география
+geografisk befolkningsfordeling	географическое распределение населения
+geografisk informasjonssystem	географическая информационная система
+geografisk projeksjon	географическая проекция
+geologi	геология
+geologisk katastrofe	геологическое бедствие
+geologisk prosess	геологический процесс
+geometri	геометрия
+geometrisk korreksjon	поправки на геометрию
+geomorfologi	геоморфология
+geomorfologisk prosess	геоморфический процесс
+georgisk	грузинский
+geoteknikk	геотехнология
+geoteknikk	геотехника
+geotermisk energi	геотермальная энергия
+geovitenskap	наука о Земле
+gepard	гепард
+germanium	германий
+gift	яд
+giftig metall	токсичный металл
+giftig stoff	токсичное вещество
+giftighet	токсичность
+giljotin	гильотина
+gips	гипс
+giraff	жираф
+gjeld	долг
+gjenanskaffelsespris	стоимость замещения (экон.)
+gjeninnføring (økologi) ; gjeninnføring	повторное заселение вида
+gjeninnføring av dyrearter	повторное заселение видов животных
+gjeninnføring av plantearter	повторное заселение видов растений
+gjennombløting	пропитка
+gjennomføringsordre	подзаконный акт
+gjenoppretting av dyre- og planteliv	восстановление фауны
+gjenoppretting av flora	восстановление флоры
+gjenvinnbar plast	пластмасса, пригодная для вторичного использования
+gjenvinningsforhold	коэффициент вторичного использования
+gjenvinningsindustri	промышленная переработка твердых отходов
+gjenvinningspotenial	потенциал вторичного использования
+gjærsopp	дрожжи
+gjødsel	удобрение
+gjødsellovgivning	законы в области использования удобрений
+gjødsling	удобрение почвы
+gjøre	делать ; сделать
+glasiologi	гляциология
+glass	стекло
+glassindustri	стекольная промышленность
+glattis	ледяная корка
+glente	красный коршун
+global konvensjon	глобальная конвенция
+global modell	глобальная модель
+global oppvarming	глобальное потепление
+globalt aspekt	глобальный аспект
+glossar	глоссарий
+glykolyse	гликолиз
+gnager	грызун
+god jul	С Рождеством Христовым
+god kveld	добрый вечер
+godkjenning	одобрение
+godkjenningkrav til anlegg	установка, требующая специального разрешения
+godstransport	фрахтовый транспорт
+godt nyttår	с Новым годом
+godtgjørelse	денежная помощь
+golf	гольф
+gonoré	гонорея
+gorilla	горилла
+grammatikk	грамматика
+granitt	гранит
+granolometri	гранулометрия
+gren	ветка ; сук
+grense	граница
+grenseflate mellom hav og luft	граница между воздухом и поверхностью океана
+grensekrysning	пересечение границы
+grenselag	пограничный слой
+grenseverdi	предельная величина
+gresk	греческий
+gress	травы
+gress	травянистые растения
+gressbrann	травяные пожары
+gresshoppe	кузнечик
+grisehus	свиноводческое хозяйство
+grunnleggende matbehov	потребности в основных продуктах питания
+grunnlinjeovervåking	базовый мониторинг
+grunnstoff	химический элемент ; элемент
+grunnstoff i gruppe III	химический элемент группы III
+grunnstoff i gruppe IV	химический элемент группы IV
+grunnstoff i gruppe V	химический элемент группы V
+grunnstoff i gruppe VI	химический элемент группы VI
+grunnutdanning	начальное образование
+grunnvann	подземные воды
+grunnvannsbrønn	колодец
+grunnvannsforurensning	загрязнение подземных вод
+grunnvannskvalitet	качество подземных вод
+grunnvannsuttak	добыча подземных вод
+grunnvannsvern	защита подземных вод
+gruppeatferd	поведение групп населения
+grus	гравий
+grusomhet	зверство
+grustak	гравийный карьер
+grusuttak	добыча гравия
+gruveavfall	шахтные отходы
+gruvedrift på dypvann	глубоководная разработка полезных ископаемых
+gruvedrift til havs	шельфовое бурение
+gruvedriftsprodukt	продукт разработки полезных ископаемых
+gruvefylling	сброс отходов в шахты
+gruveindustri	горная промышленность
+gråberg	вскрыша
+grøft	канава
+grønlandsk	гренландский
+grønn revolusjon	"зеленая" революция
+grønngjødsel	трава как удобрение
+grønnsak	овощ
+grønnstripe	"зеленый" коридор
+grøntområde	"зеленое" пространство
+gujarati	гуджарати ; гуджаратский ; гуярати
+gull	золото
+gummi	резина
+gutt	мальчик
+gyldenbrunalge	хризофита
+gå på	посещать
+gård	ферма
+gårdsbygning	жилой дом на ферме
+gås	гусь
+habitat	естественная среда
+habitatødeleggelse	разрушение природной среды
+hafnium	гафний
+hage	сад
+hage i engelsk stil	английский сад
+hage i fransk stil	французский сад
+hageavfall	растительные отходы сада
+hagebruk	огородничество
+hagl	град
+hai	акула
+haiku	ха́йку ; хо́кку
+haloform	галоформ
+halogen	химический элемент группы VII
+halogenert bifenyl	галогенизированный бифенил
+halogenert fenol	галогенизированный фенол
+halogenert forbindelse	галогенизированное соединение
+halogenert forurensende stoff	галогенизированное загрязняющее вещество
+halogenert hydrokarbon	галогенизированный углеводород
+halveringstid	период полураспада
+halvleder	полупроводник
+halvmetall	металлоид
+halvøy	полуостров ; полуострво
+han	он
+handel	торговля
+handel ; handelsnæring	торговля ; торговля как вид деятельности
+handel med planter	торговля растениями
+handel og distribusjon	оптовая и розничная торговля
+handel og forbruk	торговля и потребление
+handels- og industrifremmende tiltak	поддержка торговли и промышленности
+handelsgartneri	производство овощей и фруктов для продажи
+handelsrett	коммерческое право
+handelstransaksjon	коммерческая сделка
+harpiks	смола
+harpiksplante	смолосодержащее растение
+hassium	xассий
+hastighet	скорость
+hattsopp	гриб
+hav	океан
+havbruk	морская культура
+havfiske	рыбная ловля в открытом море
+havforurensning	загрязнение моря
+havn	бухта
+havnivå	уровень моря
+havnivåstigning	повышение уровня моря
+havstrand	морской берег
+havstrøm	океаническое течение
+havtemperatur	температура океана
+hebraisk	иврит
+hedning	язычник
+hegemoni	гегемония
+heilandskap	вересковые пустоши
+hekk	живая изгородь
+hekkefugl	птица в период размножения
+hekkeområde	район гнездования
+hekking	гнездование
+helikopter	вертолёт
+helium	гелий
+helse	здоровье
+helsearbeider	профессия в области здравоохранения
+helsefare	опасность здоровью
+helsefarlig stoff	опасное вещество
+helseforskrift	нормативный документ в области здравоохранения
+helseinstitusjon	учреждение здравоохранения
+helselovgivning	законодательство в области здравоохранения
+helseomsorg	здравоохранение
+helsepåvirkning	воздействие на здоровье
+helsepåvirkning fra støy	воздействие шума на здоровье
+helserelatert bioteknologi	биотехнология в области здоровья
+helserelatert miljøkonsekvensanalyse	оценка степени воздействия на здоровье населения
+helsetjeneste	услуги здравоохранения
+hematologi	гематология
+hengende kraftledning	воздушная линия электропередачи - ЛЭП
+hengivenhet	привязанность
+hensiktsmessig forvaltning	правильный менеджмент
+henvisningsinformasjon	справочная информация
+henvisningsinformasjonssystem	справочная информационная система
+heroin	героин
+herredømme	власть
+hest	лошадь
+hestedyr	лошадиный
+heterosyklisk forbindelse	гетероциклическое вещество
+heving av byggeplass	повышение уровня участка земли
+hindi	хинди
+hirse	пшено
+historie	история
+historiografi	историография
+historisk grunn	историческое место
+historisk minnesmerke	исторический памятник
+historisk senter	исторический центр
+historisk undersøkelse	исследование истории
+historisk utvikling	эволюция в процессе истории
+hjelpepolitikk	политика в области экономической помощи
+hjemmeside	домашняя страница в Интернете
+hjerte-karsykdom	сердечно-сосудистое заболевание
+hjerte-karsystem	сердечно-сосудистая система
+hjortedyr	олень
+hode	голова
+holdningskampanje	информационная кампания по оповещению общественности
+holmium	гольмий
+homologering	признание действительным
+honorar	плата
+hoppe	кобыла
+hormon	инкреть
+hotellvirksomhet	гостиничная индустрия
+hovdyr	копытные
+hovedriksveg	шоссе
+hud	кожа
+hugst	рубка
+hule	пещера
+human økologi	экология человека
+humanfysiologi	физиология человека
+humaniora	науки о человеке
+humanitær hjelp	гуманитарная помощь
+humus	гумус
+hund	собака
+hundedyr	псовый
+hungersnød	голод
+hurtig trafikk	скоростной транспорт
+hurtigprøving	экспресс-анализ
+hurtigreaktor	реактор на быстрых нейтронах
+hurtigtog	скоростной поезд, следующий транзитом
+hus	дом
+husdyr	домашнее животное
+husdyr	животное, выращиваемое на ферме
+husdyrbruk	животноводство
+husdyrbruk	разведение домашнего скота на фермах
+husdyrgjødsel	навоз
+husdyrproduksjon	производство животноводческой продукции
+husholdning	семья
+husholdningsavfall	бытовой мусор
+husholdningsavløpsvann	бытовые жидкие отходы
+husholdningsbrensel	бытовое топливо
+husholdningsforurensning	загрязнение бытовыми отходами
+husholdningskjemikalie	бытовой химикат
+husholdningsutgifter	расходы семейного бюджета
+husholdningsutstyr	бытовой прибор
+hval	кит
+hval	китовые
+hvalfangst	китобойный промысел
+hviterussisk ; kviterussisk	белорусский
+hybridisering	гибридизация
+hydraulikk	гидравлика
+hydraulisk konstruksjon	гидравлическая конструкция
+hydrobiologi	гидробиология
+hydrogen	водород
+hydrogensulfid	сероводород
+hydrogeologi	гидрогеология
+hydrografi	гидрография
+hydrografisk basseng	гидрографический бассейн
+hydrokarbon	углеводород
+hydrokultur	гидрокультура
+hydrologi	гидрология
+hydrologisk katastrofe	гидрологическое бедствие
+hydrologisk kretsløp	гидрологический цикл
+hydrolyse	гидролиз
+hydrometeorologi	гидрометеорология
+hydrometri	гидрометрия
+hydrosfære	гидросфера
+hygiene	гигиена
+hypertekst	гипертекст
+hypofyse	гипофиз
+hytte	дом в сельской местности, хутор
+håndflate	ладонь
+håndheving	приведение в исполнение закона
+håndheving av miljølov	приведение в исполнение законов в области охраны окружающей среды
+håndverk	ремесло
+håndverk	ручная работа
+håndverksvirksomhet	кустарное производство
+håp	надежда
+hår	волосы
+hårdhet	твердость
+hønsefugl	куриные
+høre etter	быть внимательным
+høringsprosedyre	процедура слушания
+hørsel	слух
+hørselsskarphet	острота слуха
+hørselssvekkelse	потеря слуха
+hørselsystem	органы слуха
+hørselvern	защита слуха
+høsting	урожай
+høyde over havet	высота ; высота (геогр.)
+høyere utdanning	высшее образование
+høyfjell	высокая гора
+høyhastighetsjernbane	высокоскоростная железная дорога
+høyhastighetstog	скоростной поезд
+høyhus	высотное здание
+høyspentledning	высоковольтная линия
+i land	на берег
+i søvn	спящий
+ideologi	идеология
+ido	идо
+ikke-biologisk-nedbrytbart forurensende stoff	биологически неразлагаемое загрязняющее вещество
+ikke-flyktig stoff	нелетучее вещество
+ikke-fornybar energikilde	невозобновляемый источник энергии
+ikke-fornybar ressurs	невозобновляемый ресурс
+ikke-forurensende brennstoff	топливо, не загрязняющее окружающую среду
+ikke-forurensende energikilde	источник энергии, не загрязняющий окружающую среду
+ikke-ioniserende stråling	неионизирующее излучение
+ikke-jernholdig metall	цветной металл
+ikke-jernmetallindustri	цветная металлургия
+ikke-metall	неметаллический
+ikke-metallisk mineral	неметаллический минерал
+ikke-målorganisme	организм, не являющийся объектом действия пестицида
+ikke-selveiende vann	частный водоем
+ikke-statlig organisasjon	неправительственная организация
+ikke-varig konsumgode	товары с коротким сроком использования
+immisjon	иммиссия
+immisjonsbelastning	иммиссионная нагрузка
+immisjonsgrense	лимит иммиссии
+immisjonskontroll	контроль за иммиссией
+immisjonskontroll-lovgivning	закон, регулирующий контроль за иммиссией
+immisjonsprognose	прогноз иммиссии
+immisjonsskade	ущерб в результате иммиссии
+immobilisering av forurensning	иммобилизация загрязняющих веществ
+immunitet	иммунитет
+immunitetsprøving	иммунопроба
+immunologi	иммунология
+immunsykdom	иммунологическое заболевание
+immunsystem	иммунная система
+impaktor	импактор
+implementeringslov	законы, регулирующие реализацию
+import	импорт
+importtillatelse	импортная лицензия
+impregnering	пропитка
+impregneringsmiddel	пропитывающее вещество
+impulsstøy	импульсные помехи
+in situ	"на месте" ; на месте
+in vitro-måling	испытание в искусственной среде
+in vivo-måling	испытание на живом организме
+incitament mot forurensning	стимулирование борьбы с загрязнением окружающей среды
+incitamentfond	фонд экономического стимулирования
+incitamentskattlegging	стимулирующий налог
+indeks	перечень
+indeksering av dokumentasjon	индексация документации
+indikator	показатель
+indikator for miljøkvalitet	показатель качества окружающей среды
+indirekte induser	скрытый источник стоков
+indium	индий
+individuell avløpsvannbehandling	индивидуальная система очистки стоков
+indonesisk	индонезийский
+indre migrasjon	внутренняя миграция
+industri	промышленность
+industrianlegg	промышленная установка
+industrianlegg	промышленное предприятие (здание) ; промышленное предприятие
+industriavfall	промышленные отходы
+industriavgass	газообразные промышленные отходы
+industriavløp	промышленные стоки
+industriavløpsvann	сточные промышленные воды
+industribygning	производственное здание
+industriell aktivitet	промышленная деятельность
+industriell arealbruksrestriksjon	промышленное районирование
+industriell produksjon	промышленное производство
+industriell utvikling	промышленное развитие
+industrielt jordbruk	промышленная ферма
+industriforbund	промышленная ассоциация
+industriforurensning	загрязнение от промышленной деятельности
+industrifyllplass	сброс промышленного мусора
+industrilovgivning	законодательство, регулирующее деятельность промышленности
+industrimateriale	промышленный материал
+industrimiljø	промышленная среда
+industrimiljøpolitikk	промышленная политика в области окружающей среды
+industriområde	промышленный район
+industriplanlegging	промышленное планирование
+industriplante	промышленная культура
+industriplante	техническая сельскохозяйственная культура
+industriplassering	размещение предприятий
+industripolitikk	промышленная политика
+industriproduksjon	промышленное производство
+industriprodukt	промышленный продукт
+industriprosess	промышленный процесс
+industrisamfunn	промышленное общество
+industrislam	промышленный отстой
+industristatistikk	статистика промышленного производства
+industristruktur	структура промышленности
+industristøy	промышленный шум
+industritomt	промышленная площадка
+industriutbygging	индустриализация
+industriutslipp	газообразные промышленные выбросы
+industriutstyr	промышленное оборудование
+industrivarehandel	торговля промышленными товарами и товарами производственного назначения
+industriøkonomi	экономика промышленности
+inert avfall	инертные отходы
+inertisering	инертизация
+infeksjon	инфекция
+infeksjonssykdom	инфекционное заболевание
+infiltrasjon	инфильтрация
+informasjon	информация
+informasjon om lovgivning	информация о законодательстве
+informasjonsavdeling	центр анализа и синтеза информации
+informasjonsbehandling	обработка информации
+informasjonsinfrastruktur	информационная инфраструктура
+informasjonskilde	источник информации
+informasjonsnettverk	информационная сеть
+informasjonsoverføring	передача информации
+informasjonspakke	подборка информации
+informasjonsplikt	обязательство информировать
+informasjonssenter	информационный центр
+informasjonssystem	информационная система
+informasjonsteknologi	информационная технология
+informasjonstilgang	доступ к информации
+informasjonstjeneste	информационная услуга
+informasjonsutveksling	обмен информацией
+informatikk	информатика
+infralyd	инфразвук
+infrarød stråling	инфракрасное излучение
+infrastruktur	инфраструктура
+ingeniør	инженер
+ingeniørarbeid	инженерная работа
+inkorporering	объединение
+innbo og løsøre	бытовые товары
+innbygger	гражданин
+innbygger	житель
+inneklima	окружающая среда помещений
+innenlands vannveistransport	транспортировка по внутренним водным путям
+innenrikshandel	внутренняя торговля
+innføring av dyrearter	заселение видов животных
+innføring av plantearter	заселение видов растений
+inngrep på land	вмешательство на суше
+inngrepsfond	фонд непредвиденных расходов
+innkapsling (asbest)	инкапсуляция
+innkapsling (kjerneanlegg) ; innkapsling	сдерживание (ядерная энергетика) ; сдерживание
+innkjøp	закупка
+innlandsfiske	рыбная ловля на внутренних водоемах
+innlandsklima	континентальный климат
+innlandsvann	внутренние водоемы
+innlosjering	дома и жилищное строительство
+innmarkskade	ущерб, нанесенный полям
+innovasjon	инновация
+innsatsvare	полуфабрикаты
+innsigelse	возражение
+innsjø	озеро
+innsjøbasseng	озерный бассейн
+innsjøfart	навигация по внутренним водным путям
+innsjøforurensning	загрязнение озер
+innsynking	проседание почвы
+inntekt	доход
+inntektsskatt	подоходный налог
+insekt	насекомое
+insekteter	насекомоядное
+insektmiddel	инсектицид
+insistere	отстаивать
+inspeksjon	инспекция
+inspeksjonstjeneste	инспекционная служба
+installasjonsgodkjenning	разрешение на использование промышленной установки
+institusjonalisering	институционализация
+institusjonell aktivitet	ведомственная деятельность
+institusjonsstruktur	организационная структура
+instrumentering	оснащение контрольно-измерительными приборами и средствами
+instrumentproduksjon	производство инструментов
+integrert bekjemping	интегрированная система контроля за вредителями
+integrert forurensningsbekjemping	интегрированная система контроля за загрязнением окружающей среды
+integrert forvaltning	интегрированный менеджмент
+integrert miljøvernteknologi	интегрированная природоохранная технология
+intensivt husdyrbruk	интенсивное животноводство
+intensivt jordbruk	интенсивное фермерское хозяйство
+interessegruppe	группа по интересам
+interessekonflikt	конфликт интересов
+interesseutgjevning	баланс интересов
+interlingua	интерли́нгва
+internalisering av eksterne kostnader	внутренний экономический учет возможного экологического ущерба
+internasjonal arbeidsdeling	международное разделение труда
+internasjonal avtale	международное соглашение
+internasjonal balanse	международный баланс
+internasjonal domstol	Международный Суд
+internasjonal fordeling	международное распределение
+internasjonal handel	международная торговля
+internasjonal harmonisering	международная гармонизация
+internasjonal hjelp	международная помощь
+internasjonal konflikt	международный конфликт
+internasjonal konkurransedyktighet	международная конкурентоспособность
+internasjonal konvensjon	международная конвенция
+internasjonal organisasjon	международная организация
+internasjonal politikk	международная политика
+internasjonal privatrett	национальный закон, касающийся иностранных юридических и физических лиц
+internasjonal sammenligning	международная сделка
+internasjonal sikkerhet	международная безопасность
+internasjonal standardisering	международная стандартизация
+internasjonal stats- og statsforvaltningsrett	публичное международное право
+internasjonal økonomiregulerende lov	международный экономический закон
+internasjonale miljøforhold	международные отношения по вопросам окружающей среды
+internasjonalt forhold	международные отношения
+internasjonalt samarbeid	международное сотрудничество
+internasjonalt vassdrag	международный водный путь
+interpolering	интерполяция
+invalid	неполноценный человек
+inventering	опись
+inversjon	инверсия
+inversjonslag	инверсионный слой
+investering	инвестиция
+investering i forurensningsbekjemping	инвестиции для контроля за загрязнением
+ion	ион
+ionebytte	ионный обмен
+ionebytter	ионообменник
+ioniserende stråling	ионизирующее излучение
+ionosfære	ионосфера
+iridium	иридий
+irreversibilitet	необратимость какого-либо явления
+irsk	ирландский
+is	лед
+isbjørn	белый медведь
+isfjell	айсберг
+islandsk	исландский
+isolasjon	изоляция
+isomer	изомер
+isotop	изотоп
+italiensk	итальянский
+jade	нефрит
+jak	як
+jakt	охота
+jaktkort	лицензия на охоту
+jaktreservat	охотничий заказник
+japansk	японский
+jazz	джаз
+jeg	я
+jente ; pike	девочка
+jern	железо
+jern- og stålindustri	производство чугуна и стали
+jernbane	железная дорога
+jernbanenett	сеть железных дорог
+jernbanestasjon	железнодорожная станция
+jernbanetrafikk	движение железнодорожного транспорта
+jernbanetransport	железнодорожный транспорт
+jernindustri	черная металлургия
+jernskrap	металлический скрап
+jernverksindustri	производство чугуна
+jiddisk ; jiddisch	идиш
+jod	йод
+jord ; jordsmonn	почва
+jord-solforhold	взаимосвязь Земли и Солнца
+jordalkalimetall	химический элемент группы II
+jordbruk og kvegdrift	сельское хозяйство и животноводство
+jordbrukslandskap	сельскохозяйственный ландшафт
+jordbruksmetode	агротехнические методы
+jordbruksområde	сельскохозяйственные угодья
+jordbruksproduksjon	сельскохозяйственное производство
+jordfag	почвоведение
+jordforbedringsmiddel	минеральная добавка
+jordskifte	укрупнение земель
+jordskjelv	землетрясение
+jordskorpe	земная кора
+jordskred	оползень
+journalist	журналист
+judo	дзюдо
+juletre	новогодние ёлки
+juni	июнь
+juridisk kompetanse	законодательная правоспособность
+juridisk prosedyre	юридическая процедура
+juridisk tekst	юридический текст
+jurisdiksjon	юрисдикция
+jus	право ; право (научн.)
+justere	приспособить
+jødedom	иудаизм ; иудейство
+kabel	кабель
+kadaverdestruksjon	утилизация трупов животных
+kadmium	кадмий
+kakerlakk	таракан
+kaliber	калибр
+kalibrering	калибровка
+kalium	калий
+kaliumgjødsel	калийное удобрение
+kaliumkarbonat	поташ
+kalk	известь
+kalkmyr	фен
+kalkstein	известняк
+kalkun	индейка ; индюк
+kalsium	кальций
+kalsiuminnhold	содержание кальция
+kamuflasje	камуфляж
+kanal (kunstig) ; kanal	канал
+kanalisering	системы распределения
+kanin	кролик
+kantsone	маргинальная земля
+karbohydrat	углевод
+karbon	углерод
+karbonat	карбонат
+karbondioksid	диоксид углерода
+karbondioksidavgift	налог на выброс диоксид углерода
+karbonmonoksid	моноксид углерода
+kardinal	кардинал
+kardiologi	кардиология
+karelsk	карельский
+karplante	трахеофит
+karsinogenitetsprøving	тест на канцерогенность
+karstlandskap	карст
+kart	карта
+kartlegging	картография
+kartlegging av lav	составление карт лишайников
+kartografi	картография
+kartproduksjon	официальный документ
+kastanje	каштан
+katalansk	каталонский
+katalysator	катализатор
+katalyse	катализ
+katalytisk omformer	каталитический конвертер
+katapult	катапульта
+katastrofe	катастрофа
+katastrofe	стихийное бедствие
+katastrofeberedskap	готовность к стихийным бедствиям
+katastrofeberedskapstjeneste	служба по борьбе со стихийными бедствиями
+katastrofeforebygging	предупреждение стихийных бедствий
+katastrofehjelp	помощь при стихийных бедствиях ; помощь
+katastrofeområde	зона бедствия
+katastrofeplan	чрезвычайный план на случай стихийного бедствия
+kategori av truet art	исчезающий вид
+kation	катион
+kattedyr	кошачьи
+kaviar	икра
+keramikk	керамика
+keramisk industri	производство керамических изделий
+khmer	кмер
+kilde (vann) ; kilde	родник
+kildevann	вода из родника
+kimplasma	зародышевая плазма
+kinofilm	кинофильм
+kirke	церковь
+kirurgi	хирургия
+kiselalge	диатомея
+kjele	котел
+kjemi	химия
+kjemikalie i miljøet	химические вещества в окружающей среде
+kjemikalielov	закон в области использования химикатов
+kjemipolitikk	политика в области химии
+kjemisk analyse	химический анализ
+kjemisk anlegg	здание для химического производства
+kjemisk avfall	химические отходы
+kjemisk behandling	химическая обработка
+kjemisk bekjemping	борьба с вредителями химическими методами
+kjemisk dekontaminering	химическая дезактивация
+kjemisk egenskap	химические свойства
+kjemisk fabrikk	химический завод
+kjemisk forbindelse	соединение ; xимическое соединение
+kjemisk forurensning	химическое загрязнение
+kjemisk industri	химическая промышленность
+kjemisk kontaminering	химическое заражение
+kjemisk korrosivitet	подверженность химической коррозии
+kjemisk måling av forurensning	химическое измерение уровня загрязнения
+kjemisk nedfall	химические осадки
+kjemisk oksygenforbruk	химическое потребление кислорода
+kjemisk produkt	химический продукт
+kjemisk prosess	химический процесс
+kjemisk reaksjon	химическая реакция
+kjemisk risiko	риск от химического воздействия
+kjemisk sammensetning	химический состав
+kjemisk stoff	химикат
+kjemisk struktur	химическая структура
+kjemisk våpen	химическое оружие
+kjemisorpsjon	хемосорбция
+kjerneanlegg	ядерный объект
+kjernebrensel	ядерное топливо
+kjerneenergi	ядерная энергия
+kjerneergilovgivning	законодательство в области ядерной энергетики
+kjernefysikk	ядерная физика
+kjernefysisk eksplosjon (ulykke) ; kjernefysisk eksplosjon	ядерный взрыв (авария) ; ядерный взрыв
+kjernefysisk fare	опасность ядерной аварии
+kjernefysisk forskningssenter	центр ядерных исследований
+kjernefysisk prøvesprengning	ядерное испытание
+kjernefysisk risiko	ядерный риск
+kjernekraftdebatt	дебаты по вопросам использования ядерной энергии
+kjernekraftverk	атомная электростанция
+kjernereaksjon	ядерная реакция
+kjernesmelte	плавление стержня (атомн. энерг.) ; плавление стержня
+kjernevåpen	ядерное оружие
+kjæledyr	домашнее животное
+kjærlighet	любовь
+kjøleindustri	работа холодильных установок
+kjølemiddel	охлаждающий агент
+kjøleolje	охлаждающее масло
+kjøleskap	холодильник
+kjøletårn	охлаждающая башня
+kjølevann	охлаждающая вода
+kjøling	охлаждение
+kjøretøy	транспортное средство
+kjøtt	мясо
+kjøtteter	плотоядный
+kjøttkveg	мясной скот
+klagemål	процедура апелляции
+klargjøring av byggetomt	подготовка строительной площадки
+klassifisering	классификация
+klaver	фортепиано
+kle	наряжать
+kleptomani	клептомания
+klima	климат
+klimaendring	изменение климата
+klimaendring	локальное климатическое изменение
+klimaks	кульминация
+klimaressurs	климатический ресурс
+klimasone	климатическая зона
+klimatisk forsøk	климатический эксперимент
+klimatisk virkning	влияние климата
+klimatologi	климатология
+klimatype	тип климата
+klimavern	защита климата
+klippe	скала
+klisjé	клише
+klitoris	клитор
+kloning	клонирование
+klor	хлор
+klorering	хлорирование
+klorfenol	хлорофенол
+klorfluorkarbon	хлорфторуглероды
+klorhydrokarbon	хлорированный углеводород
+klorid	хлорид
+klorofyll	хлорофилл
+klorose	хлороз
+klær	одежда
+knappcellebatteri	элемент питания
+koagulering	коагуляция
+kobber	медь
+kobolt	кобальт
+kodeks	кодекс
+kodifisering	кодификация
+koffein	кофеин
+kokepunkt	точка кипения
+koks	кокс
+kolesterol	холестеринc
+koliform bakterie	колибактерии
+kollektiv avløpsvannbehandling	очистка объединенных стоков
+kolloidal form	коллоидное состояние
+kolloidal oppløsning	коллоид
+koloni	колония
+kolonisering	колонизация
+kolorimetri	колориметрия
+kombikraftverk	тепловая электростанция на различных видах топлива
+kombinasjonsvirkning	комбинированный эффект (биол.)
+kommersialisering	коммерциализация
+kommunal finans	финансирование на местном уровне
+kommunal fyllplass	городская свалка
+kommunal miljøplan	городской план охраны окружающей среды
+kommunal miljøpolitikk	муниципальная политика в области окружающей среды
+kommunal renholdstjeneste	муниципальные услуги по уборке
+kommunalforvaltning	местное правительство
+kommunallovgivning	муниципальный закон
+kommunalpolitikk	политика местных властей
+kommunalt avfall	городские отходы
+kommunalt nivå	муниципальный уровень
+kommunalt vannforsyningssystem	городская система водопровода
+kommune	муниципалитет
+kommunikasjon	связь
+kommunikasjonsindustri	индустрия связи
+kommunikasjonsmiddel	средства связи
+kommunikasjonspolitikk	политика в области средств связи
+kommunikasjonssystem	система связи
+kommunisme	коммунизм
+komparativ test	сравнительный тест
+kompensasjonspolitikk (kvotehandel)	политика зачета уровней выбросов
+kompensasjonstiltak	компенсационная мера
+kompenserende avgift	компенсационный налог
+kompleksdannelse	формирование сложного соединения (хим.)
+kompleksdanner	соединяющий реагент
+komplett naturreservat	комплексный природный заповедник
+kompost	компост
+komposterbart avfall	компостные отходы
+kompostering	компостирование
+kompresjon	компрессия
+kompressor	компрессор
+komprimering	прессовка
+kondensasjonskjerne	выпадение дождя
+kondensering	конденсация (процесс) ; конденсация
+kone	жена
+konflikt	конфликт
+kongress	конгресс
+konkurranse	биологическая конкуренция
+konkurransedyktighet	конкурентоспособность
+konkurranselovgivning	закон о конкуренции
+konkurransevridning	нарушение условий конкуренции
+konsekvensanalyse	оценка воздействия, экологическая экспертиза
+konsentrasjon	концентрация
+konserver	заказник
+konservering	сохранение
+konserveringsmiddel	консервант
+konsesjon	концессия
+konstruert dreneringssystem	система дренажа
+konstruert miljø	созданная среда
+konstruksjon med resirkulert materiale	строительство из вторичных материалов
+konsum	потребление
+konsumentavfall	бытовые отходы
+konsumprodukt	потребительский продукт
+kontaminering	загрязнение
+kontaminert jord	загрязненная почва
+kontinent	континент
+kontinentalsokkel	континентальный шельф
+kontinuerlig belastning	постоянное загрязнение
+kontor	офис
+kontrakt	контракт
+kontrollert brenning	огневая культивация
+kontrollert jaktområde	регионы разрешенной охоты
+kontrollmåling	меры контроля
+kontrollorgan	контролирующие полномочия
+konurbasjon	большой город с пригородами
+konvensjon (avtale)	конвенция
+konvensjonell energi	традиционный источник энергии
+koordinatsystem	система координат
+koordinering	координация
+korall	коралл
+korallrev	коралловый риф
+korallrevlagune	лагуна кораллового рифа
+koreansk	корейский
+kork	пробка
+korn (matvare) ; korn	зерно
+kornisk	корнуэльский
+korridor	коридор
+korrosjon	коррозия
+korrosjonshemmer	ингибитор коррозии
+kosmetikkindustri	производство косметики
+kosmisk stråling	космическое излучение
+kosmologi	kосмология
+kost-nytte	"затраты-выгоды"
+kostnad	стоимость
+kostnadsreduksjon	снижение расходов
+kostnadsøkning	увеличение расходов
+kotepløying	сельскохозяйственные работы, осуществляемые по контуру
+kraft-varmeforhold	КПД двигателя
+kraftvarmeproduksjon	одновременная генерация тепла и электричества
+kraftvarmeverk	теплоэлектростанция
+kraftverk	электростанция
+kreditt	кредит
+kreditthjelp	кредитная помощь
+kredittpolitikk	кредитная политика
+kreft	рак
+kreftfremkallende egenskap	канцерогенность
+kreftfremkallende stoff	канцероген
+kreftrisiko	риск онкологического заболевания
+krenkelse	нарушение (юридич.) ; нарушение
+krepsdyr	ракообразные
+krig	война
+krigsrammet flyktning	перемещенное лицо
+kriminalitet	преступление
+krisehåndtering	кризисное управление
+kritisk last	критическая нагрузка
+kritisk nivå	критический уровень
+kritt	мел
+kroatisk	хорватский
+krokodille	крокодил
+krom	хром
+kromatografi	хроматография
+kromatografisk analyse	хроматографический анализ
+krypdyr ; krypdyr ; krypdyr	рептилии ; рептилии ; рептилии
+krypton	криптон
+krystallisering	кристаллизация
+krystallografi	кристаллография
+kulde	холод
+kuleramme ; abakus	абак
+kull	уголь
+kullbasert energi	производство энергии на основе угля
+kullforedling	обогащение угля
+kullgruvedrift	добыча угля
+kullindustri	угольная промышленность
+kullkraftverk	теплоэлектростанция, работающая на угле
+kullsmelting	ожижение угля
+kullteknologi	гидрогенизация угля
+kultur	культура
+kulturarv	культурное наследие
+kulturell indikator	"культурный" показатель
+kulturell utvikling	культурное развитие
+kulturinstitusjon	учреждение культуры
+kulturminne	памятник
+kulturplante	культивируемое растение
+kulturpolitikk	политика в области культуры
+kulturtilbud	доступ к культурным ценностям
+kunst	искусство
+kunstgjødsel	химическое удобрение
+kunstgjødsel	неорганическое удобрение
+kunstig innsjø	искусственное озеро
+kunstig reproduksjonsteknikk	методы искусственного воспроизводства
+kunstig satellitt	искусственный спутник
+kunstspråk	искусственный язык
+kusma	заушница
+kvalitetskontroll	контроль за качеством
+kvalitetsmål	качественный целевой показатель
+kvalitetssertifisering	сертификация качества
+kvalitetssikring	гарантия качества
+kvalitetsstandard	стандарт качества
+kvalme	тошнота
+kvegavl	разведение домашнего скота
+kvegdyr	скот
+kvikksølv	ртуть
+kvinne	женщина
+kyst	берег
+kystfarvann	прибрежные воды
+kystfiske	прибрежное рыболовство
+kystmiljø	прибрежная среда
+kystområde	береговая зона
+kystrev	барьерный риф
+kystsoneplanlegging	планирование прибрежных зон
+kystutvikling	освоение морских прибрежных районов
+kystvakt	спасательная служба на воде
+kystøkosystem	прибрежная экосистема
+laboratorieavfall	отходы лабораторий
+laboratorieforsøk	лабораторный эксперимент
+laboratorieforsøk	лабораторный опыт
+laboratorieteknikk	лабораторный метод
+laboratorieundersøkelse	лабораторное исследование
+laboratorium	лаборатория
+lagerføring	пополнение запасов
+lagertank for hydrokarbon	хранилище углеводородных материалов
+lagring av landbruksprodukt	хранение сельскохозяйственной продукции
+lagunering	система прудов для очистки сточных вод
+lakk	лак
+laks	лосось ; сёмга
+lampe	лампа
+land	земля
+landbasert aktivitet	хозяйственная деятельность на суше
+landbasert havforurensning	загрязнение моря в результате хозяйственной деятельности на суше
+landbruk	сельское хозяйство
+landbruk ; landbruk	сельское хозяйство ; сельское хозяйство
+landbruks- og matvareindustri	производство продуктов питания в сельском хозяйстве
+landbruksavfall	отходы сельского хозяйства
+landbruksavrenning	сельскохозяйственные стоки
+landbruksbygning	сельскохозяйственное строение
+landbruksforurensning	сельскохозяйственное загрязнение
+landbruksforvaltning	управление в сельском хозяйстве
+landbrukshydraulikk	мелиорация
+landbruksindustri	агроиндустрия
+landbrukskatastrofe	бедствие, наносящее вред сельскому хозяйству
+landbrukskjemikalie	агрохимикат
+landbrukslovgivning	сельскохозяйственное право
+landbruksmaskin ; landbruksutstyr	сельскохозяйственное оборудование ; сельскохозяйственные машины
+landbruksmeteorologi	агрометеорология
+landbruksmetode	сельскохозяйственные методы
+landbruksplanlegging	планирование сельского хозяйства
+landbrukspolitikk	сельскохозяйственная политика
+landbruksproduksjonsmiddel	средства сельскохозяйственного производства
+landbruksprodukt	сельскохозяйственная продукция
+landbruksskogbruk	агролесоводство
+landbrukssstruktur	основные фонды сельского хозяйства
+landbruksteknikk	агротехника
+landbruksturisme	загородный туризм
+landbruksutnyttelse	сельскохозяйственная эксплуатация
+landbruksutstyr	сельскохозяйственное оборудование
+landbruksøkologi	экология сельского хозяйства
+landbruksøkonomi	экономика сельского хозяйства
+landform	форма земной поверхности
+landgjenvinning	мелиорация земель
+landrydding	расчистка земель
+landsby	деревня
+landskap	ландшафт
+landskap etter bergverksdrift	ландшафт земной поверхности после завершения горных работ
+landskapsarkitektur	ландшафтная архитектура
+landskapsbilde	естественная среда
+landskapsdannelse	формирование земель
+landskapselement	компонент ландшафта
+landskapsendring	изменение ландшафта
+landskapsforbruk	изменение ландшафта в результате его использования
+landskapsforvaltning	управление ландшафтом
+landskapsplanlegging	планирование ландшафта
+landskapsutbedring	восстановление ландшафта
+landskapsutnyttelse	использование ландшафта
+landskapsvern	сохранение ландшафта
+landskapsvern	защита ландшафта
+landskapsvernområde	зона защиты ландшафта
+landskapsvernpolitikk	политика сохранения ландшафта
+landskapsøkologi	экология ландшафта
+landtransport	сухопутный транспорт
+landverdi	цена земли
+langtidsforsøk	долгосрочный эксперимент
+langtidsvirkning	долгосрочное воздействие
+langtransport	транспорт дальнего следования
+lantan	лантан
+lanterne	фонарь
+laser	лазер
+lastebil	грузовой автомобиль
+latin	латинский ; латынь
+latvisk	латышский
+lauv	листва
+lauvskog	лиственный лес
+lauvtre	лиственное дерево
+lauvtre	широколиственное дерево
+lav	лишайник
+lav strømning	минимальный речной сток
+lavflyvning	полет на малой высоте
+lavnivåsteknologi	технология низкого уровня
+lawrencium	лоуренсий
+le	смеяться
+leddgikt	артрит
+leddorm	кольчатые черви
+leddyr	артроподы
+ledningsevne	проводимость
+legemiddelindustri	фармацевтическая промышленность
+legering	сплав
+leiekontrakt	аренда
+leir	лагерь
+leire	глина
+lekkasje	протечка
+leksikon	энциклопедия
+leksikon	лексикон
+lengdegrad	долгота
+leopard	леопард
+leppestift	помада
+leskur for dyr	помещения для содержания животных
+leukemi	лейкемия
+levestandard	стандарт жизни
+liberalisme	либерализм
+likhåndtering	погребальные услуги
+likning	уравнение
+lillefinger	мизинец
+lim	клей
+limnologi	лимнология
+lingvistikk ; språkvitskap	лингвистика
+linje	линия вектора
+linjekilde	линейный источник
+linjetonekilde	линейный источник звука
+linse	цечевица
+lipid	липид
+lipofilt stoff	липофильное вещество
+lisenseringsprosedyre	процедура лицензирования
+listig	хитроумный
+litauisk	литовский
+litium	литий
+litografi	литография
+litosfære	литосфера
+litteratur	литература
+litteraturdatabase	литературный банк данных
+litteraturevaluering	оценка литературы
+litteraturundersøkelse	исследование литературы
+littoral	литораль
+livsforhold	условия жизни
+livskvalitet	качество жизни
+livsmiljø	жизненная среда
+livsrom	жизненное пространство
+livsstil	стиль жизни, образ жизни ; стиль жизни ; образ жизни
+livssyklus	жизненный цикл
+loft(srom)	чердак
+lokal fjernvarmetilførsel	местное теплоснабжение
+lokal myndighet	местная власть
+lokal personbefordring	местный пассажирский транспорт
+lokal ressursutnyttelse	использование местных ресурсов
+lokal skogreisning	местное облесение
+lokal teknologi	технология, приемлемая для местных условий
+lokal utvikling	развитие регионов
+lokaltrafikk	местный транспорт
+lokomotiv	локомотив
+loppe	блоха
+losji	услуги по проживанию
+losvirksomhet	пилотаж
+lov	закон
+lov	право
+lov ; lov	акт
+lov om datatilsyn	закон в области обработки данных и информации
+lov om resirkuleringsstyring og avfall	закон в области вторичного использования отходов
+lovbeskyttet rettighet	право, охраняемое законом
+lovbrudd	преступление
+lovende	благоприятный
+lovforslag	проект закона
+lovgivende forsamling	законодательная власть
+lovgivende myndighet	полномочие на законодательную деятельность
+lovgiving ; lovgivning	законодательство ; законотворческая деятельность
+lovgivning for farlig gods	законы в области использования опасных товаров
+lovgivning for vern av vassdrag	законодательство по вопросам охраны водных ресурсов
+lovgivning om bly i bensin	закон об уровне содержания свинца в автомобильном топливе
+lovgivning om helsefarlige stoffer	законодательство, регулирующее обращение с загрязняющими веществами
+lovgivningsprosedyre	законодательная процедура
+lovharmonisering	гармонизация права
+lovregel	правила судопроизводства
+lovtillegg	изменение закона
+lovutkast	проект законодательного документа
+luft	воздух
+luft/vanninteraksjon	взаимодействие "воздух-вода"
+luftbevegelse	движение воздуха
+luftbåren støy	шум от находящихся в воздухе источников
+luftfartslovgivning	правила воздушных перевозок
+luftfartøy	летательный аппарат
+luftforurensende stoff	вещество, загрязняющее воздух
+luftforurenser i gassform	газообразный загрязнитель воздуха
+luftforurensning	загрязнение воздуха
+lufthavn	аэропорт
+lufting	аэрация
+luftinnblanding i vann	аэрация воды
+luftkondisjonering	кондиционирование воздуха
+luftkvalitet	качество воздуха
+luftkvalitetsforvaltning	управление качеством воздуха
+luftkvalitetskontroll	контроль за качеством воздуха
+luftkvalitetsovervåking	мониторинг качества воздуха
+luftovervåking	мониторинг атмосферы
+luftpost	авиапочта
+luftromsplanlegging	аэрокосмическое планирование
+luftsikkerhet	воздушная безопасность
+lufttemperatur	температура воздуха
+lufttrafikk	движение воздушного транспорта
+lufttrafikklovgivning	законы в области воздушного транспорта
+lufttransport	воздушные перевозки
+lukt	запах
+luktforurensning	загрязнение, воздействующее на органы обоняния
+luminositet	освещенность
+lunge	лёгкое
+lungesykdom	заболевание легких
+lut	щелок
+lutetium	лютеций
+lyd	звук
+lydisolasjon	звукоизоляция
+lydmåling	измерение уровня звука
+lydstyrke	громкость
+lymfekarsystem	лимфатическая система
+lys	свет
+lysimetri	лизиметрия
+lysnedbryting	фоторазложение
+lånesamarbeid mellom bibliotek	выдача по межбиблиотечному обмену
+lær ; skinn	кожа
+lær- og lærvareindustri	кожевенная промышленность
+løkdyrking	культивация луковиц
+lønn	зарплата ; жалованье
+lønnspolitikk	политика в области оплаты труда
+lørdag	суббота
+løselighet	растворимость
+løsemiddel	растворитель
+løsning av miljøproblemer	решение экологических проблем
+løst organisk karbon	растворенный органический углерод
+løve	лев
+løvetanner	одуванчик
+mage	желудок
+magnesium	магний
+magnetbånd	магнитная лента
+magnetisme	магнетизм
+makrofytt	макрофит
+makroøkonomi	макроэкономика
+makroøkonomisk mål	макроэкономическая цель
+maksimal immisjonskonsentrasjon	максимальная концентрация иммиссии
+maksimalt tillatt konsentrasjon	максимально допустимая концентрация
+makuleringsavfall	дезинтегратор отходов
+malaria	малярия
+malayalam	малайялам ; малаялам
+malerarbeid	покраска как вид коммерческой деятельности
+malerverksted	покрасочная мастерская
+maling	краска
+malm	руда
+maltesisk	мальтийский
+mandag	понедельник
+mandat	мандат
+mangan	марганец
+mangrove	мангровый лес
+maquis	маквис
+marathi	маратхи
+marin fauna	морская фауна
+marin giftalgeoppblomstring	"зеленый" прилив
+marin organisme	морской организм
+marin overvåking	мониторинг моря
+marin park	морской парк
+marina	шлюпочная гавань
+marinbiologi	морская биология
+maringeologi	морская геология
+marint miljø	морская окружающая среда
+marint reservat	морской заповедник
+marint økosystem	морская экосистема
+marinøkologi	экология моря
+maritim lovgivning	морское право
+marked	рынок
+markedsforberedelse	предпродажная подготовка товара
+markedsform	организация рынка
+markedsføring	маркетинг
+markedspris	рыночная цена
+markedsundersøkelse	исследование рынка
+markedsundersøkelse	изучение рынка
+markedsøkonomi	рыночная экономика
+marmor	мрамор
+maskin	машины и оборудование
+maskinproduksjon	производство машин и механизмов
+masovn	доменная печь
+massemedia	средства массовой информации
+masserekreasjon	массовый отдых
+matbehov	потребности в продуктах питания
+matematikk	математика
+matematisk analyse	математический анализ
+matematisk metode	математический метод
+materiale ; materialer	материал ; материалы
+materialegenskap	свойства материалов
+materiallivssyklus	жизненный цикл материала
+materialvitenskap	материаловедение
+matfett	пищевой жир
+matforurensende stoff	вещество, загрязняющее продукты питания
+matkvalitet	качество продуктов питания
+matlagring	государственные резервы продуктов питания
+matplanteproduksjon	производство зерновых культур
+matvare	пища
+matvarebestråling	облучение продуктов питания
+matvarehandel	торговля продуктами питания
+matvarehygiene	гигиена продуктов питания
+matvareindustri	пищевая промышленность
+matvarekonservering	сохранение продуктов питания
+matvarekontaminering	заражение продуктов питания
+matvareproduksjon	производство сельскохозяйственных продуктов питания
+matvaretransport	транспортировка продуктов питания
+maur	муравей
+medisin (medikament) ; medisin	лекарство
+medisin (vitenskap) ; medisin	медицина
+medisin (vitenskap) ; medisin	медицинская наука
+medisinalplante	лекарственное растение
+medisinavfall	фармацевтические отходы
+megabyte	мегабайт
+meieriindustri	молочная промышленность
+meitemark	земляной червь
+meitnerium	мейтнерий
+mekanisk industri	производство механических приборов
+mekanisk utstyr	механическое оборудование
+mekanisk vibrasjon	механическая вибрация
+mekanisk-kjemisk rensing	физико-химическая очистка
+melding	извещение
+melk	молоко
+melkeproduksjon	молочная ферма
+melkeprodukt	молочный продукт
+melodi	мелодия
+membran	мембрана
+mendelevium	менделевий
+mening	мнение
+meningsmåling	опрос общественного мнения
+meningsmåling	опрос мнения
+menneske	человек
+menneskekroppen	человеческое тело
+menneskelig aktivitet	деятельность человека
+menneskelig helse	здоровье человека
+menneskerettighet	гражданские права
+menneskeskapt klimaendring	изменение климата как следствие деятельности человека
+menneskesykdom	болезни человека
+menneskets leveområde	среда обитания человека
+menneskeutløst katastrofe	бедствия ; бедствия, вызванные деятельностью человека ; вызванные деятельностью человека
+merkeplikt	обязательство маркировать
+merking	маркировка
+metabolitt	метаболит
+metafysikk	метафизика
+metainformasjon	метаинформация
+metall	металл
+metallavfall	металлические отходы
+metallisk mineral	металлосодержащий минерал
+metalloksid	оксид металла
+metallprodukt	металлический продукт
+metallurgi	mеталлургия
+metallurgisk industri	металлургия
+metallvareindustri	производство металлических изделий
+metan	метан
+metanisering	метанирование
+metanol	метанол
+meteorologi	метеорология
+meteorologisk fenomen	метеорологический феномен
+meteorologisk forskning	метеорологические исследования
+meteorologisk katastrofe	стихийное бедствие, связанное с атмосферными процессами
+meteorologisk parameter	метеорологический параметр
+metode	метод
+metodelære	методология
+metrologi	метрология
+metropol	метрополия
+midd	клещ
+middelhavsklima	средиземноморский климат
+middelhavsskog	средиземноморский лес
+migrasjon av forurensende stoff	перемещение загрязняющих веществ
+migrerende arbeidskraft	мигрирующая рабочая сила
+mikrobiologi	микробиология
+mikrobiologisk analyse	микробиологический анализ
+mikrobølge	микроволна
+mikrodatamaskin	микрокомпьютер
+mikroelektronikk	микроэлектроника
+mikrofiltrering	микрофильтрация
+mikrofon	микрофон
+mikroklima	микроклимат
+mikroklimatologi	микроклиматология
+mikroorganisme	микроорганизм
+mikroskopi	микроскопия
+mikrosopp	мицеты
+mikroøkosystem	микроэкосистема
+militær aktivitet	военные действия
+militær lufttrafikk	движение военного воздушного транспорта
+militære aspekter ; militært aspekt	военные аспекты
+militært område	военная зона
+militært utstyr	военное оборудование
+militærvesen	вооруженные силы
+miljø	окружающая среда
+miljøadministrasjonsorgan	административное учреждение, занимающееся вопросами окружающей среды ; административное учреждение ; занимающееся вопросами окружающей среды
+miljøanalyse	экологический анализ
+miljøansvar	экологическая ответственность
+miljøarkitektur	экологически устойчивая архитектура
+miljøaspekt ved bosetninger	экологический аспект населенных пунктов
+miljøavgift	налог на охрану окружающей среды
+miljøbegrep	экологическая концепция
+miljøbelastning	воздействие на окружающую среду
+miljøbelastning fra akvakultur	воздействие аквакультуры на окружающую среду
+miljøbelastning fra energibruk	воздействие производства энергии на окружающую среду
+miljøbelastning fra fiske	воздействие рыболовства на окружающую среду
+miljøbelastning fra fritidsaktiviteter	воздействие индустрии отдыха на окружающую среду
+miljøbelastning fra husholdninger	воздействие быта на окружающую среду
+miljøbelastning fra industri	воздействие промышленности на окружающую среду
+miljøbelastning fra landbruk	воздействие сельскохозяйственной деятельности на окружающую среду
+miljøbelastning fra skogbruk	воздействие лесоводства на окружающую среду
+miljøbelastning fra transport	воздействие транспорта на окружающую среду
+miljøbelastning fra turisme	воздействие туризма на окружающую среду
+miljøbelastningsundersøkelse	подготовка экологического обоснования проекта
+miljøberedskapsplanlegging	разработка планов действий при экологических авариях
+miljøbetinget helsefare	отрицательные факторы, влияющие на окружающую среду и здоровье человека
+miljøbevisst atferd	поведение, ответственное по отношению к окружающей среде
+miljøbevissthet	осведомленность о состоянии окружающей среды
+miljøbevissthet i befolkningen	осведомленность граждан
+miljøborgerskap	экологически ответственная гражданская позиция
+miljøbørs	торговля экологически чистыми товарами
+miljødata	данные о состоянии окружающей среды
+miljøeffekt ; miljøkonsekvens	воздействие на окружающую среду ; последствия для окружающей среды
+miljøendring	изменение окружающей среды
+miljøerklæring (øko-audit) ; miljøerklæring ; øko-audit	заключение по состоянию окружающей среды (экоаудит) ; заключение по состоянию окружающей среды ; экоаудит
+miljøetikk	экологическая этика
+miljøfag	наука об окружающей среде
+miljøfare	экологическая угроза
+miljøfarlig stoff	вещество, опасное для окружающей среды
+miljøfond	финансовые средства на охрану окружающей среды
+miljøforenelighet	совместимость с условиями окружающей среды
+miljøforringelse	критерий оценки состояния окружающей среды
+miljøforseelse	нарушение норм в отношении окружающей среды
+miljøforskning	исследования по вопросам окружающей среды
+miljøforståelse	восприятие окружающей среды
+miljøforurensning	загрязнение окружающей среды
+miljøforvaltning	менеджмент в области охраны окружающей среды
+miljøgift	микрозагрязняющее вещество
+miljøhistorie	экологическая хронология
+miljøindeks	указатель публикаций на тему охраны окружающей среды
+miljøindikator	показатели состояния окружающей среды
+miljøindustri	промышленность, имеющая отношение к охране окружающей среды
+miljøinformasjon	информация об окружающей среде
+miljøinformasjonsnettverk	информационная сеть по вопросам окружающей среды
+miljøinformasjonssystem	информационная система по вопросам окружающей среды
+miljøinformatikk	информатика в области охраны окружающей среды
+miljøkjemi	химия окружающей среды
+miljøkjemikalielovgivning	законодательство в области влияния химикатов на окружающую среду
+miljøkonsekvens	последствия для окружающей среды
+miljøkonsekvenserklæring	заключение экологической экспертизы
+miljøkonsulenttjeneste	экологическое учреждение
+miljøkostnad	природоохранные затраты
+miljøkrav	приказ, касающийся охраны окружающей среды
+miljøkrig	экологическая война
+miljøkriminalitet	экологическое преступление
+miljøkriminalitet	экологические преступления
+miljøkriminalitet	правонарушение по отношению к окружающей среде
+miljøkriterium	критерий окружающей среды
+miljøkultur	культура по отношению к окружающей среде
+miljøkvalitet	качество окружающей среды
+miljøkvalitetskriterium	критерий качества окружающей среды
+miljøkvalitetsmål	качественный показатель состояния окружающей среды
+miljøkvalitetsstandard	стандарт на качество окружающей среды
+miljølisens	экологическое лицензирование
+miljølovgivning	законодательство в области охраны окружающей среды
+miljølovgivningsprosess	законодательный процесс в области охраны окружающей среды
+miljømarked	рынок товаров и услуг, связанных с охраной окружающей среды
+miljømedisin	санитарное состояние окружающей среды
+miljømedisin	экологическая медицина
+miljømerke	экоэтикетка
+miljømerking	экологическая маркировка
+miljømyndighet	агентство по защите окружающей среды
+miljøovervåking	мониторинг в области охраны окружающей среды
+miljøplan	план по охране окружающей среды
+miljøplanlegging	планирование в области охраны окружающей среды
+miljøpolitikk	политика в области охраны окружающей среды ; экологическая политика
+miljøpolitisk virkemiddel	инструмент политики по охране окружающей среды
+miljøprioritet	экологический приоритет
+miljøprogram	экологическая программа
+miljøprøvebank	банк образцов природных элементов
+miljøpsykologi	экологическая психология
+miljørapport	доклад о состоянии окружающей среды
+miljøregnskap	финансовая оценка экологических проблем
+miljørelatert helsevern	охрана санитарного состояния окружающей среды
+miljørelatert incitament	экономические стимулы к природоохранной деятельности
+miljørelatert subsidie	субсидия на экологию
+miljørelatert sykdom	болезни, обусловленные воздействием окружающей среды ; обусловленные воздействием окружающей среды
+miljørelatert yrke	профессия, связанная с вопросами окружающей среды
+miljørett	право в области охраны окружающей среды
+miljørevisjon	проведение экологической ревизии
+miljørisiko	экологический риск
+miljørisikovurdering	оценка экологического риска
+miljøsikkerhet	экологическая безопасность
+miljøskade	ущерб, нанесенный окружающей среде
+miljøskadelig firma	фирма, загрязняющая окружающую среду
+miljøstatistikk	экологическая статистика
+miljøstrafferett	право, регулирующее экологические преступления
+miljøstyring	контроль за состоянием окружающей среды
+miljøstøy	природный шум
+miljøteknikk	средства и методы охраны окружающей среды
+miljøteknologi	экологичная технология
+miljøterminologi	терминология в области экологии
+miljøtilstandsdata	данные о состоянии окружающей среды
+miljøtilstandsrapport	отчет о состоянии окружающей среды
+miljøulykke	экологическая авария
+miljøundersøkelse	аналитический обзор в области окружающей среды
+miljøundervisning	экологическое обучение
+miljøutdanning	экологическое образование
+miljøutvikling	экологическое развитие
+miljøvedlikehold	сохранение окружающей среды
+miljøvennlig bedriftsstyring	экологически ответственный менеджмент
+miljøvennlig bil	"чистый" автомобиль ; чистый автомобиль
+miljøvennlig bygning	"зеленое" жилище
+miljøvennlig innkjøpspolitikk	закупки, не наносящие ущерба окружающей среде
+miljøvennlig produkt	экологически чистый продукт
+miljøvennlighet	дружественный по отношению к окружающей среде
+miljøvern	охрана окружающей среды
+miljøvern	защита окружающей среды
+miljøvern i bedriften	охрана окружающей среды на предприятии
+miljøvernforening	ассоциация по защите окружающей среды
+miljøvernforskrift	нормативный документ в области охраны окружающей среды
+miljøverninvestering	инвестиции в области охраны окружающей среды
+miljøvernlovgivning for landbruket	законодательство в области сельского хозяйства
+miljøvernomkostning	расходы на охрану окружающей среды
+miljøvernorganisasjon	учреждение в области охраны окружающей среды
+miljøvernteknologi	технология, защищающая окружающую среду
+miljøvurdering	оценка состояния окружающей среды
+miljøødeleggelse	вырождение окружающей среды
+miljøøkonomi	экономика окружающей среды
+miljøøkonomi i et firma	экологичная экономика частных компаний
+milt	селезёнка
+mindre utviklet land	наименее развитая страна
+mindreårig	несовершеннолетний
+mineral	минерал
+mineralavfall	отвальные породы
+mineralavsetning	месторождение полезных ископаемых
+mineralfiber	минеральное волокно
+mineralforurensning	загрязнение в результате горных работ
+mineralisering	минерализация
+mineralmateriale	минеральное вещество
+mineralogi	минералогия
+mineralolje	минеральное масло
+mineralproduktindustri	горнодобывающая промышленность
+mineralressurs	минеральный ресурс
+mineralutvinning	добыча полезных ископаемых
+mineralvann	минеральная вода
+minimisering av miljøbelastning	минимизация отрицательного воздействия
+miniskjørt	мини-юбка
+ministerkompetanse	компетенция министра
+ministerrapport	доклад министру
+minnesmerkebevaring	сохранение памятников
+minoritet	меньшинство
+misdannelse	порок развития
+mobilt hjem	передвижной дом
+modell	модель
+modellering	моделирование
+molekylærbiologi	молекулярная биология
+molybden	молибден
+monopol	монополия
+morfin	морфин
+morfologi	морфология
+morkake	плацента
+morsmelk	грудное молоко
+mosaikk	монтаж спутниковых или аэрофотоснимков
+mose	бриофиты (мхи и печеночники) ; бриофиты
+motor	двигатель
+motorbrennstoff	автомобильное топливо
+motorkjøretøy	автомобиль
+motorkjøretøyeksos	выхлопные газы автомобилей
+motorkjøretøyindustri	автомобильная промышленность
+motorsykkel	мотоцикл
+motorveg	шоссе
+motstand	сопротивление (биологическое) ; сопротивление
+motstridende bruk	конфликт по вопросу права на использование
+mudring	землечерпательные работы
+mudringsmasse	осадок, полученный в результате землечерпательных работ
+multilateral avtale	многостороннее соглашение
+multimediateknologi	мультимедийная технология
+multinasjonalt selskap	многонациональная компания
+multispektral skanner	многоспектральное сканирующее устройство
+murkonstruksjon	каменная кладка
+murstein	кирпич
+murvegetasjon	вьющееся растение
+museum	музей
+musikal	мюзикл
+musiker	музыкант
+musikk	музыка
+musikkinstrument	инструмент
+muskelsystem	мышечная система
+muslingoppdrett	разведение моллюсков
+mutagen	мутаген
+mutagenitet	способность вызывать мутацию
+mutant	мутант
+mutasjon	мутация
+mykologi	микология
+mykorrhiza	микориза
+myr	трясина
+myse	сыворотка
+mystisk	таинственный
+myte	миф
+måke	чайка
+mål for enkeltstående forretningsforetak	цель деятельности хозяйствующей единицы
+måleinstrument	измерительный инструмент
+målemetode	метод измерений
+måleprogram	программа измерений
+målgruppe	целевая аудитория
+måling	измерение
+målkonflikt	конфликт целей
+måne	луна
+mårdyr	куница
+møbel	мебель
+møbelindustri	производство мебели
+mølle	мельница
+mønstergjenkjenning	распознавание образов
+nabo	сосед
+nabostøy	шум от расположенного по соседству источника
+nakenfrøet plante	голосеменные
+napolitansk	неаполитанский
+nasjonal fiskereservat	национальный рыбный заказник
+nasjonal grense	национальная граница
+nasjonal lovgivning	национальное законодательство
+nasjonal planlegging	национальное планирование
+nasjonalisering	национализация
+nasjonalpark	национальный парк
+nasjonalt miljøregnskap	финансовая оценка национальных экологических проблем
+nasjonalt regnskap	национальная система бухгалтерского учета
+nasjonaløkonomi	национальная экономика
+natrium	натрий
+natur- og landskapsinngrep	вмешательство в природный ландшафт
+naturarv	природное наследие
+naturarv-vurdering	оценка природного наследия
+naturfiber	волокно природного происхождения
+naturgass	природный газ
+naturgassleting	разведка природного газа
+naturgassutvinning	добыча природного газа
+naturgeografi	физическая география
+naturgjødsel	природное удобрение
+naturgjødselproduksjon	производство навоза
+naturkatastrofe	стихийное бедствие
+naturlig fare	опасность стихии
+naturlig miljø	естественная окружающая среда
+naturlig radioaktivitet	естественная радиоактивность
+naturlig regenerering	естественная регенерация
+naturlig verdi	природная ценность
+naturmateriale	природный материал
+naturminne	памятник природы
+naturområde	природная зона
+naturpark	природный парк
+naturreservat	природный заповедник
+naturressurs	природный ресурс
+naturressursforringelse	деградация природных ресурсов
+naturressursforvaltning	управление природными ресурсами
+naturrisiko	природный риск
+naturrisikoanalyse	анализ природного риска
+naturrisikoforebygging	снижение природных рисков
+naturskog	естественный лес
+naturstein	природный камень
+natursti	учебная тропа
+naturvern	сохранение природы
+naturvern	защита природы
+naturvernlovgivning	законодательство в области сохранения природы
+naturvernorganisasjon	учреждение, занимающееся вопросами сохранения природы
+naturvernprogram	программа сохранения природы
+naturvitenskap	естественная наука
+naturvitenskap	физическая наука
+nedbrytbarhet	способность к разложению
+nedbryting (kjemi) ; nedbryting	деградация, разложение ; разложение ; деградация
+nedbryting av forurensning	разложение загрязняющих веществ
+nedbryting av ozonlaget	разрушение озонового слоя
+nedbrytingsprodukt	продукт разложения
+nedbrytning	разложение
+nedbør (meteorologisk fenomen) ; nedbør	атмосферные осадки
+nedbørfelt	водосбор
+nedbørfremkalling	усиление выпадения осадков (метеорол.) ; усиление выпадения осадков
+nederlandsk	нидерландский
+nedfall	выпадение осадков
+nedlagt militært område	заброшенная военная площадка
+nedleggelse	закрытие
+nekrose	некроз
+nematode	нематоды
+neodymium	неодим
+neologisme	неологизм
+neon	неон
+nepali	непальский
+nepotisme	непотизм
+neptunium	нептуний
+nervesystem	нервная система
+nes	мыс
+nese	нос
+neshorn	носорог
+nettverkspolitikk	политика зачета уровней выбросов
+neurotoksisitet	нейротоксичность
+nevrologi	неврология
+ni	девять ; девять
+nikkel	никель
+niob	ниобий
+nitrat	нитрат
+nitrifikasjon	нитрификация
+nitroforbindelse	нитросоединение
+nitrogen	азот
+nitrogendioksid	диоксид азота
+nitrogenfiksering	фиксация азота
+nitrogenfjerning fra avgass	денитрификация газовых отходов
+nitrogengjødsel	азотное удобрение
+nitrogenkretsløp	азотный цикл
+nitrogenmonoksid	оксид азота
+nitrosamin	нитрозамин
+nobelium	нобелий
+nomade	кочевник
+nomenklatur	номенклатура
+nord-sør-forhold	взаимоотношения "Север-Юг"
+norm	норма
+norsk	норвежский
+notifikasjon	уведомление
+novial	новиаль
+nukleinsyre	нуклеиновая кислота
+nulle ; null	нуль ; ноль
+ny teknologi	новая технология
+nyhetsbrev	информационный бюллетень
+nyhetsgruppe	телеконференция
+nynorsk	нюнорск
+nyre	почка
+nytt anlegg	новая установка
+nytt materiale	новый материал
+nytt samfunn	новое сообщество
+nyttbar organisme	полезный организм
+nytte-kostnadsanalyse	анализ эффективности
+nytteplante	товарная сельскохозяйственная культура
+næringsfiske	промышленная рыбная ловля
+næringsgren	отрасль хозяйственной или коммерческой деятельности
+næringshusholdning	питательный баланс
+næringsinnhold	питательный состав
+næringskjede	пищевая цепь
+næringsklassifisering	классификация бизнеса
+næringsmiddel	продукт питания
+næringsmiddelindustri	пищевая обрабатывающая промышленность
+næringsmiddelteknologi	технология в области производства продуктов питания
+næringsstoff	питательное вещество
+næringsstoffsyklus	питательный цикл
+næringssubstrat	средство питания
+næringstilstand i jord	плодородие почвы
+næringstoffjerning	удаление питательных веществ
+næringstrafikk	движение грузового транспорта
+næringsverdi	питательная ценность продуктов
+nødhjelp	помощь при чрезвычайной ситуации
+nødrett	закон в области регулирования чрезвычайных ситуаций
+nøytralisering	нейтрализация
+observasjonssatellitt	спутник слежения
+odontologi	стоматология
+off-site	вне площадки или объекта
+offentlig administrativ institusjon	государственный орган для решения административных вопросов
+offentlig arbeid	предприятия, находящиеся на государственном бюджете
+offentlig bad	общественная баня
+offentlig bygning	общественное здание
+offentlig deltakelse	участие общественности
+offentlig diskusjon	общественная дискуссия
+offentlig finans	государственные финансы
+offentlig finansiering	государственное финансирование
+offentlig funksjon	общественная функция
+offentlig gransking	общественный запрос
+offentlig hjelp	государственная помощь
+offentlig høring	официальное слушание
+offentlig høring	общественные слушания
+offentlig informasjon	общедоступная информация
+offentlig innkjøp	государственные закупки
+offentlig institusjon	государственный орган
+offentlig institusjon for handel og industri	государственный орган для решения вопросов коммерции и промышленности
+offentlig kontrakt	государственный контракт
+offentlig maritimt område	государственное морское судоходство
+offentlig område	сектор бесплатных услуг
+offentlig park	общественный парк
+offentlig rett	общественное право
+offentlig sektor	государственный сектор
+offentlig servicebedrift	предприятие коммунального хозяйства
+offentlig sikkerhet	гражданская оборона
+offentlig tilstedeværelse	участие общественности
+offentlig tiltak	действия общественности
+offentlig transport	общественный транспорт
+offentlig transportmiddel	средство общественного транспорта
+offentlig vannveg	водные пути в государственной собственности
+offentlig-privat kompaniskap	предприятие с государственным и частным капиталом
+offentlige utgifter	государственные расходы
+offentligheteten	общественность
+offer	жертва
+offisielt språk	официальный язык ; государственный язык
+oftalmologi	офтальмология
+okse	бык
+oksid	оксид
+oksidasjon	реакция окисления
+oksidasjonsmiddel	окисляющий агент
+oksidasjonsreduksjon	снижение окисления
+oksiderbart materiale	материал, способный к окислению
+oksygen	кислород
+oksygenering	оксигенация
+oksygeninnhold	содержание кислорода
+oktav	октава
+oligarki	олигархия
+oligopol	олигополия
+olje- og fettindustri	производство пищевого масла и жиров
+oljebasert energi	производство энергии, базирующееся на переработке нефти
+oljebindemiddel	нефтесвязующее вещество
+oljeboring	бурение нефтяных скважин
+oljebunnfall	сточная вода маслобоен, производящих оливковое масло
+oljeflak	нефтяная пленка
+oljeforbruk	потребление нефти
+oljeforurensning	нефтяное загрязнение
+oljeforurensningsbekjemping	уменьшение нефтяного загрязнения
+oljekatastrofe	авария, связанная с разливом нефти ; связанная с разливом нефти ; авария с разливом нефти
+oljelense	боновое заграждение
+oljeleting	разведка нефти
+oljeoppsamlingsskip	нефтесборное судно
+oljeproduksjon	производство нефти
+oljeraffineri	нефтеперерабатывающий завод
+oljerørledning	нефтепровод
+oljesøl	разлив нефти
+oljetanker	нефтяной танкер
+oljeutvinning	добыча нефти
+omdanning av krigsmateriell	конверсия вооружений
+omega	омега
+omkvartering	ремонт и строительство жилых домов
+område	географические рамки действия юридического документа
+område med ren luft	район чистого воздуха
+områdetype	региональное планирование
+omvendt osmose	реверсный осмос
+onkologi	онкология
+ontogenese ; ontogenese	онтогенез ; онтогенез
+ontologi	онтология
+operette	opereta ; оперетта
+opium	опий
+oppdemmingsmagasin	водохранилище
+oppfostring	воспитание
+oppgave	задача
+opplæring	профессиональное обучение
+opplæring i miljøspørsmål	подготовка специалистов по вопросам охраны окружающей среды
+opplæringssenter	учебный центр
+oppløsning	растворение
+oppløsning	разрешающая способность
+oppløst oksygen	растворенный кислород
+oppmaling	измельчение
+oppmalingsrest	шлифовально-мельничные отходы
+oppmerksom	внимательный
+oppreisning	возмещение ущерба
+opprensing	расчистка
+opprensket slam	осадочный ил
+opprustning	вооружение
+opprydding av avfall	остаточные продукты очистки
+oppryddingsarbeid etter katastrofe	устранение последствий стихийного бедствия
+oppsamling	дренаж
+oppsamling av oljerester	рекуперация нефтяных остатков
+oppslagstavle (data)	электронная доска объявлений
+oppstigning	восхождение
+opptaksprøve	конкурсный отбор
+oppvarming	теплоснабжение
+optimisme ; optimisme ; optimisme	оптимизм ; оптимизм ; оптимизм
+oralsex	оральный секс
+ord	слово
+ordbok	словарь
+orden	приказ
+ordliste	словарь
+organ (anatomi) ; organ	орган
+organisasjon	организация
+organisasjoners juridiske form	юридическая форма организаций
+organisering av undervisning	профессиональная организация преподавателей и учителей
+organisk avfall	органические отходы
+organisk forurensende stoff	органическое загрязняющее вещество
+organisk forurensning	органическое загрязнение
+organisk halogenforbindelse	галогенсодержащее органическое соединение
+organisk karbon	органический углерод
+organisk kjemi	органическая химия
+organisk klorforbindelse	хлорсодержащее органическое соединение
+organisk løsemiddel	органический растворитель
+organisk materiale	органическое вещество
+organisk metallforbindelse	металлсодержащее органическое соединение
+organisk nitrogen	органический азот
+organisk nitrogenforbindelse	азотсодержащее органическое соединение
+organisk oksygenforbindelse	кислородсодержащее органическое соединение
+organisk stoff	органическое вещество
+organisk svovelforbindelse	сероорганическое соединение
+organisme	организм
+organoleptisk egenskap	органолептическое свойство
+orkan	ураган
+ornitologi	орнитология
+orografi	орография
+ortografi	орфография
+oseanisk klima	морской климат
+oseanografi	океанография
+osmium	oсмий
+osmose	осмос
+overbefolkning	перенаселенность
+overbeiting	чрезмерный выпас
+overfiske	рыбная ловля, истощающая ресурсы водоема
+overflatespenning	напряжение поверхности
+overføringseffekt	эффект переноса
+overgjødsling	избыточное внесение минеральных удобрений
+overløp	водослив
+overrumplet	ошеломлённый
+oversette	переводить
+oversettelse	перевод
+overskrevs	верхом
+overskytende høyde på fabrikkpiper	чрезмерная высота труб
+oversvømmelse	затопление
+overvintring	зимовка
+overvåking	мониторинг
+overvåking av forurensende stoff	мониторинг загрязняющих веществ
+overvåkingsdata	данные мониторинга
+overvåkingskriterium	критерий мониторинга
+overvåkingsnettverk	сеть станций мониторинга
+overvåkingsstasjon	станция мониторинга
+overvåkingsteknikk	приемы мониторинга
+overvåkingsutstyr	оборудование для мониторинга
+ovn	печь
+ovn	техническая печь
+ozon	озон
+ozonering	озонизация
+ozonlag	озоновый слой
+ozonreduksjonspotensiale	потенциал озоноразрушения
+padde	жаба
+pakkis	паковый лед
+paleoklimatologi	палеоклиматология
+paleontologi	палеонтология
+paleoøkologi	палеоэкология
+palladium	палладий
+panjabi	панджаби ; пенджабский
+papegøye	попугай
+papir	бумага
+papiravfall	макулатура
+papirindustri	бумажная промышленность
+parabel	парабола
+parafin	керосин
+parameter	параметр
+parasitt	паразит
+parasittologi	паразитология
+parkeringsanlegg	предоставление услуг парковки ; стоянка ; парковка
+parkeringsplass	автомобильная стоянка
+parlament	парламент
+partering	разделка туш животных
+partikkel	частица
+partikkelseparator	сепаратор частиц
+passasjertransport	пассажирский транспорт
+passeringssted	дорожный переход
+passeringssted for dyr	места для перехода животных
+patent	патент
+patogen	патоген
+patogen organisme	патогенный организм
+patologi	патология
+patologisk virkning	патологический эффект
+pattedyr	млекопитающее
+pedagogikk	педагогика
+pedosfære	педосфера
+pels	мех
+pelsdyr	пушной зверь
+pelshandel	торговля пушниной
+pendlertrafikk	пригородный транспорт
+pengemarked	рынок краткосрочных финансовых обязательств
+pengeøkonomi	монетарная экономика
+pensum	кадровая анкета
+pentaklorfenol	пентахлорофенол
+perifert parkområde	периферийная часть природного заповедника
+perifyton	перифитон
+periodesystemet	Периодическая система элементов
+periodisk støy	прерывистый звук
+periurbant område	пригородная территория
+permeabilitet	водопроницаемость
+peroksyacetylnitrat	пероксилацетилнитрат
+persisk	персидский ; фарси
+persistens	химическая инерция
+persistent organisk forurensende stoff	стойкое органическое загрязняющее вещество
+personbil	частный автомобиль
+personlig ansvar	персональная ответственность
+pesticid	пестицид
+pesticidrest	остаточное количество пестицидов
+petisjonsrett	право подать петицию
+petrokjemikalie	нефтехимический продукт
+petrokjemisk industri	нефтехимическая промышленность
+petroleum	нефть
+petroleumsindustri	нефтяная промышленность
+pigghud	иглокожие
+pilotprosjekt	пилотный проект
+pilspiss	наконечник
+pingvin	пингвин
+pinnsvin	ёж
+pipe	труба
+plan	план
+plan mot støyplager	план мер борьбы с шумом
+planet	планета
+plankton	планктон
+planlegging	планирование
+planlegging med minimal kostnad	низкозатратное планирование
+planleggingslovgivning	законы в области планирования
+planleggingstillatelse	разрешение на планирование
+planleggingstiltak	мера планирования
+plante	растение
+planteart	растительные виды
+plantearv	наследие растительного мира
+plantebiologi	биология растений
+plantedel	часть растения
+planteeter	травоядное животное
+plantefiber	растительное волокно
+planteforedling	разведение растений
+plantefysiologi	физиология растений
+plantepatologi	фитопатология
+planteplankton	фитопланктон
+plantepopulasjon	популяция растений
+planteproduksjon	заводское производство
+plantereproduksjon	репродукция растений
+planteressurs	растительный ресурс
+plantesamfunn	популяция растений
+planteseleksjon	селекция растений
+planteskole	теплица (разведение растений) ; теплица
+planteskoledrift	древоводство
+plantesosiologi	фитосоциология
+plantesykdom	болезнь растения
+plantevern	защита растений
+plantevernmiddel	продукт для защиты растений
+planteøkologi	экология растений
+plasmateknologi	плазменная технология
+plast	пластмасса
+plastavfall	пластмассовые отходы
+platina	платина
+plen	газон
+plutonium ; plutonium ; plutonium	плутоний ; плутоний ; плутоний
+polarområde	полярный регион
+politi	полиция
+politikk	политика, политическая жизнь ; политика ; политическая жизнь
+politikk ; politikk (strategi) ; strategi	политика (линия поведения) ; политика
+politikkintegrering	интеграция политики
+politikkplanlegging	планирование политики
+politimyndighet	право осуществлять охрану порядка
+politisk doktrine	политическая доктрина
+politisk geografi	политическая география
+politisk ideologi	политическая идеология
+politisk makt	политическая власть
+politisk organisasjon	политическая организация
+politisk parti	политическая партия
+politisk retningslinje	основные ориентиры политики
+politisk rådgivning	политическое совещание (процесс)
+politisk virkemiddel	инструмент политики
+politisk økologi	политическая экология
+politivedtekt	законы, регламентирующие деятельность полиции
+pollen	пыльца
+polonium	полоний
+polsk	польский
+polybromert bifenyl	полибромированный бифенил
+polyetylentereftal	полиэтилентерефталат
+polygon	полигон
+polyklorert dibensofuran	полихлорированный дибензофуран
+polyklorert dibenzodioksin	полихлордибензо-пара-диоксин
+polyklorert terfenyl	полихлорированный терфенил
+polymer	полимер
+polymerisering	полимеризация
+polyppdyr	кишечнополостные
+polysyklisk hydrokarbon	полициклический углеводород
+polyvinylklorid	поливинилхлорид
+populasjon	популяция
+populasjonsdynamikk	динамика численности и структуры населения
+populasjonsøkologi	экология популяции
+porselen	фарфор ; порцелан
+portugisisk	португальский
+posidonia	Najadales, триостренник ; триостренник
+positron	позитрон
+postbud	почтальон
+potensielt forurenset område	ареал потенциального загрязнения
+praseodym	празеодим
+preklusjon	лишение должника права выкупа заложенного им имущества
+prelat	прелат
+premie	страховая премия
+preposisjon	предлог
+presse	пресса
+pressgruppe	группа влияния
+pressing	отжим
+primat	примат
+primærbehandling	первичная обработка
+primærenergiforbruk	первичное потребление энергии
+primærnæring	сектор сырья и сельскохозяйственной продукции
+prins	принц
+pris	цена
+pris ved salg fra gård	закупочная цена
+prispolitikk	политика в области ценообразования
+privat husholdning	личное домашнее хозяйство
+privat område	сектор платных товаров и услуг
+privat sektor	частный сектор
+privat skog	частный лес
+privat transport	частный транспорт
+privatisering	приватизация
+privatrett	гражданское право
+privatrett	частное право
+problemavfall	крупногабаритные мусор и отходы
+produksjonsaktivitet	производственная деятельность
+produksjonspolitikk	политика в области производства
+produkt	продукт
+produktansvar	ответственность за использование продукта
+produktevaluering	оценка продуктов
+produktidentifikasjon	идентификация продуктов
+produktinformasjon	информация о продукте
+produktivitet	производительность
+produktivitetsutvikling	тенденция производства
+produktlivssyklus	цикл жизни продукта
+produktreklame	реклама товаров
+produktsammenligning	сравнение продуктов
+produktstandard	стандарт на продукт
+produsentansvar	ответственность производителя
+profitt	доход
+prognose (helse)	данные прогноза
+program	программа
+programvare	программное обеспечение
+programvareutvikling	разработка программных средств
+promethium	прометий
+prosessanalyse	анализ процессов
+prosessavløpsvann	техническая вода
+prosessrett	процессуальный закон
+prosessteknologi	производственная технология
+prosjekt	проект
+prostitusjon	проституция
+protactinium	протактиний
+protein	белок
+proteinprodukt	белковый продукт
+protokoll (avtale)	протокол
+provins	провинция
+prøving av mutagenitet	тест на способность вызывать мутацию
+psykiater	психиатр
+psykisk stress	психологический стресс
+psykisk virkning	психический эффект
+psykologi	психология
+psykologisk virkning	психологический эффект
+psykosomatisk sykdom	психосоматическое заболевание
+psykosomatisk virkning	психосоматический эффект
+pumpe	насос
+pumping	выкачивание
+pungdyr	сумчатые
+punkt	координата
+punktkilde	конкретный источник загрязнения
+purin	пурин
+pyralene	пирален
+pyrolyse	пиролиз
+pyrrhosseier	пиррова победа
+pytt	пруд
+påstå	утверждать
+påståelig	настойчивый
+påviselighet	способность демонстрировать
+påvisning	обнаружение
+pære	груша
+rabbiner	ρаввин ; раввин ; ребе ; рав ; рабби ; рэб
+radar	радар
+radio	радио
+radioaktiv dekontaminering	дезактивация радиоактивного загрязнения
+radioaktiv kontaminering	радиоактивное заражение
+radioaktivitet	радиоактивность
+radioaktivt avfall	радиоактивные отходы
+radioaktivt avfallsdeponi	сброс радиоактивных отходов
+radioaktivt nedfall	радиоактивные осадки
+radioaktivt sporstoff	радиоактивный изотоп
+radioaktivt stoff	радиоактивное вещество
+radioaktivt stoff	радиоэлемент
+radioaktivt utslipp	выбросы радиоактивных отходов
+radionuklide	радионуклид
+radioprogram	радиовещательная программа
+radium	радий
+radon	радон
+raffineri	рафинировочный завод
+raffinering	очистка
+rammelovgivning	рамочное законодательство
+rammeplan for landbruket	перспективный сельскохозяйственный план
+rapporteringsprosedyre	процесс подготовки отчета
+raps	рапс
+raserelasjon	расовые взаимоотношения
+raster	растр
+raster til vektor	преобразование растрового изображения в векторное
+reaksjonskinetikk	кинетика химических реакций
+reaktor	реактор
+reaktorsikkerhet	безопасность реактора
+redningssystem	система спасения
+redningstjeneste	служба спасения
+reduksjon	химическое восстановление
+referansetjeneste	справочное обслуживание
+refleksjon	отражение
+reflektometri	рефлектометрия
+refugium	экологическое убежище
+regenerering	восстановление
+region	регион
+regional forordning	региональный нормативный документ
+regional konvensjon	региональная конвенция
+regional lov	региональный закон
+regional myndighet	региональная власть
+regional naturpark	региональный природный парк
+regional planlegging	региональное планирование
+regional statistikk	региональная статистика
+regional struktur	региональная структура
+regional utvikling	региональное развитие
+regionalplan	региональный план
+registrering	регистрация
+registreringsplikt	обязательная регистрация
+registreringsprosedyre	процедура регистрации
+registrert område	зарегистрированный объект охраны окружающей среды
+regjering	правительство (кабинет министров)
+regjeringsansvar	ответственность правительства
+regjeringsbygg	правительственное здание
+regjeringspolitikk	политика правительства
+regn	дождь
+regnskap for ledelsen	управление финансовой отчетностью
+regnskapssystem	система бухучета
+regnskog	дождевой лес
+regnvann	дождевая вода
+regulerende lov	регулятивный закон
+regulering av landbruksproduksjon	регулирование сельскохозяйственного производства
+rehabilitering	восстановление
+reising	путешествие
+reising utenom rushtiden	внепиковые поездки
+rekombinant DNA-teknikk	технология на основе рекомбинантной ДНК
+rekreasjon	отдых
+rekreasjon i nærområdet	отдых в конкретной местности
+relasjonsdatabase	реляционная база данных
+relieff	рельеф земли
+religion	религия
+remobilisering av forurensning	повторная мобилизация загрязняющих веществ
+ren teknologi	чистая технология
+renaturering	восстановление природной системы
+rengjøringsetat	отдел очистки
+rennende vann	потоки воды
+renseanlegg	очистное оборудование
+rensemiddel	стиральный порошок
+rensende kraft	очистительная способность
+rensing	очистка
+rensing gjennom jordsmonnet	естественная очистка почвы
+renslighet	чистота
+rente	банковский процент
+reparasjonsvirksomhet	услуги по ремонту
+representasjon	представление
+reproduksjon	репродукция (биологическая)
+reproduksjon av dyr	репродукция животных
+reproduksjonsmanipulering	манипулирование репродукцией
+reprosessering	переработка ядерного топлива
+resept	право давности
+reservat	заказник ; заповедник, заказник ; заповедник
+reservoar	водоем
+resirkulerbarhet	способность к вторичному использованию
+resirkulering	вторичное использование отходов
+resirkulering av restmengde	вторичное использование остатков
+resirkuleringsstyring	управление жизненным циклом продукта
+resirkulert materiale	материал из утилизированных отходов
+resirkulert papir	бумага из отходов
+resolusjon	резолюция
+resorpsjon	поглощение
+respirasjon	респирация
+respirasjonsluft	респираторный воздух
+respirasjonssystem	респираторная система
+ressurs ; ressurser	ресурс ; ресурсы
+ressursevaluering	оценка ресурса
+ressursforvaltning	управление ресурсами
+ressursprispolitikk	ценовая политика в отношении ресурсов
+ressursreservat	ресурсный запас
+ressursutnyttelse	использование ресурсов
+ressursutnyttelse	эксплуатация ресурсов
+ressursvern	сохранение ресурсов
+restanalyse	анализ остатков
+restaurering av bygninger	реконструкция зданий
+restaurering av installasjoner	ремонт технических установок
+restavfall	остаток после переработки отходов
+restrisiko	остаточный риск
+restslam (avfall)	остаточный сточный ил
+restvann	остаточное количество воды
+rettferdighet	правосудие
+rettsforfølgelse	судебное преследование
+rettsforordning	правовое постановление, нормативный документ
+rettsgrunnlag	юридическая основа
+rettshandling	юридический акт
+rettshjelp	судебная помощь
+rettslig organ	судебный орган
+rettslære	юриспруденция
+rettsmiddel	юридическое средство
+rettsområde	отрасль права
+rettsorden	юридическая система
+rettsordenstruktur	организация правовой системы
+rettssak	судебное разбирательство
+rettstvist	судебный процесс
+rettsvesen	судебная система
+rev (landform)	риф
+reversering av miljøbelastning	обратное воздействие
+revisjon	аудит
+rhenium	рений
+rhodium	родий
+rimelighet	разумность
+ringprøving	внутрилабораторные сравнения результатов исследований
+ris	рис
+risikoanalyse	анализ опасности
+risikokalkulering	ожидание опасности
+risikokommunikasjon	обмен информацией по рискам
+risikoområde	район, подверженный риску
+rivningsavfall	мусор от сноса зданий и сооружений
+rivningsvirksomhet	снос зданий и сооружений как вид деятельности
+roentgenium	рентгений
+rom sjø	открытое море
+rombe	ромб
+romferd	космический полет
+rot	корень
+rovdrift	чрезмерная эксплуатация природных ресурсов
+rovdyr	хищник
+rovfugl	хищная птица
+rubidium	рубидий
+rubin	рубин
+ruging	высиживание яиц
+rullende støy	дорожный шум
+rumensk	румынский
+rundskriv	циркулярное письмо
+russisk	русский ; russo
+ruteteknikk (kart)	географическая привязка
+ruthenium	рутений
+rutherfordium	рузерфордиум
+rydding av busker	вырубка кустарников
+råd	консультация ; совет, консультация ; совет
+rådgivning	консультативная практика
+råolje	сырая нефть
+råstoff	сырье
+råstofforbruk	потребление сырья
+råstoffsikring	обеспеченность сырьем
+råtnetank	автоклав
+råvann	сырая вода
+rør	труба
+rørledning	трубопровод
+røyk	дым
+røykgass	отходящий газ
+røyking	курение
+safir	сапфир
+sagflis	древесные опилки
+saksedyr	уховертка
+salamander	саламандра
+salt	соль
+saltsyre	соляная кислота
+saltvann	морская вода
+saltvannsfiske	морская рыбная ловля
+samarbeid	сотрудничество
+samarbeidspolitikk	политика сотрудничества
+samarbeidsprinsipp	принцип сотрудничества
+samarium	самарий
+samforbrenning	одновременное сжигание отходов
+samfunnsliv	общество
+samfunnsnytteerklæring	объявление предприятием общественного назначения
+samfunnsvitenskap	общественная наука
+samfunnsøkonomisk undersøkelse	запрос по поводу общественной полезности
+samle	созывать
+sammen	вместе
+sammenlignende rett	сравнительное право
+sammenligning	сравнение
+samråd	консультация
+samtykke	согласие
+samtykke	соглашаться
+sand	песок
+sanddyne	песчаная дюна
+sanddyne	дюна
+sanger	певчая птица
+sanitært utstyr	санитарно-техническое оборудование
+sans for naturen	любовь к природе
+sardin	сардина
+satellitt	спутник
+sauedyr	овечьи
+scandium	скандий
+seaborgium	сиборгий
+sediment	осадок
+sedimentasjon (geologisk) ; sedimentasjon	седиментация (геол.) ; седиментация
+sedimentologi	седиментология
+seismisk aktivitet	сейсмическая активность
+sekkepipe	волынка
+sekstant	секстант
+sel	ластоногие
+selen	селен
+selskapsstruktur	структура компании
+selveiende vann	водоем, находящийся в собственности государства
+selvmord	самоубийство
+sement	цемент
+sementindustri	цементная промышленность
+sementproduksjon	производство цемента
+sentralisering	централизация
+sentralregjering	правительство федерального уровня
+sentralt parkområde	центральная часть природного парка
+sentrifugering	центрифугирование
+separator	сепаратор
+serbisk	сербский
+sertifisering	сертификация
+servitutt	сервитут
+sexologi	cексология
+shipping	торговое мореплавание
+si	сказать
+sick building-syndromet	синдром вредного помещения
+siemens	сименс
+sigar	сигара
+sigarett	сигарета ; папироса
+sigevann	фильтруемая вода
+sikkerhet	безопасность
+sikkerhet på arbeidsplassen	техника безопасности на производстве
+sikkerhet ved kjernekraft	ядерная безопасность
+sikkerhetstiltak	мера безопасности
+sikringskost	основные продукты питания
+silisium	кремний
+silt	силт
+simulering	математическое моделирование
+sindhi	синдхи
+sink	цинк
+sirkulasjon (limnologi)	циркуляция водных слоев
+siv	тростник
+sivil lufttrafikk	движение гражданского  воздушного транспорта
+sivilstand	семейное положение
+sjelden art	редкие виды
+sjimpanse	шимпанзе
+sjø ; sjø	море ; море
+sjøkart	карта-график
+sjøkart	морская карта
+sjøpattedyr	морское млекопитающее
+sjøpattedyr	водное млекопитающее
+sjøtransport	морской транспорт
+sjøvann	морская вода
+sjøvann til bading	морская вода, пригодная для купания
+sjøvannssirkulasjon	циркуляция океана
+skade	ущерб
+skade	повреждение
+skade ; sår	рана
+skade etter militærøvelse	ущерб от военных маневров
+skadebegrensningstiltak	мера по снижению уровня отрицательного воздействия
+skadedyrangrep på avling	инвазия посевов сельскохозяйственных культур
+skadedyrangrep på mat	инвазия продуктов питания
+skadeforsikring	страхование от ущерба
+skadegjører	вредитель
+skadegjører i landbruket	сельскохозяйственные вредители
+skadegjører på skog	лесной вредитель
+skadegjørerangrep	инвазия вредителей
+skadereduksjon	минимизация ущерба
+skadeserstatning	компенсация ущерба
+skadeserstatning	компенсация
+skadevern	предотвращение ущерба
+skadevurdering	оценка ущерба
+skalldyr	моллюски и ракообразные
+skalle	череп
+skamfull	пристыженный
+skarp	едкий
+skatt	налог
+skattefritak for kraftstasjoner	отключение электростанции
+skatteutskrivning	сбор
+skilpadde	сухопутная черепаха
+skilsmisse	развод
+skiløype	лыжня
+skinnegående kjøretøy	железнодорожное транспортное средство
+skip	корабль
+skipsfart	навигация
+skipsfart	морская навигация
+skipsteknikk	производство энергетического оборудования для судов
+skisport	лыжный спорт
+skjoldbruskkjertel	шитовидная железа
+skog	лес
+skogbrann	лесной пожар
+skogbruk	лесное хозяйство
+skogbruksenhet	предприятие лесного хозяйства
+skogbruksloven	закон в области лесного хозяйства
+skogbrukslovgivning	законодательство в области лесного хозяйства
+skogbruksmetode	лесоводство
+skogbrukspolitikk	политика в области лесного хозяйства
+skogbruksprodukt	лесопродукция
+skogbruksøkonomi	экономика лесного хозяйства
+skogdekkeødeleggelse	разрушение лесного покрова
+skogforvaltning	управление лесным хозяйством
+skogindustri	лесная промышленность
+skogkultur	лесовосстановление
+skogproduksjon	производство лесопродукции
+skogreisning	облесение
+skogreservat	лесной заповедник
+skogressurs	лесные ресурсы
+skogsbiologisk reservat	лесной биологический заповедник
+skogsforringelse	истощение лесных ресурсов
+skogskade	ущерб, нанесенный  лесам
+skogskadeinventering	инвентаризация ущерба, нанесенного лесам
+skogsutnyttelse	эксплуатация лесных ресурсов
+skogvern	защита лесов
+skogøkologi	экология лесов
+skogøkosystem	экосистема леса
+skole	школа
+skorsteinshøyde	высота трубы
+skredvern	защита от схода лавин
+skrevende	расставив ноги
+skrive	писать
+skrivebordsundersøkelse	кабинетное исследование
+skrue	винт
+skråning	склон
+skumdanner	пенообразующее вещество
+sky	облако
+slagg	шлак
+slakte	забивать
+slaktedyr	животные для забоя
+slakter	мясник
+slakteri	бойня
+slakteri	скотобойня
+slam	ил
+slam ; slam (avfall)	ил
+slamstabilisering	биологическая переработка
+slange	змея
+slette	равнина
+slovakisk	словацкий
+slovensk	словенский
+sluse	шлюз
+sluttlagring	захоронение отходов
+slått	скашивание трав
+smaksstoff	вкусовая добавка
+smelting	таяние
+smil	улыбка
+smog	смог
+smogvarsling	предупреждение о смоге
+småbarn	ребенок
+smøremiddel	смазка
+snø	снег
+snørrfille	платок
+snøskred	снежная лавина
+snøskred ; snøskred ; skred	лавина
+sokk	носок
+solcelle	солнечная батарея
+solenergi	солнечная энергия
+solenergiteknologi	технология использования солнечной энергии
+solfanger	солнечный коллектор
+solkraftverk	электростанция ; электростанция, работающая от энергии солнца ; работающая от энергии солнца
+solstråling	солнечная радиация
+soltimer	продолжительность солнечного дня
+sommerfugl	бабочка ; мотылёк
+sommerfugl	чешуйчатокрылые
+sopp	грибы
+soppmiddel	фунгицид
+sorpsjon	сорбция
+sosial atferd	социальное поведение
+sosial beskyttelse	социальная защита
+sosial boligbygging	низкозатратное жилищное строительство
+sosial gruppe	социальная группа
+sosial kartlegging	опрос общественного мнения
+sosialpsykologi	социальная психология
+sosio-økonomisk aspekt ved bosetning	социально-экономический аспект населенных пунктов
+sosiologi	социология
+sot	сажа
+spansk	испанский ; испанский язык
+speditør	экспедитор
+spesialavfall	отходы, плохо поддающиеся переработке
+spesialavfallsdeponi	свалка опасных отходов
+spill	игра
+spiring	прорастание
+sporelement	элемент в следовом количестве
+sporeplante	споровые
+sporstoff	индикатор
+sport	спорт
+sprengstoff	взрывчатое вещество
+springer	конь
+sprøyte	шприц
+spyd	копьё
+spyling	промывка
+spørsmål	вопрос
+standard	стандарт
+standard for bekjempingsmiddelkontroll	стандарты контроля за пестицидами
+standard for boligkvalitet	стандарт качества жилища
+stasjon	станция
+staten	государство
+statistikk (oversikt)	статистика
+statlig myndighet	федеральная власть
+statlig rådgivningsorgan	консультативный орган при правительстве
+statsadvokatens kontor	прокуратура
+statsform	форма государственного правления
+statsgjeld	государственный долг
+statsrett	конституционное право
+sted	место
+stedfestede data	данные дистанционного зондирования
+stedfestet informasjon	информация, относящаяся к дистанционному зондированию
+steinbrudd	карьер
+steinbryting	разработка карьеров
+steinkull	черный уголь
+steinmateriale	камень
+stemmegivning	голосование
+steppe og halvørken	аридные (засушливые) земли
+sterilisering	биологическая стерилизация
+sterilisering	стерилизация
+steroid	стероид
+sti	путь
+stikkprøve	разовое испытание
+stikling	черенок
+stilling	поза
+stivelse	крахмал
+stjerne	звезда
+stjerne	звёздочка
+stoffbalanse	баланс материи
+stoffegenskap	свойства веществ
+stoffregistrering	учет веществ
+stoffskifte	метаболизм
+stofftransport	движение масс
+stol	стул
+storm	гроза
+storrisiko	высокий уровень риска
+storrisikoanlegg	объект с высокой степенью риска
+stort forbrenningsanlegg	крупный промышленный завод, работающий на основе сжигания топлива
+stortingsdebatt	парламентские дебаты
+stortingsrapport	парламентский доклад
+storulykke	крупная авария
+storvilt	крупное животное как объект охоты
+straff	штраф
+straff for miljøskade	штраф за ущерб, нанесенный окружающей среде
+straffeansvar	уголовная ответственность
+strafferett	уголовное право
+strafferettsprosedyre	процедура уголовного права
+strand	пляж
+strandrensing	очистка побережья
+strandvoll	песчаная коса
+stress	стресс
+strontium	стронций
+struts	страус
+stråledose	доза радиации
+stråleskade	ущерб от радиации
+strålesykdom	лучевая болезнь
+strålevern	защита от радиации
+strålevernslovgivning	законы в области защиты от радиации
+strålevirkning	эффект от радиации
+stråling	излучение ; радиация
+strålingseksponering	воздействие радиации
+strålingsfysikk	радиофизика
+strølag	мульча
+strøm	течение
+strømningsfelt	поле течения
+strømningslære	струйная технология
+stubbeskog	подлесок
+stubbeskog med overstandere	выращивание подлеска
+styringsteknikk	метод управления
+stål	сталь
+støv	пыль
+støvfjerning	удаление пыли
+støvsuger	пылесос
+støy	шум
+støy	шумовое загрязняющее вещество
+støy fra dyr	шум, производимый животными
+støy fra næringsaktivitet	шум от производственной деятельности
+støyanalyse	анализ шума
+støyavgift	налог на превышение допустимого уровня шума
+støybekjemping	снижение уровня шума
+støybekjemping	контроль за уровнем шума
+støyemisjon	шумовыделение
+støyforstyrrelse	шумовое раздражение
+støyforurensning	шумовое загрязнение
+støyfri teknologi	бесшумная технология
+støyimmisjon	иммиссия шума
+støylovgivning	законодательство в области регулирования уровня шума
+støymåling	измерение шума
+støynivå	уровень шума
+støyreduksjon	снижение уровня шума
+støyskjerm	звукоотражающий барьер
+støyspekter	спектр звука
+støyvern	защита от шума
+subsidie	субсидия
+substantiv	имя существительное
+sukker	сахар
+sult	голод ; голод ; голод
+sump	болото
+sumpolje	трюмная нефть
+sur avsetning	кислотные осадки
+sur nedbør	кислотный дождь
+surhet	кислотность
+surhetsgrad	уровень кислотности
+svangerskap	беременность
+svarttrost	дрозд
+sveising	сварка
+svensk	шведский
+sverd	меч
+svovel	сера
+svoveldioksid	диоксид серы
+svovelfjerning	десульфуризация (обессеривание)
+svovelfjerning fra brennstoff	десульфуризация (обессеривание) топлива
+svovelkonsentrasjon	концентрация серы
+svulst	опухоль
+swahili	суахили
+syfilis	сифилис
+sykdom	болезнь
+sykdomsbilde	клинический симптом
+sykdomsårsak	причина болезни
+sykehus	больница
+sykehusavfall	отходы больниц
+sykkel	велосипед
+sykkelsti	велосипедная дорожка
+syklon	циклон
+symbiose	симбиоз
+syndrom	синдром
+syntaks	синтаксис
+synøkologi	экология сообществ
+syre	кислота
+sysselsetting	занятость
+sysselsetting og miljø	занятость и окружающая среда
+sysselsettingseffekt	эффект от уровня занятости
+sysselsettingsstruktur	структура занятости
+såpe	мыло
+søketjeneste via CD-ROM	поисковый сервис на лазерных дисках CD-ROM
+søketjeneste via Internettet	информационное обслуживание на базе Интернета
+sølv	серебро ; аргентум
+søndag	воскресенье
+søppel	подстилка для скота
+søppelbil	автомобиль для сбора мусора
+søppelfylling	свалка отходов
+søppelkasse	мусорный контейнер
+søtningsmiddel	подсластитель
+søtt	сладкий
+søvn	сон
+søvnforstyrrelse	нарушение сна
+ta seg av	ухаживать
+ta seg av	уделять внимание
+takk	благодарность
+taksering	финансовая оценка
+taksonomi	таксономия
+tale	речь
+tankbil	грузовик для перевозки жидких грузов или газов
+tankskip	танкер
+tannlege	зубной врач
+tantal	тантал
+tap	убыток
+te	чай
+technetium	технеций
+tege	клоп
+tegnspråk	язык жестов
+teknikk	инжиниринг
+teknisk utstyr	оборудование
+teknologi	технология
+teknologi for forurensningskontroll	технология для осуществления контроля за загрязнением
+teknologi for rensing før utslipp	технологии переработки стоков и отходов на конечной стадии производства
+teknologioverføring	передача технологии
+teknologivurdering	оценка технологии
+tekstil	ткань
+tekstilavfall	тряпка
+tekstilfabrikk	текстильная сельскохозяйственная культура
+tekstilindustri	текстильная промышленность
+telefon	телефон
+telekommunikasjon	телекоммуникация
+telemetri	телеметрия
+tellur	теллур
+telugu	телугу
+tema	предмет
+temperatur	температура
+teokrati	теократия
+teologi	богословие
+terapi	терапия
+teratogen	тератоген
+terbium	тербий
+terminologi	терминология
+termisk utstyr	тепловое оборудование
+termitt	термит
+termodynamikk	термодинамика
+terrakotta	терракота
+terrengkjøretøy	внедорожник
+terrestrisk pattedyr	сухопутное млекопитающее
+terrestrisk økologi	экология земли
+territorium	территория
+tertiærnæring	сектор торговли и услуг
+testosteron	тестостерон
+thai	тайский
+thallium	таллий
+thorium	торий
+thulium	тулий
+tid (parameter) ; tid	время
+tidevann	приливная вода
+tidevannskraftverk	электростанция, работающая на энергии прилива ; электростанция на энергии прилива ; работающая на энергии прилива
+tidevannssone	зона приливов и отливов
+tidligere industriområde	заброшенная промышленная территория
+tidligvarslingssystem	система раннего оповещения
+tidsskrift	журнал
+tidssone	часовой пояс
+tilbehør	насадка
+tilbud ; tilgang	предложение
+tilbud og etterspørsel	спрос и предложение
+tildekking	покрытие
+tildekking av fyllplass	засыпка мусорной ямы
+tilfeldig forurensning	загрязнение в результате аварии
+tilfluktsrom	аварийное убежище
+tilgang til administrative dokumenter	доступ к административным документам
+tilgang til domstol	доступ к судебным органам
+tilkjørselsvei	подъездные дороги
+tillatelse	разрешение
+tillatt eksponeringsgrense	допустимый уровень воздействия (ПДК)
+tilleggsemballasje	дополнительная упаковка
+tilnærmingsmåte	подход
+tilsetning	реакция присоединения
+tilsetningsstoff	добавки
+tilsetningsstoff i mat	пищевая добавка
+tilsig	приток воды
+tiltrekke	притягивать
+tiltrekkende	привлекательный
+tingbok	регистр земель
+tinn	олово
+tirsdag	вторник
+titan	титан
+titandioksid	диоксид титана
+tjener	сервер
+tjenesteyter for Internettet	провайдер услуг Интернета
+tobakk	табак
+tog	поезд
+toksikologi	токсикология
+toksin	токсин
+tolkningsmetode	метод интерпретации
+tollregulering	таможенный нормативный документ
+tollsats	таможенный тариф
+tollvesen	таможенные сборы
+tommel ; tommelfinger ; tommeltott	большой палец
+tomtområde	земля под строительство
+topografi	топография
+topologi	топология
+torden	гром
+tordenvær	гроза
+tornado	торнадо
+torpedo	торпеда
+torvjord	торф
+torvutvinning	добыча торфа
+tovinge	двукрылый
+trafikk	движение транспорта
+trafikkstøy	дорожный шум
+trajektorie	траектория
+traktat	международный договор
+transisjonsmetall	переходный химический элемент
+transpirasjon	транспирация
+transport	транспорт
+transport ; transport (trafikk)	транспортировка
+transport av farlig gods	транспортировка опасных материалов
+transportmåte	вид транспорта
+trase	маршрут
+trasering	упорядочение
+tre	дерево
+tre ; tre (materiale)	лес
+trekkdyr	рабочий скот
+trekkfugl	мигрирующая птица
+trekkspill	гармоника ; гармонь
+trekull	древесный уголь
+treprodukt	изделие из древесины
+trigonometri	тригонометрия
+tritium	тритий
+trofisk nivå	трофический уровень
+trolleybuss	троллейбус
+trombone	тромбон
+tropene	тропики
+tropisk plante	тропическое растение
+tropisk regnskog	тропический дождевой лес
+tropisk skog	тропический лес
+truet dyreart	исчезающие виды животных
+truet planteart	исчезающие виды растений
+trykk	давление
+trykkeri	полиграфический комбинат
+trykkutstyr	оборудование под давлением
+tsjekkisk	чешский
+tsjetsjensk	чеченский
+tsjuvansk	чувашский язык ; чувашский
+tsunami	цунами
+tundra	тундра
+tungmetall	тяжелый металл
+tungmetallbelastning	загрязнение тяжелыми металлами
+tungtransport	крупнотоннажный грузовой автотранспорт
+tunnel	тоннель
+turbiditet	замутненность
+turbin	турбина
+turisme	туризм
+turløype	туристическая тропа
+tvangsfullbyrdelse	приведение в исполнение
+tverrfaglig forskning	междисциплинарные исследования
+tyfon	тайфун
+tyrkisk	турецкий
+tysk	немецкий
+tysk (Sveits)	немецкий (Швейцария)
+tysk (Østerrike)	немецкий (Австрия)
+tysker	немец ; немка
+tå	палец
+tåke	туман
+tåke	дымка
+tøffel	тапочки
+tømmerskog	строевой лес
+tørke	засуха
+tørkeberedskap	борьба с засухой
+tørking	сушка
+tørravsetning	сухое осаждение
+tørrensing	химическая чистка
+tørrplen	засушливая земля
+tøyvasking	прачечные
+u-båt	подводная лодка
+uavhengighet	независимость
+ubebygd område	незастроенные районы
+udefinert juridisk begrep	неопределенная правовая концепция
+uformell forhandling	неформальные переговоры
+ugras	сорняк
+ugressmiddel	гербицид
+ukrainsk	украинский
+ull	шерсть
+ultrafiolett stråling	ультрафиолетовое излучение
+ulykke	авария
+ulykkeskilde	причина аварии
+underernæring	недоедание
+undergrunnsbane	поезд метро
+underhus	Нижняя Палата
+undersøkelse	геологическая разведка
+undersøkelsesprogram	программа анализа
+undertrykkelse	репрессия
+undervisning	обучение
+undervisningsplanlegging	планирование в области образования
+undervurdering av landbruket	занижение цен на сельскохозяйственную продукцию
+ungarsk	венгерский
+ungt individ	молодежь
+universitet ; universitet	университет ; университет
+ununbium	унунбий
+ununhexium	унунгексий
+ununoctium	унуноктий
+ununpentium	унунпентий
+ununquadium	унунквадий
+ununseptium	унунсептий
+ununtrium	унунтрий
+uoppløselig stoff	нерастворимое вещество
+uorganisk forurensende stoff	неорганическое загрязняющее вещество
+uorganisk kjemi	неорганическая химия
+uorganisk stoff	неорганическое вещество
+uran	уран
+urbanisering	урбанизация
+urdu	урду
+urettmessig handling	неправильное действие
+urskog	коренной (первичный) лес
+usoledarisk miljøholdning	принцип "Только не у меня дома!"
+utbedring av skader i fjellområder	восстановление земли в горных районах
+utbedring av skadet jord	рекультивация земель
+utbedring etter gruvedrift	рекультивация земель после завершения разработок
+utbedringsplan	план восстановления природных ресурсов
+utbredelsesberegning	расчет дисперсии
+utbredelsesprosess	процесс распространения через среду
+utdanning	образование
+utdanningsinstitusjon	образовательное учреждение
+utdanningsnivå	уровень образования
+utdanningspolitikk	политика в области образования
+utdanningssystem	система образования
+utdødd art	исчезнувшие виды
+utenrikshandel	внешняя торговля
+utenrikspolitikk	внешняя политика
+utenriksøkonomi	внешние экономические связи
+utfartssted på fjellet	горный курорт
+utfelling	осаждение (хим.) ; осаждение
+utforming	чертеж
+utgift	расходы
+utgravd hull	выкопанная яма
+utgraving	раскопки (процесс) ; раскопки
+utgravingshaug	отвал
+utgravingsside	склон котлована
+utgravingssted	площадка для земляных работ
+utilsiktet utsetting av organismer	выброс биоматериала в результате аварий
+utnyttelse av havet	эксплуатация ресурсов океана
+utpeke	назначать
+utryddelse (økologisk) ; utryddelse	исчезновение (экологическое) ; исчезновение
+utråtnet slam	биологически переработанный осадок сточных вод
+utsette grunnvann for fare	угроза состоянию подземных вод
+utsetting av muterte mikroorganismer	выброс мутированных микроорганизмов
+utsetting av organismer	выпуск микроорганизмов в окружающую среду
+utskifting	замещение (физич.)
+utslipp	выброс
+utslipp til luft	атмосферный выброс
+utslipp til vann	выброс в воду
+utslippsdata	данные по выбросам
+utslippsfaktor	фактор выброса
+utslippskilde	источник выбросов
+utslippsovervåking	регулирование выбросов
+utslippsprognose	прогноз выбросов
+utslippsreduksjon	снижение выбросов
+utslippsregister	регистр выбросов
+utslippssituasjon	ситуация с выбросами
+utstillingsgjenstand	экспонат
+uttale	произношение
+uttørking	высыхание
+utvasking	выщелачивание
+utveksling av elektroniske data	обмен электронными данными
+utvekslingspolitikk	торговая политика
+utvidelsespolitikk	политика укрупнения
+utvidelsesprogram	программа укрупнения
+utviklet land	развитая страна
+utviklingshjelp	помощь развитию
+utviklingsland	развивающаяся страна
+utviklingslinje	динамический график
+utviklingsmodell	образец развития
+utviklingsmønster	модель развития
+utviklingsområde	развивающийся район
+utviklingsplan	план развития
+utviklingssamarbeid	сотрудничество в области содействия развитию
+utvinning	добыча
+vade ; vadeplass	брод
+vakt	служитель
+valisisk ; walisisk ; kymrisk	валлийский
+vallonsk	валлонский
+valross	морж
+valuta	валюта
+valutaforhold	валютно-финансовые отношения
+vanadium	ванадий
+vandalisme	вандализм
+vandrende fisk	мигрирующая рыба
+vann	вода
+vannbalanse (biologi)	биологический баланс воды
+vannbalanse (hydrologi)	гидрологический баланс
+vannbasseng	заводь
+vannbehandling	водоподготовка
+vannbyggingsteknikk	строительство гидросооружений
+vannforsyning	водоснабжение
+vannfugl	водоплавающие
+vanning	ирригация ; орошение
+vanningsjordbruk	ирригационное земледелие
+vanningssystem	ирригационная система
+vannkostnad	стоимость водоснабжения
+vannkraft	энергия ГЭС
+vannkraftverk	гидроэлектростанция
+vannloppe	водяная блоха
+vannmølle	водяная мельница
+vannplante	водное растение
+vannpumpe	водяной насос
+vannrenseanlegg	очистной завод
+vannreservoar	водоем
+vannressurs	водный ресурс
+vannsalting	засоление воды
+vannskille	водораздел
+vannstand	уровень воды
+vannstrømning	расчет гидрологического потока
+varebil	грузовое транспортное средство
+varer	товары
+varer og tjenester	товары и услуги
+varig konsumgode	товары длительного пользования
+varmblodig dyr	теплокровное животное
+varme	тепло
+varmeanlegg	теплостанция
+varmeapparat	нагревательный прибор
+varmeforsyning	обеспечение теплом
+varmekraftverk	тепловая станция
+varmelagring	хранение тепла
+varmepumpe	тепловой насос
+varmtvann	горячая вода
+varsling	прогноз
+ved	дрова
+vedhogger	лесоруб
+vedlikehold	содержание и техническое обслуживание
+veg ; vei	дорога
+vegetabilsk olje	растительное масло
+vegg	стена
+vegnett	сеть автомобильных дорог
+veisalt	техническая соль
+vekselbruk	ротация сельскохозяйственных культур
+vekt	вес
+vektor	вектор
+velbekommen	приятного аппетита
+velferd	социальное благосостояние
+velstand	экономическое процветание
+vende bort	отводить
+ventilering	вентиляция
+veps	оса
+verb	глагол
+verden	мир
+verdensarvområde	памятник мировой культуры
+verdenskrig	мировая война
+verdensrom ; verdensrommet	космос ; космос (астрон.)
+verdiendring	изменение стоимости
+verdifastsettelse av miljø	экономическая оценка природоохранной деятельности
+vern av fjell	охрана гор
+vern av jord	сохранение земель
+vern av kyst	охрана прибрежных районов
+vern av naturområder	охрана природных зон
+vern av naturressurser	сохранение природных ресурсов
+vern av sivilbefolkning	гражданская оборона
+verneområde	охраняемый район
+vernepolitikk	политика сохранения природных ресурсов
+vernesystem	система экологической охраны
+vernet landskap	охраняемый ландшафт
+vernet marin sone	охраняемая морская зона
+vernetiltak	предохранительная мера
+vev	ткань
+videregående utdanning	среднее образование
+vietnamesisk	вьетнамский
+vik	пещера
+villahage	личный огород
+villdyr	дикое животное
+villfauna	дикая фауна
+villplante	дикорастущее растение
+vilt	объект охоты
+vin ; vin ; vin	вино
+vinasse	барда
+vind	ветер
+vindkraft	энергия ветра
+vindmølle	ветряная мельница
+vindu	витрина ; иллюминатор ; иллюминатор ; люк ; окно
+vinter	зима
+virkemiddel for økonomisk styring	инструмент экономического управления
+virkning på menneskeheten	воздействие на человека
+virkningsforskning	исследование последствий
+virkningsgrad	уровень эффективности
+virologi	вирусология
+virus	вирус
+virveldyr	позвоночные
+virvelløst dyr	беспозвоночное
+viskositet	вязкость
+vismut	висмут
+vitamin	витамин
+vitenskap	наука
+vitenskapelig diskusjon	научный спор
+vitenskapelig forskning	научное исследование
+vitenskapelig samarbeid	научное сотрудничество
+vokal	гласный звук
+voksenopplæring	обучение взрослого населения
+voksent individ	взрослый человек
+volapyk	волапюк
+volleyball	волейбол
+vulkan	вулкан
+vulkanisering	вулканизация
+vulkanisme	вулканический процесс
+vulkanutbrudd	извержение вулкана
+vurdering	оценка
+vurdering av forurensende stoff	оценка загрязняющих веществ
+våpen	оружие
+våpenarsenal	арсенал
+vær	погода
+væske	жидкость
+væskeform	состояние жидкости
+wolfram	вольфрам
+xenon	ксенон
+xylofon	ксилофон
+yrke	профессия ; работа ; оккупация
+yrkesaktiv befolkning	экономически активное население
+yrkeshygiene	профессиональная гигиена
+yrkesmedisin	профессиональная медицина
+yrkessikkerhet	профессиональная техника  безопасности
+yrkesstatus	профессиональный статус
+yrkessykdom	профессиональное заболевание
+ytre område	внешнее пространство
+ytringsfrihet	cвобода слова
+ytterbium	иттербий
+yttrium	иттрий
+zirkonium	цирконий
+zoofysiologi	физиология животных
+zoologi	зоология
+zoonose	зооноз
+Åland	Аландские острова
+Øst-Afrika	Восточная Африка
+Øst-Asia	Восточная Азия
+Øst-Europa	Восточная Европа
+Øst-Timor	Восточный Тимор
+Østerrike	Австрия
+åker	поле
+åkerbruk	земледелие
+åkerreine	поворотная полоса (с/х) ; поворотная полоса
+åndedrettssykdom	респираторное заболевание
+åpen plass	площадь
+årevinge	перепончатокрылые
+årsaks-virkningsforhold	причинно-следственная взаимосвязь
+årstid	сезон ; время года
+ås ; ås ; bakke ; berg ; berg	холм
+ærefrykt	благоговение
+øke	увеличивать
+øko-turisme	экотуризм
+økofysiologi	экофизиология
+økokatastrofe	экологическая катастрофа
+økologi	экология
+økologibevegelse	движение экологов
+økologisk balanse	экологический баланс
+økologisk bestandsanalyse	экологическая инвентаризация
+økologisk bærekapasitet	экологическая емкость
+økologisk faktor	экологический фактор
+økologisk jordbruk	применение в сельскохозяйственной деятельности только органических удобрений
+økologisk markedsføring	экологическая торговля
+økologisk nisje	экологическая ниша
+økologisk overflod	экологическое изобилие
+økologisk parameter	экологический параметр
+økologisk pediatri	экопедиатрия
+økologisk prioritert område	экологически нестабильный регион
+økologisk regnskap	бухгалтерский учет природоохранной деятельности
+økologisk samfunn	экологическое сообщество
+økologisk sone	экозона
+økologisk taksering	экологическая оценка
+økologisk tilpasning	экологическая адаптация
+økologisk ulikhet	экологическое неравенство
+økologisk utvikling	экоразвитие
+økomuseum	экомузей
+økonomi ; økonomi (fagområde)	экономика ; экономика (наука)
+økonomi ; økonomi (finans)	экономика
+økonomiplan	экономический план
+økonomisk aktivitet	экономическая деятельность
+økonomisk analyse	экономический анализ
+økonomisk bidrag	финансовый вклад
+økonomisk geografi	экономическая география
+økonomisk hjelp	финансовая помощь
+økonomisk incitament	экономический стимул
+økonomisk kompensasjon	финансовая компенсация
+økonomisk konkurranse	экономическая конкуренция
+økonomisk konsentrasjon	рыночная концентрация
+økonomisk levedyktighet	экономическая жизнеспособность
+økonomisk planlegging	экономическое планирование
+økonomisk politikk	экономическая политика
+økonomisk prognose	экономическое прогнозирование
+økonomisk region	экономический регион
+økonomisk rettighet	экономические права
+økonomisk sektor	экономический сектор
+økonomisk situasjon	экономическая ситуация
+økonomisk struktur	экономическая структура
+økonomisk støtte	экономическая помощь
+økonomisk system	экономическая система
+økonomisk teori	экономическая теория
+økonomisk trend	экономическая тенденция
+økonomisk utvikling	экономическое развитие
+økonomisk vekst	экономический рост
+økonomisk virkemiddel	экономический инструмент
+økonomisk virkemiddel	финансовый инструмент
+økonomisk-økologisk effektivitet	экономико-экологическая эффективность
+økonomiske data	экономические данные
+økonomiske forhold i tilknytning til miljø	вопрос экономики окружающей среды
+økosystem	экосистема
+økosystem av internasjonal betydning	экосистема международного значения
+økosystemanalyse	анализ экосистем
+økosystemforringelse	деградация экосистем
+økosystemforskning	исследования экосистем
+økosystemtype	тип экосистемы
+økotoksikologi	экотоксикология
+økotoksikologisk evaluering	экотоксикологическая оценка
+økotoksisitet	экотоксичность
+økotype	экотип
+øl	пиво
+øre	ухо
+ørken	пустыня
+ørkengresshoppe	саранча
+ørkenklima	пустынный климат
+ørkenspredning	опустынивание
+ørkenspredningsbekjemping	контроль за опустыниванием
+øst-vest-forhold	взаимоотношения "Восток-Запад"
+øst-vest-handel	торговля между Востоком и Западом
+østers	устрица
+østersoppdrett	разведение устриц
+øy	остров
+øye	глаз
+øyenbryn	бровь
+øyestikker	стрекоза
+øyøkosystem	островная экосистема
+norwegian_bokmal	russian

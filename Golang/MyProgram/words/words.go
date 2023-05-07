@@ -22,27 +22,44 @@ type WordsStruct struct {
 	Synonyms      string
 	Rating        int
 }
+type DictionaryStruct struct {
+	Index                                           int
+	WordOriginal                                    string
+	WordTranslated                                  string
+	WordOriginalTranscription                       string
+	WordOriginalPastSimpleSingular                  string
+	WordOriginalPastSimpleSingularTranscription     string
+	WordOriginalPastSimplePlural                    string
+	WordOriginalPastSimplePluralTranscription       string
+	WordOriginalPastParticipleSingular              string
+	WordOriginalPastParticipleSingularTranscription string
+	WordOriginalPastParticiplePlural                string
+	WordOriginalPastParticiplePluralTranscription   string
+	WordOriginalSynonyms                            string
+	WordOriginalPartOfSpeech                        string
+	Rating                                          int
+}
 
-var Words = []WordsStruct{}
-var GoogleDict = []WordsStruct{}
+var Words = []DictionaryStruct{}
+var GoogleDict = []DictionaryStruct{}
 
 type IndexData struct {
 	Index int `json:"index"`
 }
 
-var Word1 WordsStruct
-var WordValue WordsStruct
+var Word1 DictionaryStruct
+var WordValue DictionaryStruct
 
 var IndexWord int
 
 type ElementWithIndex struct {
 	Index   int
-	Element WordsStruct
+	Element DictionaryStruct
 }
 
 func main() {
 	//  открываем файл
-	jsonFile, err := os.Open("words.json")
+	jsonFile, err := os.Open("EnglishForEveryone.json")
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
@@ -64,7 +81,7 @@ func main() {
 		return
 	}
 
-	jsonFileGoogle, err := os.Open("eng-rus_Google.json")
+	jsonFileGoogle, err := os.Open("eng-rus_Google_v2.json")
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
@@ -155,17 +172,25 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if r.FormValue("English") != "" {
-		WordValue.English = r.FormValue("English")
-		WordValue.Transcription = r.FormValue("Transcription")
-		WordValue.Russian = r.FormValue("Russian")
-		WordValue.PartOfSpeech = r.FormValue("PartOfSpeech")
-		WordValue.Synonyms = r.FormValue("Synonyms")
+	if r.FormValue("WordOriginal") != "" {
+		WordValue.WordOriginal = r.FormValue("WordOriginal")
+		WordValue.WordOriginalTranscription = r.FormValue("WordOriginalTranscription")
+		WordValue.WordTranslated = r.FormValue("WordTranslated")
+		WordValue.WordOriginalPartOfSpeech = r.FormValue("WordOriginalPartOfSpeech")
+		WordValue.WordOriginalSynonyms = r.FormValue("WordOriginalSynonyms")
+		WordValue.WordOriginalPastSimpleSingular = r.FormValue("WordOriginalPastSimpleSingular")
+		WordValue.WordOriginalPastSimpleSingularTranscription = r.FormValue("WordOriginalPastSimpleSingularTranscription")
+		WordValue.WordOriginalPastSimplePlural = r.FormValue("WordOriginalPastSimplePlural")
+		WordValue.WordOriginalPastSimplePluralTranscription = r.FormValue("WordOriginalPastSimplePluralTranscription")
+		WordValue.WordOriginalPastParticipleSingular = r.FormValue("WordOriginalPastParticipleSingular")
+		WordValue.WordOriginalPastParticipleSingularTranscription = r.FormValue("WordOriginalPastParticipleSingularTranscription")
+		WordValue.WordOriginalPastParticiplePlural = r.FormValue("WordOriginalPastParticiplePlural")
+		WordValue.WordOriginalPastParticiplePluralTranscription = r.FormValue("WordOriginalPastParticiplePluralTranscription")
 
 		Words = append(Words, WordValue)
 
 		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
 			fmt.Println("Ошибка открытия файла:", err)
 			return
@@ -193,14 +218,14 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 }
 
 func wordOtvet(w http.ResponseWriter, r *http.Request) {
-	WordValue.English = r.FormValue("word")
+	WordValue.WordOriginal = r.FormValue("word")
 
-	if strings.EqualFold(WordValue.English, Words[IndexWord].English) {
+	if strings.EqualFold(WordValue.WordOriginal, Words[IndexWord].WordOriginal) {
 		Words[IndexWord].Rating += 1
 		fmt.Println(Words[IndexWord].Rating)
 
 		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
 			fmt.Println("Ошибка создания файла:", err)
 			return
@@ -233,7 +258,7 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 		Words[IndexWord].Rating -= 1
 		fmt.Println(Word1.Rating)
 		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
 			fmt.Println("Ошибка создания файла:", err)
 			return
@@ -260,7 +285,7 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func findMinRatingIndex(words []WordsStruct) int {
+func findMinRatingIndex(words []DictionaryStruct) int {
 	minIndex := 0
 	minValue := words[0].Rating
 
@@ -305,7 +330,7 @@ func wordsDelete(index int) {
 	// Реализуйте вашу логику здесь
 	Words = removeElementByIndex(Words, index)
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -325,7 +350,7 @@ func wordsDelete(index int) {
 	}
 
 }
-func removeElementByIndex(words []WordsStruct, index int) []WordsStruct {
+func removeElementByIndex(words []DictionaryStruct, index int) []DictionaryStruct {
 	if index < 0 || index >= len(words) {
 		return words
 	}
@@ -339,14 +364,21 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestData struct {
-		Index         int    `json:"index"`
-		English       string `json:"English"`
-		Transcription string `json:"Transcription"`
-		Russian       string `json:"Russian"`
-
-		PartOfSpeech string `json:"PartOfSpeech"`
-		Synonyms     string `json:"Synonyms"`
-		Rating       int    `json:"Rating"`
+		Index                                           int    `json:"index"`
+		WordOriginal                                    string `json:"WordOriginal"`
+		WordTranslated                                  string `json:"WordTranslated"`
+		WordOriginalTranscription                       string `json:"WordOriginalTranscription"`
+		WordOriginalPastSimpleSingular                  string `json:"WordOriginalPastSimpleSingular"`
+		WordOriginalPastSimpleSingularTranscription     string `json:"WordOriginalPastSimpleSingularTranscription"`
+		WordOriginalPastSimplePlural                    string `json:"WordOriginalPastSimplePlural"`
+		WordOriginalPastSimplePluralTranscription       string `json:"WordOriginalPastSimplePluralTranscription"`
+		WordOriginalPastParticipleSingular              string `json:"WordOriginalPastParticipleSingular"`
+		WordOriginalPastParticipleSingularTranscription string `json:"WordOriginalPastParticipleSingularTranscription"`
+		WordOriginalPastParticiplePlural                string `json:"WordOriginalPastParticiplePlural"`
+		WordOriginalPastParticiplePluralTranscription   string `json:"WordOriginalPastParticiplePluralTranscription"`
+		WordOriginalSynonyms                            string `json:"WordOriginalSynonyms"`
+		WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
+		Rating                                          int    `json:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -362,16 +394,24 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Обновление элемента с новыми данными
-	Words[index].English = requestData.English
-	Words[index].Transcription = requestData.Transcription
-	Words[index].Russian = requestData.Russian
-	Words[index].PartOfSpeech = requestData.PartOfSpeech
-	Words[index].Synonyms = requestData.Synonyms
+	Words[index].WordOriginal = requestData.WordOriginal
+	Words[index].WordOriginalTranscription = requestData.WordOriginalTranscription
+	Words[index].WordTranslated = requestData.WordTranslated
+	Words[index].WordOriginalPartOfSpeech = requestData.WordOriginalPartOfSpeech
+	Words[index].WordOriginalSynonyms = requestData.WordOriginalSynonyms
 	Words[index].Rating = requestData.Rating
+	Words[index].WordOriginalPastSimpleSingular = requestData.WordOriginalPastSimpleSingular
+	Words[index].WordOriginalPastSimpleSingularTranscription = requestData.WordOriginalPastSimpleSingularTranscription
+	Words[index].WordOriginalPastSimplePlural = requestData.WordOriginalPastSimplePlural
+	Words[index].WordOriginalPastSimplePluralTranscription = requestData.WordOriginalPastSimplePluralTranscription
+	Words[index].WordOriginalPastParticipleSingular = requestData.WordOriginalPastParticipleSingular
+	Words[index].WordOriginalPastParticipleSingularTranscription = requestData.WordOriginalPastParticipleSingularTranscription
+	Words[index].WordOriginalPastParticiplePlural = requestData.WordOriginalPastParticiplePlural
+	Words[index].WordOriginalPastParticiplePluralTranscription = requestData.WordOriginalPastParticiplePluralTranscription
 
 	// Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -401,13 +441,21 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestData struct {
-		Index         int    `json:"index"`
-		English       string `json:"English"`
-		Transcription string `json:"Transcription"`
-		Russian       string `json:"Russian"`
-		PartOfSpeech  string `json:"PartOfSpeech"`
-		Synonyms      string `json:"Synonyms"`
-		Rating        int    `json:"Rating"`
+		Index                                           int    `json:"index"`
+		WordOriginal                                    string `json:"WordOriginal"`
+		WordTranslated                                  string `json:"WordTranslated"`
+		WordOriginalTranscription                       string `json:"WordOriginalTranscription"`
+		WordOriginalPastSimpleSingular                  string `json:"WordOriginalPastSimpleSingular"`
+		WordOriginalPastSimpleSingularTranscription     string `json:"WordOriginalPastSimpleSingularTranscription"`
+		WordOriginalPastSimplePlural                    string `json:"WordOriginalPastSimplePlural"`
+		WordOriginalPastSimplePluralTranscription       string `json:"WordOriginalPastSimplePluralTranscription"`
+		WordOriginalPastParticipleSingular              string `json:"WordOriginalPastParticipleSingular"`
+		WordOriginalPastParticipleSingularTranscription string `json:"WordOriginalPastParticipleSingularTranscription"`
+		WordOriginalPastParticiplePlural                string `json:"WordOriginalPastParticiplePlural"`
+		WordOriginalPastParticiplePluralTranscription   string `json:"WordOriginalPastParticiplePluralTranscription"`
+		WordOriginalSynonyms                            string `json:"WordOriginalSynonyms"`
+		WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
+		Rating                                          int    `json:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -422,11 +470,11 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	Words = append(Words, WordsStruct(requestData))
+	Words = append(Words, DictionaryStruct(requestData))
 
 	// Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -488,12 +536,12 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(results)
 }
 
-func searchWords(query string) []WordsStruct {
-	results := []WordsStruct{}
+func searchWords(query string) []DictionaryStruct {
+	results := []DictionaryStruct{}
 	query = strings.ToLower(query)
 
 	for _, word := range Words {
-		if strings.Contains(strings.ToLower(word.English), query) {
+		if strings.Contains(strings.ToLower(word.WordOriginal), query) {
 			results = append(results, word)
 		}
 	}

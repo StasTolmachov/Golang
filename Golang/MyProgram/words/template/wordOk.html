@@ -73,10 +73,10 @@
 <main>
     <h2 class="center-text"></h2>
 
-    <h3 class="center-text error-notification">{{.Russian}}</h3><br>
-    <h3 class="Russian-text error-notification" id="English-text">{{.English}}</h3>
-    <h3 class="Russian-text">{{.Transcription}}</h3>
-    <h3 class="Russian-text">{{.Synonyms}}</h3>
+    <h3 class="center-text error-notification">{{.WordTranslated}}</h3><br>
+    <h3 class="WordTranslated-text error-notification" id="WordOriginal-text">{{.WordOriginal}}</h3>
+    <h3 class="WordTranslated-text">{{.WordOriginalTranscription}}</h3>
+    <h3 class="WordTranslated-text">{{.WordOriginalSynonyms}}</h3>
     <button id="speak-button" class="btn btn-info">Play</button>
     <form action="/word" method="POST">
 
@@ -93,17 +93,17 @@
     }
 
     window.addEventListener("DOMContentLoaded", () => {
-        const EnglishTextElement = document.getElementById("English-text");
+        const WordOriginalTextElement = document.getElementById("WordOriginal-text");
         const speakButton = document.getElementById("speak-button");
-        if (EnglishTextElement && speakButton) {
-            const EnglishText = EnglishTextElement.textContent;
+        if (WordOriginalTextElement && speakButton) {
+            const WordOriginalText = WordOriginalTextElement.textContent;
 
             // Воспроизвести текст автоматически при загрузке страницы
-            speak(EnglishText);
+            speak(WordOriginalText);
 
             // Воспроизвести текст при нажатии на кнопку
             speakButton.addEventListener("click", () => {
-                speak(EnglishText);
+                speak(WordOriginalText);
             });
         }
     });

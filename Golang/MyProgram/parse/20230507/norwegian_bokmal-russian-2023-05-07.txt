@@ -1,0 +1,1289 @@
+# Norwegian Bokmal-Russian translations created from the Universal dictionary at 2023-05-07T12:58:32+00:00
+# (c) Copyright 2023 by All free dictionaries project
+# ALL FREE DICTIONARIES PROJECT DISCLAIMS ALL
+# WARRANTIES WITH REGARD TO THESE TRANSLATIONS, INCLUDING ALL
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL ALL FREE DICTIONARIES PROJECT OR ANY OF ITS CONTRIBUTORS
+# BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES
+# OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+# PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+# OR OTHER ACTION, ARISING OUT OF OR IN CONNECTION
+# WITH THE USE OR PERFORMANCE OF THESE TRANSLATIONS.
+#
+# In other words there may be incorrect translations.
+# If you need to be sure never use these translations!
+#
+# French, German and Czech entries are added manually. The entries for
+# remaining languages are added automatically. Entries for these languages
+# are only experimental.
+#
+# You may not place this file on WWW, ftp and equivalent servers because
+# this file gets outdated very quickly. You may not distribute this file
+# with your dictionary applications without permission. You can contact
+# authors of the Universal dictionary at: http://dicts.info/contact.php
+#
+# This file is for personal use only. You may not distribute this file.
+#
+# New version of this file can be created at: https://www.dicts.info/uddl.php
+#
+
+1000	тысяча	number
+Amerikas forente stater	США  ; Соединенные Штаты Америки	country
+August	август	time
+Den tsjekkiske republikken	Чехия  ; Чешская Республика	country
+Engelsk	английский язык	language
+Forbundsrepublikken Tyskland	Германия	country
+Hindi	хинди	language
+Italia	Италия	country
+Japan	Япония	country
+Jorden	Земля	geography
+Kina	китай	country
+Kongeriket Spania	Испания	country
+Lørdag	суббота	time
+Månen	месяц	geography
+Onsdag	среда	time
+Republikken Frankrike	Франция	country
+Republikken India	Индия	country
+Salgsmulighet	возможность	abstract
+Storbritannia	Англия  ; Великобритания	country
+Søndag	воскресенье	time
+Tirsdag	вторник	time
+Torsdag	четверг	time
+Tysk	немецкий язык	language
+addisjon	сложение	mathematics
+adresse	адрес	house
+agurk	огурец	vegetable
+aksje	акция	business
+akte	учитывать	verb
+aktivitet	деятельность	abstract
+alder	возраст	time
+aldri	никогда	adverb
+alene	сам	adverb
+alt	все	pronoun
+alt	все  ; бсё	adjective
+alt	уже	adverb
+alternativ	альтернатива	science
+alvorlig	серьёзный	adjective
+ananas	ананас	fruit
+andre	второй	adjective
+andre	другой	adjective
+anfall	набег	abstract
+angripe	атаковать	verb
+anklage	нарекание	business
+ankomme	приехать	verb
+annonse	пропаганда  ; реклама  ; объявление	business
+anrop	звонок  ; зов  ; оклик	communication
+ansvar	ответственность	abstract
+ansvarlig	ответственный	adjective
+anta	принять	verb
+anvendelse	употребление	abstract
+apekatt	обезьяна	animal
+appelsin	апельсин	fruit
+aprikos	абрикос	fruit
+april	апрель	time
+arbeid	профессия  ; работа	business
+arbeid	работа	business
+arbeider	рабочий	business
+arbeidsledig	безработный	adjective-people
+areal	пространство	mathematics
+argument	аргумент	communication
+arm	рука	anatomy
+armé	армия	society
+aroma	запах	nature
+art	вид	abstract
+atferd	поведения	abstract
+atmosfære	атмосфера	environment
+atskilt	отдельный	adjective
+atten	восемнадцать	number
+atter	опять	adverb
+automatisk	автоматический	adjective
+autoritet	авторитет	business
+av	выключенный	adjective
+avbildning	изображение	art
+avdeling	отделение	business
+avdeling	секция  ; отделение	business
+avfall	отходы	environment
+avgift	налогообложение  ; налог	business
+avis	газета	communication
+avslå	отказаться	verb
+avstand	расстояние	mathematics
+avtale	встреча  ; свидание	relations
+avtale	соглашение  ; договор  ;контракт  ; урегулирование	business
+bad	ванная	house
+bak	сзади  ; позади	adverb
+bakke	земля  ; почва	geography
+ball	мяч	sports
+banan	банан	fruit
+bank	банк	city
+banke	победить	verb
+baseball	бейсбол	sports
+basis	военная база	society
+bearbeide	выработать	verb
+bedre	лучший	adjective-basic
+befolkning	население	society
+begge	обе	adjective
+begjære	хотеть	verb
+begrense	ограничивать	verb
+begynnelse	старт	time
+behandle	лечить	verb
+behandling	обхождение	abstract
+beherske	контролировать	verb
+behov	потребность	business
+bein	нога	anatomy
+bergart	скала	object
+berge	спасти	verb
+beskrive	описать	verb
+beskylde	обвинить	verb
+beslutning	заключение  ; решение	communication
+bestefar	дедушка	family
+bestemme	решить	verb
+bestyrer	директор	business
+besøke	посетить	verb
+betale	платить	verb-basic
+betaling	плата  ; платёж  ; уплата	business
+bevare	сохранить	verb
+bevisst	сознающий	adjective
+bibliotek	библиотека	city
+bie	пчела	animal
+bil	автомобиль  ; машина	transport
+bilde	рамка	object
+billett	билет	object
+billig	дешевый	adjective
+biologi	биология	science
+bitter	горький	adjective
+bjørnebær	ежевика	fruit
+bjørnefamilien	медведь	animal
+blad	лезвие	object
+blad	листва	nature
+blekk	чернила	art
+bli	остаться	verb
+blod	кровь	anatomy
+bly	свинец	material
+blyant	карандаш	art
+bok	книга	communication
+bomme	промахнуться	verb
+bomull	хлопок	material
+bord	стол	furniture
+borg	замок  ; кремль	city
+bred	широкий	adjective
+bredd	берег	geography
+brev	письмо	communication
+bringe	принести	verb
+bringebær	малина	fruit
+brist	брешь	abstract
+bro	мост	city
+bror	брат	family
+bruke	использовать	verb-basic
+bruker	пользователь	science
+brun	коричневый	color
+bryllup	брак	family
+bryst	грудная клетка  ; грудь	anatomy
+bryte	разбить	verb-basic
+brød	хлеб	food
+brønn	колодец	house
+buss	автобус	transport
+butikk	лавка  ; магазин	business
+by	город	city
+by	мегаполис	city
+by	приказать	verb
+bygge	строить	verb
+byggverk	здание	city
+båt	лодка	transport
+bære	нести	verb
+bære	носить	verb
+bære	перенести	verb
+bølge	волна	nature
+bønn	просьба	communication
+bønne	боб	vegetable
+celle	ячейка  ; клетка	anatomy
+cyberspace	интернет	abstract
+dag	день	time
+dameveske	сумка  ; сумочка	clothes
+damp	пар	physics
+danse	танцевать	verb-basic
+data	сведениe  ; информация	communication
+datamaskin	компьютер	device
+dato	дата  ; число	time
+datter	дочь	family
+de	они	pronoun
+debattere	дискутировать	verb
+del	кусок	abstract
+dele	разделить	verb
+delikat	щепетильный	adjective
+deling	разделение	mathematics
+dem	их	pronoun
+demonstrere	показать	verb
+den slags	такой	adverb
+der	там	adverb
+derfor	поэтому	adverb
+desember	декабрь	time
+det	''not used''	article
+det	это	pronoun
+disiplin	дисциплина	science
+diskusjon	диспут  ; прения  ; беседа	communication
+disse	эта	pronoun
+disse	эти	pronoun
+dogg	роса	weather
+doktor	врач  ; доктор	medicine
+dommer	судья	profession
+drepe	убить	verb
+drikke	напиток	drink
+drikke	пить	verb-basic
+drivhuseffekt	парниковый эффект	environment
+dråpe	капля	abstract
+dufte	пахнуть	verb
+dum	глупый	adjective-people
+dusj	душ	house
+dusør	оплата	business
+dyktig	опытный	adjective-people
+dyr	животное	nature
+død	мёртвый	adjective-people
+død	смерть	family
+dør	дверь  ; створка	house
+edelstein	драгоценность	clothes
+effekt	последствие	science
+egenskap	способность	abstract
+egg	яйцо	food
+eie	владеть	verb
+eiendeler	имущество	business
+eier	собственник  ; владелец  ; обладатель	business
+eksamen	экзамен	education
+eksempel	пример	science
+eksersis	проводить  ; практиковать	verb-basic
+eksistens	существование	society
+eksistere	быть	verb
+ekspert	специалист	profession
+ekspress	экспресс	transport
+ekstra	особенный	adjective
+ekte	действительный	adjective-basic
+ektefelle	муж	family
+ekteskap	брак	family
+elefant	слон	animal
+elegant	элегантный	adjective
+elektrisk	электрический	adjective
+elektrisk ladning	заряд	physics
+element	элемент	mathematics
+eller	или	conjunction
+elleve	одиннадцать	number
+elv	река	geography
+embetsmann	чиновник	business
+energi	энергия	physics
+eneste	единственный	adjective
+engang	раз	adverb
+enhet	единица	physics
+enighet	союз	society
+enkelthet	подробность  ; деталь	abstract
+enn	чем	conjunction
+ennå	постоянно	adverb
+ensom	одинокий	adjective-people
+enten	либо	adverb
+eple	яблоко	fruit
+erfaring	опыт	business
+erstatte	заменить	verb
+etasje	этаж	house
+ett	один	number
+etterlate	оставить	verb
+ettermiddag	время после полудня	time
+fabrikk	завод	city
+fagmann	профессионал	profession
+faktura	фактура  ; счёт	business
+fall	падение	abstract
+falle	падать  ; упасть	verb-basic
+famle	чувствовать	verb-basic
+far	папа  ; отец	family
+fare	опасность	abstract
+fare	риск	abstract
+farge	краска	art
+fase	фаза	science
+fastsatt	установленный	adjective
+fattig	жалкий  ; жалобный	adjective
+februar	февраль	time
+feil	ошибка	communication
+felles	совместный	adjective
+felt	поле	nature
+ferdighet	искусство	business
+ferie	каникулы	business
+fersken	персик	fruit
+fest	вечеринка	relations
+fett	жир	material
+film	фильм  ; кинокартина	art
+finger	палец	anatomy
+fingerring	кольцо	clothes
+finne sted	случиться	verb
+fiolett	фиолетовый  ; тёмно-лиловый	color
+fire	четыре	number
+firkantet	квадратный	adjective
+firma	предприятие	business
+firma	фирма  ; торговый дом	business
+fisk	рыба	animal
+fjern	далёкий	adjective
+fjerne	убрать	verb
+fjes	лицо	anatomy
+fjorten	четырнадцать	number
+fjær	перо	object
+fjær	пружина	tool
+flagg	флаг	object
+flaske	бутылка	container
+flat	плоский	adjective
+flertall	большинство	abstract
+flott	замечательный	adjective-basic
+flue	муха	animal
+fly	самолёт	transport
+flyging	летание  ; полёт	transport
+flyplass	аэродром  ; аэропорт	city
+for det første	сначала	adverb
+forandring	перемена	abstract
+forbauselse	сюрприз	relations
+forberede	приготовить	verb
+forbi	мимо	adverb
+forbinde	соединить(ся)	verb
+forbrytelse	преступление	society
+fordel	преимущество	business
+fordi	потому что	conjunction
+forebygge	предотвратить	verb
+foregående	бывший	adjective
+forekomst	случай	abstract
+forening	клуб	society
+foreslå	предложить	verb
+forestille	символизировать	verb
+forfatter	писатель	profession
+forgifte	отравить	verb
+forhold	родство	family
+forhøye	увеличить	verb
+forkjølelse	простуда  ; насморк	medicine
+forlange	требовать	verb-basic
+formiddag	утро	time
+forminske	сократить	verb
+forside	передняя часть	abstract
+forsikring	страховка	business
+forskjell	разница	mathematics
+forskjellig	различный	adjective
+forskning	исследование	science
+forslag	предложение	communication
+forslag	проект	communication
+forsvar	оборона	abstract
+forsøk	надсада	abstract
+fortid	прошлое	time
+fortjeneste	прибыль  ; нажива	business
+fortsette	продолжать	verb
+forurensning	загрязнение	environment
+forvaltning	руководство  ; предводительство	business
+fossilt brensel	ископаемое топливо	environment
+fot	подошва	anatomy
+fotoapparat	фотоаппарат	device
+fotograf	фотограф	profession
+fottrinn	шаг  ; поступь	abstract
+frakk	пальто  ; пиджак	clothes
+fred	мир	society
+fredag	пятница	time
+fremgangsrik	успешный	adjective-people
+fremmed	иностранный	adjective
+fremtid	будущее	time
+frigjøre	освободить	verb
+frisk	свежий	adjective
+frokost	завтрак	food
+frukt	фрукты	food
+frykt	страх	feeling
+frø	зерно  ; семя	object
+fugl	птица	animal
+fuktig	мокрый	adjective
+fuktighet	влажность	nature
+funksjon	намерение  ; цель	mathematics
+fyrstikk	спичка	tool
+fysisk	телесный  ; физический	adjective
+få	получить	verb
+få	получить	verb-basic
+få til	основать	verb
+få til	побудить	verb
+fødsel	рождение	family
+fødselsdag	день рождения	family
+følelser	ощущение	communication
+følge	следовать	verb-basic
+før	вперед	adverb
+førti	сорок	number
+gaffel	вилка	kitchen
+gal	неправильный	adjective-basic
+gammel	старый	adjective-people
+garasje	гараж	house
+gardin	занавеска	furniture
+gate	улица	city
+geit	козёл  ; коза	animal
+gen	ген	anatomy
+general	генерал	profession
+generell	всеобщий  ; общий	adjective
+gevær	оружие	tool
+gi	давать	verb-basic
+gi adgang	припустить  ; признать	verb
+gi sparken	стрелять	verb-basic
+gift	женатый	adjective-people
+gift	яд  ; отрава	material
+gifte seg	жениться	verb
+giftermål	брак	family
+gjemme	скрывать	verb
+gjenbruk	переработка отходов	environment
+gjenspeile	отражать	verb
+gjest	гость	relations
+gjøre	делать	verb-basic
+glass	стекло	material
+glede	обрадовать	verb
+glemme	забыть  ; забывать	verb-basic
+global oppvarming	глобальное потепление	environment
+godkjenne	разрешить	verb
+godkjenning	одобрение  ; согласие	communication
+godtgjøre	доказать	verb
+golf	гольф	sports
+grad	степень	mathematics
+grad	уровень	mathematics
+grafem	знак	communication
+gratis	бесплатный	adjective
+gren	ветвь	nature
+grense	граница  ; лимит	mathematics
+gress	трава	nature
+grin	улыбка	relations
+grunnstoff	элемент	material
+gruppere	группа	business
+gruve	шахта	environment
+grå	серый	color
+gråte	плакать	verb
+gul	жёлтый	color
+gull	золото	material
+gulrot	морковь	vegetable
+gutt	мальчик  ; парень	family
+gå	идти	verb
+gå	ходить	verb
+gå glipp av	упустить	verb
+gård	ферма	nature
+ha	иметь	verb-basic
+hage	сад	house
+hake	подбородок	anatomy
+hale	хвост	anatomy
+hall	прихожая  ; вестибюль  ; передняя	house
+hals	шея  ; горло	anatomy
+ham	его	pronoun
+han	мужской	adjective-people
+handel	занятие  ; торговля	business
+handel	сделка	business
+handle	торговать	verb
+handling	дело	abstract
+handling	поступок  ; действие	abstract
+hat	ненависть	feeling
+hate	ненавидеть	verb
+hatt	шляпа	clothes
+heis	лифт	device
+hel	полный	adjective
+hele	целое	abstract
+helg	выходных	time
+hemmelig	секретный	adjective
+hendelse	событие	science
+henne	её	pronoun
+hermetikk	консерва	container
+hest	лошадь  ;  конь	animal
+himmel	небо	nature
+hinsides	за	adverb
+historie	история	society
+hjelp	помощь  ; содействие	business
+hjelpe	помочь	verb-basic
+hjem	жилище  ; дом	house
+hjerne	мозг	anatomy
+hjerte	сердце	anatomy
+hjul	колесо	object
+hode	голова	anatomy
+hoste	кашель	medicine
+hoste	кашлять	verb
+hotell	гостиница  ; отель	city
+hovedstad	столица	city
+hud	кожа	anatomy
+hukommelse	память	communication
+humor	юмор	communication
+hun	она	pronoun
+hund	собака	animal
+hus	дом	house
+hva	который	pronoun
+hvem	кто	pronoun
+hver	каждый	adjective
+hvis	если	conjunction
+hvitløk	чеснок	vegetable
+hylle	полка	furniture
+hånd	рука	anatomy
+håndtak	ручка	object
+håpe	надеяться	verb-basic
+hår	волос  ; ворс	anatomy
+høst	осень	time
+høyde over havet	высота	geography
+høyre	правый	adjective-basic
+høyrøstet	громкий	adjective
+i dag	настоящее	time
+i dag	сегодня	adverb
+i morgen	завтра	adverb
+iaktta	смотреть	verb
+identifisere	опознать	verb
+idé	мысль	communication
+ikke	нет	adverb
+ikke desto mindre	хотя	adverb
+ild	огонь  ; пламя	nature
+imellom	между	adverb
+imellom	среди	preposition
+indikator	марка	business
+individ	лицо  ; человек	family
+individuell	единочный	adjective-people
+industri	промышленность	business
+industriell	промышленный  ; индустриальный	adjective
+ingen	никакой  ; никто	adjective
+inn	внутрь  ; в  ; до	adverb
+inneholde	заключать в себе  ; охватывать	verb
+innenfor	внутри	adverb
+inntekt	оклад  ; заработок  ; плата	business
+insekt	насекомые	animal
+institusjon	учреждение	society
+instrument	инструмент  ; орудие	device
+interessant	интересный	adjective
+interesse	интерес	communication
+internasjonal	международный	adjective
+intervju	разговор  ; беседа  ; диалог	communication
+intet	нуль  ; ничто  ; ничего	number
+is	лёд	material
+ja	да	conversation
+jakke	куртка  ; пиджак	clothes
+januar	январь	time
+jente	девушка  ; девочка	family
+jern	железо	material
+jevn	гладкий	adjective
+jord	земля	material
+jordbær	земляника	fruit
+journalist	журналист  ; газетный сотрудник	profession
+juli	июль	time
+juni	июнь	time
+kaffe	кофе	drink
+kake	сладкое  ; пирожное	food
+kald	холодный	adjective-basic
+kamp	борьба	abstract
+kampanje	кампания	abstract
+kanskje	может быть	adverb
+kant	кромка  ; край	mathematics
+kapital	капитал	business
+karaktersystemer i norge	отметка	education
+kart	карта	geography
+kasse	коробка	container
+kast	бросание	sports
+katte	кот  ; кошка	animal
+kilde	источник	nature
+king	король	society
+kino	кино  ; кинотеатр	city
+kirke	церковь  ; храм	city
+kirsebær	вишня	fruit
+kjede	цепь	object
+kjedelig	нудный	adjective
+kjemi	химия	science
+kjemisk	химический	adjective
+kjemisk substans	химикат	material
+kjensgjerning	факт	science
+kjerne	суть	science
+kjærlighet	любовь	feeling
+kjøkken	кухня	house
+kjøpe	купить	verb-basic
+kjøtt	мясо	food
+klar	готовый  ; приготовленный	adjective
+klar	светлый	adjective
+klasse	ранг  ; класс	education
+klebrig	клейкий	adjective
+klimaendringer	изменение климата	environment
+klokke	колокол	tool
+klubbe	дубинка	object
+klær	одежда	clothes
+knapp	кнопка	tool
+knappenål	булавка	object
+kne	колено	anatomy
+knep	трюк	abstract
+kniv	нож	kitchen
+knokkel	кость	anatomy
+knute	узел	abstract
+kobling	подключение	abstract
+koffert	чемодан	clothes
+kokk	повар  ; кухарка	kitchen
+komme	приходить	verb-basic
+kone	жена	family
+konkurranse	конкуренция  ; соревнование	business
+konkurranse	соревнование  ; состязание	business
+konkurrent	соперник	sports
+konsert	концерт	art
+konto	счёт	business
+kontor	офис  ; контора  ; канцелярия	business
+kontrakt	контракт	business
+kontroll	проверка	science
+kontroll	чек	business
+konvolutt	конверт	container
+kopiere	копировать	verb
+kopp	чашка	container
+korn	зерно	material
+kostnad	расход	business
+kraft	сила	abstract
+kraft	сила	physics
+krig	война	society
+kriterium	критерий	communication
+krok	крючок	tool
+kropp	торс	anatomy
+ku	корова	animal
+kull	уголь	material
+kultur	культура	society
+kun	просто  ; только	adverb
+kunde	покупатель  ; заказчик  ; клиент	business
+kunngjøringsfil	провозглашение  ; объявление	communication
+kunnskap	знание	education
+kunst	искусство	art
+kunstner	художник	art
+kurs	курс	business
+kurv	корзина	container
+kurve	кривая  ; дуга	mathematics
+kvadrat	вторая степень	mathematics
+kvadrat	квадрат	mathematics
+kvalitet	качество	abstract
+kveld	вечер	time
+kvinne	женщина	family
+kvinnelig	женский	adjective-people
+kyss	поцелуй	relations
+kål	капуста	vegetable
+la	оставить	verb
+lagre	копить	verb
+land	страна	society
+lande	приземлиться	verb
+landsby	деревня	city
+lav	низкий  ; невысокий	adjective
+le	смеяться	verb-basic
+lede	вести	verb
+lede	завести	verb
+legge	класть	verb-basic
+legge sammen	сосчитать	verb
+leilighet	квартира	city
+leppe	губа	anatomy
+lese	читать	verb-basic
+lesse på	зарядить	verb
+lett	простой	adjective
+leve	жить	verb
+levende	живой	adjective-people
+levere	предоставить	verb
+lide	терпеть	verb
+ligge	лежать	verb-basic
+like	любить	verb-basic
+like	нравиться  ; любить	verb-basic
+lim	клей	material
+linje	черта  ; линия	art
+liste	перечень	abstract
+lite	немного  ; мало	adverb
+liten	малый	adjective-basic
+liv	жизнь	nature
+lov	закон	business
+luft	воздух	nature
+lukke	закрывать	verb-basic
+lukke opp	открыть	verb-basic
+lukket	закрытый	adjective
+lunsj	обед	food
+lyd	звук	physics
+lyn	молния	weather
+lys	свет	physics
+lås	замок	tool
+lære	обучать	verb
+lære	учить(ся)	verb-basic
+lærer	учитель	education
+løgn	ложь	communication
+løk	лук	vegetable
+løve	лев	animal
+magesekk	желудок	anatomy
+mai	май	time
+maling	краска	art
+mandag	понедельник	time
+mange	много	adjective
+mann	мужчина  ; человек	family
+maskin	станок	device
+masse	масса	physics
+mat	блюдо  ; питание	food
+materiale	материал	business
+materie	вещество	material
+matros	матрос  ; моряк	profession
+maur	муравей	animal
+med	с	preposition
+med	с	preposition
+med en gang	немедленно	adverb
+medisinsk	лечебный	adjective-people
+medlem	член	society
+meg	я	pronoun
+meget	очень	adverb
+melk	молоко	drink
+mengde	количество	abstract
+mening	мнение  ; суждение	communication
+menneske	лицо  ; человек	family
+menneskelig	гуманный	adjective-people
+mennesker	люди  ; народ	society
+menstruasjon	менструация	medicine
+merke	выбрать	verb
+merke	марка	business
+mesterskap	чемпионат	sports
+metall	металл	material
+metode	способ  ; метод	science
+midnatt	полночь	time
+miljø	окружение	business
+miljø	среда  ; окружающая среда	environment
+milkshake	коктейль	drink
+million	миллион	number
+min	мой	pronoun
+minne	воспоминание	communication
+minutt	минута	time
+mobiltelefon	мобильный телефон  ; мобильник	device
+mor	мамочка	family
+mot	против	preposition
+mote	мода	art
+motor	двигатель	device
+motsatt	противоположный	adjective
+motsetning	противоположность	abstract
+munn	уста  ; рот	anatomy
+mur	стена	house
+museum	музей	art
+musiker	музыкант	profession
+musikk	музыка	art
+muskel	мускул  ; мышца	anatomy
+mutter	гайка	object
+myk	мягкий	adjective-basic
+mål	гол	sports
+mål	цель	sports
+måle	мерить	verb
+måling	измерение	physics
+måltid	блюдо  ; еда	food
+måned	месяц	time
+måte	способ  ; метод  ; стиль	art
+møbler	мебель	furniture
+mørk	тёмный	adjective-basic
+møte	встреча	business
+møte	встречать(ся)	verb-basic
+nasjon	народ  ; нация	society
+nasjonal	национальный  ; народный	adjective
+natt	ночь	time
+natur	природа	nature
+naturlig språk	язык	communication
+navn	имя	communication
+nebb	клюв	anatomy
+nede	понизу	adjective
+negl	ноготь	anatomy
+nei	нет	conversation
+nemnd	комитет  ; комиссия	business
+nerve	нерв	anatomy
+nese	нос	anatomy
+nesten	почти	adverb
+nett	сплетение	mathematics
+nettopp	точно	adverb
+nettopp	чётный	adjective
+ni	девять	number
+nitten	девятнадцать	number
+nitti	девяносто	number
+nok	довольно	adverb
+nord	север	geography
+normal	нормальный	adjective
+normal	стандартный	adjective
+notat	заметка	communication
+note	нота	art
+november	ноябрь	time
+nummer	количество  ; число	communication
+ny	новый	adjective-basic
+nylig	недавно	adverb
+nå	сейчас	time
+nål	иголка  ; игла	tool
+nødvendig	необходимый	adjective
+nøkkel	ключ	tool
+nøtt	орех	fruit
+offentligheteten	общественность	society
+ofte	часто	adverb
+og	и	conjunction
+også	tакже  ; тоже	adverb
+oktober	октябрь	time
+oliven	маслина	vegetable
+olje	масло	food
+omfang	диапазон	science
+omfatte	заключать в себе  ; охватывать	verb
+omhu	попечение	medicine
+omkring	приблизительно	adverb
+omslag	крышка	object
+operasjon	операция	business
+opp	вверх	adverb
+oppbygning	стройка	city
+oppdage	обнаружить	verb
+oppdagelse	находка	science
+oppdra	воспитать	verb
+oppfatte	понимать	verb-basic
+oppgang	подъём	abstract
+oppgave	дело  ; труда  ; работа	business
+opplysning	сведениe  ; информация	communication
+opplæring	обучение	education
+oppmerksomhet	внимание	business
+oppnå	достигать	verb
+oppnå	достичь	verb
+oppriktig	искренний	adjective-people
+orange	оранжевый	color
+ord	слово	communication
+ordliste	словарь	communication
+ordre	приказ  ; команда	society
+organisasjon	организация	society
+original	исходный  ; оригинальный	adjective
+orkester	оркестр	art
+ornament	декорация	abstract
+os	дым	nature
+oss	нас	pronoun
+ost	сыр	food
+ovenfor	над	adverb
+ovn	печь	device
+ozon	озон	environment
+pakke	пакет	business
+panne	лоб  ; чело	anatomy
+papir	бумага	art
+par	пара	number
+parallell	параллельный	adjective
+park	парк  ; сад	city
+part	часть	abstract
+pasient	пациент  ; больной	medicine
+pass	паспорт	society
+passasjer	пассажир	transport
+pastinakk	пастернак	vegetable
+pause	пауза  ; перерыв	abstract
+pause	перерыв  ; пауза	time
+pedagogikk	образование	education
+penger	деньги	business
+penn	ручка	art
+periode	период	time
+permisjon	отпуск	business
+personale	персонал	business
+petroleum	нефть	material
+pilot	пилот	profession
+pisk	бич	tool
+plan	план	business
+plante	растение	nature
+plass	место	abstract
+plass	место	abstract
+plomme	слива	fruit
+poesi	поэзия	art
+polere	глянцевать	verb
+politi	полиция	society
+politiker	политик	profession
+politikk	политика	society
+politikonstabel	милиционер	profession
+politisk	политический	adjective
+port	ворота  ; калитка	house
+porto	почтовая марка	object
+pose	мешок	container
+posisjon	позиция  ; положение	abstract
+post	почта	communication
+potet	картофелина	vegetable
+praksis	практика	abstract
+presang	подарок	object
+presentere	представить	verb
+presse	сжать  ; нажать	verb
+privat	скромный	adjective
+produksjon	производство	science
+produkt	продукт	business
+profesjonell	профессиональный	adjective
+program	программа	science
+prosedyre	процесс  ; процедура	science
+prosent	процент	mathematics
+prosess	процесс	physics
+prosjekt	проект	science
+protestere	возражать  ; протестовать	verb
+prøve	испытать	verb
+prøve	попробовать	verb
+pulver	порошок	material
+pumpe	насос	tool
+punkt	точка	communication
+pusse	чистить	verb
+påfølgende	следующий	adjective
+påvirke	поблиять	verb
+pære	груша	fruit
+rapport	рапорт	abstract
+rask	быстрый	adjective-basic
+reaksjon	реакция	communication
+reddik	редиска	vegetable
+regel	правило  ; предписание	mathematics
+regjere	править	verb
+regjering	правительство	society
+regn	дождь	weather
+regnbue	радуга	weather
+reise	поездка	transport
+rekord	рекорд	sports
+religion	религия	society
+ren	чистый	adjective-basic
+rente	процент	business
+republikk	демократия  ; республика	society
+rest	остаток	business
+retning	направление	business
+rett	суд	society
+rettighet	право	business
+rettskrivning	правописание  ; орфография	communication
+rik	богатый	adjective-people
+riktig	правильный	adjective
+riktig	правильный	adjective-basic
+rim	иней	weather
+ringe opp	звонить	verb
+ris	рис	food
+risikere	рисковать	verb
+ro	спокойствие	abstract
+root	корень	mathematics
+rop	крик  ; возглас	communication
+rosa	розоватый  ; розовый	color
+rot	корень	nature
+rull	круг	object
+rute	дорога  ; путь	city
+rytme	ритм	art
+rå	грубый	adjective
+råd	совет	business
+råd	совет	business
+rød	красный	color
+rør	труба	object
+røre	двигать	verb-basic
+saks	ножницы	tool
+salat	салат	food
+salg	продажа  ; сбыт	business
+salt	соль	food
+samfunn	общество	science
+samme	одинаковый	adjective
+sammenligne	сравнивать	verb
+sammenligning	сравнение	science
+sand	песок	material
+sandwich	сандвич  ; бутерброд	food
+sang	песня	art
+sannsynlig	вероятный	adjective
+sannsynligvis	вероятно	adverb
+sart	деликатный  ; щекотливый	adjective
+sau	овца	animal
+saus	соус	food
+scene	сцена	art
+se på	считать	verb
+se ut	казаться	verb
+seddel	банкнот  ; кредитный билет	business
+seg	себя	pronoun
+seg	себя	pronoun
+seil	парус	object
+sekretær	секретарь  ; секретарша	profession
+seks	шесть	number
+seksjon	секция  ; участок	business
+seksten	шестнадцать	number
+seksti	шестьдесят	number
+sekund	секунда	time
+selge	продать	verb-basic
+selskap	общество	society
+sende	послать  ; отправить	verb
+seng	кровать  ; постель	furniture
+september	сентябрь	time
+serie	семья	family
+sesong	времена года	time
+setning	предложение	communication
+sett	множество	mathematics
+sex	секс	relations
+si	говорить	verb-basic
+side	сторона	mathematics
+side	страница	communication
+siden	с	preposition
+sikkert	непременно	adverb
+silke	шёлк  ; шелк	material
+sirkel	круг	mathematics
+sirkelrund	круглый	adjective
+sist	прошлый	adjective
+sitere	цитировать	verb
+sitron	лимон	fruit
+sitt	его	pronoun
+sitte	сидеть	verb-basic
+sjokolade	шоколад	food
+sju	семь	number
+sjø	море	geography
+sjø	озеро	geography
+skade	поломка	abstract
+skap	шкаф	furniture
+skarp	острый	adjective-basic
+skinn	кожа	material
+skinne	рельс	transport
+skip	судно  ; корабль	transport
+skissere	предложить	verb
+skitten	грязный	adjective-basic
+skje	ложка	kitchen
+skjema	формуляр	business
+skjorte	рубашка	clothes
+skjørt	юбка	clothes
+sko	ботинок	clothes
+skog	лес	nature
+skole	школа	city
+skrike	кричать	verb
+skrive	писать	verb-basic
+skrøpelig	хрупкий	adjective
+skubbe	толкнуть	verb-basic
+skuespiller	актёр	profession
+skuff	ящик	container
+sky	облако	weather
+slag	тип	abstract
+slange	змея	animal
+slegge	молоток	tool
+slenge	бросать  ; кидать	verb
+slett	ровный	adjective
+slette	равнина	geography
+slips	галстук	clothes
+slummer	сон	nature
+slutt	конец	time
+slutte	закончить  ; докончить	verb
+slutte	кончать	verb
+slåss	драться	verb
+smak	вкус	abstract
+smake	poпробовать	verb
+smerte	боль	medicine
+smog	смог	environment
+småpenger	мелочь	business
+smør	масло	food
+snart	скоро	adverb
+snill	красивый  ; хороший	adjective-basic
+snill	любезный	adjective-people
+snill	хороший  ; хорошо	adjective-basic
+snipp	воротник  ; туфля	clothes
+snitt	срез	abstract
+snø	снег	weather
+sokk	носок  ; гольфы = чулки до колен	clothes
+sol	солнце	geography
+soldat	солдат	profession
+som	как	adverb
+som	какой	pronoun
+som	какой	pronoun
+sommer	лето	time
+sortere	сортировать	verb
+soverom	спальня	house
+sparke	лягнуть	verb
+spedbarn	ребёнок	family
+speil	зеркало	physics
+spesifikk	специфический	adjective
+spiker	гвоздь	tool
+spill	игра	sports
+spille	играть	verb-basic
+spise	есть	verb-basic
+spiseseddel	меню	object
+sprang	скачок  ; прыжок	abstract
+språk	язык	communication
+spørre	спрашивать	verb
+spørring	вопрос	communication
+starte	начинаться	verb-basic
+stasjon	станция	city
+stat	страна	society
+statsråd	министр	profession
+status	состояние	abstract
+stemme	голос	communication
+stempel	печать  ;штемпель	tool
+stil	стиль	art
+stille	тихий	adjective
+stille	тихий	adjective
+stillhet	тишина	abstract
+stinke	вонять	verb
+stiv	жёсткий  ; негнущийся	adjective
+stjele	красть  ; воровать	verb
+stjerne	звезда	geography
+stoff	ткань	clothes
+stokk	палка	object
+stol	стул	furniture
+stopp	остановить	abstract
+stoppe	останавить	verb
+storm	буря	weather
+straff	наказание	society
+strand	пляж	geography
+strid	спор	communication
+stride	спорить	verb
+struktur	структура	business
+strupe	глотка  ; зев  ; горло	anatomy
+strøm	поток	nature
+student	студент  ; ученик	education
+studere	изучать	verb
+stund	момент	time
+styre	водить	verb
+stå	стоять	verb
+stål	сталь	material
+støkk	шок	feeling
+støt	удар	abstract
+støt	удар	abstract
+støtt	всегда	adverb
+støv	пыль	material
+støvel	ботинок	clothes
+støy	шум  ; гам	society
+subjekt	сюжет  ; тема	communication
+sukker	сахар	food
+suksess	успех	business
+sulten	голодный	adjective-people
+sum	итог  ; сумма	mathematics
+sunn	здоровый	adjective-basic
+sunnhet	здоровье	medicine
+suppe	суп	food
+sur nedbør	кислотный дождь	environment
+svar	ответ	communication
+svare	отвечать  ; ответить	verb
+svart	чёрный	color
+svin	свинья	animal
+svinge	повернуть	verb
+syk	больной	adjective-people
+sykdom	болезнь	medicine
+sykehus	больница	city
+sykepleier	медсестра  ; няня	medicine
+sykkel	велосипед	sports
+synge	петь	verb-basic
+syre	кислота	material
+system	система	science
+sytti	семьдесят	number
+så	потом  ; после	adverb
+så	так  ; таким образом	adverb
+såpe	мыло	material
+såre	ранить	verb
+særlig	особенно	adverb
+sølv	серебро	material
+sør	юг	geography
+søster	сестра	family
+tabell	таблица	business
+tak	крыша	house
+takst	расценка  ; тариф	business
+tale	говорить	verb-basic
+tallerken	тарелка	container
+tann	зуб	anatomy
+tap	утрата  ; пропадание  ; урон	business
+tau	канат	object
+te	чай	drink
+team	команда	business
+teater	театр	city
+teglstein	кирпич	house
+tegn	буква	communication
+tegne	рисовать	verb-basic
+teknologi	технология	science
+tendens	тенденция	science
+tennis	теннис	sports
+teori	теория	science
+teppe	ковёр	furniture
+testament	завещание	society
+tett	густой	adjective
+tett	тесный	adjective
+ti	десять	number
+tid	время	physics
+tidsskrift	журнал	communication
+til	в	preposition
+til	до	conjunction
+tilbringe	проходить	verb
+tilbud	предложение	business
+tilby	предложить	verb-basic
+tilgi	простить	verb
+tilgjengelig	доступный	adjective
+tillegg	дополнение	abstract
+tilsikte	замышлять	verb
+tilvekst	прирост	abstract
+time	час	time
+ting	дело	abstract
+tingest	предмет  ; вещь	abstract
+tjener	слуга	profession
+tjeneste	услуга	business
+toalett	уборная  ; туалет	house
+tog	поезд	transport
+tomat	помидор  ; томат	vegetable
+tommelfinger	большой палец	anatomy
+topp	верхушка	abstract
+torden	гром	weather
+torg	рынок  ; базар	business
+trang	узкий	adjective
+transport	перевозка  ; транспорт	transport
+trappetrinn	ступень	house
+tre	дерево	nature
+tre	три	number
+tredje	третий	number
+trekke	тянуть	verb-basic
+tretten	тринадцать	number
+treverk	дерево	material
+trist	печальный	adjective-people
+tro	вероисповедание	society
+trygg	обеспеченный	adjective
+trykk	давление	physics
+trykke	напечатать	verb
+tunge	язык	anatomy
+tvil	сомнение  ; неуверенность	communication
+tvile	сомневаться	verb
+tydeligvis	очевидно	adverb
+tykk	толстый	adjective
+tå	палец на ноге	anatomy
+tåke	туман	weather
+tålmodig	терпеливый	adjective-people
+tørr	сухой	adjective
+tørst	жаждущий	adjective-people
+ugift	холостой  ; незамужняя	adjective-people
+ukedager	неделя	time
+ulik	непохожий	adjective
+ull	волна  ; шерсть	material
+ulykke	несчастный случай  ; авария	transport
+under	нижний	adjective
+undergrunnsbane	метро	city
+underholdning	веселье  ; развлечение  ; забава  ; увеселение	art
+ung	молодой	adjective-people
+unngå	уклониться  ; избежать	verb
+ur	часы	device
+ur	часы	device
+utbrudd	извержение	abstract
+utdannelse	воспитание	education
+utdannelse	образование	education
+utmerket	замечательный	adjective
+utstilling	шоу	business
+uttale	произношение	communication
+utvikle	развиваться	verb
+utvikling	эволюция  ; развитие	nature
+utålmodig	нетерпеливый	adjective-people
+valg	выбор	abstract
+valg	выборы	society
+vann	вода	drink
+vanskelig	трудный	adjective-basic
+vanskelighet	проблема	science
+vanskelighet	трудность	business
+varm	горячий	adjective-basic
+varm	тёплый	adjective
+vaske	вымыть	verb
+vaskeservant	лохань	furniture
+ved	включённый	adjective
+veik	слабый	adjective-basic
+vekst	рост	abstract
+vekt	вес	physics
+venn	друг	family
+vennlig	дружеский	adjective-people
+venstre	левый	adjective-basic
+vente	ждать	verb
+vente	ждать	verb-basic
+verdi	ценность	business
+vest	запад	geography
+vett	ум, мысль	abstract
+vi	мы	pronoun
+vilje	воля	abstract
+vin	вино	drink
+vind	ветер	weather
+vindu	окно	house
+vinkel	угол	mathematics
+vinter	зима	time
+virkelig	всерьёз	adverb
+visitt	визит	relations
+viss	верный	adjective
+vitenskap	наука	science
+vokse	увеличивать(ся)	verb
+voldsom	насильственный	adjective-people
+vond	плохой	adjective-basic
+vår	весна	time
+vårt	наш	pronoun
+vær	погода	nature
+være til	быть	verb-basic
+værelse	комната	house
+ytelse	действие	abstract
+å	на	preposition
+ånde	дыхание	anatomy
+år	год	time
+århundre	век	time
+årsak	основание  ; мотив	communication
+årsak	причина	science
+ås	взгорье  ; холм	geography
+åtte	восемь	number
+åtti	восемьдесят	number
+ødeleggelse	разрушение	abstract
+økologi	экология	environment
+økonomi	хозяйство  ; экономика	business
+økonomisk	экономический	adjective
+økonomisk	экономический	adjective
+øl	пиво	drink
+ønske	желание	abstract
+øre	ухо	anatomy
+øst	выход	geography
+øy	остров	geography
+øye	глаз	anatomy
+øyeblikk	момент  ; мгновение	time
+øyeblikk	момент  ; миг	time
+øyekast	вид  ; взгляд	communication

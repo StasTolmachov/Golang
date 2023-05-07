@@ -1,0 +1,1729 @@
+# English-Russian translations created from the Universal dictionary at 2023-05-07T12:54:47+00:00
+# (c) Copyright 2023 by All free dictionaries project
+# ALL FREE DICTIONARIES PROJECT DISCLAIMS ALL
+# WARRANTIES WITH REGARD TO THESE TRANSLATIONS, INCLUDING ALL
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL ALL FREE DICTIONARIES PROJECT OR ANY OF ITS CONTRIBUTORS
+# BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES
+# OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+# PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+# OR OTHER ACTION, ARISING OUT OF OR IN CONNECTION
+# WITH THE USE OR PERFORMANCE OF THESE TRANSLATIONS.
+#
+# In other words there may be incorrect translations.
+# If you need to be sure never use these translations!
+#
+# French, German and Czech entries are added manually. The entries for
+# remaining languages are added automatically. Entries for these languages
+# are only experimental.
+#
+# You may not place this file on WWW, ftp and equivalent servers because
+# this file gets outdated very quickly. You may not distribute this file
+# with your dictionary applications without permission. You can contact
+# authors of the Universal dictionary at: http://dicts.info/contact.php
+#
+# This file is for personal use only. You may not distribute this file.
+#
+# New version of this file can be created at: https://www.dicts.info/uddl.php
+#
+
+April  ; Apr	апрель	time
+August  ; Aug	август	time
+China  ; People's Republic of China  ; mainland China  ; Communist China  ; Red China  ; PRC  ; Cathay	китай	country
+Chinese	китайский язык	language
+Czech Republic	Чехия  ; Чешская Республика	country
+December  ; Dec	декабрь	time
+Earth  ; earth  ; world  ; globe	Земля	geography
+English  ; English language	английский язык	language
+February  ; Feb	февраль	time
+France  ; French Republic	Франция	country
+French	францьзскый язык	language
+Friday  ; Fri	пятница	time
+German  ; High German  ; German language	немецкий язык	language
+Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG	Германия	country
+Hindi	хинди	language
+I don't know	не знаю	conversation
+I don't understand	не понимаю	conversation
+India  ; Republic of India  ; Bharat	Индия	country
+Italian	итальянский язык	language
+Italy  ; Italian Republic  ; Italia	Италия	country
+January  ; Jan	январь	time
+Japan  ; Nippon  ; Nihon	Япония	country
+Japanese	японский язык	language
+July	июль	time
+June	июнь	time
+May	май	time
+Monday  ; Mon	понедельник	time
+Moon  ; moon	месяц	geography
+November  ; Nov	ноябрь	time
+October  ; Oct	октябрь	time
+Russian	русский язык	language
+Saturday  ; Sabbatum  ; Sat	суббота	time
+September  ; Sep  ; Sept	сентябрь	time
+Spain  ; Kingdom of Spain  ; Espana	Испания	country
+Spanish	испанский язык	language
+Sunday  ; Lord's Day  ; Dominicus  ; Sun	воскресенье	time
+Thursday  ; Th	четверг	time
+Tuesday  ; Tues	вторник	time
+United Kingdom  ; UK  ; U.K.  ; Britain  ; United Kingdom of Great Britain and Northern Ireland  ; Great Britain	Англия  ; Великобритания	country
+United States  ; United States of America  ; America  ; the States  ; US  ; U.S.  ; USA  ; U.S.A.	США  ; Соединенные Штаты Америки	country
+Wednesday  ; Midweek  ; Wed	среда	time
+a  ; an	''not used''	article
+ability  ; power	способность	abstract
+able	способный	adjective-people
+about  ; around	кругом  ; вокруг	adverb
+above  ; higher up  ; in a higher place  ; to a higher place	над	adverb
+accept  ; take  ; have	принять	verb
+accident	несчастный случай  ; авария	transport
+account  ; business relationship	счёт	business
+accuse  ; charge	обвинить	verb
+achieve  ; accomplish  ; attain  ; reach	достигать	verb
+acid	кислота	material
+acid	кислый	adjective
+acid rain  ; acid precipitation	кислотный дождь	environment
+act  ; deed  ; human action  ; human activity	дело	abstract
+act  ; move	действовать	verb
+action	поступок  ; действие	abstract
+activity  ; action  ; activeness	деятельность	abstract
+actor  ; histrion  ; player  ; thespian  ; role player	актёр	profession
+actress	актриса	profession
+add	придать	verb
+add  ; add together	сосчитать	verb
+addition  ; add-on  ; improver	дополнение	abstract
+addition  ; summation  ; plus	сложение	mathematics
+address	адрес	house
+admit  ; acknowledge	припустить  ; признать	verb
+advantage  ; vantage	преимущество	business
+advertisement  ; ad  ; advertizement  ; advertising  ; advertizing  ; advert	пропаганда  ; реклама  ; объявление	business
+advice	совет	business
+affect  ; impact  ; bear upon  ; bear on  ; touch on  ; touch	поблиять	verb
+after	после  ; потом	adjective
+afternoon	время после полудня	time
+again  ; once again  ; once more  ; over again	опять	adverb
+against	против	preposition
+age	возраст	time
+ago  ; agone	перед	adjective
+agree  ; hold  ; concur  ; concord	согласиться	verb
+agreement  ; understanding	соглашение  ; договор  ;контракт  ; урегулирование	business
+air	воздух	nature
+airport  ; airdrome  ; aerodrome  ; drome	аэродром  ; аэропорт	city
+alive  ; live	живой	adjective-people
+all	все  ; бсё	adjective
+allow  ; let  ; permit	разрешить	verb
+almost  ; about  ; most  ; nearly  ; near  ; nigh  ; virtually  ; well-nigh	почти	adverb
+alone  ; lone  ; lonely  ; solitary	одинокий	adjective-people
+along	вдоль	adverb
+already	уже	adverb
+always  ; ever  ; e'er	всегда	adverb
+among  ; amongst  ; amid  ; amidst	среди	preposition
+amount	количество	abstract
+and	и	conjunction
+angle	угол	mathematics
+angry	разозлённый	adjective-people
+animal  ; animate being  ; beast  ; brute  ; creature  ; fauna	животное	nature
+announce  ; denote	сообщить	verb
+announcement  ; proclamation  ; annunciation  ; declaration	провозглашение  ; объявление	communication
+another  ; some other	другой	adjective-basic
+answer  ; reply  ; response	ответ	communication
+ant  ; emmet  ; pismire	муравей	animal
+any  ; whatever  ; whatsoever	любой	adjective
+anyone	кто-либо	pronoun
+apple	яблоко	fruit
+approval  ; blessing  ; approving	одобрение  ; согласие	communication
+approximately  ; about  ; close to  ; just about  ; some  ; roughly  ; more or less  ; around  ; or so	приблизительно	adverb
+apricot	абрикос	fruit
+area  ; expanse  ; surface area	пространство	mathematics
+argue  ; contend  ; debate  ; fence	спорить	verb
+argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing	спор	communication
+argument  ; statement	аргумент	communication
+arm	рука	anatomy
+army  ; regular army  ; ground forces	армия	society
+arrive  ; make it  ; get in  ; go far	приехать	verb
+art  ; fine art	искусство	art
+artist  ; creative person	художник	art
+ask  ; inquire  ; enquire	спрашивать	verb
+at	на	preposition
+at	на	preposition
+atmosphere  ; air	атмосфера	environment
+attack  ; assail  ; assault  ; set on	атаковать	verb
+attack  ; onslaught  ; onset  ; onrush	набег	abstract
+attempt  ; effort  ; endeavor  ; endeavour  ; try	надсада	abstract
+attention  ; attending	внимание	business
+attitude  ; mental attitude	точка зрения	abstract
+authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so	авторитет	business
+automatic	автоматический	adjective
+autumn  ; fall	осень	time
+available	доступный	adjective
+avoid	уклониться  ; избежать	verb
+awake	бдительный	adjective-people
+award  ; accolade  ; honor  ; honour  ; laurels	награда	sports
+baby  ; babe  ; infant	ребёнок	family
+back	задняя страница	abstract
+back  ; dorsum	большой чан  ; спина	anatomy
+bad	плохой	adjective-basic
+bag	мешок	container
+bag  ; handbag  ; pocketbook  ; purse	сумка  ; сумочка	clothes
+balance	баланц	physics
+ball	мяч	sports
+banana	банан	fruit
+band  ; dance band  ; dance orchestra	оркестр	art
+bank	берег	geography
+bank  ; depository financial institution  ; banking concern  ; banking company	банк	city
+banknote  ; bill  ; note  ; government note  ; bank bill  ; banker's bill  ; bank note  ; Federal Reserve note  ; greenback	банкнот  ; кредитный билет	business
+bargain  ; deal	сделка	business
+base  ; base of operations	военная база	society
+baseball  ; baseball game	бейсбол	sports
+basic	основной	adjective-basic
+basket  ; handbasket	корзина	container
+bathroom  ; bath	ванная	house
+be	быть	verb-basic
+be  ; live	жить	verb
+beach	пляж	geography
+beak  ; bill  ; neb  ; nib  ; pecker	клюв	anatomy
+bean  ; edible bean	боб	vegetable
+bear	медведь	animal
+bear	нести	verb
+beat  ; beat out  ; crush  ; shell  ; trounce  ; vanquish	победить	verb
+beautiful	красивый	adjective-basic
+because	потому что	conjunction
+become  ; go  ; get	стать	verb
+bed	кровать  ; постель	furniture
+bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber	спальня	house
+bee	пчела	animal
+beer	пиво	drink
+before  ; ahead  ; in front	впереди	adverb
+before  ; earlier	вперед	adverb
+begin  ; start  ; get down  ; get  ; start out  ; set about  ; set out  ; commence	начинаться	verb-basic
+beginning  ; commencement  ; first  ; outset  ; get-go  ; start  ; kickoff  ; starting time  ; showtime  ; offset	старт	time
+behave  ; acquit  ; bear  ; deport  ; conduct  ; comport  ; carry	относиться	verb
+behavior  ; demeanor  ; demeanour  ; behaviour  ; conduct  ; deportment	поведения	abstract
+behind	сзади  ; позади	adverb
+believe	верить	verb
+bell	колокол	tool
+benefit  ; do good	преуспевать	verb
+beside	рядом	preposition
+best	лучший	adjective-basic
+better	лучший	adjective-basic
+between  ; betwixt	между	adverb
+beyond	за	adverb
+big  ; large	крупный  ; большой	adjective-basic
+bike  ; bicycle  ; wheel  ; cycle	велосипед	sports
+biology  ; biological science	биология	science
+bird	птица	animal
+birth  ; nativity  ; nascency  ; nascence	рождение	family
+birthday	день рождения	family
+bit  ; chip  ; flake  ; fleck  ; scrap	кусок	abstract
+bite  ; seize with teeth	куснуть	verb
+bitter	горький	adjective
+black	чёрный	color
+blackberry	ежевика	fruit
+blade	лезвие	object
+blood	кровь	anatomy
+blow	удар	abstract
+blue  ; bluish  ; blueish	голубой	color
+board	доска	object
+boat	лодка	transport
+body  ; torso  ; trunk	торс	anatomy
+bone  ; os	кость	anatomy
+book  ; volume	книга	communication
+boot	ботинок	clothes
+boring  ; deadening  ; dull  ; ho-hum  ; irksome  ; slow  ; tedious  ; tiresome  ; wearisome	нудный	adjective
+both	обе	adjective
+bottle	бутылка	container
+box	коробка	container
+boy  ; male child	мальчик  ; парень	family
+boyfriend  ; fellow  ; beau  ; swain  ; young man	поклонник	relations
+brain  ; encephalon	мозг	anatomy
+branch	ветвь	nature
+brand  ; make	марка	business
+bread  ; breadstuff  ; staff of life	хлеб	food
+break	разбить	verb-basic
+break  ; respite  ; recess  ; time out	пауза  ; перерыв	abstract
+breakfast	завтрак	food
+breath	дыхание	anatomy
+brick	кирпич	house
+bridge  ; span	мост	city
+bright  ; brilliant  ; vivid	светлый	adjective
+bring  ; convey  ; take	принести	verb
+broken	разбитый	adjective
+brother  ; blood brother	брат	family
+brown  ; brownish  ; chocolate-brown  ; dark-brown	коричневый	color
+brush	щётка	art
+build  ; construct  ; make	строить	verb
+building  ; edifice	здание	city
+burn  ; fire  ; burn down	спалить	verb
+bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle	автобус	transport
+business  ; concern  ; business concern  ; business organization  ; business organisation	коммерция ; бизнес	business
+businessman  ; man of affairs	бизнесмен	profession
+businesswoman	предприниматель	business
+butter	масло	food
+button  ; push button  ; push	кнопка	tool
+buy  ; purchase	купить	verb-basic
+by  ; past	мимо	adverb
+cabbage  ; chou	капуста	vegetable
+cake	сладкое  ; пирожное	food
+call  ; phone call  ; telephone call	звонок  ; зов  ; оклик	communication
+call  ; telephone  ; call up  ; phone  ; ring	звонить	verb
+camera  ; photographic camera	фотоаппарат	device
+campaign  ; cause  ; crusade  ; drive  ; movement  ; effort	кампания	abstract
+can  ; tin  ; tin can	консерва	container
+capital	столица	city
+capital  ; working capital	капитал	business
+car  ; auto  ; automobile  ; machine  ; motorcar	автомобиль  ; машина	transport
+card	карточка	object
+care	заботиться	verb
+care  ; attention  ; aid  ; tending	попечение	medicine
+carpet  ; rug  ; carpeting	ковёр	furniture
+carrot  ; cultivated carrot  ; Daucus carota sativa	морковь	vegetable
+carry  ; transport	перенести	verb
+case  ; instance  ; example	случай	abstract
+castle	замок  ; кремль	city
+cat  ; true cat	кот  ; кошка	animal
+catch  ; grab  ; take hold of	схватить	verb
+cause	причина	science
+cause  ; induce  ; stimulate  ; have  ; get  ; make	побудить	verb
+cell	ячейка  ; клетка	anatomy
+cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone	мобильный телефон  ; мобильник	device
+center  ; centre  ; midpoint	центр	mathematics
+center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty	суть	science
+central	центральный	adjective
+century	век	time
+certain  ; sure	верный	adjective
+chain	цепь	object
+chair	стул	furniture
+championship  ; title	чемпионат	sports
+chance  ; opportunity	возможность	abstract
+change	мелочь	business
+change  ; alter  ; modify	изменить	verb
+change  ; alteration  ; modification	перемена	abstract
+character  ; grapheme  ; graphic symbol	знак	communication
+charge  ; electric charge	заряд	physics
+cheap  ; inexpensive	дешевый	adjective
+check  ; bank check  ; cheque	чек	business
+cheers	за ваше здоровье	conversation
+cheese	сыр	food
+chemical  ; chemic	химический	adjective
+chemical  ; chemical substance	химикат	material
+chemical element  ; element	элемент	material
+chemistry  ; chemical science	химия	science
+cherry	вишня	fruit
+chest  ; breast	грудь	anatomy
+chest  ; thorax  ; pectus	грудная клетка  ; грудь	anatomy
+child  ; kid	ребёнок	family
+chin  ; mentum	подбородок	anatomy
+chocolate	шоколад	food
+choice  ; selection  ; option  ; pick	выбор	abstract
+choose  ; take  ; select  ; pick out	выбрать	verb
+church  ; church building	церковь  ; храм	city
+cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace	кино  ; кинотеатр	city
+circle	круг	mathematics
+city  ; metropolis  ; urban center	мегаполис	city
+class  ; form  ; grade  ; course	ранг  ; класс	education
+classify  ; class  ; sort  ; assort  ; sort out  ; separate	сортировать	verb
+clean	чистый	adjective-basic
+clean  ; make clean	чистить	verb
+clear	явный	adjective
+clearly	ясно	adverb
+climate change  ; global climate change	изменение климата	environment
+clock	часы	device
+close  ; shut	закрывать	verb-basic
+closed  ; shut  ; unopen	закрытый	adjective
+cloth  ; fabric  ; material  ; textile	ткань	clothes
+clothing  ; article of clothing  ; vesture  ; wear  ; wearable  ; habiliment	одежда	clothes
+cloud	облако	weather
+club	дубинка	object
+club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order	клуб	society
+coal	уголь	material
+coat	пальто  ; пиджак	clothes
+coffee  ; java	кофе	drink
+coil  ; whorl  ; roll  ; curl  ; curlicue  ; ringlet  ; gyre  ; scroll	круг	object
+cold	холодный	adjective-basic
+cold  ; common cold	простуда  ; насморк	medicine
+collar  ; neckband	воротник  ; туфля	clothes
+color  ; colour	цветной	adjective
+color  ; colour  ; coloring material  ; colouring material	краска	art
+come  ; come up	приходить	verb-basic
+committee  ; commission	комитет  ; комиссия	business
+common	обычный	adjective
+common  ; mutual	совместный	adjective
+company	предприятие	business
+company  ; companionship  ; fellowship  ; society	общество	society
+compare	сравнивать	verb
+comparison  ; comparing	сравнение	science
+competition	конкуренция  ; соревнование	business
+competitor  ; rival  ; challenger  ; competition  ; contender	соперник	sports
+complaint  ; charge	нарекание	business
+complete  ; consummate	комплектный	adjective
+component  ; constituent  ; element  ; factor  ; ingredient	элемент	mathematics
+computer  ; computing machine  ; computing device  ; data processor  ; electronic computer  ; information processing system	компьютер	device
+concert	концерт	art
+condition  ; status	состояние	abstract
+connect  ; associate  ; tie in  ; relate  ; link  ; colligate  ; link up	соединить	verb
+connection  ; connexion  ; connectedness	соединение	abstract
+connection  ; connexion  ; connector  ; connecter  ; connective	подключение	abstract
+conscious  ; witting	сознающий	adjective
+consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot	последствие	science
+contain  ; incorporate  ; comprise	заключать в себе  ; охватывать	verb
+contest  ; competition	соревнование  ; состязание	business
+continue  ; go on  ; proceed  ; go along  ; keep	продолжать	verb
+contract	контракт	business
+control	проверка	science
+control  ; command	контролировать	verb
+cook	варить	verb
+cook	повар  ; кухарка	kitchen
+copy	копия	business
+copy  ; re-create	копировать	verb
+correct  ; right	правильный	adjective-basic
+cost	расход	business
+cotton	хлопок	material
+cough	кашлять	verb
+cough  ; coughing	кашель	medicine
+council	совет	business
+count  ; number  ; enumerate  ; numerate	считать ; пересчитывать	verb
+country  ; state  ; land	страна	society
+couple  ; pair  ; twosome  ; twain  ; brace  ; span  ; yoke  ; couplet  ; distich  ; duo  ; duet  ; dyad  ; duad	пара	number
+course  ; class  ; course of study  ; course of instruction	курс	business
+court  ; tribunal  ; judicature	суд	society
+cover  ; screen  ; covert  ; concealment	крышка	object
+cow  ; moo-cow	корова	animal
+crack  ; cleft  ; crevice  ; fissure  ; scissure	брешь	abstract
+crime  ; offense  ; criminal offense  ; criminal offence  ; offence  ; law-breaking	преступление	society
+cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious	жестокий	adjective
+crush	разгромить	verb
+crush  ; crunch  ; compaction	раздробление	abstract
+crush  ; squash  ; squelch  ; mash  ; squeeze	смять	verb
+cry  ; outcry  ; call  ; yell  ; shout  ; vociferation	крик  ; возглас	communication
+cry  ; weep	плакать	verb
+cucumber  ; cuke	огурец	vegetable
+culture  ; civilization  ; civilisation	культура	society
+cup	чашка	container
+cup  ; loving cup	кубок	sports
+cupboard  ; closet	шкаф	furniture
+current	современный	adjective
+current  ; stream	течение  ; поток	geography
+curtain  ; drape  ; drapery  ; mantle  ; pall	занавеска	furniture
+curve  ; bend	povorod	transport
+curve  ; curved shape	кривая  ; дуга	mathematics
+customer  ; client	покупатель  ; заказчик  ; клиент	business
+cut	резать	verb-basic
+cut  ; cutting	срез	abstract
+dainty  ; nice  ; overnice  ; prissy  ; squeamish	щепетильный	adjective
+damage  ; harm  ; impairment	поломка	abstract
+dance  ; trip the light fantastic  ; trip the light fantastic toe	танцевать	verb-basic
+danger	опасность	abstract
+dangerous  ; unsafe	опасный	adjective
+dark	тёмный	adjective-basic
+data  ; information	сведениe  ; информация	communication
+date  ; appointment  ; engagement	встреча  ; свидание	relations
+date  ; day of the month	дата  ; число	time
+daughter  ; girl	дочь	family
+day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day	день	time
+dead	мёртвый	adjective-people
+dear  ; beloved  ; dearest  ; honey  ; love	дорогой  ; дорогая	relations
+death	смерть	family
+death  ; decease  ; expiry	смерть	abstract
+decide  ; make up one's mind  ; determine	решить	verb
+decision  ; determination  ; conclusion	заключение  ; решение	communication
+decoration  ; ornament  ; ornamentation	декорация	abstract
+deep	глубокий	adjective-basic
+defense  ; defence  ; defense force  ; defence force	оборона	abstract
+degree	степень	mathematics
+degree  ; grade  ; level	уровень	mathematics
+delicate	деликатный  ; щекотливый	adjective
+deliver	вручить	verb
+demand  ; need	потребность	business
+democracy  ; republic  ; commonwealth	демократия  ; республика	society
+department  ; section	отделение	business
+describe  ; depict  ; draw	описать	verb
+design  ; designing	проект	art
+design  ; plan	предложить	verb
+desire  ; want	хотеть	verb
+desk	письменный стол	furniture
+destruction  ; devastation	разрушение	abstract
+detail  ; particular  ; item	подробность  ; деталь	abstract
+determine  ; check  ; find out  ; see  ; ascertain  ; watch  ; learn	определить  ; узнать	verb
+develop	развиваться	verb
+dew	роса	weather
+dictionary  ; lexicon	словарь	communication
+die  ; decease  ; perish  ; go  ; exit  ; pass away  ; expire  ; pass  ; kick the bucket  ; cash in one's chips  ; buy the farm  ; conk  ; give-up the ghost  ; drop dead  ; pop off  ; choke  ; croak  ; snuff it	умереть	verb
+difference	разница	mathematics
+different	другой	adjective
+different	другой	adjective
+different  ; unlike  ; dissimilar	непохожий	adjective
+difficult  ; hard	трудный	adjective-basic
+difficulty	трудность	business
+direction	направление	business
+directly  ; straight  ; direct	прямо	adverb
+director  ; manager  ; managing director	директор	business
+dirty  ; soiled  ; unclean	грязный	adjective-basic
+discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick	дисциплина	science
+discover  ; find	узнавать	verb
+discovery  ; breakthrough  ; find	находка	science
+discovery  ; find  ; uncovering	находка	science
+discuss  ; hash out  ; talk over	дискутировать	verb
+discussion  ; give-and-take  ; word	диспут  ; прения  ; беседа	communication
+disease	болезнь	medicine
+dislike	не любить	verb
+distance	расстояние	mathematics
+diversity  ; diverseness  ; multifariousness  ; variety	разнообразность  ; разнообразие  ; пестрота	art
+divide  ; split  ; split up  ; separate  ; dissever  ; carve up	разделить	verb
+division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation	разделение	mathematics
+do  ; practice  ; practise  ; exercise	проводить  ; практиковать	verb-basic
+doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico	врач  ; доктор	medicine
+dog  ; domestic dog  ; Canis familiaris	собака	animal
+dominance  ; ascendance  ; ascendence  ; ascendancy  ; ascendency  ; control	перевес	abstract
+dominion  ; rule	господство	society
+door	дверь  ; створка	house
+doubt	сомневаться	verb
+doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness	сомнение  ; неуверенность	communication
+down	понизу	adjective
+down  ; downwards  ; downward  ; downwardly	книзу  ; вниз	adverb
+drawer	ящик	container
+drink  ; beverage  ; drinkable  ; potable	напиток	drink
+drink  ; imbibe	пить	verb-basic
+drive	водить	verb
+drop  ; drib  ; driblet	капля	abstract
+dry	сухой	adjective
+dump  ; garbage dump  ; trash dump  ; rubbish dump  ; wasteyard  ; waste-yard  ; dumpsite	свалка ; груда хлама	environment
+during	во время	preposition
+dust	пыль	material
+duty	повинность	abstract
+each	каждый	adjective
+ear	ухо	anatomy
+early	ранний  ; скорый	adjective
+early  ; early on	скоро	adverb
+earth  ; ground	земля	material
+east  ; due east  ; eastward  ; E	выход	geography
+easy	лёгкий	adjective
+eat	есть	verb-basic
+ecology  ; bionomics  ; environmental science	экология	environment
+economic	экономический	adjective
+economic  ; economical	экономический	adjective
+economy  ; economic system	хозяйство  ; экономика	business
+edge  ; border	кромка  ; край	mathematics
+education	воспитание	education
+education	образование	education
+education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity	образование	education
+effort  ; elbow grease  ; exertion  ; travail  ; sweat	старание	abstract
+egg	яйцо	food
+eight  ; 8  ; viii	восемь	number
+eighteen  ; 18  ; xviii	восемнадцать	number
+eighty  ; 80  ; lxxx  ; fourscore	восемьдесят	number
+either	либо	adverb
+election	выборы	society
+electric  ; electrical	электрический	adjective
+elephant	слон	animal
+elevator  ; lift	лифт	device
+eleven  ; 11  ; xi	одиннадцать	number
+embrace  ; encompass  ; comprehend  ; cover	заключать в себе  ; охватывать	verb
+encourage	ободрить	verb
+end  ; stop  ; finish  ; terminate  ; cease	кончать	verb
+end  ; terminal	конец	time
+energy  ; free energy	энергия	physics
+engine	двигатель	device
+enhance  ; heighten  ; raise	увеличить	verb
+enjoy  ; bask  ; relish  ; savor  ; savour	радоваться	verb
+enough  ; plenty	довольно	adverb
+enter  ; come in  ; get into  ; get in  ; go into  ; go in  ; move into	вступить	verb
+entertainment  ; amusement	веселье  ; развлечение  ; забава  ; увеселение	art
+entirely  ; exclusively  ; solely  ; alone  ; only	сам	adverb
+envelope	конверт	container
+environment	окружение	business
+environment  ; environs  ; surroundings  ; surround	среда  ; окружающая среда	environment
+equal	равный  ; одинаковый	adjective
+equally  ; as  ; every bit	как	adverb
+establish  ; found  ; plant  ; constitute  ; institute	основать	verb
+estimate  ; gauge  ; approximate  ; guess  ; judge	оценить	verb
+even	даже	adverb
+even	чётный	adjective
+even  ; fifty-fifty	ровный	adjective
+evening  ; eve  ; even  ; eventide	вечер	time
+event	событие	science
+every	каждый	adjective
+everybody  ; everyone	каждый	pronoun
+everything	все	pronoun
+evidence	улика	science
+evolution  ; development	эволюция  ; развитие	nature
+exactly  ; precisely  ; just	точно	adverb
+examination  ; exam  ; test	экзамен	education
+example  ; illustration  ; instance  ; representative	пример	science
+exceed  ; transcend  ; overstep  ; pass  ; go past  ; top	преодолеть	verb
+excellent  ; first-class  ; fantabulous  ; splendid	замечательный	adjective
+exist  ; be	быть	verb
+existence  ; being  ; beingness	существование	society
+expect  ; look  ; await  ; wait	ждать	verb
+experience	впечатление	communication
+experience	опыт	business
+expert	специалист	profession
+explain  ; explicate	объяснять	verb
+express  ; limited	экспресс	transport
+express  ; state	выразить	verb
+expression  ; look  ; aspect  ; facial expression  ; face	вид  ; взгляд	communication
+eye  ; oculus  ; optic	глаз	anatomy
+face  ; human face	лицо	anatomy
+fact	факт	science
+factory  ; mill  ; manufacturing plant  ; manufactory	завод	city
+fake  ; false  ; faux  ; imitation  ; simulated	фальшивый	adjective
+fall	падать  ; упасть	verb-basic
+fall  ; spill  ; tumble	падение	abstract
+false	неправильный	adjective
+family  ; family unit	семья	family
+far	далёкий	adjective
+farm	ферма	nature
+fast	быстрый	adjective-basic
+fat	жир	material
+fat	толстый	adjective
+fat  ; fatty	жирный	adjective
+father  ; male parent  ; begetter	папа  ; отец	family
+fear  ; fearfulness  ; fright	страх	feeling
+feather  ; plume  ; plumage	перо	object
+feature  ; characteristic	способность	abstract
+feel  ; sense	чувствовать	verb-basic
+feeling	ощущение	communication
+female	женский	adjective-people
+female  ; female person	женщина	society
+few	немного  ; мало	adjective
+field	поле	nature
+fifteen  ; 15  ; xv	пятнадцать	number
+fifty  ; 50  ; l	пятьдесят	number
+fight  ; contend  ; struggle	драться	verb
+fight  ; fighting  ; combat  ; scrap	борьба	abstract
+fill  ; fill up  ; make full	наполнить	verb
+final  ; last  ; concluding  ; terminal	конечный	adjective
+finally  ; last  ; lastly  ; in conclusion	наконец	adverb
+financial  ; fiscal	финансовый	adjective
+find  ; detect  ; observe  ; discover  ; notice	обнаружить	verb
+find  ; regain	находить	verb-basic
+finger	палец	anatomy
+finish  ; complete	закончить  ; докончить	verb
+finish  ; goal  ; destination	цель	sports
+fire  ; flame  ; flaming	огонь  ; пламя	nature
+fire  ; open fire	стрелять	verb-basic
+firm  ; house  ; business firm	фирма  ; торговый дом	business
+firm  ; solid	твёрдый  ; жёсткий	adjective
+first	первый	adjective
+first  ; 1st	первый	number
+first  ; firstly  ; foremost  ; first of all  ; first off	сначала	adverb
+fish	рыба	animal
+five  ; 5  ; v	пять	number
+fixed	данный  ; установленный	adjective
+flag	флаг	object
+flat  ; apartment	квартира	city
+flat  ; level  ; plane	плоский	adjective
+flight  ; flying	летание  ; полёт	transport
+floor  ; flooring	настил  ; пол	house
+floor  ; level  ; storey  ; story	этаж	house
+flower	цветок	nature
+flush  ; level  ; even out  ; even	выравнить	verb
+fly	муха	animal
+fly  ; wing	летать	verb-basic
+fog	туман	weather
+follow	следовать	verb-basic
+following  ; next	следующий	adjective
+food  ; nutrient	блюдо  ; питание	food
+foot  ; human foot  ; pes	подошва	anatomy
+football  ; football game	футбол	sports
+for	для	preposition
+for	так как	conjunction
+forehead  ; brow	лоб  ; чело	anatomy
+foreign  ; strange	иностранный	adjective
+forest  ; wood  ; woods	лес	nature
+forget	забыть  ; забывать	verb-basic
+forgive	простить	verb
+fork	вилка	kitchen
+form	формуляр	business
+former  ; erstwhile  ; old  ; onetime  ; one-time  ; quondam  ; sometime	бывший	adjective
+forty  ; 40  ; xl  ; twoscore	сорок	number
+forward  ; forwards  ; frontward  ; frontwards  ; forrad  ; forrard	вперёд	adverb
+fossil fuel	ископаемое топливо	environment
+four  ; 4  ; iv	четыре	number
+fourteen  ; 14  ; xiv	четырнадцать	number
+fragile  ; delicate  ; frail	хрупкий	adjective
+frame	рамка	object
+free	свободный	adjective-people
+free  ; complimentary  ; costless  ; gratis  ; gratuitous	бесплатный	adjective
+free  ; liberate  ; release  ; unloose  ; unloosen  ; loose	освободить	verb
+frequent	частый	adjective
+fresh	свежий	adjective
+friend	друг	family
+friendly	дружеский	adjective-people
+from	из	preposition
+from	из	preposition
+front	передний	adjective
+front  ; front end  ; forepart	передняя часть	abstract
+frost  ; hoar  ; hoarfrost  ; rime	иней	weather
+fruit	фрукты	food
+full	полный	adjective
+full  ; total	весь  ; целый	adjective
+function  ; office  ; part  ; role	функция	mathematics
+furniture  ; piece of furniture  ; article of furniture	мебель	furniture
+further  ; farther	дальше	adjective
+future	будущий	adjective
+future  ; hereafter  ; futurity  ; time to come	будущее	time
+game	игра	sports
+garage	гараж	house
+garden	сад	house
+garlic  ; ail	чеснок	vegetable
+gate	ворота  ; калитка	house
+gene  ; cistron  ; factor	ген	anatomy
+general	всеобщий  ; общий	adjective
+general  ; full general	генерал	profession
+get  ; acquire	получить	verb-basic
+girl  ; miss  ; missy  ; young lady  ; young woman  ; fille	девушка  ; девочка	family
+girlfriend  ; girl  ; lady friend	девочка  ; поклонница	relations
+give	давать	verb-basic
+give up  ; surrender	поддаться	verb
+glass	стекло	material
+glass  ; drinking glass	стакан	container
+global warming	глобальное потепление	environment
+glue  ; gum  ; mucilage	клей	material
+goal	гол	sports
+goat  ; caprine animal	козёл  ; коза	animal
+gold  ; Au  ; atomic number 79	золото	material
+golf  ; golf game	гольф	sports
+good	хороший  ; хорошо	adjective-basic
+good  ; just  ; upright	честный	adjective
+good day	добрый день	conversation
+good luck	удачи	conversation
+government  ; authorities  ; regime	правительство	society
+grade  ; mark  ; score	отметка	education
+grain	зерно	material
+grandfather  ; gramps  ; granddad  ; grandad  ; granddaddy  ; grandpa	дедушка	family
+grass	трава	nature
+gray  ; grey  ; greyish  ; grayish	серый	color
+great	большой  ; великий	adjective-basic
+great  ; bang-up  ; bully  ; corking  ; cracking  ; dandy  ; groovy  ; keen  ; neat  ; nifty  ; not bad  ; peachy  ; slap-up  ; swell  ; smashing	замечательный	adjective-basic
+green  ; greenish  ; light-green  ; dark-green	зелёный	color
+greenhouse effect  ; greenhouse warming	парниковый эффект	environment
+group  ; grouping	группа	business
+grow	расти	verb
+guest  ; invitee	гость	relations
+gun	оружие	tool
+hair	волосы	anatomy
+hair  ; pilus	волос  ; ворс	anatomy
+half  ; one-half	половина	mathematics
+hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule	прихожая  ; вестибюль  ; передняя	house
+hammer	молоток	tool
+hand  ; manus  ; mitt  ; paw	рука	anatomy
+handle  ; grip  ; handgrip  ; hold	ручка	object
+happen  ; hap  ; go on  ; pass off  ; occur  ; pass  ; fall out  ; come about  ; take place	случиться	verb
+happy	счастливый	adjective-basic
+hat  ; chapeau  ; lid	шляпа	clothes
+hate  ; detest	ненавидеть	verb
+hate  ; hatred	ненависть	feeling
+have  ; have got  ; hold	иметь	verb-basic
+he	он	pronoun
+head  ; caput	голова	anatomy
+health  ; wellness	здоровье	medicine
+healthy	здоровый	adjective-people
+healthy  ; salubrious  ; good for you	здоровый	adjective-basic
+hear	слышать	verb-basic
+heart  ; pump  ; ticker	сердце	anatomy
+heavy	трудный	adjective-basic
+height  ; altitude	высота	geography
+hello  ; hullo  ; hi  ; howdy  ; how-do-you-do	привет	conversation
+help  ; aid  ; assist  ; assistance	помощь  ; содействие	business
+help  ; assist  ; aid	помочь	verb-basic
+her	её	pronoun
+here	здесь  ; тут	adverb
+here  ; hither	сюда	adverb
+herself	себя	pronoun
+hide  ; conceal	скрывать	verb
+high	высокий	adjective-basic
+hill	взгорье  ; холм	geography
+him	его	pronoun
+himself	себя	pronoun
+his	его	pronoun
+history	история	society
+hit  ; hitting  ; striking	удар	abstract
+hit  ; smash  ; smasher  ; strike  ; bang	хит	art
+hold  ; take hold	держать	verb
+hole	дыра	abstract
+holiday  ; vacation	каникулы	business
+home  ; place	жилище  ; дом	house
+hook  ; claw	крючок	tool
+hope	надеяться	verb-basic
+horse  ; Equus caballus	лошадь  ;  конь	animal
+hospital  ; infirmary	больница	city
+hot	горячий	adjective-basic
+hotel	гостиница  ; отель	city
+hour  ; hr  ; 60 minutes	час	time
+house	дом	house
+how are you	как дела	conversation
+however  ; nevertheless  ; withal  ; still  ; yet  ; all the same  ; even so  ; nonetheless  ; notwithstanding	хотя	adverb
+human	гуманный	adjective-people
+human  ; homo  ; man  ; human being	лицо  ; человек	family
+humor  ; humour  ; sense of humor  ; sense of humour	юмор	communication
+hundred  ; one hundred  ; 100  ; c	сто	number
+hungry	голодный	adjective-people
+husband  ; hubby  ; married man	муж	family
+ice  ; water ice	лёд	material
+idea  ; thought	мысль	communication
+identify  ; place	опознать	verb
+if	если	conjunction
+ill  ; sick	больной	adjective-people
+image	имидж	art
+immediately  ; instantly  ; straightaway  ; straight off  ; directly  ; now  ; right away  ; at once  ; forthwith  ; like a shot	немедленно	adverb
+impatient	нетерпеливый	adjective-people
+imply  ; involve	включать	verb
+important  ; significant	важный	adjective-basic
+in  ; inwards  ; inward	внутрь  ; в  ; до	adverb
+include	включить	verb
+income	оклад  ; заработок  ; плата	business
+increase	увеличивать(ся)	verb
+increase  ; increment	прирост	abstract
+increase  ; increment  ; growth	рост	abstract
+indeed  ; so	действительно  ; серьезно	adverb
+individual	индивидуум	society
+industrial	промышленный  ; индустриальный	adjective
+industry  ; manufacture	промышленность	business
+information  ; info	сведениe  ; информация	communication
+injure  ; wound	ранить	verb
+ink	чернила	art
+insect	насекомые	animal
+inside  ; within	внутри	adverb
+instead  ; alternatively  ; or else	вместо	adverb
+institution  ; establishment	учреждение	society
+instrument	инструмент  ; орудие	device
+insurance	страховка	business
+intelligent	разумный  ; интеллигентный	adjective-people
+interest	процент	business
+interest  ; involvement	интерес	communication
+interesting	интересный	adjective
+international	международный	adjective
+internet  ; net  ; cyberspace	интернет	abstract
+interview	разговор  ; беседа  ; диалог	communication
+into	в	preposition
+introduce  ; innovate	привести	verb
+introduce  ; present  ; acquaint	представить	verb
+invention  ; innovation  ; excogitation  ; conception  ; design	изобретение  ; измышление  ; вымысел	art
+invoice  ; bill  ; account	фактура  ; счёт	business
+iron  ; Fe  ; atomic number 26	железо	material
+island	остров	geography
+issue	проблема	science
+it	это	pronoun
+itself	себя	pronoun
+jacket	куртка  ; пиджак	clothes
+jewel  ; gem  ; precious stone	драгоценность	clothes
+job  ; task  ; chore	дело  ; труда  ; работа	business
+join  ; bring together	соединить(ся)	verb
+jolt  ; jar  ; jounce  ; shock	удар	abstract
+journalist	журналист  ; газетный сотрудник	profession
+journey  ; journeying	поездка	transport
+judge  ; justice  ; jurist	судья	profession
+jump  ; leap  ;  saltation	скачок  ; прыжок	abstract
+jump  ; leap  ; bound  ; spring	прыгать  ; скакать	verb-basic
+just	справедливый	adjective-people
+keep  ; maintain  ; hold	сохранить	verb
+key	ключ	tool
+kick	лягнуть	verb
+kick  ; boot  ; kicking	пинок	abstract
+kill	убить	verb
+kind	любезный	adjective-people
+kind  ; sort  ; form  ; variety	вид	abstract
+king  ; male monarch  ; Rex	король	society
+kiss  ; buss  ; osculation	поцелуй	relations
+kiss  ; snog  ; buss  ; osculate	целовать	verb-basic
+kitchen	кухня	house
+knee  ; knee joint  ; human knee  ; articulatio genus  ; genu	колено	anatomy
+knife	нож	kitchen
+knot	узел	abstract
+know  ; cognize  ; cognise	знать	verb-basic
+knowledge  ; cognition  ; noesis	знание	education
+lake	озеро	geography
+land  ; dry land  ; earth  ; ground  ; solid ground  ; terra firma	земля  ; почва	geography
+land  ; set down	приземлиться	verb
+language  ; linguistic communication	язык	communication
+language  ; natural language  ; tongue	язык	communication
+last	прошлый	adjective
+late	опоздавший	adjective
+late  ; belatedly  ; tardily	поздно	adverb
+later  ; after  ; subsequently  ; afterwards  ; afterward  ; later on	потом	adverb
+laugh  ; express joy  ; express mirth	смеяться	verb-basic
+law	закон	business
+lead  ; Pb  ; atomic number 82	свинец	material
+lead  ; take  ; direct  ; conduct  ; guide	завести	verb
+leader	лидер	society
+leaf  ; leafage  ; foliage	листва	nature
+learn  ; larn  ; acquire	учить(ся)	verb-basic
+least  ; to the lowest degree	наименее	adverb
+leather	кожа	material
+leave	оставить	verb
+leave  ; leave of absence	отпуск	business
+left	левый	adjective-basic
+leg	нога	anatomy
+legal	законный	adjective
+lemon	лимон	fruit
+let	оставить	verb
+letter  ; letter of the alphabet  ; alphabetic character	буква	communication
+letter  ; missive	письмо	communication
+library	библиотека	city
+lie	лгать	verb-basic
+lie	лежать	verb-basic
+lie  ; prevarication	ложь	communication
+life	жизнь	family
+life	жизнь	nature
+lift  ; raise  ; elevate  ; get up  ; bring up	поднять	verb
+light	лёгкий	adjective-basic
+light  ; lite  ; low-cal  ; calorie-free	диетический	adjective
+light  ; visible light  ; visible radiation	свет	physics
+lightning	молния	weather
+like	нравиться  ; любить	verb-basic
+limit  ; bound  ; boundary	граница  ; лимит	mathematics
+limit  ; restrict  ; restrain  ; trammel  ; bound  ; confine  ; throttle	ограничивать	verb
+line	черта  ; линия	art
+lion  ; king of beasts  ; Panthera leo	лев	animal
+lip	губа	anatomy
+liquid	жидкий	adjective
+liquid	жидкость	material
+list  ; listing	перечень	abstract
+listen  ; hear  ; take heed	слушать	verb-basic
+little	немного  ; мало	adverb
+little  ; fiddling  ; footling  ; lilliputian  ; niggling  ; piddling  ; piffling  ; petty  ; picayune  ; trivial	малый	adjective-basic
+load  ; charge	зарядить	verb
+local	местный	adjective
+lock	замкнуть	verb
+lock	замок	tool
+long	длинный	adjective-basic
+look	смотреть	verb-basic
+look  ; appear  ; seem	казаться	verb
+lose	проиграть	verb
+lose	терять	verb-basic
+loss	утрата  ; пропадание  ; урон	business
+loud	громкий	adjective
+love	любить	verb-basic
+love	любовь	feeling
+low	низкий  ; невысокий	adjective
+lucky	счастливый	adjective
+lunch  ; luncheon  ; tiffin  ; dejeuner	обед	food
+machine	станок	device
+magazine  ; mag	журнал	communication
+mail  ; mail service  ; postal service  ; post	почта	communication
+main  ; chief  ; primary  ; principal  ; master	главный	adjective
+major	главный	adjective
+majority  ; bulk	большинство	abstract
+make  ; do	делать	verb-basic
+male	мужской	adjective-people
+male  ; male person	самец	society
+male  ; manful  ; manlike  ; manly  ; virile	мужественный	adjective-people
+man  ; adult male	мужчина  ; человек	family
+manage  ; deal  ; care  ; handle	вести	verb
+management  ; direction	руководство  ; предводительство	business
+manner  ; mode  ; style  ; way  ; fashion	способ  ; метод  ; стиль	art
+many	много	adjective
+many thanks	большое спасибо	conversation
+map	карта	geography
+marker  ; marking  ; mark	марка	business
+market  ; marketplace  ; market place	рынок  ; базар	business
+marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock	брак	family
+married	женатый	adjective-people
+marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse	жениться	verb
+mass	масса	physics
+mass  ; bulk  ; volume	количество	physics
+match	матч	sports
+match  ; fit  ; correspond  ; check  ; jibe  ; gibe  ; tally  ; agree	сходиться	verb
+match  ; lucifer  ; friction match	спичка	tool
+material  ; stuff	материал	business
+matter	вещество	material
+matter  ; affair  ; thing	дело	abstract
+me	я	pronoun
+meal  ; repast	блюдо  ; еда	food
+mean	обозначать	verb
+mean  ; hateful	скверный	adjective-people
+mean  ; intend  ; think	замышлять	verb
+mean  ; mean value	среднее	business
+means  ; agency  ; way	способ	abstract
+measure  ; mensurate  ; measure out	мерить	verb
+measurement  ; measuring  ; measure  ; mensuration	измерение	physics
+meat	мясо	food
+medical	лечебный	adjective-people
+meet  ; run into  ; encounter  ; run across  ; come across  ; see	встречать(ся)	verb-basic
+meeting  ; coming together	встреча	business
+member  ; fellow member	член	society
+memory	воспоминание	communication
+memory  ; retention  ; retentiveness  ; retentivity	память	communication
+menstruation  ; menses  ; menstruum  ; catamenia  ; period  ; flow	менструация	medicine
+mention  ; advert  ; bring up  ; cite  ; name  ; refer	цитировать	verb
+menu  ; bill of fare  ; card  ; carte du jour  ; carte	меню	object
+metal  ; metallic	металлический	adjective
+metallic element  ; metal	металл	material
+method	способ  ; метод	science
+midnight	полночь	time
+military	военный	adjective
+milk	молоко	drink
+milkshake  ; milk shake  ; shake	коктейль	drink
+million  ; 1000000  ; one thousand thousand  ; meg	миллион	number
+mind  ; head  ; brain  ; psyche  ; nous	ум, мысль	abstract
+mine	шахта	environment
+minister  ; government minister	министр	profession
+minute  ; infinitesimal	небольшой	adjective
+minute  ; min	минута	time
+mirror	зеркало	physics
+miss	промахнуться	verb
+miss	упустить	verb
+mistake  ; error  ; fault	ошибка	communication
+model	модель  ; макет	science
+modern	современный	adjective
+moisture  ; wet	влажность	nature
+moment  ; minute  ; second  ; instant	момент  ; мгновение	time
+moment  ; mo  ; minute  ; second  ; bit	момент  ; миг	time
+money	деньги	business
+monkey	обезьяна	animal
+month  ; calendar month	месяц	time
+more  ; more than	более  ; болше	adjective
+more  ; to a greater extent	более  ; болше	adverb
+morning  ; morn  ; morning time  ; forenoon	утро	time
+mostly  ; by and large  ; generally  ; more often than not	обычно	adverb
+mother  ; female parent	мамочка	family
+mouth  ; oral cavity  ; oral fissure  ; rima oris	уста  ; рот	anatomy
+move  ; displace	двигать	verb-basic
+movement  ; motion	движение	physics
+movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick	фильм  ; кинокартина	art
+much	много	adjective
+muscle  ; musculus	мускул  ; мышца	anatomy
+museum	музей	art
+music	музыка	art
+musician  ; instrumentalist  ; player	музыкант	profession
+my	мой	pronoun
+my name is	меня зовут	conversation
+nail	гвоздь	tool
+nail	ноготь	anatomy
+name	имя	communication
+name  ; call	назвать	verb
+narrow	узкий	adjective
+nation  ; land  ; country	народ  ; нация	society
+national	национальный  ; народный	adjective
+natural	натуральный	adjective
+nature	природа	nature
+near  ; close  ; nigh	близкий  ; недалёкий	adjective-basic
+necessary	необходимый	adjective
+neck  ; cervix	шея  ; горло	anatomy
+need  ; necessitate  ; ask  ; postulate  ; require  ; take  ; involve  ; call for  ; demand	требовать	verb-basic
+needle	иголка  ; игла	tool
+neighbor  ; neighbour	сосед	family
+nerve  ; nervus	нерв	anatomy
+net  ; network  ; mesh  ; meshing  ; meshwork	сплетение	mathematics
+never	никогда	adverb
+new	новый	adjective-basic
+news  ; intelligence  ; tidings  ; word	новость	society
+newspaper  ; paper	газета	communication
+next  ; adjacent  ; side by side	соседний	adjective
+nice	красивый  ; хороший	adjective-basic
+night  ; nighttime  ; dark	ночь	time
+nine  ; 9  ; ix	девять	number
+nineteen  ; 19  ; xix	девятнадцать	number
+ninety  ; 90  ; xc	девяносто	number
+no	нет	conversation
+no	никакой  ; никто	adjective
+noise  ; dissonance  ; racket	шум  ; гам	society
+normal	нормальный	adjective
+north  ; due north  ; northward  ; N	север	geography
+nose  ; olfactory organ	нос	anatomy
+not  ; non	нет	adverb
+note  ; annotation  ; notation	заметка	communication
+note  ; musical note  ; tone	нота	art
+nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo	нуль  ; ничто  ; ничего	number
+now	сейчас	time
+now  ; at present	теперь  ; сейчас	adverb
+number	количество  ; число	communication
+nurse	медсестра  ; няня	medicine
+nut	гайка	object
+nut	орех	fruit
+obviously  ; evidently  ; manifestly  ; patently  ; apparently  ; plainly  ; plain	очевидно	adverb
+occupation  ; business  ; job  ; line of work  ; line	профессия  ; работа	business
+of	о	preposition
+off	выключенный	adjective
+offer	предложить	verb-basic
+offer  ; offering	предложение	business
+office  ; business office	офис  ; контора  ; канцелярия	business
+officer  ; officeholder	чиновник	business
+often  ; frequently  ; oftentimes  ; oft  ; ofttimes	часто	adverb
+oil	масло	food
+oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil	нефть	material
+old	старый	adjective-people
+olive	маслина	vegetable
+on	включённый	adjective
+on	на	preposition
+on	на	preposition
+once  ; one time  ; in one case	раз	adverb
+one  ; 1  ; i  ; ane	один	number
+onion  ; onion plant  ; Allium cepa	лук	vegetable
+open  ; open up	открыть	verb-basic
+open  ; unfastened	открытый	adjective-basic
+operate  ; control	управлять	verb
+operation	операция	business
+operation  ; functioning  ; performance	действие	abstract
+operation  ; surgery  ; surgical operation  ; surgical procedure  ; surgical process	операция	medicine
+opinion  ; sentiment  ; persuasion  ; view  ; thought	мнение  ; суждение	communication
+opposite	противоположный	adjective
+opposite  ; reverse  ; contrary	противоположность	abstract
+option  ; alternative  ; choice	альтернатива	science
+or	или	conjunction
+orange	апельсин	fruit
+orange  ; orangish	оранжевый	color
+orchestra	оркестр	art
+order	порядок	mathematics
+order	приказ  ; команда	society
+order  ; tell  ; enjoin  ; say	приказать	verb
+organization  ; organisation	организация	society
+original	исходный  ; оригинальный	adjective
+other	другой	adjective
+our	наш	pronoun
+outburst  ; burst  ; flare-up	извержение	abstract
+outside	снаружи	adverb
+outside  ; exterior	наружность  ; внешность	mathematics
+oven	печь	device
+own  ; ain	свой	adjective
+own  ; have  ; possess	владеть	verb
+owner  ; possessor	собственник  ; владелец  ; обладатель	business
+ozone	озон	environment
+package  ; bundle  ; packet  ; parcel	пакет	business
+page	страница	communication
+pain  ; hurting	боль	medicine
+paint  ; pigment	краска	art
+painting  ; picture	картина	art
+paper	бумага	art
+parallel	параллельный	adjective
+parent	родитель	family
+park  ; commons  ; common  ; green	парк  ; сад	city
+parsnip  ; Pastinaca sativa	пастернак	vegetable
+part  ; portion  ; component part  ; component  ; constituent	часть	abstract
+part  ; section  ; division	секция  ; отделение	business
+part  ; share  ; portion  ; percentage	часть	abstract
+particular	определённый	adjective
+particularly  ; peculiarly  ; especially  ; specially	особенно	adverb
+party	вечеринка	relations
+pass  ; hand  ; reach  ; pass on  ; turn over  ; give	передавать	verb
+pass  ; laissez passer	удоствоверение	society
+passenger  ; rider	пассажир	transport
+passport	паспорт	society
+past	прошлый	adjective
+past  ; past times  ; yesteryear	прошлое	time
+patient	пациент  ; больной	medicine
+patient	терпеливый	adjective-people
+pause  ; intermission  ; break  ; interruption  ; suspension	перерыв  ; пауза	time
+pay	платить	verb-basic
+payment	плата  ; платёж  ; уплата	business
+pea	горох	vegetable
+peace	мир	society
+peach	персик	fruit
+pear	груша	fruit
+peel  ; skin  ; pare	чистить	verb
+pen	ручка	art
+pencil	карандаш	art
+people	люди  ; народ	society
+percent  ; percentage  ; per centum  ; pct	процент	mathematics
+period  ; time period  ; period of time	период	time
+person  ; individual  ; someone  ; somebody  ; mortal  ; soul	лицо  ; человек	family
+personal	личный	adjective
+personality	характер	abstract
+phase  ; stage	фаза	science
+photographer  ; lensman	фотограф	profession
+physical	телесный  ; физический	adjective
+picture  ; image  ; icon  ; ikon	изображение	art
+piece	кусок	abstract
+pig  ; hog  ; grunter  ; squealer  ; Sus scrofa	свинья	animal
+pilot  ; airplane pilot	пилот	profession
+pin	булавка	object
+pineapple  ; ananas	ананас	fruit
+pink  ; pinkish	розоватый  ; розовый	color
+pipe  ; pipage  ; piping	труба	object
+place  ; topographic point  ; spot	место	abstract
+plain  ; field  ; champaign	равнина	geography
+plan	наметить	verb
+plan  ; program  ; programme	план	business
+plane  ; airplane  ; aeroplane	самолёт	transport
+plant  ; flora  ; plant life	растение	nature
+plate	тарелка	container
+play	играть	verb-basic
+player  ; participant	игрок	sports
+please	пожалуйста	adverb
+please  ; delight	обрадовать	verb
+pleasure  ; pleasance	удовольствие	feeling
+plow  ; plough  ; turn	пахать	verb
+plum	слива	fruit
+poem  ; verse form	стихотворение  ; поэма	art
+poetry  ; poesy  ; verse	поэзия	art
+point  ; dot	точка	communication
+poison	отравить	verb
+poison  ; toxicant  ; poisonous substance	яд  ; отрава	material
+police  ; police force  ; constabulary  ; law	полиция	society
+policeman  ; police officer  ; officer	милиционер	profession
+policy	политика	society
+polish  ; smooth  ; smoothen  ; shine	глянцевать	verb
+political	политический	adjective
+politician  ; politico  ; pol  ; political leader	политик	profession
+pollution	загрязнение	environment
+poor	бедный	adjective-people
+poor  ; hapless  ; miserable  ; misfortunate  ; pathetic  ; piteous  ; pitiable  ; pitiful  ; wretched	жалкий  ; жалобный	adjective
+popular  ; pop	популярный	adjective
+population	население	society
+position  ; place	позиция  ; положение	abstract
+possible	возможный	adjective
+possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure	может быть	adverb
+potato  ; white potato  ; Irish potato  ; murphy  ; spud  ; tater	картофелина	vegetable
+powder  ; pulverization  ; pulverisation	порошок	material
+power  ; powerfulness	сила	abstract
+practice	практика	abstract
+preferably  ; sooner  ; rather	лучше	adverb
+prepare  ; fix  ; set up  ; ready  ; gear up  ; set	приготовить	verb
+present	подарок	object
+present	современный  ; настойащий	adjective
+present  ; nowadays	настоящее	time
+president	президент	profession
+press	сжать  ; нажать	verb
+pressure  ; pressure level  ; force per unit area	давление	physics
+prevent  ; forestall  ; foreclose  ; preclude  ; forbid	предотвратить	verb
+previous  ; old	предыдущий	adjective
+price  ; cost  ; toll	стоимость  ; цена	business
+print  ; impress	напечатать	verb
+prison  ; prison house	тюрьма  ; заточение	city
+private	скромный	adjective
+private  ; individual	единочный	adjective-people
+probable  ; likely	вероятный	adjective
+probably  ; likely  ; in all likelihood  ; in all probability  ; belike	вероятно	adverb
+problem  ; job	проблема	business
+procedure  ; process	процесс  ; процедура	science
+process  ; physical process	процесс	physics
+process  ; treat	выработать	verb
+product  ; production	продукт	business
+production	производство	science
+professional	профессиональный	adjective
+professional  ; professional person	профессионал	profession
+profit  ; net income  ; net  ; net profit  ; lucre  ; profits  ; earnings	прибыль  ; нажива	business
+profit  ; turn a profit	нажива  ; получать доход	verb
+program  ; programme  ; computer program  ; computer programme	программа	science
+project  ; projection	проект	science
+project  ; undertaking  ; task  ; labor	проект	abstract
+promise  ; hope	надежда	feeling
+pronunciation	произношение	communication
+property	способность	abstract
+property  ; belongings  ; holding	имущество	business
+proposal	предложение	communication
+protest	возражать  ; протестовать	verb
+protest  ; protestation	протест	communication
+prove  ; testify  ; bear witness  ; evidence  ; show	доказать	verb
+public	общественный	adjective
+public  ; populace  ; world	общественность	society
+publish  ; bring out  ; put out  ; issue  ; release	издать	verb
+pull  ; draw  ; force	тянуть	verb-basic
+pump	насос	tool
+punishment  ; penalty  ; penalization  ; penalisation	наказание	society
+purpose  ; function  ; role  ; use	намерение  ; цель	mathematics
+push  ; force	толкнуть	verb-basic
+put  ; set  ; place  ; pose  ; position  ; lay	класть	verb-basic
+quality	качество	abstract
+question  ; inquiry  ; enquiry  ; query  ; interrogation	вопрос	communication
+quickly  ; rapidly  ; speedily  ; chop-chop  ; apace	быстро	adverb
+quiet	тихий	adjective
+quiet  ; repose  ; placidity  ; serenity  ; tranquillity  ; tranquility	спокойствие	abstract
+radish	редиска	vegetable
+rain  ; rainfall	дождь	weather
+rainbow	радуга	weather
+raise  ; rear  ; bring up  ; nurture  ; parent	воспитать	verb
+range  ; scope  ; reach  ; orbit  ; compass  ; ambit	диапазон	science
+raspberry	малина	fruit
+rate  ; charge per unit	расценка  ; тариф	business
+rate  ; rank  ; range  ; order  ; grade  ; place	оценивать	verb
+reach  ; make  ; attain  ; hit  ; arrive at  ; gain	достичь	verb
+reach  ; range	досягаемость	abstract
+reaction	реакция	communication
+read	читать	verb-basic
+ready	готовый  ; приготовленный	adjective
+real  ; existent	действительный	adjective-basic
+really  ; actually	действительно	adverb
+really  ; truly  ; genuinely	всерьёз	adverb
+reason  ; ground	основание  ; мотив	communication
+receive  ; have	получить	verb
+recent	недавний	adjective
+recently  ; late  ; lately  ; of late  ; latterly	недавно	adverb
+record	рекорд	sports
+record  ; tape	записать	verb
+recycling	переработка отходов	environment
+red  ; reddish  ; ruddy  ; blood-red  ; carmine  ; cerise  ; cherry  ; cherry-red  ; crimson  ; ruby  ; ruby-red  ; scarlet	красный	color
+reduce  ; cut down  ; cut back  ; trim  ; trim down  ; trim back  ; cut  ; bring down	сократить	verb
+reflect  ; reverberate	отражать	verb
+refuse  ; reject  ; pass up  ; turn down  ; decline	отказаться	verb
+region  ; part	район	geography
+regular	регулярный	adjective
+relation	соотношение	communication
+relationship  ; human relationship	родство	family
+religion  ; faith  ; organized religion	религия	society
+religion  ; faith  ; religious belief	вероисповедание	society
+remember  ; retrieve  ; recall  ; call back  ; call up  ; recollect  ; think	помнить	verb-basic
+remove  ; take  ; take away  ; withdraw	убрать	verb
+render  ; return	вернуть	verb
+replace  ; supplant  ; supersede  ; supervene upon  ; supercede	заменить	verb
+reply  ; answer  ; respond	отвечать  ; ответить	verb
+report	сообщать	verb
+report  ; study  ; written report	рапорт	abstract
+represent  ; stand for  ; correspond	символизировать	verb
+representative	заместитель	profession
+request  ; asking	просьба	communication
+request  ; bespeak  ; call for  ; quest	просить	verb
+research	исследование	science
+research  ; inquiry  ; enquiry	обследование	science
+respect  ; honor  ; honour  ; abide by  ; observe	учитывать	verb
+responsibility  ; responsibleness	ответственность	abstract
+responsible	ответственный	adjective
+rest	отдыхать	verb
+rest  ; ease  ; repose  ; relaxation	отдых	abstract
+rest  ; remainder  ; balance  ; residual  ; residue  ; residuum	остаток	business
+restaurant  ; eating house  ; eating place  ; eatery	ресторан	city
+result  ; resultant  ; final result  ; outcome  ; termination	результат	mathematics
+return  ; homecoming	возврат	abstract
+reveal  ; unwrap  ; disclose  ; let on  ; bring out  ; discover  ; expose  ; divulge  ; break  ; give away  ; let out	разоблачить  ; открыть	verb
+rhythm  ; beat  ; musical rhythm	ритм	art
+rice	рис	food
+rich	богатый	adjective-people
+right	право	business
+right	правый	adjective-basic
+rigid  ; stiff	жёсткий  ; негнущийся	adjective
+ring  ; band	кольцо	clothes
+rise  ; rising  ; ascent  ; ascension	подъём	abstract
+risk  ; gamble  ; chance  ; hazard  ; take chances  ; adventure  ; run a risk  ; take a chance	рисковать	verb
+risk  ; hazard  ; jeopardy  ; peril  ; endangerment	риск	abstract
+river	река	geography
+road  ; route	дорога  ; путь	city
+roof	крыша	house
+room	комната	house
+root	корень	mathematics
+root	корень	nature
+rope	канат	object
+rough  ; unsmooth	грубый	adjective
+round  ; circular	круглый	adjective
+round off  ; round down  ; round out  ; round	округлять(ся)	verb
+royal  ; imperial  ; majestic  ; purple  ; regal	королевский	adjective-people
+rule  ; govern	править	verb
+rule  ; regulation	правило  ; предписание	mathematics
+run	бежать	verb-basic
+sad	печальный	adjective-people
+sad  ; deplorable  ; distressing  ; lamentable  ; pitiful  ; sorry	грустный	adjective
+safe	обеспеченный	adjective
+sail  ; canvas  ; canvass  ; sheet	парус	object
+sailor  ; crewman	матрос  ; моряк	profession
+salad	салат	food
+sale	продажа  ; сбыт	business
+salt  ; table salt  ; common salt	соль	food
+same	одинаковый	adjective
+sand	песок	material
+sandwich	сандвич  ; бутерброд	food
+sauce	соус	food
+save  ; preserve	копить	verb
+save  ; salvage  ; salve  ; relieve	спасти	verb
+say  ; tell  ; state	говорить	verb-basic
+school  ; schoolhouse	школа	city
+science  ; scientific discipline	наука	science
+scientist	учёный	profession
+scissors  ; pair of scissors	ножницы	tool
+sea	море	geography
+season	времена года	time
+seat	кресло	furniture
+seat  ; place	место	abstract
+second  ; 2nd  ; 2d	второй	adjective
+second  ; sec  ; s	секунда	time
+secret	секрет  ; тайна	communication
+secret  ; clandestine  ; cloak-and-dagger  ; hole-and-corner  ; hugger-mugger  ; hush-hush  ; surreptitious  ; undercover  ; underground	секретный	adjective
+secretary  ; secretarial assistant	секретарь  ; секретарша	profession
+section  ; subdivision	секция  ; участок	business
+see	видеть	verb
+see  ; consider  ; reckon  ; view  ; regard	считать	verb
+seed	зерно  ; семя	object
+sell	продать	verb-basic
+send  ; mail  ; post	послать  ; отправить	verb
+sentence	предложение	communication
+separate	отдельный	adjective
+serial  ; series	сериал  ; многосерийный фильм	abstract
+serious	серьёзный	adjective
+servant  ; retainer	слуга	profession
+serve	служить	verb
+service	услуга	business
+set	комплект	abstract
+set	множество	mathematics
+set  ; laid	установленный	adjective
+seven  ; 7  ; vii	семь	number
+seventeen  ; 17  ; xvii	семнадцать	number
+seventy  ; 70  ; lxx	семьдесят	number
+several	несколько	adjective
+sew  ; run up  ; sew together  ; stitch	шить	verb
+sex	пол	nature
+sex  ; sexual activity  ; sexual practice  ; sex activity	секс	relations
+shake  ; tremble  ; shiver	дрожание	abstract
+shape  ; form  ; cast	конфигурация, форма	art
+share	акция	business
+share	разделять	verb
+sharp  ; acuate  ; acute  ; needlelike	острый	adjective-basic
+sharp  ; astute  ; shrewd	проницательный	adjective-people
+she	она	pronoun
+sheep	овца	animal
+shelf	полка	furniture
+ship	судно  ; корабль	transport
+shirt	рубашка	clothes
+shock  ; daze  ; stupor	шок	feeling
+shoe	ботинок	clothes
+shop  ; store	лавка  ; магазин	business
+short	короткий	adjective
+shout  ; shout out  ; cry  ; call  ; yell  ; scream  ; holler  ; hollo  ; squall	кричать	verb
+show	шоу	business
+show  ; demo  ; exhibit  ; present  ; demonstrate	показать	verb
+shower	душ	house
+side	сторона	mathematics
+sign	знак	communication
+silence  ; quiet	тишина	abstract
+silent  ; soundless  ; still	тихий	adjective
+silk	шёлк  ; шелк	material
+silly  ; airheaded  ; dizzy  ; empty-headed  ; featherbrained  ; giddy  ; light-headed  ; lightheaded	глупый	adjective-people
+silver	серебряный	adjective
+silver  ; Ag  ; atomic number 47	серебро	material
+similar	подобный	adjective-basic
+simple  ; elementary  ; uncomplicated  ; unproblematic	простой	adjective
+simply  ; merely  ; just  ; only  ; but	просто  ; только	adverb
+since	с	preposition
+sincere	искренний	adjective-people
+sing	петь	verb-basic
+singer  ; vocalist  ; vocalizer  ; vocaliser	певец	art
+single	единственный	adjective
+single  ; unmarried	холостой  ; незамужняя	adjective-people
+sink	лохань	furniture
+sister  ; sis	сестра	family
+sit  ; sit down	сидеть	verb-basic
+situation  ; state of affairs	ситуация	abstract
+six  ; 6  ; vi  ; half dozen  ; half-dozen	шесть	number
+sixteen  ; 16  ; xvi	шестнадцать	number
+sixty  ; 60  ; lx  ; threescore	шестьдесят	number
+size	размер	physics
+skid  ; slip  ; sideslip	буксовка	transport
+skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful	опытный	adjective-people
+skill  ; science	искусство	business
+skin  ; tegument  ; cutis	кожа	anatomy
+skirt	юбка	clothes
+sky	небо	nature
+sleep  ; slumber	сон	nature
+slice  ; piece	кусок	abstract
+slow	медленный	adjective-basic
+slowly  ; slow  ; easy  ; tardily	медленно	adverb
+small  ; little	маленький	adjective
+smash  ; nail  ; boom  ; blast	ударить	verb
+smell	вонять	verb
+smell	пахнуть	verb
+smell	чуять	verb
+smell  ; olfactory property  ; aroma  ; odor  ; odour  ; scent	запах	nature
+smile	улыбаться	verb-basic
+smile  ; smiling  ; grin  ; grinning	улыбка	relations
+smog  ; smogginess	смог	environment
+smoke	курить	verb
+smoke  ; fume	дым	nature
+smooth	гладкий	adjective
+snake  ; serpent  ; ophidian	змея	animal
+snow	снег	weather
+so	так  ; таким образом	adverb
+soap	мыло	material
+social	общественный	adjective
+society	общество	science
+sock	носок  ; гольфы = чулки до колен	clothes
+soft	мягкий	adjective-basic
+soldier	солдат	profession
+solid	жёсткий	adjective
+sometimes	иногда	adverb
+son  ; boy	сын	family
+song  ; vocal	песня	art
+soon  ; shortly  ; presently  ; before long	скоро	adverb
+sorry	простить	conversation
+sorry	прошу прощения	conversation
+sound	звук	physics
+soup	суп	food
+south  ; due south  ; southward  ; S	юг	geography
+space  ; infinite	космос	geography
+sparse  ; thin	редкий	adjective
+special  ; especial  ; exceptional  ; particular	особенный	adjective
+specific	специфический	adjective
+speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication	язык	communication
+spelling	правописание  ; орфография	communication
+spend  ; pass	проходить	verb
+spoon	ложка	kitchen
+spring	пружина	tool
+spring  ; fountain  ; outflow  ; outpouring  ; natural spring	источник	nature
+spring  ; springtime	весна	time
+square	квадратный	adjective
+square  ; foursquare	квадрат	mathematics
+square  ; second power	вторая степень	mathematics
+staff	персонал	business
+stage	сцена	art
+stamp	печать  ;штемпель	tool
+stamp  ; postage  ; postage stamp	почтовая марка	object
+stand  ; stand up	стоять	verb
+standard	стандартный	adjective
+standard  ; criterion  ; measure  ; touchstone	критерий	communication
+star	звезда	geography
+state	состояние	abstract
+state	страна	society
+statement	утверждения	communication
+station	станция	city
+stay  ; remain  ; rest	остаться	verb
+steal	красть  ; воровать	verb
+steam	пар	physics
+steel	сталь	material
+stem  ; stalk	стебель	nature
+step  ; footstep  ; pace  ; stride	шаг  ; поступь	abstract
+step  ; stair	ступень	house
+stick	палка	object
+sticky  ; gluey  ; glutinous  ; gummy  ; mucilaginous  ; pasty  ; viscid  ; viscous	клейкий	adjective
+still	постоянно	adverb
+stitch	стежок	medicine
+stomach  ; tummy  ; tum  ; breadbasket	желудок	anatomy
+stone  ; rock	скала	object
+stop  ; halt	останавить	verb
+stop  ; halt	остановить	abstract
+storm  ; violent storm	буря	weather
+straight	прямой	adjective
+strange  ; unusual	странный	adjective
+strawberry	земляника	fruit
+stream  ; flow  ; current	поток	nature
+street	улица	city
+strength  ; force  ; forcefulness	сила	physics
+strong	сильный	adjective-basic
+structure	структура	business
+structure  ; construction	стройка	city
+student  ; pupil  ; educatee	студент  ; ученик	education
+study	изучать	verb
+stupid	глупый	adjective-people
+style	стиль	art
+stylish  ; fashionable	элегантный	adjective
+subject  ; dependent	подчиненный	adjective-people
+subject  ; topic  ; theme	сюжет  ; тема	communication
+substitution  ; exchange  ; commutation	замена	mathematics
+subway  ; metro  ; tube  ; underground  ; subway system	метро	city
+success	успех	business
+successful	успешный	adjective-people
+such	такой	adverb
+sudden	неожиданный	adjective
+suddenly  ; all of a sudden  ; of a sudden	вдруг	adverb
+suffer  ; endure	терпеть	verb
+sugar  ; refined sugar	сахар	food
+suggest  ; propose  ; advise	предложить	verb
+suggestion  ; proposition  ; proffer	проект	communication
+suitcase  ; bag  ; traveling bag  ; travelling bag  ; grip	чемодан	clothes
+summer  ; summertime	лето	time
+sun  ; Sun	солнце	geography
+supermarket	супермаркет  ; универсам	city
+supply  ; provide  ; render  ; furnish	предоставить	verb
+support	поддержка  ; опора	business
+support  ; back up	поддерживать	verb
+suppose  ; say	предполагать	verb
+surely  ; certainly  ; sure  ; for sure  ; for certain  ; sure enough  ; sure as shooting	непременно	adverb
+surface	поверхность	mathematics
+surprise	сюрприз	relations
+surprise	удивить	verb
+survive  ; last  ; live  ; live on  ; go  ; endure  ; hold up  ; hold out	обойтись	verb
+sweet	сладкое	adjective
+sweet  ; sweetness  ; sugariness	сладость	food
+swim	плавать	verb-basic
+system  ; scheme	система	science
+table	стол	furniture
+table  ; tabular array	таблица	business
+tail	хвост	anatomy
+take  ; get hold of	взять  ; брать	verb-basic
+talk  ; speak  ; utter  ; mouth  ; verbalize  ; verbalise	говорить	verb-basic
+tall	высокий	adjective
+taste  ; gustation  ; sense of taste  ; gustatory modality	вкус	abstract
+taste  ; savor  ; savour	poпробовать	verb
+tax  ; taxation  ; revenue enhancement	налогообложение  ; налог	business
+tea	чай	drink
+teach  ; learn  ; instruct	обучать	verb
+teacher  ; instructor	учитель	education
+team  ; squad	команда	business
+technology  ; engineering	технология	science
+television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box	телевизор	device
+television camera  ; tv camera  ; camera	камера	device
+ten  ; 10  ; x	десять	number
+tennis  ; lawn tennis	теннис	sports
+test  ; prove  ; try  ; try out  ; examine  ; essay	испытать	verb
+than	чем	conjunction
+thank  ; give thanks	благодарить	verb
+thank you very much	большое спасибо	conversation
+that	тот	pronoun
+the	''not used''	article
+theater  ; theatre  ; house	театр	city
+their	их	pronoun
+them	их	pronoun
+then  ; so  ; and so  ; and then	потом  ; после	adverb
+theory	теория	science
+there  ; at that place  ; in that location	там	adverb
+therefore  ; hence  ; thence  ; thus  ; so	поэтому	adverb
+these	эти	pronoun
+they	они	pronoun
+thick	густой	adjective
+thin	узкий	adjective
+thing	предмет  ; вещь	abstract
+think  ; cogitate  ; cerebrate	думать	verb
+third  ; 3rd  ; tertiary	третий	number
+thirsty	жаждущий	adjective-people
+thirteen  ; 13  ; xiii	тринадцать	number
+thirty  ; 30  ; xxx	тридцать	number
+this	эта	pronoun
+those	эти	pronoun
+thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard	тысяча	number
+thousand  ; one thousand  ; 1000  ; m  ; k	тысяча	number
+three  ; 3  ; iii	три	number
+throat  ; pharynx	глотка  ; зев  ; горло	anatomy
+through	насквозь	adverb
+throw	бросание	sports
+throw	бросать  ; кидать	verb
+thumb  ; pollex	большой палец	anatomy
+thunder	гром	weather
+ticket	билет	object
+tie  ; necktie	галстук	clothes
+tight	тесный	adjective
+time  ; fourth dimension	время	physics
+tired	усталый	adjective-people
+title	надпись  ; заголовок	society
+title  ; entitle	назвать	verb
+to	на	preposition
+today	сегодня	adverb
+today	сегодняшний день  ; сегодня	time
+toe	палец на ноге	anatomy
+together	вместе	adverb
+toilet  ; lavatory  ; lav  ; can  ; john  ; privy  ; bathroom	уборная  ; туалет	house
+tomato	помидор  ; томат	vegetable
+tomorrow	завтра	adverb
+tomorrow	завтрашний день  ; завтра	time
+tongue  ; lingua  ; glossa  ; clapper	язык	anatomy
+tonight  ; this evening  ; this night	сегодня вечером	adverb
+too  ; besides  ; also  ; likewise  ; as well	tакже  ; тоже	adverb
+tooth	зуб	anatomy
+top  ; peak  ; summit  ; acme  ; height  ; elevation  ; pinnacle  ;  superlative  ; meridian  ; tiptop	верхушка	abstract
+total  ; sum  ; amount	итог  ; сумма	mathematics
+touch  ; touching	прикосновение	abstract
+town	город	city
+trace  ; draw  ; line  ; describe  ; delineate	рисовать	verb-basic
+track  ; rail  ; rails  ; runway	рельс	transport
+trade	занятие  ; торговля	business
+trade  ; merchandise	торговать	verb
+train  ; develop  ; prepare  ; educate	дрессировать	verb
+train  ; railroad train	поезд	transport
+training  ; preparation  ; grooming	обучение	education
+transport  ; shipping  ; transportation	перевозка  ; транспорт	transport
+travel  ; go  ; move  ; locomote	ходить	verb
+treat  ; care for	лечить	verb
+treatment  ; handling	обхождение	abstract
+tree	дерево	nature
+trend  ; tendency	тенденция	science
+trick	трюк	abstract
+trick  ; flim-flam  ; play a joke on  ; play tricks  ; fob  ; fox  ; pull a fast one on  ; play a trick on	обмануть	verb
+trouble  ; problem	проблема	science
+true	правильный	adjective
+try  ; seek  ; attempt  ; essay  ; assay	попробовать	verb
+turn	повернуть	verb
+twenty  ; 20  ; xx	двадцать	number
+two  ; 2  ; ii	два	number
+type	тип	abstract
+ugly	безобразный  ; некрасивый	adjective
+under  ; nether	нижний	adjective
+understand	понимать	verb-basic
+unemployed	безработный	adjective-people
+union	союз	society
+unit  ; unit of measurement	единица	physics
+university	университет  ; вуз	city
+until	до	conjunction
+unusual	необыкновенный  ; необычный	adjective
+up  ; upwards  ; upward  ; upwardly	вверх	adverb
+us	нас	pronoun
+use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise	употребление	abstract
+use  ; utilize  ; utilise  ; apply  ; employ	использовать	verb-basic
+used  ; secondhand	подержанный	adjective
+useful  ; utile	полезный  ; пригодный	adjective
+user	пользователь	science
+usual	обычный	adjective
+usual  ; common	обычный	adjective
+usually  ; normally  ; unremarkably  ; commonly  ; ordinarily	обычно	adverb
+value	ценность	business
+various  ; diverse	различный	adjective
+very  ; really  ; real  ; rattling	очень	adverb
+village  ; small town  ; settlement	деревня	city
+violent	насильственный	adjective-people
+violet  ; purple  ; purplish	фиолетовый  ; тёмно-лиловый	color
+visit	визит	relations
+visit  ; see	посетить	verb
+vogue  ; trend  ; style	мода	art
+voice  ; vocalization  ; vocalisation  ; vocalism  ; phonation  ; vox	голос	communication
+wages  ; reward  ; payoff	оплата	business
+wait  ; hold off  ; hold back	ждать	verb-basic
+walk	идти	verb
+wall	стена	house
+war  ; state of war	война	society
+warm	нагревать	verb
+warm	тёплый	adjective
+wash  ; launder	вымыть	verb
+waste  ; waste material  ; waste matter  ; waste product	отходы	environment
+watch  ; see  ; view  ;  catch  ; take in	смотреть	verb
+watch  ; ticker	часы	device
+water  ; H2O	вода	drink
+wave  ; moving ridge	волна	nature
+we	мы	pronoun
+weak	слабый	adjective-basic
+wear	износ	abstract
+wear  ; have on	носить	verb
+weather  ; weather condition  ; conditions  ; atmospheric condition	погода	nature
+wedding  ; marriage  ; marriage ceremony	брак	family
+wedding  ; wedding ceremony  ; nuptials  ; hymeneals	брак	family
+week  ; calendar week	неделя	time
+weekend	выходных	time
+weigh	взвешивать(ся)	verb
+weight	вес	physics
+well	колодец	house
+well  ; good	хорошо	adverb
+west  ; due west  ; westward  ; W	запад	geography
+wet	мокрый	adjective
+what	который	pronoun
+wheel	колесо	object
+when	когда	pronoun
+whenever	когда бы ни	conjunction
+which	какой	pronoun
+which	какой	pronoun
+while  ; piece  ; spell  ; patch	момент	time
+whip	бич	tool
+white	белый	color
+who	кто	pronoun
+whole	весь  ; целый	adjective
+whole	целое	abstract
+whom	кого	pronoun
+whose	чей	pronoun
+why	почему	adverb
+wide  ; broad	широкий	adjective
+wife  ; married woman	жена	family
+will	воля	society
+will  ; testament	завещание	society
+will  ; volition	воля	abstract
+win	выиграть  ; победить	verb
+win	победа	sports
+wind  ; air current  ; current of air	ветер	weather
+window	окно	house
+wine  ; vino	вино	drink
+wing	крыло	anatomy
+winter  ; wintertime	зима	time
+wire	провод	object
+wise	мудрый	adjective-people
+wish	пожелать  ; хотеть	verb
+wish  ; wishing  ; want	желание	abstract
+with	с	preposition
+with	с	preposition
+without	без	preposition
+woman  ; adult female	женщина	family
+wood	дерево	material
+wool	волна  ; шерсть	material
+word	слово	communication
+work	работа	business
+worker	рабочий	business
+world	свет  ; мир	nature
+write	писать	verb-basic
+writer  ; author	писатель	profession
+writing	почерк	communication
+wrong  ; incorrect	неправильный	adjective-basic
+year  ; twelvemonth  ; yr	год	time
+yellow  ; yellowish  ; xanthous	жёлтый	color
+yes	да	conversation
+you	вы	pronoun
+young  ; immature	молодой	adjective-people
+your	твой	pronoun
+yourself	себя	pronoun
+you're welcome	не за что	conversation

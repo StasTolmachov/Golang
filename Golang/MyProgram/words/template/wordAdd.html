@@ -9,41 +9,68 @@
     .selected {
         background-color: #57db1a;
     }
+
     ul {
-    list-style: none;
-    background-color: #fff;
-    border: 1px solid #b0b0b0;
-    border-radius: 4px;
-    margin: 0;
-    padding: 0;
-    max-height: 400px;
-    overflow-y: auto;
-    position: center;
-    width: 100%;
-    z-index: 1000;
-    align-items: center;
-}
+        list-style: none;
+        background-color: #fff;
+        border: 1px solid #b0b0b0;
+        border-radius: 4px;
+        margin: 0;
+        padding: 0;
+        max-height: 400px;
+        overflow-y: auto;
+        position: center;
+        width: 100%;
+        z-index: 1000;
+        align-items: center;
+    }
 
-li {
-    padding: 8px;
-    cursor: pointer;
-}
+    li {
+        padding: 8px;
+        cursor: pointer;
+    }
 
-li:hover,
-li.selected {
-    background-color: #f5f5f5;
-}
-
+    li:hover,
+    li.selected {
+        background-color: #f5f5f5;
+    }
 </style>
 <main>
     <h2></h2>
     <form action="/wordAdd" method="POST" class="form-container">
-        <input type="text" name="English" id="English" placeholder="English" class="form-control" autofocus><br>
+        <input type="text" name="WordOriginal" id="WordOriginal" placeholder="Original" class="form-control"
+            autofocus><br>
         <div id="resultsContainer"></div>
-        <input type="text" name="Russian" id="Russian" placeholder="Russian" class="form-control"><br>
-        <input type="text" name="Transcription" id="Transcription" placeholder="Transcription" class="form-control"><br>
-        <input type="text" name="PartOfSpeech" id="PartOfSpeech" placeholder="PartOfSpeech" class="form-control"><br>
-        <input type="text" name="Synonyms" id="Synonyms" placeholder="Synonyms" class="form-control"><br>
+        <input type="text" name="WordTranslated" id="WordTranslated" placeholder="Translated"
+            class="form-control"><br>
+        <input type="text" name="WordOriginalTranscription" id="WordOriginalTranscription"
+            placeholder="Transcription" class="form-control"><br>
+        <input type="text" name="WordOriginalPartOfSpeech" id="WordOriginalPartOfSpeech"
+            placeholder="Part Of Speech" class="form-control"><br>
+        <input type="text" name="WordOriginalSynonyms" id="WordOriginalSynonyms" placeholder="Synonyms"
+            class="form-control"><br>
+
+        <input type="text" name="WordOriginalPastSimpleSingular" id="WordOriginalPastSimpleSingular"
+            placeholder="Past Simple Singular" class="form-control"><br>
+        <input type="text" name="WordOriginalPastSimpleSingularTranscription"
+            id="WordOriginalPastSimpleSingularTranscription" placeholder="Transcription"
+            class="form-control"><br>
+        <input type="text" name="WordOriginalPastSimplePlural" id="WordOriginalPastSimplePlural"
+            placeholder="Past Simple Plural" class="form-control"><br>
+        <input type="text" name="WordOriginalPastSimplePluralTranscription"
+            id="WordOriginalPastSimplePluralTranscription" placeholder="Transcription"
+            class="form-control"><br>
+        <input type="text" name="WordOriginalPastParticipleSingular" id="WordOriginalPastParticipleSingular"
+            placeholder="Past Participle Singular" class="form-control"><br>
+        <input type="text" name="WordOriginalPastParticipleSingularTranscription"
+            id="WordOriginalPastParticipleSingularTranscription"
+            placeholder="Transcription" class="form-control"><br>
+        <input type="text" name="WordOriginalPastParticiplePlural" id="WordOriginalPastParticiplePlural"
+            placeholder="Past Participle Plural" class="form-control"><br>
+        <input type="text" name="WordOriginalPastParticiplePluralTranscription"
+            id="WordOriginalPastParticiplePluralTranscription"
+            placeholder="Transcription" class="form-control"><br>
+
         <button class="btn btn-warning" autofocus>Save</button>
 
     </form>
@@ -51,7 +78,7 @@ li.selected {
 {{template "footer"}}
 
 <script>
-    const searchInput = document.getElementById('English');
+    const searchInput = document.getElementById('WordOriginal');
     const words = {{.}}; // предполагается, что вы передаете данные слов с сервера как объект JavaScript
     let selectedIndex = -1;
 
@@ -90,8 +117,8 @@ li.selected {
     });
 
     function searchWords(query) {
-        const filteredWords = words.filter(word => word.English.toLowerCase().startsWith(query.toLowerCase()));
-        return filteredWords.sort((a, b) => a.English.localeCompare(b.English)); // сортировка по алфавиту
+        const filteredWords = words.filter(word => word.WordOriginal.toLowerCase().startsWith(query.toLowerCase()));
+        return filteredWords.sort((a, b) => a.WordOriginal.localeCompare(b.WordOriginal)); // сортировка по алфавиту
     }
 
 
@@ -112,7 +139,7 @@ li.selected {
 
         limitedResults.forEach(result => {
             const listItem = document.createElement('li');
-            listItem.textContent = result.English;
+            listItem.textContent = result.WordOriginal;
             listItem.dataset.word = JSON.stringify(result); // Добавить эту строку
             listItem.addEventListener('click', () => {
                 selectResult(result);
@@ -128,11 +155,19 @@ li.selected {
 
 
     function selectResult(result) {
-        document.getElementById('English').value = result.English;
-        document.getElementById('Russian').value = result.Russian;
-        document.getElementById('Transcription').value = result.Transcription;
-        document.getElementById('PartOfSpeech').value = result.PartOfSpeech;
-        document.getElementById('Synonyms').value = result.Synonyms;
+        document.getElementById('WordOriginal').value = result.WordOriginal;
+        document.getElementById('WordTranslated').value = result.WordTranslated;
+        document.getElementById('WordOriginalTranscription').value = result.WordOriginalTranscription;
+        document.getElementById('WordOriginalPartOfSpeech').value = result.WordOriginalPartOfSpeech;
+        document.getElementById('WordOriginalSynonyms').value = result.WordOriginalSynonyms;
+        document.getElementById('WordOriginalPastSimpleSingular').value = result.WordOriginalPastSimpleSingular;
+        document.getElementById('WordOriginalPastSimpleSingularTranscription').value = result.WordOriginalPastSimpleSingularTranscription;
+        document.getElementById('WordOriginalPastSimplePlural').value = result.WordOriginalPastSimplePlural;
+        document.getElementById('WordOriginalPastSimplePluralTranscription').value = result.WordOriginalPastSimplePluralTranscription;
+        document.getElementById('WordOriginalPastParticipleSingular').value = result.WordOriginalPastParticipleSingular;
+        document.getElementById('WordOriginalPastParticipleSingularTranscription').value = result.WordOriginalPastParticipleSingularTranscription;
+        document.getElementById('WordOriginalPastParticiplePlural').value = result.WordOriginalPastParticiplePlural;
+        document.getElementById('WordOriginalPastParticiplePluralTranscription').value = result.WordOriginalPastParticiplePluralTranscription;
 
         // Закройте выпадающий список после выбора результата
         document.getElementById('resultsContainer').innerHTML = '';
