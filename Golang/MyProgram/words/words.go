@@ -115,6 +115,8 @@ func main() {
 	http.HandleFunc("/handleAdd", handleAdd)
 	http.HandleFunc("/element-info/", handleElementInfo)
 	http.HandleFunc("/wordsSearch", wordsSearch)
+	http.HandleFunc("/api/search", searchHandler)
+
 	http.ListenAndServe(":8080", nil)
 
 }
@@ -529,7 +531,7 @@ func handleElementInfo(w http.ResponseWriter, r *http.Request) {
 }
 
 func searchHandler(w http.ResponseWriter, r *http.Request) {
-	query := r.URL.Query().Get("query")
+	query := r.URL.Query().Get("q") // Измените "query" на "q"
 	results := searchWords(query)
 
 	w.Header().Set("Content-Type", "application/json")
@@ -540,14 +542,15 @@ func searchWords(query string) []DictionaryStruct {
 	results := []DictionaryStruct{}
 	query = strings.ToLower(query)
 
-	for _, word := range Words {
-		if strings.Contains(strings.ToLower(word.WordOriginal), query) {
+	for _, word := range GoogleDict {
+		if strings.HasPrefix(strings.ToLower(word.WordOriginal), query) { // Измените на strings.HasPrefix
 			results = append(results, word)
 		}
 	}
 
 	return results
 }
+
 func wordsSearch(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
