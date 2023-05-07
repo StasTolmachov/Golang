@@ -81,32 +81,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>
-                    <button type="button" onclick="handleAddClick()">Add</button>
-                </td>
-                <td contenteditable="true" id="newWordOriginal"></td>
-                <td contenteditable="true" id="newWordOriginalTranscription"></td>
-
-
-                <td contenteditable="true" id="WordOriginalPastSimpleSingular"></td>
-                <td contenteditable="true" id="WordOriginalPastSimpleSingularTranscription"></td>
-
-                <td contenteditable="true" id="WordOriginalPastSimplePlural"></td>
-                <td contenteditable="true" id="WordOriginalPastSimplePluralTranscription"></td>
-
-                <td contenteditable="true" id="WordOriginalPastParticipleSingular"></td>
-                <td contenteditable="true" id="WordOriginalPastParticipleSingularTranscription"></td>
-
-                <td contenteditable="true" id="WordOriginalPastParticiplePlural"></td>
-                <td contenteditable="true" id="WordOriginalPastParticiplePluralTranscription"></td>
-
-
-                <td contenteditable="true" id="newWordTranslated"></td>
-                <td contenteditable="true" id="newWordOriginalSynonyms"></td>
-                <td contenteditable="true" id="newWordOriginalPartOfSpeech"></td>
-                <td contenteditable="true" id="newRating">0</td>
-            </tr>
+            
             {{range $index, $element := .}}
             <tr>
                 <td>
@@ -238,64 +213,5 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
-    function handleAddClick() {
-        const WordOriginal = document.getElementById("newWordOriginal").innerText;
-
-        const WordOriginalPastSimpleSingular = document.getElementById("WordOriginalPastSimpleSingular").innerText;
-        const WordOriginalPastSimpleSingularTranscription = document.getElementById("WordOriginalPastSimpleSingularTranscription").innerText;
-
-        const WordOriginalPastSimplePlural = document.getElementById("WordOriginalPastSimplePlural").innerText;
-        const WordOriginalPastSimplePluralTranscription = document.getElementById("WordOriginalPastSimplePluralTranscription").innerText;
-
-        const WordOriginalPastParticipleSingular = document.getElementById("WordOriginalPastParticipleSingular").innerText;
-        const WordOriginalPastParticipleSingularTranscription = document.getElementById("WordOriginalPastParticipleSingularTranscription").innerText;
-
-        const WordOriginalPastParticiplePlural = document.getElementById("WordOriginalPastParticiplePlural").innerText;
-        const WordOriginalPastParticiplePluralTranscription = document.getElementById("WordOriginalPastParticiplePluralTranscription").innerText;
-
-        const WordOriginalTranscription = document.getElementById("newWordOriginalTranscription").innerText;
-        const WordTranslated = document.getElementById("newWordTranslated").innerText;
-        const Rating = parseInt(document.getElementById("newRating").innerText, 10);
-
-        if (isNaN(Rating)) {
-            alert("Рейтинг должен быть числом");
-            return;
-        }
-
-        const requestData = {
-            WordOriginal,
-
-            WordOriginalPastSimpleSingular,
-            WordOriginalPastSimplePlural,
-            WordOriginalPastParticipleSingular,
-            WordOriginalPastParticiplePlural,
-
-            WordOriginalPastSimpleSingularTranscription,
-            WordOriginalPastSimplePluralTranscription,
-            WordOriginalPastParticipleSingularTranscription,
-            WordOriginalPastParticiplePluralTranscription,
-
-            WordOriginalWordOriginalTranscription,
-            WordTranslated,
-            Rating,
-        };
-
-        fetch("/handleAdd", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(requestData),
-        })
-            .then((response) => {
-                if (response.ok) {
-                    location.reload();
-                } else {
-                    console.error("Ошибка при отправке запроса:", response.statusText);
-                }
-            })
-            .catch((error) => {
-                console.error("Ошибка при отправке запроса:", error);
-            });
-    }
+    
 </script>
