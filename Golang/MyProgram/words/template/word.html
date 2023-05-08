@@ -6,6 +6,9 @@
         align-items: center;
         font-size: 36px;
         font-family: Arial, sans-serif;
+
+       
+    
     }
 
     .center-text {
@@ -17,11 +20,14 @@
         padding: 10px;
         background-color: #ffffff;
         color: #000000;
-        border: 1px solid #4CAF50;
+        border: 2px solid #4CAF50;
         border-radius: 4px;
         margin-bottom: 10px;
         font-size: 36px;
         font-family: Arial, sans-serif;
+
+        
+       
     }
 
     table {
@@ -74,9 +80,11 @@
         background-color: #e0a800;
         /* Изменяет фоновый цвет кнопки при наведении */
     }
+
+   
 </style>
 <main>
-    <h2 class="center-text"></h2>
+
 
     <h3 class="center-text error-notification">{{.WordTranslated}}</h3>
     <form action="/wordOtvet" method="POST" class="form-container">

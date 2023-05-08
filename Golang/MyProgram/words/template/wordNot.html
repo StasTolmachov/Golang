@@ -1,11 +1,17 @@
 {{template "header"}}
 <style>
+    .page-container {
+        position: relative;
+    }
+
     .form-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 36px;
         font-family: Arial, sans-serif;
+
+
     }
 
     .center-text {
@@ -17,9 +23,9 @@
         padding: 10px;
         background-color: #ffffff;
         color: #000000;
-        border: 1px solid #ff6060;
+        border: 5px solid #ff6060;
         border-radius: 4px;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
         font-size: 36px;
         font-family: Arial, sans-serif;
     }
@@ -54,7 +60,7 @@
         font-family: Arial, sans-serif;
         font-size: 36px;
         color: #000000;
-        
+
     }
 
     .btn {
@@ -66,16 +72,19 @@
         font-family: Arial, sans-serif;
         font-size: 36px;
         color: #ffffff;
-       
-       
+
+    }
+
+    .center-text {
+        text-align: center;
     }
 </style>
 <main>
     <h2 class="center-text"></h2>
 
-    <h3 class="center-text error-notification">{{.WordTranslated}}</h3><br>
-    <h3 class="WordTranslated-text error-notification" id="WordOriginal-text">{{.WordOriginal}}</h3>
-    <h3 class="center-text WordTranslated-text">{{.WordOriginalTranscription}}</h3>
+    <h3 class="center-text error-notification word-translated">{{.WordTranslated}}</h3><br>
+    <h3 class="center-text error-notification word-original" id="WordOriginal-text">{{.WordOriginal}}</h3>
+    <h3 class="center-text word-original-transcription">{{.WordOriginalTranscription}}</h3>
     <form action="/wordOtvet" method="POST" class="form-container">
         <input type="text" name="word" id="word" placeholder="Введите перевод" class="form-control" autofocus><br>
         <button id="speak-button" class="btn btn-info">Play</button>
