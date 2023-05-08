@@ -557,12 +557,11 @@ func searchWords(query string) []DictionaryStruct {
 	query = strings.ToLower(query)
 
 	for _, word := range GoogleDict {
-		if strings.HasPrefix(strings.ToLower(word.WordOriginal), query) { // Измените на strings.HasPrefix
-
+		wordOriginalLower := strings.ToLower(word.WordOriginal)
+		wordTranslatedLower := strings.ToLower(word.WordTranslated)
+		if strings.HasPrefix(wordOriginalLower, query) || strings.HasPrefix(wordTranslatedLower, query) {
 			results = append(results, word)
-
 		}
-
 	}
 
 	return results
