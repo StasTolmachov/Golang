@@ -1,38 +1,80 @@
 {{template "header"}}
 <style>
-    .form-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .selected {
-        background-color: #57db1a;
-    }
-
-    ul {
-        list-style: none;
-        background-color: #fff;
-        border: 1px solid #b0b0b0;
-        border-radius: 4px;
-        margin: 0;
-        padding: 0;
-        max-height: 400px;
-        overflow-y: auto;
-        position: center;
+    main {
         width: 100%;
-        z-index: 1000;
-        align-items: center;
+        max-width: 800px;
+        /* Ограничивает максимальную ширину контента */
+        margin: 0 auto;
+        /* Центрирует содержимое по горизонтали */
+        padding: 20px;
+        /* Добавляет отступы вокруг содержимого */
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+        /* Устанавливает шрифт для всех элементов внутри <main> */
     }
 
-    li {
-        padding: 8px;
+    h2 {
+        font-size: 28px;
+        /* Устанавливает размер шрифта для заголовка h2 */
+        font-weight: bold;
+        /* Делает шрифт заголовка жирным */
+        margin-bottom: 20px;
+        /* Добавляет отступ снизу, чтобы отделить заголовок от формы */
+    }
+
+    .form-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 5px 10px;
+        /* Добавляет отступы внутри полей ввода */
+        margin-bottom: 10px;
+        /* Добавляет отступы снизу, чтобы отделить поля ввода друг от друга */
+        display: block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 20px;
+        /* Устанавливает размер шрифта для полей ввода */
+        border-radius: 4px;
+        /* Закругляет углы полей ввода */
+    }
+
+    .form-control:focus {
+        border-color: #007bff;
+        /* Изменяет цвет границы при фокусе на поле ввода */
+        outline: none;
+        /* Удаляет стандартную рамку фокуса */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        /* Добавляет тень вокруг поля ввода при фокусе */
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        /* Добавляет отступы внутри кнопки */
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 18px;
+        /* Устанавливает размер шрифта для кнопки */
+        background-color: #ffc107;
+        /* Устанавливает фоновый цвет кнопки */
+        color: #000;
+        /* Устанавливает цвет текста кнопки */
+        border-radius: 4px;
+        /* Закругляет углы кнопки */
         cursor: pointer;
+        /* Изменяет курсор на указатель при наведении на кнопку */
+        transition: background-color 0.3s;
+        /* Устанавливает анимацию перехода для фонового цвета кнопки */
     }
 
-    li:hover,
-    li.selected {
-        background-color: #f5f5f5;
+    .btn:hover {
+        background-color: #e0a800;
+        /* Изменяет фоновый цвет кнопки при наведении */
     }
 </style>
 <main>
