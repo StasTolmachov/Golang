@@ -56,32 +56,31 @@
     <table>
         <thead>
             <tr>
-                <th>Action</th>
-                <th>Original</th>
-                <th>Transcription</th>
+                <th title="Action">Action</th>
+                <th title="Original">Original</th>
+                <th title="Transcription">Transcription</th>
 
-                <th>Past Simple Singular</th>
-                <th>Transcription</th>
+                <th title="Past Simple Singular">PSS</th>
+                <th title="Past Simple Singular Transcription">PSST</th>
 
-                <th>Past Simple Plural</th>
-                <th>Transcription</th>
+                <th title="Past Simple Plural">PSP</th>
+                <th title="Past Simple Plural Transcription">PSPT</th>
 
-                <th>Past Participle Singular</th>
-                <th>Transcription</th>
+                <th title="Past Participle Singular">PPS</th>
+                <th title="Past Participle Singular Transcription">PPST</th>
 
-                <th>Past Participle Plural</th>
-                <th>Transcription</th>
+                <th title="Past Participle Plural">PPP</th>
+                <th title="Past Participle Plural Transcription">PPPT</th>
 
+                <th title="Translation">Translation</th>
+                <th title="Synonyms">Synonyms</th>
 
-                <th>Translation</th>
-                <th>Synonyms</th>
-               
-                <th>Rating</th>
+                <th title="Rating">Rating</th>
 
             </tr>
         </thead>
         <tbody>
-            
+
             {{range $index, $element := .}}
             <tr>
                 <td>
@@ -115,7 +114,7 @@
 
                 <td contenteditable="true" id="WordTranslated{{$index}}">{{$element.WordTranslated}}</td>
                 <td contenteditable="true" id="WordOriginalSynonyms{{$index}}">{{$element.WordOriginalSynonyms}}</td>
-                
+
                 </td>
                 <td contenteditable="true" id="Rating{{$index}}">{{$element.Rating}}</td>
             </tr>
@@ -126,6 +125,32 @@
 {{template "footer"}}
 
 <script>
+
+    function handleKeyDown(e) {
+        // Проверяем, что клавиша Cmd (мета-клавиша) или Ctrl была нажата
+        if (e.metaKey || e.ctrlKey) {
+            // Проверяем, была ли нажата клавиша "1"
+            if (e.key === '1') {
+                callWordHandler();
+            }
+        }
+    }
+
+    function callWordHandler() {
+        fetch('/word', {
+            method: 'GET'
+        })
+            .then(response => response.text())
+            .then(data => {
+                console.log('Сервер ответил:', data);
+            })
+            .catch(error => {
+                console.error('Ошибка запроса:', error);
+            });
+    }
+
+    // Добавляем обработчик событий на нажатие клавиш
+    document.addEventListener('keydown', handleKeyDown);
 
     async function handleDeleteClick(index) {
         try {
@@ -165,7 +190,7 @@
         const WordOriginalTranscription = document.getElementById("WordOriginalTranscription" + index).innerText;
         const WordTranslated = document.getElementById("WordTranslated" + index).innerText;
         const WordOriginalSynonyms = document.getElementById("WordOriginalSynonyms" + index).innerText;
-        
+
         const Rating = parseInt(document.getElementById("Rating" + index).innerText, 10);
 
         if (isNaN(Rating)) {
@@ -190,7 +215,7 @@
             WordOriginalTranscription,
             WordTranslated,
             WordOriginalSynonyms,
-           
+
             Rating,
         };
 
@@ -213,5 +238,5 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
-    
+
 </script>
