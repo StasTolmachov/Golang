@@ -112,7 +112,7 @@ func main() {
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
 	http.HandleFunc("/handleEdit", handleEdit)
-	http.HandleFunc("/handleAdd", handleAdd)
+	http.HandleFunc("/handleAdd", handleAdd) //
 	http.HandleFunc("/element-info/", handleElementInfo)
 	http.HandleFunc("/wordsSearch", wordsSearch)
 	http.HandleFunc("/api/search", searchHandler)

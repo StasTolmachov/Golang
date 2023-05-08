@@ -49,15 +49,48 @@
     button:hover {
         background-color: #e0a800;
     }
+
+    th[data-sortable] {
+        cursor: pointer;
+        position: relative;
+    }
+
+    th[data-sortable]::after {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid #666;
+        position: absolute;
+        right: 8px;
+        top: calc(50% - 2px);
+        opacity: 0.3;
+    }
+
+    th[data-sortable][data-ascending="true"]::after {
+        border-bottom: none;
+        border-top: 4px solid #666;
+    }
 </style>
 <main>
     <h1></h1>
     <h3>Elements: {{len .}}</h3>
+    <button id="exportToExcelBtn" style="margin-bottom: 10px;">Export to Excel</button>
+    <div id="paginationContainerTop"></div>
+
+
+    <div style="margin-bottom: 20px;">
+        <input type="text" id="searchInput" placeholder="Поиск..."
+            style="width: 100%; padding: 6px 12px; margin: 6px 0; box-sizing: border-box;" autofocus>
+    </div>
+
     <table>
         <thead>
             <tr>
                 <th title="Action">Action</th>
-                <th title="Original">Original</th>
+                <th title="Original" data-sortable>Original</th>
                 <th title="Transcription">Transcription</th>
 
                 <th title="Past Simple Singular">PSS</th>
@@ -72,19 +105,21 @@
                 <th title="Past Participle Plural">PPP</th>
                 <th title="Past Participle Plural Transcription">PPPT</th>
 
-                <th title="Translation">Translation</th>
+                <th title="Translation" data-sortable>Translation</th>
                 <th title="Synonyms">Synonyms</th>
 
-                <th title="Rating">Rating</th>
+                <th title="Rating" data-sortable>Rating</th>
+                <th title="Action">Action</th>
 
             </tr>
         </thead>
         <tbody>
 
+
             {{range $index, $element := .}}
             <tr>
                 <td>
-                    <button type="button" onclick="handleSaveClick({{$index}})" id="saveButton{{$index}}">Save</button>
+
                     <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
                 </td>
                 <td contenteditable="true" id="WordOriginal{{$index}}">{{$element.WordOriginal}}</td>
@@ -117,12 +152,20 @@
 
                 </td>
                 <td contenteditable="true" id="Rating{{$index}}">{{$element.Rating}}</td>
+                <td>
+
+                    <button type="button" onclick="handleDeleteClick({{$index}})">Delete</button>
+                </td>
             </tr>
             {{end}}
         </tbody>
     </table>
+    <div id="paginationContainerBottom"></div>
 </main>
 {{template "footer"}}
+
+<script src="https://unpkg.com/xlsx@0.17.2/dist/xlsx.full.min.js"></script>
+
 
 <script>
 
@@ -153,6 +196,11 @@
     document.addEventListener('keydown', handleKeyDown);
 
     async function handleDeleteClick(index) {
+        const confirmation = confirm('Вы уверены, что хотите удалить эту запись?');
+        if (!confirmation) {
+            return;
+        }
+
         try {
             const response = await fetch('/handleIndex', {
                 method: 'POST',
@@ -171,6 +219,7 @@
             console.error('Ошибка при отправке запроса:', error);
         }
     }
+
 
     function handleSaveClick(index) {
         const WordOriginal = document.getElementById("WordOriginal" + index).innerText;
@@ -238,5 +287,179 @@
                 console.error("Ошибка при отправке запроса:", error);
             });
     }
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            const focusedElement = document.activeElement;
+            if (focusedElement) {
+                const rowIndex = focusedElement.id.match(/\d+/);
+                if (rowIndex) {
+                    handleSaveClick(parseInt(rowIndex[0], 10));
+                }
+            }
+        }
+    });
+
+    document.getElementById('searchInput').addEventListener('keyup', function () {
+        let searchQuery = this.value.toLowerCase();
+        let tableRows = document.querySelectorAll('tbody tr');
+
+        tableRows.forEach(function (row) {
+            let originalWord = row.querySelector('[id^="WordOriginal"]').innerText.toLowerCase();
+            let translatedWord = row.querySelector('[id^="WordTranslated"]').innerText.toLowerCase();
+
+            if (originalWord.includes(searchQuery) || translatedWord.includes(searchQuery)) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    });
+
+    function exportTableToExcel() {
+        const table = document.querySelector('table');
+        const workBook = XLSX.utils.book_new();
+        const workSheet = XLSX.utils.table_to_sheet(table);
+        XLSX.utils.book_append_sheet(workBook, workSheet, 'Sheet1');
+        XLSX.writeFile(workBook, 'table_export.xlsx');
+    }
+
+    document.getElementById('exportToExcelBtn').addEventListener('click', exportTableToExcel);
+
+    function compareRows(a, b, columnIndex) {
+        const cellA = a.cells[columnIndex].innerText;
+        const cellB = b.cells[columnIndex].innerText;
+
+        return cellA.localeCompare(cellB, undefined, { numeric: true });
+    }
+
+    function sortTable(columnIndex, ascending) {
+        const table = document.querySelector('table');
+        const tbody = table.querySelector('tbody');
+        const rows = Array.from(tbody.querySelectorAll('tr'));
+
+        rows.sort((a, b) => {
+            const result = compareRows(a, b, columnIndex);
+            return ascending ? result : -result;
+        });
+
+        tbody.innerHTML = '';
+        rows.forEach(row => tbody.appendChild(row));
+    }
+
+    function handleHeaderClick(event) {
+        const th = event.target;
+        if (!th.hasAttribute('data-sortable')) {
+            return;
+        }
+
+        const columnIndex = Array.from(th.parentNode.children).indexOf(th);
+        const currentSortedHeader = document.querySelector('table thead th[data-ascending]');
+
+        if (currentSortedHeader && currentSortedHeader !== th) {
+            currentSortedHeader.removeAttribute('data-ascending');
+        }
+
+        const ascending = !th.hasAttribute('data-ascending') || th.getAttribute('data-ascending') === 'false';
+        th.setAttribute('data-ascending', ascending);
+        sortTable(columnIndex, ascending);
+    }
+
+
+    const tableHeaders = document.querySelectorAll('table thead th[data-sortable]');
+    tableHeaders.forEach(header => header.addEventListener('click', handleHeaderClick));
+
+    // колличество строк на странице
+    let currentPage = 1;
+    const rowsPerPage = 1000;
+
+    function displayPage(pageNumber) {
+        const tbody = document.querySelector("tbody");
+        const totalRows = tbody.childElementCount;
+        const startRow = (pageNumber - 1) * rowsPerPage;
+        const endRow = startRow + rowsPerPage;
+
+        for (let i = 1; i < totalRows; i++) {
+            const row = tbody.children[i];
+            if (i > startRow && i <= endRow) {
+                row.style.display = "table-row";
+            } else {
+                row.style.display = "none";
+            }
+        }
+    }
+    function createPaginationButtons() {
+        const paginationContainerTop = document.getElementById("paginationContainerTop");
+        const paginationContainerBottom = document.getElementById("paginationContainerBottom");
+        const totalRows = document.querySelector("tbody").childElementCount - 1; // Вычитаем 1 из-за строки добавления нового слова
+        const totalPages = Math.ceil(totalRows / rowsPerPage);
+
+        for (let i = 1; i <= totalPages; i++) {
+            const buttonTop = document.createElement("button");
+            const buttonBottom = document.createElement("button");
+
+            [buttonTop, buttonBottom].forEach((button, index) => {
+                button.textContent = i;
+                button.addEventListener("click", () => {
+                    currentPage = i;
+                    displayPage(currentPage);
+                    updateButtonStyles();
+                });
+
+                if (i === currentPage) {
+                    button.style.backgroundColor = "#e0a800";
+                }
+
+                if (index === 0) {
+                    paginationContainerTop.appendChild(button);
+                } else {
+                    paginationContainerBottom.appendChild(button);
+                }
+            });
+        }
+    }
+    function updateButtonStyles() {
+        const paginationContainerTop = document.getElementById("paginationContainerTop");
+        const paginationContainerBottom = document.getElementById("paginationContainerBottom");
+
+        [paginationContainerTop, paginationContainerBottom].forEach((container) => {
+            const buttons = container.querySelectorAll("button");
+            buttons.forEach((button) => {
+                if (parseInt(button.textContent, 10) === currentPage) {
+                    button.style.backgroundColor = "#e0a800";
+                } else {
+                    button.style.backgroundColor = "";
+                }
+            });
+        });
+    }
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+        displayPage(currentPage);
+        createPaginationButtons();
+    });
+    function displayPage(pageNumber) {
+    const tbody = document.querySelector("tbody");
+    const totalRows = tbody.childElementCount;
+    const startRow = (pageNumber - 1) * rowsPerPage;
+    const endRow = startRow + rowsPerPage;
+
+    for (let i = 0; i < totalRows; i++) {
+        const row = tbody.children[i];
+        if (pageNumber === 1 && i === 0) { // выводим первую строку только на первой странице
+            row.style.display = "table-row";
+        } else if (i >= startRow && i < endRow) { // выводим все строки, начиная со второй, на остальных страницах
+            row.style.display = "table-row";
+        } else {
+            row.style.display = "none";
+        }
+    }
+}
+
+
+
+
 
 </script>
