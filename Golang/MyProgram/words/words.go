@@ -175,6 +175,7 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if r.FormValue("WordOriginal") != "" {
+
 		WordValue.WordOriginal = r.FormValue("WordOriginal")
 		WordValue.WordOriginalTranscription = r.FormValue("WordOriginalTranscription")
 		WordValue.WordTranslated = r.FormValue("WordTranslated")
@@ -189,28 +190,41 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		WordValue.WordOriginalPastParticiplePlural = r.FormValue("WordOriginalPastParticiplePlural")
 		WordValue.WordOriginalPastParticiplePluralTranscription = r.FormValue("WordOriginalPastParticiplePluralTranscription")
 
-		Words = append(Words, WordValue)
+		wordExists := false
+		for _, words := range Words {
+			if words.WordOriginal == WordValue.WordOriginal {
+				wordExists = true
+				break
+			}
+		}
 
-		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
-		if err != nil {
-			fmt.Println("Ошибка открытия файла:", err)
-			return
-		}
-		defer jsonFile.Close()
+		if !wordExists {
+			Words = append(Words, WordValue)
 
-		// Сериализуем структуру в JSON
-		jsonData, err := json.MarshalIndent(Words, "", "  ")
-		if err != nil {
-			fmt.Println("Ошибка сериализации:", err)
-			return
+			// ... (работа с файлом и запись JSON)
+
+			// Открываем файл для записи
+			jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+			if err != nil {
+				fmt.Println("Ошибка открытия файла:", err)
+				return
+			}
+			defer jsonFile.Close()
+
+			// Сериализуем структуру в JSON
+			jsonData, err := json.MarshalIndent(Words, "", "  ")
+			if err != nil {
+				fmt.Println("Ошибка сериализации:", err)
+				return
+			}
+			// Записываем JSON в файл
+			_, err = jsonFile.Write(jsonData)
+			if err != nil {
+				fmt.Println("Ошибка записи в файл:", err)
+				return
+			}
 		}
-		// Записываем JSON в файл
-		_, err = jsonFile.Write(jsonData)
-		if err != nil {
-			fmt.Println("Ошибка записи в файл:", err)
-			return
-		}
+
 	}
 
 	err = tmpl.Execute(w, GoogleDict)
@@ -379,8 +393,8 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 		WordOriginalPastParticiplePlural                string `json:"WordOriginalPastParticiplePlural"`
 		WordOriginalPastParticiplePluralTranscription   string `json:"WordOriginalPastParticiplePluralTranscription"`
 		WordOriginalSynonyms                            string `json:"WordOriginalSynonyms"`
-		WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
-		Rating                                          int    `json:"Rating"`
+		// WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
+		Rating int `json:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -399,7 +413,7 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 	Words[index].WordOriginal = requestData.WordOriginal
 	Words[index].WordOriginalTranscription = requestData.WordOriginalTranscription
 	Words[index].WordTranslated = requestData.WordTranslated
-	Words[index].WordOriginalPartOfSpeech = requestData.WordOriginalPartOfSpeech
+	// Words[index].WordOriginalPartOfSpeech = requestData.WordOriginalPartOfSpeech
 	Words[index].WordOriginalSynonyms = requestData.WordOriginalSynonyms
 	Words[index].Rating = requestData.Rating
 	Words[index].WordOriginalPastSimpleSingular = requestData.WordOriginalPastSimpleSingular
@@ -544,8 +558,11 @@ func searchWords(query string) []DictionaryStruct {
 
 	for _, word := range GoogleDict {
 		if strings.HasPrefix(strings.ToLower(word.WordOriginal), query) { // Измените на strings.HasPrefix
+
 			results = append(results, word)
+
 		}
+
 	}
 
 	return results

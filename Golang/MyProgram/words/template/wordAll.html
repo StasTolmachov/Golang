@@ -75,7 +75,7 @@
 
                 <th>Translation</th>
                 <th>Synonyms</th>
-                <th>Part Of Speech</th>
+               
                 <th>Rating</th>
 
             </tr>
@@ -115,7 +115,7 @@
 
                 <td contenteditable="true" id="WordTranslated{{$index}}">{{$element.WordTranslated}}</td>
                 <td contenteditable="true" id="WordOriginalSynonyms{{$index}}">{{$element.WordOriginalSynonyms}}</td>
-                <td contenteditable="true" id="WordOriginalPartOfSpeech{{$index}}">{{$element.WordOriginalPartOfSpeech}}
+                
                 </td>
                 <td contenteditable="true" id="Rating{{$index}}">{{$element.Rating}}</td>
             </tr>
@@ -165,7 +165,7 @@
         const WordOriginalTranscription = document.getElementById("WordOriginalTranscription" + index).innerText;
         const WordTranslated = document.getElementById("WordTranslated" + index).innerText;
         const WordOriginalSynonyms = document.getElementById("WordOriginalSynonyms" + index).innerText;
-        const WordOriginalPartOfSpeech = document.getElementById("WordOriginalPartOfSpeech" + index).innerText;
+        
         const Rating = parseInt(document.getElementById("Rating" + index).innerText, 10);
 
         if (isNaN(Rating)) {
@@ -190,7 +190,7 @@
             WordOriginalTranscription,
             WordTranslated,
             WordOriginalSynonyms,
-            WordOriginalPartOfSpeech,
+           
             Rating,
         };
 
