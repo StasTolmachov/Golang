@@ -40,6 +40,12 @@ type DictionaryStruct struct {
 	Rating                                          int
 }
 
+type SettingsLesson struct {
+	Index int
+}
+
+var SettingsSession SettingsLesson
+
 var Words = []DictionaryStruct{}
 var GoogleDict = []DictionaryStruct{}
 
@@ -56,6 +62,8 @@ type ElementWithIndex struct {
 	Index   int
 	Element DictionaryStruct
 }
+
+var TenWords []DictionaryStruct
 
 func main() {
 	//  открываем файл
@@ -103,6 +111,30 @@ func main() {
 		return
 	}
 
+	//  открываем файл
+	jsonFileSettings, err := os.Open("Settings.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFileSettings.Close()
+
+	// Читаем содержимое файла
+	jsonDataSettings, err := ioutil.ReadAll(jsonFileSettings)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonDataSettings, &SettingsSession)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+
+	tenWords()
 	log.Println("started http.ListenAndServe localhost:8080/word")
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/index", index)
@@ -112,10 +144,12 @@ func main() {
 	http.HandleFunc("/wordAll", wordAll)
 	http.HandleFunc("/handleIndex", handleIndex)
 	http.HandleFunc("/handleEdit", handleEdit)
-	http.HandleFunc("/handleAdd", handleAdd) //
+	http.HandleFunc("/handleAdd", handleAdd)
 	http.HandleFunc("/element-info/", handleElementInfo)
 	http.HandleFunc("/wordsSearch", wordsSearch)
 	http.HandleFunc("/api/search", searchHandler)
+	http.HandleFunc("/Settings", Settings)
+	http.HandleFunc("/SettingsSave", SettingsSave)
 
 	http.ListenAndServe(":8080", nil)
 
@@ -152,8 +186,30 @@ func wordAll(w http.ResponseWriter, r *http.Request) {
 }
 
 func word(w http.ResponseWriter, r *http.Request) {
+	//  открываем файл
+	jsonFileSettings, err := os.Open("Settings.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFileSettings.Close()
 
-	IndexWord = findMinRatingIndex(Words)
+	// Читаем содержимое файла
+	jsonDataSettings, err := ioutil.ReadAll(jsonFileSettings)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonDataSettings, &SettingsSession)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+
+	IndexWord = findMinRatingIndex(TenWords)
 
 	tmpl, err := template.ParseFiles("template/word.html", "template/header.html", "template/footer.html")
 	if err != nil {
@@ -571,4 +627,106 @@ func wordsSearch(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(GoogleDict)
+}
+
+func tenWords() {
+	//  открываем файл
+	jsonFileSettings, err := os.Open("Settings.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFileSettings.Close()
+
+	// Читаем содержимое файла
+	jsonDataSettings, err := ioutil.ReadAll(jsonFileSettings)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonDataSettings, &SettingsSession)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+	TenWords = findMinRatingWords(Words, SettingsSession.Index)
+}
+
+func findMinRatingWords(words []DictionaryStruct, count int) []DictionaryStruct {
+	sort.Slice(words, func(i, j int) bool {
+		return words[i].Rating < words[j].Rating
+	})
+
+	if len(words) < count {
+		return words
+	}
+
+	return words[:count]
+}
+
+func Settings(w http.ResponseWriter, r *http.Request) {
+
+	tmpl, err := template.ParseFiles("template/Settings.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	err = tmpl.Execute(w, SettingsSession)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+}
+
+func SettingsSave(w http.ResponseWriter, r *http.Request) {
+	if r.FormValue("Settings") != "" {
+
+		strIndex := r.FormValue("Settings")
+		index, err := strconv.Atoi(strIndex)
+		if err != nil {
+			// обработка ошибки, возможно, strIndex не может быть преобразован в int
+			http.Error(w, "Invalid index value", http.StatusBadRequest)
+			return
+		}
+		SettingsSession.Index = index
+
+		// Открываем файл для записи
+		jsonFile, err := os.OpenFile("Settings.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		if err != nil {
+			fmt.Println("Ошибка открытия файла:", err)
+			return
+		}
+		defer jsonFile.Close()
+
+		// Сериализуем структуру в JSON
+		jsonData, err := json.MarshalIndent(SettingsSession, "", "  ")
+		if err != nil {
+			fmt.Println("Ошибка сериализации:", err)
+			return
+		}
+		// Записываем JSON в файл
+		_, err = jsonFile.Write(jsonData)
+		if err != nil {
+			fmt.Println("Ошибка записи в файл:", err)
+			return
+		}
+
+	}
+
+	tmpl, err := template.ParseFiles("template/Settings.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	err = tmpl.Execute(w, SettingsSession)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+	tenWords()
+
 }
