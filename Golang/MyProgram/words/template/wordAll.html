@@ -78,7 +78,24 @@
     <h1></h1>
     <h3>Elements: {{len .}}</h3>
     <button id="exportToExcelBtn" style="margin-bottom: 10px;">Export to Excel</button>
-    <button id="exportToTxtBtn" style="margin-bottom: 10px;">Export to ChatGPT</button>
+    <button id="exportToTxtBtn" style="margin-bottom: 10px;">Export to TXT</button>
+    <form action="/exportToChatGPTBtn" method="POST">
+        <button type="submit" style="margin-bottom: 10px;">Export to ChatGPT</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <h3>Add words from ChatGPT</h3>
+    <div style="text-align: center;">
+        <textarea id="wordInput" rows="4" cols="50" style="text-align: center;"
+            placeholder="Copy words from ChatGPT in JSON format and paste here"></textarea>
+    </div>
+
+
+
+    <button id="addWordsButton">Add words</button>
+
+
+
 
     <div id="paginationContainerTop"></div>
 
@@ -477,7 +494,28 @@
     }
 
     document.getElementById('exportToTxtBtn').addEventListener('click', exportToTxt);
+    // добавление слов с вставленного текста
+    $(document).ready(function () {
+        $('#addWordsButton').click(function () {
+            var wordsJson = $('#wordInput').val();
+            var wordsArray = JSON.parse(wordsJson);
 
+            // Отправка данных на сервер
+            $.ajax({
+                url: '/wordAddStruct', // Путь к серверному скрипту для обновления JSON файла
+                type: 'POST',
+                data: JSON.stringify(wordsArray),
+                contentType: 'application/json',
+                success: function (response) {
+                    alert('Слова успешно добавлены в JSON файл!');
+                    location.reload(); // Обновление страницы после успешного добавления слов
+                },
+                error: function () {
+                    alert('Произошла ошибка при добавлении слов в JSON файл.');
+                }
+            });
+        });
+    });
 
 
 </script>

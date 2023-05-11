@@ -150,6 +150,8 @@ func main() {
 	http.HandleFunc("/api/search", searchHandler)
 	http.HandleFunc("/Settings", Settings)
 	http.HandleFunc("/SettingsSave", SettingsSave)
+	http.HandleFunc("/wordAddStruct", wordAddStruct)
+	http.HandleFunc("/exportToChatGPTBtn", exportToChatGPTBtn)
 
 	http.ListenAndServe(":8080", nil)
 
@@ -167,6 +169,28 @@ func index(w http.ResponseWriter, r *http.Request) {
 	}
 }
 func wordAll(w http.ResponseWriter, r *http.Request) {
+	//  открываем файл
+	jsonFile, err := os.Open("EnglishForEveryone.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Читаем содержимое файла
+	jsonData, err := ioutil.ReadAll(jsonFile)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonData, &Words)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
 
 	// Сортируем список слов по значению Rating в порядке возрастания
 	sort.Slice(Words, func(i, j int) bool {
@@ -728,5 +752,103 @@ func SettingsSave(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 	tenWords()
+}
+func wordAddStruct(w http.ResponseWriter, r *http.Request) {
+    // Получение данных от клиента
+    body, err := ioutil.ReadAll(r.Body)
+    if err != nil {
+        http.Error(w, "Ошибка чтения тела запроса", http.StatusBadRequest)
+        return
+    }
 
+    var wordsArray []DictionaryStruct
+    err = json.Unmarshal(body, &wordsArray)
+    if err != nil {
+        http.Error(w, "Ошибка декодирования JSON", http.StatusBadRequest)
+        return
+    }
+
+    // Загрузка существующего JSON файла
+    jsonFile := "EnglishForEveryone.json"
+    jsonData, err := ioutil.ReadFile(jsonFile)
+    if err != nil {
+        http.Error(w, "Ошибка чтения JSON файла", http.StatusInternalServerError)
+        return
+    }
+
+    var existingWords []DictionaryStruct
+    err = json.Unmarshal(jsonData, &existingWords)
+    if err != nil {
+        http.Error(w, "Ошибка декодирования существующего JSON", http.StatusInternalServerError)
+        return
+    }
+
+    // Создание map для проверки уникальности слов
+    wordOriginalMap := make(map[string]bool)
+    for _, word := range existingWords {
+        wordOriginalMap[word.WordOriginal] = true
+    }
+
+    // Добавление новых слов к существующим данным
+    for _, newWord := range wordsArray {
+        if _, exists := wordOriginalMap[newWord.WordOriginal]; !exists {
+            existingWords = append(existingWords, newWord)
+        }
+    }
+
+    // Обновление JSON файла
+    updatedJsonData, err := json.MarshalIndent(existingWords, "", "  ")
+    if err != nil {
+        http.Error(w, "Ошибка кодирования JSON", http.StatusInternalServerError)
+        return
+    }
+
+    err = ioutil.WriteFile(jsonFile, updatedJsonData, 0644)
+    if err != nil {
+        http.Error(w, "Ошибка записи в JSON файл", http.StatusInternalServerError)
+        return
+    }
+
+    w.WriteHeader(http.StatusOK)
+    w.Write([]byte("Слова успешно добавлены в JSON файл!"))
+}
+func exportToChatGPTBtn(w http.ResponseWriter, r *http.Request) {
+	//  открываем файл
+	jsonFile, err := os.Open("EnglishForEveryone.json")
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+
+	// Читаем содержимое файла
+	jsonData, err := ioutil.ReadAll(jsonFile)
+	if err != nil {
+		fmt.Println("Ошибка чтения файла:", err)
+		return
+	}
+
+	// Десериализуем JSON в структуру
+
+	err = json.Unmarshal(jsonData, &Words)
+	if err != nil {
+		fmt.Println("Ошибка десериализации:", err)
+		return
+	}
+
+	// Сортируем список слов по значению Rating в порядке возрастания
+	sort.Slice(Words, func(i, j int) bool {
+		return Words[i].Rating < Words[j].Rating
+	})
+
+	tmpl, err := template.ParseFiles("template/exportToChatGPTBtn.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	err = tmpl.Execute(w, Words)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 }
