@@ -78,6 +78,8 @@
     <h1></h1>
     <h3>Elements: {{len .}}</h3>
     <button id="exportToExcelBtn" style="margin-bottom: 10px;">Export to Excel</button>
+    <button id="exportToTxtBtn" style="margin-bottom: 10px;">Export to ChatGPT</button>
+
     <div id="paginationContainerTop"></div>
 
 
@@ -441,24 +443,40 @@
         createPaginationButtons();
     });
     function displayPage(pageNumber) {
-    const tbody = document.querySelector("tbody");
-    const totalRows = tbody.childElementCount;
-    const startRow = (pageNumber - 1) * rowsPerPage;
-    const endRow = startRow + rowsPerPage;
+        const tbody = document.querySelector("tbody");
+        const totalRows = tbody.childElementCount;
+        const startRow = (pageNumber - 1) * rowsPerPage;
+        const endRow = startRow + rowsPerPage;
 
-    for (let i = 0; i < totalRows; i++) {
-        const row = tbody.children[i];
-        if (pageNumber === 1 && i === 0) { // выводим первую строку только на первой странице
-            row.style.display = "table-row";
-        } else if (i >= startRow && i < endRow) { // выводим все строки, начиная со второй, на остальных страницах
-            row.style.display = "table-row";
-        } else {
-            row.style.display = "none";
+        for (let i = 0; i < totalRows; i++) {
+            const row = tbody.children[i];
+            if (pageNumber === 1 && i === 0) { // выводим первую строку только на первой странице
+                row.style.display = "table-row";
+            } else if (i >= startRow && i < endRow) { // выводим все строки, начиная со второй, на остальных страницах
+                row.style.display = "table-row";
+            } else {
+                row.style.display = "none";
+            }
         }
     }
-}
 
+    function exportToTxt() {
+        const table = document.querySelector('table');
+        const rows = Array.from(table.querySelectorAll('tbody tr'));
 
+        const textContent = rows.map(row => {
+            const wordOriginalCell = row.querySelector('[id^="WordOriginal"]');
+            return wordOriginalCell.innerText;
+        }).join('\n');
+
+        const element = document.createElement('a');
+        const file = new Blob([textContent], { type: 'text/plain' });
+        element.href = URL.createObjectURL(file);
+        element.download = 'word_original.txt';
+        element.click();
+    }
+
+    document.getElementById('exportToTxtBtn').addEventListener('click', exportToTxt);
 
 
 
