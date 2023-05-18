@@ -1,0 +1,344 @@
+[
+  {
+    "Index": 0,
+    "English": "evening",
+    "Transcription": "",
+    "Russian": "вечер",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "evening, night, soiree, eve, even, reception",
+    "Rating": -1
+  },
+  {
+    "Index": 0,
+    "English": "fire fighter",
+    "Transcription": "",
+    "Russian": "пожарный",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "pronoun",
+    "Transcription": "",
+    "Russian": "местоимение",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "pronoun",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "do the dishes",
+    "Transcription": "",
+    "Russian": "помыть посуду",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "include",
+    "Transcription": "[ɪnˈkluːd]",
+    "Russian": "включать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "include, turn on, switch on, comprise, involve, activate",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "waiter",
+    "Transcription": "",
+    "Russian": "официант",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "waiter, steward, garcon, flunkey, flunky",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "fill",
+    "Transcription": "",
+    "Russian": "заполнять",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "filling, fill, plenum, suffusion",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "frequency",
+    "Transcription": "",
+    "Russian": "частота",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "frequency, frequence, periodicity, freak",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "rabbit",
+    "Transcription": "",
+    "Russian": "кролик",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "rabbit, bunny, hare, coney, cony, lapin",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "toothbrush",
+    "Transcription": "",
+    "Russian": "зубная щетка",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "toothbrush",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "construction site",
+    "Transcription": "",
+    "Russian": "строительная площадка",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "wash your face",
+    "Transcription": "",
+    "Russian": "умойся",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "clear the table",
+    "Transcription": "",
+    "Russian": "убирать со стола",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "clear the table, clear away",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "buy groceries",
+    "Transcription": "",
+    "Russian": "купи продукты",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "afternoon",
+    "Transcription": "",
+    "Russian": "после полудня",
+    "PartOfSpeech": "наречие",
+    "Synonyms": "afternoon, in the afternoon, post meridiem",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dawn",
+    "Transcription": "",
+    "Russian": "рассвет",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "dawn, dawning, daybreak, daylight, aurora, break of day",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "dusk",
+    "Transcription": "",
+    "Russian": "сумерки",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "twilight, dusk, nightfall, gloaming, candlelight, crepuscule",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "take a bath",
+    "Transcription": "",
+    "Russian": "принять ванну",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "relate",
+    "Transcription": "",
+    "Russian": "относиться",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "treat, refer, belong, relate, concern, apply",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "do did done",
+    "Transcription": "",
+    "Russian": "делать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "make, do, create, pull, shape, confect",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "consonant",
+    "Transcription": "",
+    "Russian": "согласный",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "consonant, concordant, consonantal, agreeable, harmonious, content",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "coin",
+    "Transcription": "",
+    "Russian": "монета",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "coin, piece, piece of money, shiner, bean, ducat",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "vet",
+    "Transcription": "",
+    "Russian": "ветеринар",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "veterinarian, vet, veterinary, veterinary surgeon, cow-leech",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "patient",
+    "Transcription": "",
+    "Russian": "пациент",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "patient, case",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "farm",
+    "Transcription": "",
+    "Russian": "ферма",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "farm, girder, homestead, ranch, framework, steading",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "scientist",
+    "Transcription": "",
+    "Russian": "ученый",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "scientist, academic, scholar, savant, erudite, boffin",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "describe",
+    "Transcription": "",
+    "Russian": "описывать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "describe, depict, declare, report, portray, circumscribe",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "food",
+    "Transcription": "",
+    "Russian": "еда",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "food, meal, eating, fare, meat, table",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "animal",
+    "Transcription": "[ˈænɪməl]",
+    "Russian": "животное",
+    "PartOfSpeech": "имя прилагательное",
+    "Synonyms": "animal, bestial, brute, beastly",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "nurse",
+    "Transcription": "[nɜːs]",
+    "Russian": "медсестра",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "nurse, nanny",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "pronunciation",
+    "Transcription": "",
+    "Russian": "произношение",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "pronunciation, accent, pronouncing, pronounce, speech, utterance",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "sales assistant",
+    "Transcription": "",
+    "Russian": "продавец-консультант",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "determiner",
+    "Transcription": "",
+    "Russian": "определяющее слово",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "determiner, determinative",
+    "Rating": 0
+  },
+  {
+    "Index": 0,
+    "English": "finish work",
+    "Transcription": "",
+    "Russian": "завершить работу",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 1
+  },
+  {
+    "Index": 0,
+    "English": "Tuesday",
+    "Transcription": "",
+    "Russian": "Вторник",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "Tuesday",
+    "Rating": 1
+  },
+  {
+    "Index": 0,
+    "English": "start work",
+    "Transcription": "",
+    "Russian": "начните работу",
+    "PartOfSpeech": "",
+    "Synonyms": "",
+    "Rating": 1
+  },
+  {
+    "Index": 0,
+    "English": "have lunch",
+    "Transcription": "",
+    "Russian": "обедать",
+    "PartOfSpeech": "глагол",
+    "Synonyms": "lunch, dinner, dine, have dinner, have lunch, eat dinner",
+    "Rating": 1
+  },
+  {
+    "Index": 0,
+    "English": "necklace",
+    "Transcription": "",
+    "Russian": "ожерелье",
+    "PartOfSpeech": "имя существительное",
+    "Synonyms": "necklace, collar, necklet, gorget, chaplet, riviere",
+    "Rating": 1
+  }
+]

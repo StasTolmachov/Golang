@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Golang/greeting"
+	"github.com/Golang/keyboard"
 
 	"go.uber.org/zap"
 )
@@ -23,4 +24,6 @@ func main() {
 	fmt.Printf("%%.2f: %.2f\n", 12.3456)
 	greeting.Hello()
 	greeting.Hi()
+
+	keyboard.GetFloat()
 }

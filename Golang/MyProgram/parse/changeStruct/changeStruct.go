@@ -17,7 +17,7 @@ type DictionaryOld struct {
 	Rating        int
 }
 
-type DictionaryNew struct {
+type Dictionary_V2 struct {
 	WordIndex                                       int
 	WordOriginal                                    string
 	WordTranslated                                  string
@@ -34,13 +34,37 @@ type DictionaryNew struct {
 	WordOriginalPartOfSpeech                        string
 	Rating                                          int
 }
+type Dictionary_V5 struct {
+	Index                     int
+	WordOriginal              string
+	WordOriginalTranscription string
+	WordTranslated            string
+	WordOriginalSynonyms      string
+	WordOriginalPartOfSpeech  string
+
+	WordOriginalPastSimpleSingular                  string
+	WordOriginalPastSimpleSingularTranscription     string
+	WordOriginalPastSimplePlural                    string
+	WordOriginalPastSimplePluralTranscription       string
+	WordOriginalPastParticipleSingular              string
+	WordOriginalPastParticipleSingularTranscription string
+	WordOriginalPastParticiplePlural                string
+	WordOriginalPastParticiplePluralTranscription   string
+
+	WordOriginalCounterAttempts  int
+	WordOriginalCounterIncorrect int
+	WordOriginalCounterCorrect   int
+	WordOriginalDifficultyRating int
+	WordOriginalStatus           string
+	WordOriginalDictionary       []string // в каких словарях добавленно
+}
 
 func main() {
-	var dictOld []DictionaryOld
-	var dictNew []DictionaryNew
+	var dictOld []Dictionary_V2
+	var dictNew []Dictionary_V5
 
 	//  открываем файл Old
-	jsonFile, err := os.Open("words.json")
+	jsonFile, err := os.Open("eng-rus_Google_v2.json")
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
@@ -63,7 +87,7 @@ func main() {
 	}
 
 	//  открываем файл New
-	jsonFile2, err := os.Open("EnglishForEveryone.json")
+	jsonFile2, err := os.Open("eng-rus_Google_v5.json")
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
@@ -88,29 +112,36 @@ func main() {
 	// логика приложения здесь
 
 	for _, entryOld := range dictOld {
-		entryNew := DictionaryNew{
-			WordIndex:                      0,
-			WordOriginal:                   entryOld.English,
-			WordTranslated:                 entryOld.Russian,
-			WordOriginalTranscription:      entryOld.Transcription,
-			WordOriginalPastSimpleSingular: "",
-			WordOriginalPastSimpleSingularTranscription:     "",
-			WordOriginalPastSimplePlural:                    "",
-			WordOriginalPastSimplePluralTranscription:       "",
-			WordOriginalPastParticipleSingular:              "",
-			WordOriginalPastParticipleSingularTranscription: "",
-			WordOriginalPastParticiplePlural:                "",
-			WordOriginalPastParticiplePluralTranscription:   "",
-			WordOriginalSynonyms:                            "",
-			WordOriginalPartOfSpeech:                        entryOld.PartOfSpeech,
-			Rating:                                          0,
+		entryNew := Dictionary_V5{
+			Index:                     0,
+			WordOriginal:              entryOld.WordOriginal,
+			WordOriginalTranscription: entryOld.WordOriginalTranscription,
+			WordTranslated:            entryOld.WordTranslated,
+			WordOriginalSynonyms:      entryOld.WordOriginalSynonyms,
+			WordOriginalPartOfSpeech:  entryOld.WordOriginalPartOfSpeech,
+
+			WordOriginalPastSimpleSingular:                  entryOld.WordOriginalPastSimpleSingular,
+			WordOriginalPastSimpleSingularTranscription:     entryOld.WordOriginalPastSimpleSingularTranscription,
+			WordOriginalPastSimplePlural:                    entryOld.WordOriginalPastSimplePlural,
+			WordOriginalPastSimplePluralTranscription:       entryOld.WordOriginalPastSimplePluralTranscription,
+			WordOriginalPastParticipleSingular:              entryOld.WordOriginalPastParticipleSingular,
+			WordOriginalPastParticipleSingularTranscription: entryOld.WordOriginalPastParticipleSingularTranscription,
+			WordOriginalPastParticiplePlural:                entryOld.WordOriginalPastParticiplePlural,
+			WordOriginalPastParticiplePluralTranscription:   entryOld.WordOriginalPastParticiplePluralTranscription,
+
+			WordOriginalCounterAttempts:  0,
+			WordOriginalCounterIncorrect: 0,
+			WordOriginalCounterCorrect:   0,
+			WordOriginalDifficultyRating: 0,
+			WordOriginalStatus:           "",
+			WordOriginalDictionary:       []string{},
 		}
 
 		dictNew = append(dictNew, entryNew)
 	}
 
 	// Открываем файл для записи
-	jsonFile, err = os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err = os.OpenFile("eng-rus_Google_v5.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
