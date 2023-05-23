@@ -11,14 +11,49 @@ import (
 type Word struct {
 	English       string
 	Transcription string
-	Russian       string
+	Ukr         string
 	PartOfSpeech  string
 	Synonyms      string // Изменено на string
 	Rating        int
 }
 
+type DictionaryStruct struct {
+	Index                                           int
+	WordOriginal                                    string
+	WordTranslated                                  string
+	WordOriginalTranscription                       string
+	WordOriginalPastSimpleSingular                  string
+	WordOriginalPastSimpleSingularTranscription     string
+	WordOriginalPastSimplePlural                    string
+	WordOriginalPastSimplePluralTranscription       string
+	WordOriginalPastParticipleSingular              string
+	WordOriginalPastParticipleSingularTranscription string
+	WordOriginalPastParticiplePlural                string
+	WordOriginalPastParticiplePluralTranscription   string
+	WordOriginalSynonyms                            string
+	WordOriginalPartOfSpeech                        string
+	Rating                                          int
+}
+type Dictionary_V2 struct {
+	WordIndex                                       int
+	WordOriginal                                    string
+	WordTranslated                                  string
+	WordOriginalTranscription                       string
+	WordOriginalPastSimpleSingular                  string
+	WordOriginalPastSimpleSingularTranscription     string
+	WordOriginalPastSimplePlural                    string
+	WordOriginalPastSimplePluralTranscription       string
+	WordOriginalPastParticipleSingular              string
+	WordOriginalPastParticipleSingularTranscription string
+	WordOriginalPastParticiplePlural                string
+	WordOriginalPastParticiplePluralTranscription   string
+	WordOriginalSynonyms                            string
+	WordOriginalPartOfSpeech                        string
+	Rating                                          int
+}
+
 func main() {
-	data, err := readJSON("eng-rus_GoogleTranslate_1_0-GD.json")
+	data, err := readJSON("eng-ukr.json")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
@@ -26,7 +61,7 @@ func main() {
 
 	words := parseData(data)
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("words.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile("eng-ukr_v2.json", os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -71,28 +106,23 @@ func parseData(data map[string]string) []Word {
 	words := make([]Word, 0, len(data))
 
 	for english, html := range data {
-		russian, partOfSpeech, translations := extractInfo(html)
+		ukr := extractInfo(html)
 		words = append(words, Word{
-			English:      english,
-			Russian:      russian,
-			PartOfSpeech: partOfSpeech,
-			Synonyms:     translations,
+			English: english,
+			Ukr:   ukr,
 		})
 	}
 
 	return words
 }
 
-func extractInfo(html string) (string, string, string) { // Изменено на string
-	russian := extractRussian(html)
-	partOfSpeech := extractPartOfSpeech(html)
-	translations := extractTranslations(html)
-
-	return russian, partOfSpeech, translations
+func extractInfo(html string) string {
+	ukr := extractUkr(html)
+	return ukr
 }
 
-func extractRussian(html string) string {
-	re := regexp.MustCompile(`<b>(.*?)</b>`)
+func extractUkr(html string) string {
+	re := regexp.MustCompile(`<div style="margin-left:2em">(.*?)</div>`)
 	matches := re.FindStringSubmatch(html)
 	if len(matches) > 1 {
 		return matches[1]
@@ -100,16 +130,7 @@ func extractRussian(html string) string {
 	return ""
 }
 
-func extractPartOfSpeech(html string) string {
-	re := regexp.MustCompile(`<font color="green">(.*?):</font>`)
-	matches := re.FindStringSubmatch(html)
-	if len(matches) > 1 {
-		return matches[1]
-	}
-	return ""
-}
-
-func extractTranslations(html string) string { // Изменено на string
+func extractEng(html string) string { // Изменено на string
 	re := regexp.MustCompile(`<i>\((.*?)\)</i>`)
 	matches := re.FindStringSubmatch(html)
 	if len(matches) > 1 {

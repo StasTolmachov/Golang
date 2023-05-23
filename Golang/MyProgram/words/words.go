@@ -5,12 +5,13 @@ import (
 	"fmt"
 	"html/template"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
+
+	"go.uber.org/zap"
 )
 
 type WordsStruct struct {
@@ -66,6 +67,12 @@ type ElementWithIndex struct {
 var TenWords []DictionaryStruct
 
 func main() {
+
+	logger, _ := zap.NewDevelopment()
+	defer logger.Sync()
+	sugar := logger.Sugar()
+	sugar.Infow("Started: localhost:8080/word")
+
 	//  открываем файл
 	jsonFile, err := os.Open("EnglishForEveryone.json")
 	if err != nil {
@@ -135,7 +142,7 @@ func main() {
 	}
 
 	tenWords()
-	log.Println("started http.ListenAndServe localhost:8080/word")
+	// log.Println("started http.ListenAndServe localhost:8080/word")
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/index", index)
 	http.HandleFunc("/word", word)
@@ -754,63 +761,63 @@ func SettingsSave(w http.ResponseWriter, r *http.Request) {
 	tenWords()
 }
 func wordAddStruct(w http.ResponseWriter, r *http.Request) {
-    // Получение данных от клиента
-    body, err := ioutil.ReadAll(r.Body)
-    if err != nil {
-        http.Error(w, "Ошибка чтения тела запроса", http.StatusBadRequest)
-        return
-    }
+	// Получение данных от клиента
+	body, err := ioutil.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Ошибка чтения тела запроса", http.StatusBadRequest)
+		return
+	}
 
-    var wordsArray []DictionaryStruct
-    err = json.Unmarshal(body, &wordsArray)
-    if err != nil {
-        http.Error(w, "Ошибка декодирования JSON", http.StatusBadRequest)
-        return
-    }
+	var wordsArray []DictionaryStruct
+	err = json.Unmarshal(body, &wordsArray)
+	if err != nil {
+		http.Error(w, "Ошибка декодирования JSON", http.StatusBadRequest)
+		return
+	}
 
-    // Загрузка существующего JSON файла
-    jsonFile := "EnglishForEveryone.json"
-    jsonData, err := ioutil.ReadFile(jsonFile)
-    if err != nil {
-        http.Error(w, "Ошибка чтения JSON файла", http.StatusInternalServerError)
-        return
-    }
+	// Загрузка существующего JSON файла
+	jsonFile := "EnglishForEveryone.json"
+	jsonData, err := ioutil.ReadFile(jsonFile)
+	if err != nil {
+		http.Error(w, "Ошибка чтения JSON файла", http.StatusInternalServerError)
+		return
+	}
 
-    var existingWords []DictionaryStruct
-    err = json.Unmarshal(jsonData, &existingWords)
-    if err != nil {
-        http.Error(w, "Ошибка декодирования существующего JSON", http.StatusInternalServerError)
-        return
-    }
+	var existingWords []DictionaryStruct
+	err = json.Unmarshal(jsonData, &existingWords)
+	if err != nil {
+		http.Error(w, "Ошибка декодирования существующего JSON", http.StatusInternalServerError)
+		return
+	}
 
-    // Создание map для проверки уникальности слов
-    wordOriginalMap := make(map[string]bool)
-    for _, word := range existingWords {
-        wordOriginalMap[word.WordOriginal] = true
-    }
+	// Создание map для проверки уникальности слов
+	wordOriginalMap := make(map[string]bool)
+	for _, word := range existingWords {
+		wordOriginalMap[word.WordOriginal] = true
+	}
 
-    // Добавление новых слов к существующим данным
-    for _, newWord := range wordsArray {
-        if _, exists := wordOriginalMap[newWord.WordOriginal]; !exists {
-            existingWords = append(existingWords, newWord)
-        }
-    }
+	// Добавление новых слов к существующим данным
+	for _, newWord := range wordsArray {
+		if _, exists := wordOriginalMap[newWord.WordOriginal]; !exists {
+			existingWords = append(existingWords, newWord)
+		}
+	}
 
-    // Обновление JSON файла
-    updatedJsonData, err := json.MarshalIndent(existingWords, "", "  ")
-    if err != nil {
-        http.Error(w, "Ошибка кодирования JSON", http.StatusInternalServerError)
-        return
-    }
+	// Обновление JSON файла
+	updatedJsonData, err := json.MarshalIndent(existingWords, "", "  ")
+	if err != nil {
+		http.Error(w, "Ошибка кодирования JSON", http.StatusInternalServerError)
+		return
+	}
 
-    err = ioutil.WriteFile(jsonFile, updatedJsonData, 0644)
-    if err != nil {
-        http.Error(w, "Ошибка записи в JSON файл", http.StatusInternalServerError)
-        return
-    }
+	err = ioutil.WriteFile(jsonFile, updatedJsonData, 0644)
+	if err != nil {
+		http.Error(w, "Ошибка записи в JSON файл", http.StatusInternalServerError)
+		return
+	}
 
-    w.WriteHeader(http.StatusOK)
-    w.Write([]byte("Слова успешно добавлены в JSON файл!"))
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte("Слова успешно добавлены в JSON файл!"))
 }
 func exportToChatGPTBtn(w http.ResponseWriter, r *http.Request) {
 	//  открываем файл
