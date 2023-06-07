@@ -5,17 +5,20 @@ import (
 	"log"
 
 	"github.com/BurntSushi/toml"
-	"github.com/Golang/HTTP-REST-API/internal/app/apiserver"
+
+	"github.com/Golang/http-rest-api/internal/app/apiserver"
+	
 )
 
-var configPath string
+var (
+	configPath string
+)
 
 func init() {
 	flag.StringVar(&configPath, "config-path", "configs/apiserver.toml", "path to config file")
 }
 
 func main() {
-
 	flag.Parse()
 
 	config := apiserver.NewConfig()
@@ -24,8 +27,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	s := apiserver.New(config)
-	if err := s.Start(); err != nil {
+	if err := apiserver.Start(config); err != nil {
 		log.Fatal(err)
 	}
 }

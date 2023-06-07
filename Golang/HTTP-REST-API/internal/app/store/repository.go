@@ -1,9 +1,10 @@
 package store
 
-import "github.com/Golang/HTTP-REST-API/internal/app/model"
+import "github.com/Golang/http-rest-api/internal/app/model"
 
-//UserRepository
+// UserRepository ...
 type UserRepository interface {
-	Create(•model.User) error
+	Create(*model.User) error
+	Find(int) (*model.User, error)
 	FindByEmail(string) (*model.User, error)
 }
