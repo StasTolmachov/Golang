@@ -1,0 +1,9 @@
+2023-06-07 [33m06:45:50[0m   [34mINFO[0m   Func: [github.com/words/server.Start]              Message: [32mServer started localhost:8080/[0m
+2023-06-07 [33m06:46:52[0m   [34mINFO[0m   Func: [github.com/words/server.Start]              Message: [32mServer started localhost:8080/[0m
+2023-06-07 [33m06:46:55[0m   [34mINFO[0m   Func: [github.com/words/server.HandleMain]         Message: [32mtemplate.ParseFiles"template/index.html"[0m
+2023-06-07 [33m06:46:55[0m   [34mINFO[0m   Func: [github.com/words/server.HandleMain]         Message: [32mtemplate.ParseFiles"template/index.html"[0m
+2023-06-07 [33m10:03:42[0m   [34mINFO[0m   Func: [main.main]                                  Message: [32mStarted server localhost:8080[0m
+2023-06-07 [33m10:04:10[0m   [34mINFO[0m   Func: [main.main]                                  Message: [32mStarted server localhost:8080[0m
+2023-06-07 [33m10:07:20[0m   [34mINFO[0m   Func: [main.main]                                  Message: [32mStarted server localhost:8080/[0m
+2023-06-07 [33m10:07:44[0m   [34mINFO[0m   Func: [main.main]                                  Message: [32mStarted server localhost:8080/[0m
+2023-06-07 [33m10:09:07[0m   [34mINFO[0m   Func: [main.main]                                  Message: [32mStarted server localhost:8080/[0m

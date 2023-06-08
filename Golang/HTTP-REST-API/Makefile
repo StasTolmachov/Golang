@@ -1,13 +1,9 @@
 .PHONY: build
 build:
-	go build ./cmd/apiserver
-
-.PHONY: tidy
-tidy:
-	go mod tidy
+	go build -v ./cmd/apiserver
 
 .PHONY: test
-test: tidy
+test:
 	go test -v -race -timeout 30s ./...
 
 .DEFAULT_GOAL := build
