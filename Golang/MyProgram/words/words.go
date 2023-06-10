@@ -3,7 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-
+	"github.com/Golang/MyProgram/words/pkg/logger"
+	"github.com/sirupsen/logrus"
 	"html/template"
 	"io/ioutil"
 	"net/http"
@@ -71,6 +72,9 @@ var MyLibrary string = "library/weeks.json"
 //var MyLibrary string = "library/weeks.json"
 
 func main() {
+
+	logger.LogSetupConsole()
+	logrus.Printf("запуск сервера localhost:8080/wordAll")
 
 	//  открываем файл
 	jsonFile, err := os.Open(MyLibrary)
