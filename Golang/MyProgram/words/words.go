@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+
 	"html/template"
 	"io/ioutil"
 	"net/http"
@@ -10,8 +11,6 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-
-	"go.uber.org/zap"
 )
 
 type WordsStruct struct {
@@ -66,17 +65,17 @@ type ElementWithIndex struct {
 
 var TenWords []DictionaryStruct
 
+// var MyLibrary string = "library/EnglishForEveryone.json"
+var MyLibrary string = "library/weeks.json"
+
+//var MyLibrary string = "library/weeks.json"
+
 func main() {
 
-	logger, _ := zap.NewDevelopment()
-	defer logger.Sync()
-	sugar := logger.Sugar()
-	sugar.Infow("Started: localhost:8080/word")
-
 	//  открываем файл
-	jsonFile, err := os.Open("EnglishForEveryone.json")
+	jsonFile, err := os.Open(MyLibrary)
 	if err != nil {
-		fmt.Println("Ошибка создания файла:", err)
+		fmt.Println("Ошибка открытия файла:", err)
 		return
 	}
 	defer jsonFile.Close()
@@ -177,7 +176,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 func wordAll(w http.ResponseWriter, r *http.Request) {
 	//  открываем файл
-	jsonFile, err := os.Open("EnglishForEveryone.json")
+	jsonFile, err := os.Open(MyLibrary)
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
@@ -291,7 +290,7 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 			// ... (работа с файлом и запись JSON)
 
 			// Открываем файл для записи
-			jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+			jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 			if err != nil {
 				fmt.Println("Ошибка открытия файла:", err)
 				return
@@ -328,7 +327,7 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(Words[IndexWord].Rating)
 
 		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
 			fmt.Println("Ошибка создания файла:", err)
 			return
@@ -361,7 +360,7 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 		Words[IndexWord].Rating -= 1
 		fmt.Println(Word1.Rating)
 		// Открываем файл для записи
-		jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
 			fmt.Println("Ошибка создания файла:", err)
 			return
@@ -433,7 +432,7 @@ func wordsDelete(index int) {
 	// Реализуйте вашу логику здесь
 	Words = removeElementByIndex(Words, index)
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -514,7 +513,7 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 
 	// Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -577,7 +576,7 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 
 	// Обновление файла данных (если есть) и другие операции, если необходимо
 	// Открываем файл для записи
-	jsonFile, err := os.OpenFile("EnglishForEveryone.json", os.O_WRONLY|os.O_TRUNC, 0644)
+	jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		fmt.Println("Ошибка открытия файла:", err)
 		return
@@ -776,7 +775,7 @@ func wordAddStruct(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Загрузка существующего JSON файла
-	jsonFile := "EnglishForEveryone.json"
+	jsonFile := MyLibrary
 	jsonData, err := ioutil.ReadFile(jsonFile)
 	if err != nil {
 		http.Error(w, "Ошибка чтения JSON файла", http.StatusInternalServerError)
@@ -821,7 +820,7 @@ func wordAddStruct(w http.ResponseWriter, r *http.Request) {
 }
 func exportToChatGPTBtn(w http.ResponseWriter, r *http.Request) {
 	//  открываем файл
-	jsonFile, err := os.Open("EnglishForEveryone.json")
+	jsonFile, err := os.Open(MyLibrary)
 	if err != nil {
 		fmt.Println("Ошибка создания файла:", err)
 		return
