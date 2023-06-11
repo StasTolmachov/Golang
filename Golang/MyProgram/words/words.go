@@ -14,15 +14,6 @@ import (
 	"strings"
 )
 
-type WordsStruct struct {
-	Index         int
-	English       string
-	Transcription string
-	Russian       string
-	PartOfSpeech  string
-	Synonyms      string
-	Rating        int
-}
 type DictionaryStruct struct {
 	Index                                           int
 	WordOriginal                                    string
@@ -51,7 +42,7 @@ var Words = []DictionaryStruct{}
 var GoogleDict = []DictionaryStruct{}
 
 type IndexData struct {
-	Index int `json:"index"`
+	Index int `db:"index"`
 }
 
 var Word1 DictionaryStruct
@@ -472,21 +463,21 @@ func handleEdit(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestData struct {
-		Index                                           int    `json:"index"`
-		WordOriginal                                    string `json:"WordOriginal"`
-		WordTranslated                                  string `json:"WordTranslated"`
-		WordOriginalTranscription                       string `json:"WordOriginalTranscription"`
-		WordOriginalPastSimpleSingular                  string `json:"WordOriginalPastSimpleSingular"`
-		WordOriginalPastSimpleSingularTranscription     string `json:"WordOriginalPastSimpleSingularTranscription"`
-		WordOriginalPastSimplePlural                    string `json:"WordOriginalPastSimplePlural"`
-		WordOriginalPastSimplePluralTranscription       string `json:"WordOriginalPastSimplePluralTranscription"`
-		WordOriginalPastParticipleSingular              string `json:"WordOriginalPastParticipleSingular"`
-		WordOriginalPastParticipleSingularTranscription string `json:"WordOriginalPastParticipleSingularTranscription"`
-		WordOriginalPastParticiplePlural                string `json:"WordOriginalPastParticiplePlural"`
-		WordOriginalPastParticiplePluralTranscription   string `json:"WordOriginalPastParticiplePluralTranscription"`
-		WordOriginalSynonyms                            string `json:"WordOriginalSynonyms"`
-		// WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
-		Rating int `json:"Rating"`
+		Index                                           int    `db:"index"`
+		WordOriginal                                    string `db:"WordOriginal"`
+		WordTranslated                                  string `db:"WordTranslated"`
+		WordOriginalTranscription                       string `db:"WordOriginalTranscription"`
+		WordOriginalPastSimpleSingular                  string `db:"WordOriginalPastSimpleSingular"`
+		WordOriginalPastSimpleSingularTranscription     string `db:"WordOriginalPastSimpleSingularTranscription"`
+		WordOriginalPastSimplePlural                    string `db:"WordOriginalPastSimplePlural"`
+		WordOriginalPastSimplePluralTranscription       string `db:"WordOriginalPastSimplePluralTranscription"`
+		WordOriginalPastParticipleSingular              string `db:"WordOriginalPastParticipleSingular"`
+		WordOriginalPastParticipleSingularTranscription string `db:"WordOriginalPastParticipleSingularTranscription"`
+		WordOriginalPastParticiplePlural                string `db:"WordOriginalPastParticiplePlural"`
+		WordOriginalPastParticiplePluralTranscription   string `db:"WordOriginalPastParticiplePluralTranscription"`
+		WordOriginalSynonyms                            string `db:"WordOriginalSynonyms"`
+		// WordOriginalPartOfSpeech                        string `db:"WordOriginalPartOfSpeech"`
+		Rating int `db:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -549,21 +540,21 @@ func handleAdd(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestData struct {
-		Index                                           int    `json:"index"`
-		WordOriginal                                    string `json:"WordOriginal"`
-		WordTranslated                                  string `json:"WordTranslated"`
-		WordOriginalTranscription                       string `json:"WordOriginalTranscription"`
-		WordOriginalPastSimpleSingular                  string `json:"WordOriginalPastSimpleSingular"`
-		WordOriginalPastSimpleSingularTranscription     string `json:"WordOriginalPastSimpleSingularTranscription"`
-		WordOriginalPastSimplePlural                    string `json:"WordOriginalPastSimplePlural"`
-		WordOriginalPastSimplePluralTranscription       string `json:"WordOriginalPastSimplePluralTranscription"`
-		WordOriginalPastParticipleSingular              string `json:"WordOriginalPastParticipleSingular"`
-		WordOriginalPastParticipleSingularTranscription string `json:"WordOriginalPastParticipleSingularTranscription"`
-		WordOriginalPastParticiplePlural                string `json:"WordOriginalPastParticiplePlural"`
-		WordOriginalPastParticiplePluralTranscription   string `json:"WordOriginalPastParticiplePluralTranscription"`
-		WordOriginalSynonyms                            string `json:"WordOriginalSynonyms"`
-		WordOriginalPartOfSpeech                        string `json:"WordOriginalPartOfSpeech"`
-		Rating                                          int    `json:"Rating"`
+		Index                                           int    `db:"index"`
+		WordOriginal                                    string `db:"WordOriginal"`
+		WordTranslated                                  string `db:"WordTranslated"`
+		WordOriginalTranscription                       string `db:"WordOriginalTranscription"`
+		WordOriginalPastSimpleSingular                  string `db:"WordOriginalPastSimpleSingular"`
+		WordOriginalPastSimpleSingularTranscription     string `db:"WordOriginalPastSimpleSingularTranscription"`
+		WordOriginalPastSimplePlural                    string `db:"WordOriginalPastSimplePlural"`
+		WordOriginalPastSimplePluralTranscription       string `db:"WordOriginalPastSimplePluralTranscription"`
+		WordOriginalPastParticipleSingular              string `db:"WordOriginalPastParticipleSingular"`
+		WordOriginalPastParticipleSingularTranscription string `db:"WordOriginalPastParticipleSingularTranscription"`
+		WordOriginalPastParticiplePlural                string `db:"WordOriginalPastParticiplePlural"`
+		WordOriginalPastParticiplePluralTranscription   string `db:"WordOriginalPastParticiplePluralTranscription"`
+		WordOriginalSynonyms                            string `db:"WordOriginalSynonyms"`
+		WordOriginalPartOfSpeech                        string `db:"WordOriginalPartOfSpeech"`
+		Rating                                          int    `db:"Rating"`
 	}
 
 	err := json.NewDecoder(r.Body).Decode(&requestData)
@@ -640,7 +631,7 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query().Get("q") // Измените "query" на "q"
 	results := searchWords(query)
 
-	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/db")
 	json.NewEncoder(w).Encode(results)
 }
 
@@ -661,7 +652,7 @@ func searchWords(query string) []DictionaryStruct {
 
 func wordsSearch(w http.ResponseWriter, r *http.Request) {
 
-	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/db")
 	json.NewEncoder(w).Encode(GoogleDict)
 }
 

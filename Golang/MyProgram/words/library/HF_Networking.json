@@ -610,5 +610,22 @@
     "WordOriginalSynonyms": "copper, brass, cuprum",
     "WordOriginalPartOfSpeech": "имя существительное",
     "Rating": 0
+  },
+  {
+    "Index": 0,
+    "WordOriginal": "depend",
+    "WordTranslated": "зависеть",
+    "WordOriginalTranscription": "",
+    "WordOriginalPastSimpleSingular": "",
+    "WordOriginalPastSimpleSingularTranscription": "",
+    "WordOriginalPastSimplePlural": "",
+    "WordOriginalPastSimplePluralTranscription": "",
+    "WordOriginalPastParticipleSingular": "",
+    "WordOriginalPastParticipleSingularTranscription": "",
+    "WordOriginalPastParticiplePlural": "",
+    "WordOriginalPastParticiplePluralTranscription": "",
+    "WordOriginalSynonyms": "depend, rely, hinge, turn on",
+    "WordOriginalPartOfSpeech": "глагол",
+    "Rating": 0
   }
 ]
