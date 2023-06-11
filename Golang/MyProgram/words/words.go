@@ -290,6 +290,7 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 		}
 
 		if !wordExists {
+			logrus.Printf("Добавил слово: %s - %s", WordValue.WordOriginal, WordValue.WordTranslated)
 			Words = append(Words, WordValue)
 
 			// ... (работа с файлом и запись JSON)

@@ -33,13 +33,14 @@ func (f *CustomFormatter) Format(entry *logrus.Entry) ([]byte, error) {
 
 	message := "Message: " + "\033[32m" + entry.Message + "\033[0m" // Зеленый цвет
 
-	pc, _, _, _ := runtime.Caller(9)
-	function := "Func: [" + runtime.FuncForPC(pc).Name() + "]" // Оборачиваем функцию в квадратные скобки
+	pc, _, line, _ := runtime.Caller(9)
+	function := fmt.Sprintf("Func: [%s:%d]", runtime.FuncForPC(pc).Name(), line) // Оборачиваем функцию в квадратные скобки и добавляем номер строки
 
 	// Изменяем порядок вывода элементов в логе и добавляем название функции
 	// Удаляем путь к файлу из вывода
-	return []byte(fmt.Sprintf("%-30s %-15s %-5d %-50s %s\n", timestamp, level, counter, function, message)), nil
+	return []byte(fmt.Sprintf("%-30s %-15s %-5d %-40s %s\n", timestamp, level, counter, function, message)), nil
 }
+
 func LogSetupFile() {
 	logFile, err := os.OpenFile("words.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	if err == nil {
