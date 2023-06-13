@@ -57,9 +57,10 @@ type ElementWithIndex struct {
 
 var TenWords []DictionaryStruct
 
-// var MyLibrary string = "library/EnglishForEveryone.json"
+var MyLibrary string = "library/EnglishForEveryone.json"
+
 // var MyLibrary string = "library/weeks.json"
-var MyLibrary string = "library/HF_Networking.json"
+//var MyLibrary string = "library/HF_Networking.json"
 
 //var MyLibrary string = "library/weeks.json"
 
@@ -318,10 +319,12 @@ func wordAdd(w http.ResponseWriter, r *http.Request) {
 
 func wordOtvet(w http.ResponseWriter, r *http.Request) {
 	WordValue.WordOriginal = r.FormValue("word")
+	logrus.Printf("%s", WordValue.WordOriginal)
 
 	if strings.EqualFold(WordValue.WordOriginal, Words[IndexWord].WordOriginal) {
 		Words[IndexWord].Rating += 1
-		fmt.Println(Words[IndexWord].Rating)
+
+		logrus.Printf("Word: %s - Rating +1: %v", Words[IndexWord].WordOriginal, Words[IndexWord].Rating)
 
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
@@ -355,7 +358,8 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 
 	} else {
 		Words[IndexWord].Rating -= 1
-		fmt.Println(Word1.Rating)
+		logrus.Printf("Word: %s - Rating -1: %v", Words[IndexWord].WordOriginal, Words[IndexWord].Rating)
+
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
