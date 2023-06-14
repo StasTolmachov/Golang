@@ -87,9 +87,10 @@
     <h3 class="WordTranslated-text WordOriginalSynonyms">{{.WordOriginalSynonyms}}</h3>
     <button id="speak-button" class="btn btn-info">Play</button>
     <form action="/word" method="POST">
-
-
         <button class="btn btn-warning" autofocus>next</button>
+    </form>
+    <form action="/done" method="POST">
+        <button class="btn btn-warning" autofocus>Done</button>
     </form>
 </main>
 {{template "footer"}}

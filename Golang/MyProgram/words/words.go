@@ -3,8 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Golang/MyProgram/words/pkg/logger"
-	"github.com/sirupsen/logrus"
 	"html/template"
 	"io/ioutil"
 	"net/http"
@@ -12,6 +10,9 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/Golang/MyProgram/words/pkg/logger"
+	"github.com/sirupsen/logrus"
 )
 
 type DictionaryStruct struct {
@@ -156,6 +157,8 @@ func main() {
 	http.HandleFunc("/wordAddStruct", wordAddStruct)
 	http.HandleFunc("/exportToChatGPTBtn", exportToChatGPTBtn)
 
+	http.HandleFunc("/done", done)
+
 	http.ListenAndServe(":8080", nil)
 
 }
@@ -237,6 +240,14 @@ func word(w http.ResponseWriter, r *http.Request) {
 	}
 
 	IndexWord = findMinRatingIndex(TenWords)
+
+	var tenWordsArr []string
+	for i := range TenWords {
+		tenWordsArr = append(tenWordsArr, TenWords[i].WordOriginal)
+	}
+
+	logrus.Printf("%s", tenWordsArr)
+
 
 	tmpl, err := template.ParseFiles("template/word.html", "template/header.html", "template/footer.html")
 	if err != nil {
@@ -322,7 +333,8 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 
 	if strings.EqualFold(WordValue.WordOriginal, Words[IndexWord].WordOriginal) {
 		Words[IndexWord].Rating += 1
-		fmt.Println(Words[IndexWord].Rating)
+
+		logrus.Printf("%s: %v", Words[IndexWord].WordOriginal, Words[IndexWord].Rating)
 
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
@@ -356,7 +368,9 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 
 	} else {
 		Words[IndexWord].Rating -= 1
-		fmt.Println(Word1.Rating)
+
+		logrus.Printf("%s: %v", Words[IndexWord].WordOriginal, Words[IndexWord].Rating)
+
 		// Открываем файл для записи
 		jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
 		if err != nil {
@@ -382,6 +396,44 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		}
 
+	}
+}
+func done(w http.ResponseWriter, r *http.Request) {
+	Words[IndexWord].Rating += 100
+
+	logrus.Printf("%s: %v", Words[IndexWord].WordOriginal, Words[IndexWord].Rating)
+
+	// Открываем файл для записи
+	jsonFile, err := os.OpenFile(MyLibrary, os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		fmt.Println("Ошибка создания файла:", err)
+		return
+	}
+	defer jsonFile.Close()
+	// Сериализуем структуру в JSON
+	jsonData, err := json.MarshalIndent(Words, "", "  ")
+	if err != nil {
+		fmt.Println("Ошибка сериализации:", err)
+		return
+	}
+	// Записываем JSON в файл
+	_, err = jsonFile.Write(jsonData)
+	if err != nil {
+		fmt.Println("Ошибка записи в файл:", err)
+		return
+	}
+
+	IndexWord = findMinRatingIndex(TenWords)
+
+	tmpl, err := template.ParseFiles("template/word.html", "template/header.html", "template/footer.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	err = tmpl.Execute(w, Words[IndexWord])
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
 }
 
