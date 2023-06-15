@@ -248,7 +248,6 @@ func word(w http.ResponseWriter, r *http.Request) {
 
 	logrus.Printf("%s", tenWordsArr)
 
-
 	tmpl, err := template.ParseFiles("template/word.html", "template/header.html", "template/footer.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -397,6 +396,13 @@ func wordOtvet(w http.ResponseWriter, r *http.Request) {
 		}
 
 	}
+	var CountDone int
+	for _, word := range Words {
+		if word.Rating > 100 {
+			CountDone++
+		}
+	}
+	logrus.Printf("Done: %v", CountDone)
 }
 func done(w http.ResponseWriter, r *http.Request) {
 	Words[IndexWord].Rating += 100
