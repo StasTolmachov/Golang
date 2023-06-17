@@ -627,5 +627,22 @@
     "WordOriginalSynonyms": "depend, rely, hinge, turn on",
     "WordOriginalPartOfSpeech": "глагол",
     "Rating": 0
+  },
+  {
+    "Index": 0,
+    "WordOriginal": "relative",
+    "WordTranslated": "относительный",
+    "WordOriginalTranscription": "",
+    "WordOriginalPastSimpleSingular": "",
+    "WordOriginalPastSimpleSingularTranscription": "",
+    "WordOriginalPastSimplePlural": "",
+    "WordOriginalPastSimplePluralTranscription": "",
+    "WordOriginalPastParticipleSingular": "",
+    "WordOriginalPastParticipleSingularTranscription": "",
+    "WordOriginalPastParticiplePlural": "",
+    "WordOriginalPastParticiplePluralTranscription": "",
+    "WordOriginalSynonyms": "relative, relational, comparative, relatival",
+    "WordOriginalPartOfSpeech": "имя прилагательное",
+    "Rating": 0
   }
 ]
