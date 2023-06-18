@@ -644,5 +644,22 @@
     "WordOriginalSynonyms": "relative, relational, comparative, relatival",
     "WordOriginalPartOfSpeech": "имя прилагательное",
     "Rating": 0
+  },
+  {
+    "Index": 0,
+    "WordOriginal": "void",
+    "WordTranslated": "пустота",
+    "WordOriginalTranscription": "",
+    "WordOriginalPastSimpleSingular": "",
+    "WordOriginalPastSimpleSingularTranscription": "",
+    "WordOriginalPastSimplePlural": "",
+    "WordOriginalPastSimplePluralTranscription": "",
+    "WordOriginalPastParticipleSingular": "",
+    "WordOriginalPastParticipleSingularTranscription": "",
+    "WordOriginalPastParticiplePlural": "",
+    "WordOriginalPastParticiplePluralTranscription": "",
+    "WordOriginalSynonyms": "emptiness, void, vacuum, hollow, blank, vacancy",
+    "WordOriginalPartOfSpeech": "имя существительное",
+    "Rating": 0
   }
 ]

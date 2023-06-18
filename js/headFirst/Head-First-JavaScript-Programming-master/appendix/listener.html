@@ -17,7 +17,7 @@ function init() {
     div.addEventListener("click", handleClick, false); 
 }
 function handleClick(e) {
-    var target = e.target;;  
+    var target = e.target;
     alert("You clicked on " + target.id);
     target.removeEventListener("click", handleClick, false);
 }
